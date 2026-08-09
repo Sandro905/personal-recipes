@@ -1,0 +1,167 @@
+{
+  "site": {
+    "title": "Kitchen notebook",
+    "tagline": "Home recipes, with weights that add up",
+    "recipesCount": "{n} recipes",
+    "recipesCountOne": "1 recipe"
+  },
+  "nav": {
+    "home": "All recipes",
+    "theme": "Switch theme",
+    "lang": "Language"
+  },
+  "home": {
+    "searchLabel": "Search",
+    "searchPlaceholder": "Search by name, ingredient, category…",
+    "clear": "Clear",
+    "allTags": "All",
+    "sortLabel": "Sort by",
+    "sort": {
+      "recent": "Newest",
+      "name": "Name",
+      "time": "Total time",
+      "kcal": "kcal per serving"
+    },
+    "empty": "No recipe matches your search.",
+    "emptyHint": "Try fewer filters, or search for an ingredient.",
+    "perServing": "kcal / serving"
+  },
+  "recipe": {
+    "back": "All recipes",
+    "ingredients": "Ingredients",
+    "steps": "Method",
+    "notes": "Notes and storage",
+    "servings": "Servings",
+    "servingsDecrease": "One serving fewer",
+    "servingsIncrease": "One serving more",
+    "scaled": "Amounts recalculated for {n}",
+    "print": "Print",
+    "uncheckAll": "Clear ticks",
+    "source": "Adapted from",
+    "notFound": "Recipe not found.",
+    "notFoundHint": "Check the link, or go back to the list."
+  },
+  "macros": {
+    "title": "Nutrition",
+    "perServing": "Per serving",
+    "total": "Whole recipe",
+    "kcal": "Energy",
+    "protein": "Protein",
+    "carbs": "Carbohydrate",
+    "fat": "Fat",
+    "fiber": "Fibre",
+    "sugars": "of which sugars",
+    "salt": "Salt",
+    "split": "Energy split",
+    "estimate": "Estimated from raw ingredients, cooking losses not included.",
+    "issues": {
+      "unknown-food": "{food}: not in the food database",
+      "no-density": "{food}: no density, converted as water",
+      "no-piece-weight": "{food}: no piece weight, left out of the total",
+      "no-quantity": "{food}: no amount, left out of the total",
+      "open-quantity": "{food}: amount to taste, left out of the total",
+      "unknown-unit": "{food}: unit not recognised, left out of the total"
+    },
+    "issuesTitle": "About this calculation"
+  },
+  "time": {
+    "prep": "Prep",
+    "rest": "Rest",
+    "cook": "Cook",
+    "total": "Altogether",
+    "min": "min",
+    "h": "h"
+  },
+  "timer": {
+    "start": "Start timer",
+    "stop": "Stop",
+    "done": "Time's up"
+  },
+  "units": {
+    "g": "g",
+    "hg": "hg",
+    "kg": "kg",
+    "mg": "mg",
+    "ml": "ml",
+    "cl": "cl",
+    "dl": "dl",
+    "l": "l",
+    "pz": {
+      "one": "pc",
+      "other": "pcs"
+    },
+    "qb": "to taste",
+    "cucchiaio": {
+      "one": "tbsp",
+      "other": "tbsp"
+    },
+    "cucchiaino": {
+      "one": "tsp",
+      "other": "tsp"
+    },
+    "bicchiere": {
+      "one": "glass",
+      "other": "glasses"
+    },
+    "tazza": {
+      "one": "cup",
+      "other": "cups"
+    },
+    "bustina": {
+      "one": "sachet",
+      "other": "sachets"
+    },
+    "cubetto": {
+      "one": "cube",
+      "other": "cubes"
+    },
+    "spicchio": {
+      "one": "clove",
+      "other": "cloves"
+    }
+  },
+  "difficulty": {
+    "label": "Difficulty",
+    "molto-facile": "Very easy",
+    "facile": "Easy",
+    "media": "Medium",
+    "impegnativa": "Demanding"
+  },
+  "cost": {
+    "label": "Cost",
+    "molto-economico": "Very cheap",
+    "economico": "Cheap",
+    "medio": "Medium",
+    "alto": "High"
+  },
+  "method": {
+    "label": "Cooking",
+    "padella": "Frying pan",
+    "forno": "Oven",
+    "friggitrice-ad-aria": "Air fryer",
+    "frittura": "Deep-fried",
+    "bollitura": "Boiled",
+    "vapore": "Steamed",
+    "senza-cottura": "No cooking"
+  },
+  "tags": {
+    "salato": "Savoury",
+    "dolce": "Sweet",
+    "lievitati": "Doughs",
+    "senza-forno": "No oven",
+    "padella": "Pan",
+    "friggitrice-ad-aria": "Air fryer",
+    "veloce": "Quick",
+    "pesce": "Fish",
+    "antipasti": "Starters",
+    "secondi": "Mains",
+    "primi": "Pasta & rice",
+    "contorni": "Sides",
+    "finger-food": "Finger food",
+    "svuota-frigo": "Fridge raid"
+  },
+  "format": {
+    "qtyOf": "{qty} {unit} of {name}",
+    "qtyPieces": "{qty} {name}"
+  }
+}

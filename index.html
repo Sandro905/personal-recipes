@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="it" data-theme="">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quaderno di cucina</title>
+<meta name="description" content="Ricettario personale con grammature scalabili e valori nutrizionali calcolati.">
+<meta name="color-scheme" content="light dark">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=DM+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Salta al contenuto</a>
+
+<header class="topbar">
+  <div class="wrap topbar__inner">
+    <a class="brand" href="index.html">
+      <span class="brand__mark">qdc</span>
+      <span class="brand__name" id="brandName">Quaderno di cucina</span>
+    </a>
+    <div class="langs" id="langs" role="group"></div>
+    <button class="iconbtn" id="theme" type="button">◐</button>
+  </div>
+</header>
+
+<main id="main">
+  <div class="wrap">
+    <div class="masthead">
+      <p class="eyebrow">Ricettario di casa</p>
+      <h1 id="headline">Quaderno di cucina</h1>
+      <p id="tagline"></p>
+    </div>
+
+    <div class="controls">
+      <div class="searchrow">
+        <div class="search">
+          <input type="search" id="q" autocomplete="off">
+          <button class="search__clear" id="clear" type="button" aria-label="Svuota">×</button>
+        </div>
+        <select class="select" id="sort"></select>
+        <span class="resultcount" id="count"></span>
+      </div>
+      <div class="tagrow" id="tags"></div>
+    </div>
+
+    <ul class="grid" id="grid"></ul>
+  </div>
+</main>
+
+<footer class="sitefoot">
+  <div class="wrap topbar__inner" style="min-height:auto">
+    <span>Uso personale · le macro sono stime sugli ingredienti crudi</span>
+  </div>
+</footer>
+
+<script type="module" src="assets/js/home.js"></script>
+</body>
+</html>

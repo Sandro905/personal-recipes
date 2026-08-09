@@ -1,0 +1,110 @@
+{
+  "slug": "focaccia-padella-prosciutto",
+  "added": "2026-08-09",
+  "title": {
+    "it": "Focaccia in padella con prosciutto e mozzarella"
+  },
+  "summary": {
+    "it": "Senza forno e senza lievitazione lunga: si cuoce sul fornello in due tempi, girandola come una frittata."
+  },
+  "yield": { "count": 2, "label": { "it": "persone", "en": "servings" } },
+  "time": { "prep": 20, "rest": 20, "cook": 28 },
+  "difficulty": "molto-facile",
+  "cost": "molto-economico",
+  "method": "padella",
+  "tags": ["salato", "lievitati", "senza-forno", "padella", "veloce"],
+  "source": {
+    "name": "PasticcidiGiù",
+    "url": "https://blog.giallozafferano.it/pasticcidigiu/ricetta-focaccia-in-padella-con-prosciutto-la-ricetta-salva-pasto/"
+  },
+  "ingredients": [
+    {
+      "section": { "it": "Per l'impasto" },
+      "items": [
+        { "food": "farina-0", "qty": 440, "unit": "g" },
+        { "food": "acqua", "qty": 250, "unit": "ml" },
+        { "food": "olio-oliva-evo", "qty": 30, "unit": "g" },
+        { "food": "sale", "qty": 1, "unit": "cucchiaino" },
+        { "food": "lievito-istantaneo-salato", "qty": 1, "unit": "bustina" }
+      ]
+    },
+    {
+      "section": { "it": "Per il ripieno" },
+      "items": [
+        { "food": "prosciutto-cotto", "qty": 100, "unit": "g" },
+        { "food": "mozzarella", "qty": 100, "unit": "g", "label": { "it": "mozzarella, ben sgocciolata" } }
+      ]
+    },
+    {
+      "section": { "it": "Per la padella" },
+      "items": [
+        { "food": "olio-oliva-evo", "qty": 1, "unit": "cucchiaino", "label": { "it": "olio per ungere" } }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": { "it": "Impastare" },
+      "text": {
+        "it": "In una ciotola mescola energicamente con una forchetta {{farina-0}}, {{lievito-istantaneo-salato}}, {{acqua}}, {{olio-oliva-evo}} e {{sale}}. Quando il composto si compatta, passalo su un piano infarinato e lavoralo a mano fino a ottenere un panetto liscio."
+      }
+    },
+    {
+      "title": { "it": "Far riposare" },
+      "text": { "it": "Copri con un canovaccio pulito e lascia riposare a temperatura ambiente." },
+      "timer": 1200
+    },
+    {
+      "title": { "it": "Stendere la base" },
+      "text": {
+        "it": "Dividi il panetto in due parti uguali. Stendi la prima col mattarello in una sfoglia sottile e sistemala sul fondo di una padella da 26–28 cm unta con {{olio-oliva-evo#2}}."
+      }
+    },
+    {
+      "title": { "it": "Farcire e sigillare" },
+      "text": {
+        "it": "Distribuisci sulla base {{prosciutto-cotto}} e {{mozzarella}} tagliata a dadini o a fette. Stendi il secondo panetto, appoggialo sopra e sigilla bene i bordi con le dita o con i rebbi di una forchetta, così la mozzarella non esce in cottura."
+      }
+    },
+    {
+      "title": { "it": "Cuocere il primo lato" },
+      "text": { "it": "Copri con il coperchio e cuoci a fuoco dolce: la fiamma bassa è quello che permette all'interno di cuocere prima che la superficie bruci." },
+      "timer": 780
+    },
+    {
+      "title": { "it": "Girare e completare" },
+      "text": { "it": "Aiutandoti con un piatto piano o con il coperchio, capovolgi la focaccia con un gesto rapido. Copri di nuovo e cuoci il secondo lato." },
+      "timer": 840
+    },
+    {
+      "title": { "it": "Controllare" },
+      "text": { "it": "Solleva delicatamente il bordo: se la base è dorata e la mozzarella è sciolta, è pronta. Taglia e servi ancora calda." }
+    }
+  ],
+  "notes": [
+    {
+      "title": { "it": "Mozzarella" },
+      "text": { "it": "Meglio quella per pizza, in panetto. Se usi quella classica, tagliala a dadini e lasciala sgocciolare in un colino per circa un'ora, così non rilascia acqua in cottura." }
+    },
+    {
+      "title": { "it": "Prepararla in anticipo" },
+      "text": { "it": "Si può cuocere la sera prima o al mattino e scaldare all'ultimo momento: resta buona." }
+    },
+    {
+      "title": { "it": "Conservazione" },
+      "text": { "it": "In frigo, in contenitore ermetico, fino a **2 giorni**." }
+    },
+    {
+      "title": { "it": "Come riscaldarla" },
+      "text": { "it": "Pochi minuti in padella calda col coperchio, oppure in friggitrice ad aria. Il microonde la rende molliccia." }
+    },
+    {
+      "title": { "it": "Varianti" },
+      "text": { "it": "Al posto del prosciutto cotto: salame o speck. Oppure aggiungi verdure già cotte. Buona anche con salsiccia e friarielli." }
+    },
+    {
+      "title": { "it": "Sul lievito" },
+      "text": { "it": "La bustina è calcolata a 16 g. Le marche variano tra 15 e 18 g: usane una intera senza pesarla." }
+    }
+  ]
+}

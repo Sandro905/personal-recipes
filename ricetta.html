@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="it" data-theme="">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ricetta — Quaderno di cucina</title>
+<meta name="color-scheme" content="light dark">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=DM+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<a class="skip" href="#main">Salta al contenuto</a>
+
+<header class="topbar">
+  <div class="wrap topbar__inner">
+    <a class="brand" href="index.html">
+      <span class="brand__mark">qdc</span>
+      <span class="brand__name" id="brandName">Quaderno di cucina</span>
+    </a>
+    <div class="langs" id="langs" role="group"></div>
+    <button class="iconbtn" id="theme" type="button">◐</button>
+  </div>
+</header>
+
+<main id="main">
+  <div class="wrap">
+    <a class="backlink" id="back" href="index.html">← Tutte le ricette</a>
+
+    <div class="recipe-head">
+      <h1 id="title"></h1>
+      <p class="lede" id="lede"></p>
+      <ul class="facts" id="facts"></ul>
+    </div>
+
+    <div class="layout">
+      <div class="sidecol">
+        <section class="panel">
+          <div class="servings">
+            <span class="servings__label" id="servingsLabel">Porzioni</span>
+            <div class="stepper">
+              <button id="less" type="button" aria-label="−">−</button>
+              <output id="servingsValue">2</output>
+              <button id="more" type="button" aria-label="+">+</button>
+            </div>
+          </div>
+          <h2 id="ingredientsTitle" style="margin-top:1.1rem">Ingredienti</h2>
+          <ul class="ledger" id="ledger"></ul>
+          <p class="footnote" id="scaledNote"></p>
+          <div class="panel__actions">
+            <button class="pill" id="print" type="button">Stampa</button>
+            <button class="pill" id="reset" type="button">Azzera i segni</button>
+          </div>
+        </section>
+
+        <section class="panel">
+          <h2 id="macrosTitle">Valori nutrizionali</h2>
+          <div class="macro-toggle" id="macroToggle" role="group"></div>
+          <div class="kcal">
+            <b id="kcalValue">0</b>
+            <span id="kcalUnit">kcal</span>
+          </div>
+          <div class="macrobar" id="macrobar"></div>
+          <ul class="macrolist" id="macrolist"></ul>
+          <p class="footnote" id="macroNote"></p>
+          <details class="issues" id="issues" hidden>
+            <summary></summary>
+            <ul></ul>
+          </details>
+        </section>
+      </div>
+
+      <div>
+        <h2 id="stepsTitle" style="font-size:1.5rem;margin-bottom:1.2rem">Preparazione</h2>
+        <ol class="steps" id="steps"></ol>
+
+        <section class="notes" id="notes">
+          <h2 id="notesTitle">Note e conservazione</h2>
+          <dl id="notesList"></dl>
+        </section>
+
+        <p class="source" id="source"></p>
+      </div>
+    </div>
+  </div>
+</main>
+
+<script type="module" src="assets/js/recipe.js"></script>
+</body>
+</html>

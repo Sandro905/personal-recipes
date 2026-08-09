@@ -1,0 +1,83 @@
+{
+  "generated": "2026-08-09T12:04:54.479Z",
+  "count": 2,
+  "recipes": [
+    {
+      "slug": "focaccia-padella-prosciutto",
+      "added": "2026-08-09",
+      "title": {
+        "it": "Focaccia in padella con prosciutto e mozzarella"
+      },
+      "summary": {
+        "it": "Senza forno e senza lievitazione lunga: si cuoce sul fornello in due tempi, girandola come una frittata."
+      },
+      "tags": [
+        "salato",
+        "lievitati",
+        "senza-forno",
+        "padella",
+        "veloce"
+      ],
+      "method": "padella",
+      "difficulty": "molto-facile",
+      "cost": "molto-economico",
+      "time": {
+        "prep": 20,
+        "rest": 20,
+        "cook": 28
+      },
+      "yield": {
+        "count": 2,
+        "label": {
+          "it": "persone",
+          "en": "servings"
+        }
+      },
+      "kcalPerServing": 1145,
+      "coverage": 1,
+      "search": {
+        "it": "Focaccia in padella con prosciutto e mozzarella · Senza forno e senza lievitazione lunga: si cuoce sul fornello in due tempi, girandola come una frittata. · farina 0 · acqua · olio extravergine d'oliva · sale fino · lievito istantaneo per preparazioni salate · prosciutto cotto · mozzarella, ben sgocciolata mozzarella · olio per ungere olio extravergine d'oliva · Impastare · Far riposare · Stendere la base · Farcire e sigillare · Cuocere il primo lato · Girare e completare · Controllare",
+        "en": "Focaccia in padella con prosciutto e mozzarella · Senza forno e senza lievitazione lunga: si cuoce sul fornello in due tempi, girandola come una frittata. · type-0 wheat flour · water · extra virgin olive oil · fine salt · instant baking powder (savoury) · cooked ham · mozzarella, ben sgocciolata mozzarella · olio per ungere extra virgin olive oil · Impastare · Far riposare · Stendere la base · Farcire e sigillare · Cuocere il primo lato · Girare e completare · Controllare"
+      }
+    },
+    {
+      "slug": "polpette-tonno-patate-friggitrice",
+      "added": "2026-08-09",
+      "title": {
+        "it": "Polpette di tonno e patate in friggitrice ad aria"
+      },
+      "summary": {
+        "it": "Croccanti fuori, morbide dentro, con il cuore di scamorza che fila. Due riposi brevi tengono insieme tutto in cottura."
+      },
+      "tags": [
+        "salato",
+        "pesce",
+        "friggitrice-ad-aria",
+        "antipasti",
+        "secondi",
+        "finger-food"
+      ],
+      "method": "friggitrice-ad-aria",
+      "difficulty": "molto-facile",
+      "cost": "molto-economico",
+      "time": {
+        "prep": 25,
+        "rest": 25,
+        "cook": 18
+      },
+      "yield": {
+        "count": 20,
+        "label": {
+          "it": "polpette",
+          "en": "meatballs"
+        }
+      },
+      "kcalPerServing": 131,
+      "coverage": 1,
+      "search": {
+        "it": "Polpette di tonno e patate in friggitrice ad aria · Croccanti fuori, morbide dentro, con il cuore di scamorza che fila. Due riposi brevi tengono insieme tutto in cottura. · patate farinose patate · tonno sott'olio sgocciolato · grana padano grattugiato · uova medie uova · pangrattato · prezzemolo tritato prezzemolo · sale fino · pepe nero macinato · scamorza, per il cuore filante scamorza · uova · pangrattato · olio da nebulizzare olio extravergine d'oliva · Cuocere le patate · Schiacciare · Preparare l'impasto · Primo riposo · Formare le polpette · Impanare · Secondo riposo · Cuocere a 180 °C · Girare e completare",
+        "en": "Polpette di tonno e patate in friggitrice ad aria · Croccanti fuori, morbide dentro, con il cuore di scamorza che fila. Due riposi brevi tengono insieme tutto in cottura. · patate farinose potatoes · canned tuna in oil, drained · grated Grana Padano · uova medie eggs · breadcrumbs · prezzemolo tritato parsley · fine salt · ground black pepper · scamorza, per il cuore filante scamorza cheese · eggs · breadcrumbs · olio da nebulizzare extra virgin olive oil · Cuocere le patate · Schiacciare · Preparare l'impasto · Primo riposo · Formare le polpette · Impanare · Secondo riposo · Cuocere a 180 °C · Girare e completare"
+      }
+    }
+  ]
+}

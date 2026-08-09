@@ -1,0 +1,167 @@
+{
+  "site": {
+    "title": "Quaderno di cucina",
+    "tagline": "Ricette di casa, con le grammature che tornano",
+    "recipesCount": "{n} ricette",
+    "recipesCountOne": "1 ricetta"
+  },
+  "nav": {
+    "home": "Tutte le ricette",
+    "theme": "Cambia tema",
+    "lang": "Lingua"
+  },
+  "home": {
+    "searchLabel": "Cerca",
+    "searchPlaceholder": "Cerca per nome, ingrediente, categoria…",
+    "clear": "Svuota",
+    "allTags": "Tutte",
+    "sortLabel": "Ordina per",
+    "sort": {
+      "recent": "Più recenti",
+      "name": "Nome",
+      "time": "Tempo totale",
+      "kcal": "kcal per porzione"
+    },
+    "empty": "Nessuna ricetta corrisponde alla ricerca.",
+    "emptyHint": "Prova con meno filtri o cerca un ingrediente.",
+    "perServing": "kcal / porz."
+  },
+  "recipe": {
+    "back": "Tutte le ricette",
+    "ingredients": "Ingredienti",
+    "steps": "Preparazione",
+    "notes": "Note e conservazione",
+    "servings": "Porzioni",
+    "servingsDecrease": "Una porzione in meno",
+    "servingsIncrease": "Una porzione in più",
+    "scaled": "Quantità ricalcolate su {n}",
+    "print": "Stampa",
+    "uncheckAll": "Azzera i segni",
+    "source": "Ricetta ispirata a",
+    "notFound": "Ricetta non trovata.",
+    "notFoundHint": "Controlla il link, oppure torna all'elenco."
+  },
+  "macros": {
+    "title": "Valori nutrizionali",
+    "perServing": "Per porzione",
+    "total": "Totale ricetta",
+    "kcal": "Energia",
+    "protein": "Proteine",
+    "carbs": "Carboidrati",
+    "fat": "Grassi",
+    "fiber": "Fibre",
+    "sugars": "di cui zuccheri",
+    "salt": "Sale",
+    "split": "Ripartizione energetica",
+    "estimate": "Stime calcolate sugli ingredienti crudi, senza perdite di cottura.",
+    "issues": {
+      "unknown-food": "{food}: non è nel database alimenti",
+      "no-density": "{food}: densità mancante, convertito come acqua",
+      "no-piece-weight": "{food}: peso al pezzo mancante, escluso dal calcolo",
+      "no-quantity": "{food}: quantità mancante, escluso dal calcolo",
+      "open-quantity": "{food}: quantità a piacere, escluso dal calcolo",
+      "unknown-unit": "{food}: unità non riconosciuta, escluso dal calcolo"
+    },
+    "issuesTitle": "Da sapere sul calcolo"
+  },
+  "time": {
+    "prep": "Preparazione",
+    "rest": "Riposo",
+    "cook": "Cottura",
+    "total": "In tutto",
+    "min": "min",
+    "h": "h"
+  },
+  "timer": {
+    "start": "Avvia timer",
+    "stop": "Ferma",
+    "done": "Tempo scaduto"
+  },
+  "units": {
+    "g": "g",
+    "hg": "hg",
+    "kg": "kg",
+    "mg": "mg",
+    "ml": "ml",
+    "cl": "cl",
+    "dl": "dl",
+    "l": "l",
+    "pz": {
+      "one": "pz",
+      "other": "pz"
+    },
+    "qb": "q.b.",
+    "cucchiaio": {
+      "one": "cucchiaio",
+      "other": "cucchiai"
+    },
+    "cucchiaino": {
+      "one": "cucchiaino",
+      "other": "cucchiaini"
+    },
+    "bicchiere": {
+      "one": "bicchiere",
+      "other": "bicchieri"
+    },
+    "tazza": {
+      "one": "tazza",
+      "other": "tazze"
+    },
+    "bustina": {
+      "one": "bustina",
+      "other": "bustine"
+    },
+    "cubetto": {
+      "one": "cubetto",
+      "other": "cubetti"
+    },
+    "spicchio": {
+      "one": "spicchio",
+      "other": "spicchi"
+    }
+  },
+  "difficulty": {
+    "label": "Difficoltà",
+    "molto-facile": "Molto facile",
+    "facile": "Facile",
+    "media": "Media",
+    "impegnativa": "Impegnativa"
+  },
+  "cost": {
+    "label": "Costo",
+    "molto-economico": "Molto economico",
+    "economico": "Economico",
+    "medio": "Medio",
+    "alto": "Alto"
+  },
+  "method": {
+    "label": "Cottura",
+    "padella": "Padella",
+    "forno": "Forno",
+    "friggitrice-ad-aria": "Friggitrice ad aria",
+    "frittura": "Frittura",
+    "bollitura": "Bollitura",
+    "vapore": "Vapore",
+    "senza-cottura": "Senza cottura"
+  },
+  "tags": {
+    "salato": "Salato",
+    "dolce": "Dolce",
+    "lievitati": "Lievitati",
+    "senza-forno": "Senza forno",
+    "padella": "Padella",
+    "friggitrice-ad-aria": "Friggitrice ad aria",
+    "veloce": "Veloce",
+    "pesce": "Pesce",
+    "antipasti": "Antipasti",
+    "secondi": "Secondi",
+    "primi": "Primi",
+    "contorni": "Contorni",
+    "finger-food": "Finger food",
+    "svuota-frigo": "Svuota frigo"
+  },
+  "format": {
+    "qtyOf": "{qty} {unit} di {name}",
+    "qtyPieces": "{qty} {name}"
+  }
+}

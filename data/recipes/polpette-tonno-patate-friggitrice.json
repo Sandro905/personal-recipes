@@ -1,0 +1,124 @@
+{
+  "slug": "polpette-tonno-patate-friggitrice",
+  "added": "2026-08-09",
+  "title": {
+    "it": "Polpette di tonno e patate in friggitrice ad aria"
+  },
+  "summary": {
+    "it": "Croccanti fuori, morbide dentro, con il cuore di scamorza che fila. Due riposi brevi tengono insieme tutto in cottura."
+  },
+  "yield": { "count": 20, "label": { "it": "polpette", "en": "meatballs" } },
+  "time": { "prep": 25, "rest": 25, "cook": 18 },
+  "difficulty": "molto-facile",
+  "cost": "molto-economico",
+  "method": "friggitrice-ad-aria",
+  "tags": ["salato", "pesce", "friggitrice-ad-aria", "antipasti", "secondi", "finger-food"],
+  "source": {
+    "name": "Il caldo sapore del sud",
+    "url": "https://blog.giallozafferano.it/ilcaldosaporedelsud/ricetta-polpette-tonno-e-patate/"
+  },
+  "ingredients": [
+    {
+      "section": { "it": "Per l'impasto" },
+      "items": [
+        { "food": "patate", "qty": 600, "unit": "g", "label": { "it": "patate farinose" } },
+        { "food": "tonno-sottolio", "qty": 180, "unit": "g" },
+        { "food": "grana-padano", "qty": 80, "unit": "g" },
+        { "food": "uova", "qty": 2, "unit": "pz", "label": { "it": "uova medie" } },
+        { "food": "pangrattato", "qty": 2, "unit": "cucchiaio" },
+        { "food": "prezzemolo", "qty": 2, "unit": "cucchiaio", "label": { "it": "prezzemolo tritato" } },
+        { "food": "sale", "qty": 1, "unit": "cucchiaino" },
+        { "food": "pepe-nero", "qty": 0.5, "unit": "cucchiaino" },
+        { "food": "scamorza", "qty": 120, "unit": "g", "label": { "it": "scamorza, per il cuore filante" } }
+      ]
+    },
+    {
+      "section": { "it": "Per la panatura" },
+      "items": [
+        { "food": "uova", "qty": 3, "unit": "pz" },
+        { "food": "pangrattato", "qty": 150, "unit": "g" }
+      ]
+    },
+    {
+      "section": { "it": "Per la cottura" },
+      "items": [
+        { "food": "olio-oliva-evo", "qty": 1, "unit": "cucchiaio", "label": { "it": "olio da nebulizzare" } }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": { "it": "Cuocere le patate" },
+      "text": {
+        "it": "Lava {{patate}} e cuocile con la buccia in acqua fredda leggermente salata, portando a ebollizione. Sono pronte quando uno stecchino entra facilmente fino al centro. In alternativa: vaporiera per microonde con un po' d'acqua sul fondo, 20 minuti a 750 W — restano più asciutte e l'impasto viene più compatto."
+      },
+      "timer": 2100
+    },
+    {
+      "title": { "it": "Schiacciare" },
+      "text": { "it": "Passa le patate ancora calde nello schiacciapatate. Senza schiacciapatate: pelale e riducile in purea con una forchetta, il più omogenea possibile." }
+    },
+    {
+      "title": { "it": "Preparare l'impasto" },
+      "text": {
+        "it": "Unisci alle patate {{tonno-sottolio}}, {{grana-padano}}, {{pangrattato}}, {{uova}}, {{prezzemolo}}, {{sale}} e {{pepe-nero}}. Mescola fino a ottenere un composto omogeneo."
+      }
+    },
+    {
+      "title": { "it": "Primo riposo" },
+      "text": { "it": "Lascia riposare a temperatura ambiente: il pangrattato assorbe l'umidità delle patate e l'impasto diventa lavorabile." },
+      "timer": 900
+    },
+    {
+      "title": { "it": "Formare le polpette" },
+      "text": {
+        "it": "Taglia {{scamorza}} a cubetti. Ungi leggermente le mani, prendi una noce di impasto, appiattiscila sul palmo, metti al centro un cubetto di formaggio e richiudi formando una polpetta compatta. Procedi fino a esaurire l'impasto."
+      }
+    },
+    {
+      "title": { "it": "Impanare" },
+      "text": { "it": "Sbatti {{uova#2}} con una forchetta. Passa le polpette una alla volta prima nell'uovo e poi in {{pangrattato#2}}, facendolo aderire su tutta la superficie." }
+    },
+    {
+      "title": { "it": "Secondo riposo" },
+      "text": { "it": "Lascia riposare le polpette impanate: la panatura aderisce meglio e in cottura non si stacca. Intanto preriscalda la friggitrice ad aria a 180 °C." },
+      "timer": 600
+    },
+    {
+      "title": { "it": "Cuocere a 180 °C" },
+      "text": { "it": "Disponi le polpette nel cestello senza sovrapporle, anche in più infornate, e nebulizzale con {{olio-oliva-evo}}." },
+      "timer": 480
+    },
+    {
+      "title": { "it": "Girare e completare" },
+      "text": { "it": "Rigira le polpette e finisci la cottura. Sono pronte quando sono dorate e croccanti fuori: i tempi cambiano col modello di friggitrice e con la dimensione delle polpette." },
+      "timer": 540
+    }
+  ],
+  "notes": [
+    {
+      "title": { "it": "Se si sfaldano" },
+      "text": { "it": "Aggiungi 1–2 cucchiai di pangrattato all'impasto, poco per volta. Le cause quasi sempre sono due: patate troppo acquose o tonno mal sgocciolato." }
+    },
+    {
+      "title": { "it": "Senza cuore filante" },
+      "text": { "it": "Puoi omettere la scamorza senza cambiare nient'altro." }
+    },
+    {
+      "title": { "it": "Altri metodi" },
+      "text": { "it": "**Forno statico** 180 °C per 15–20 minuti, girandole a metà, con un filo d'olio. **Fritte** in olio di semi abbondante, poche alla volta, poi su carta assorbente." }
+    },
+    {
+      "title": { "it": "In anticipo" },
+      "text": { "it": "Si possono formare e impanare fino a **24 ore** prima, coperte con pellicola in frigo." }
+    },
+    {
+      "title": { "it": "Congelate" },
+      "text": { "it": "Già impanate e crude: prima su un vassoio in un solo strato, poi in sacchetti. Si cuociono direttamente da congelate, allungando un po' i tempi." }
+    },
+    {
+      "title": { "it": "Conservazione" },
+      "text": { "it": "Cotte, in frigo in contenitore ermetico per **2 giorni**. Ripassale in friggitrice ad aria o in forno per farle tornare fragranti." }
+    }
+  ]
+}
