@@ -127,6 +127,9 @@ function wireChrome() {
   document.documentElement.lang = lang;
   document.title = `${t('site.title')}`;
   document.getElementById('brandName').textContent = t('site.title');
+  const navFoods = document.getElementById('navFoods');
+  navFoods.textContent = t('nav.foods');
+  navFoods.href = `alimenti.html?lang=${lang}`;
   document.getElementById('headline').textContent = t('site.title');
   document.getElementById('tagline').textContent = t('site.tagline');
 

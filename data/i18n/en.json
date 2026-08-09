@@ -7,6 +7,7 @@
   },
   "nav": {
     "home": "All recipes",
+    "foods": "Foods",
     "theme": "Switch theme",
     "lang": "Language"
   },
@@ -25,6 +26,48 @@
     "empty": "No recipe matches your search.",
     "emptyHint": "Try fewer filters, or search for an ingredient.",
     "perServing": "kcal / serving"
+  },
+  "foods": {
+    "eyebrow": "Food database",
+    "title": "Foods",
+    "tagline": "Nutrition per 100 g: the same database used to calculate the recipes.",
+    "searchLabel": "Search food",
+    "searchPlaceholder": "Search by name or category…",
+    "clear": "Clear",
+    "allCategories": "All",
+    "sortLabel": "Sort by",
+    "sort": {
+      "name": "Name",
+      "kcal": "Energy",
+      "protein": "Protein",
+      "carbs": "Carbohydrate",
+      "fat": "Fat"
+    },
+    "count": "{n} foods",
+    "countOne": "1 food",
+    "empty": "No food matches your search.",
+    "emptyHint": "Try another name or category.",
+    "per100g": "per 100 g",
+    "source": "Source"
+  },
+  "foodCategory": {
+    "base": "Basics",
+    "cereali": "Grains",
+    "lievitanti": "Leavening",
+    "condimenti": "Seasonings",
+    "grassi": "Fats & oils",
+    "uova": "Eggs",
+    "latticini": "Dairy",
+    "salumi": "Cured meats",
+    "carne": "Meat",
+    "pesce": "Fish",
+    "verdure": "Vegetables",
+    "erbe": "Herbs & spices",
+    "legumi": "Legumes",
+    "dolci": "Sweets",
+    "frutta-secca": "Nuts",
+    "frutta": "Fruit",
+    "bevande": "Beverages"
   },
   "recipe": {
     "back": "All recipes",

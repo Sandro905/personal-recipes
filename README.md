@@ -36,10 +36,12 @@ Node 20+ solo per gli script di manutenzione. Il **sito** è HTML/CSS/JS puro: n
 ```
 index.html            elenco ricette
 ricetta.html          dettaglio (?r=slug&lang=it)
+alimenti.html         database alimenti, macro per 100 g, con ricerca e filtri
 assets/css/style.css  tutto lo stile
 assets/js/
   home.js             pagina elenco
   recipe.js           pagina ricetta
+  foods.js            pagina alimenti
   lib/units.js        conversioni unità → grammi
   lib/nutrition.js    calcolo macro           ← condivisi con gli script Node
   lib/i18n.js         lingue e fallback

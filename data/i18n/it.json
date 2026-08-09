@@ -7,6 +7,7 @@
   },
   "nav": {
     "home": "Tutte le ricette",
+    "foods": "Alimenti",
     "theme": "Cambia tema",
     "lang": "Lingua"
   },
@@ -25,6 +26,48 @@
     "empty": "Nessuna ricetta corrisponde alla ricerca.",
     "emptyHint": "Prova con meno filtri o cerca un ingrediente.",
     "perServing": "kcal / porz."
+  },
+  "foods": {
+    "eyebrow": "Database alimenti",
+    "title": "Alimenti",
+    "tagline": "Valori nutrizionali per 100 g: lo stesso database usato per calcolare le ricette.",
+    "searchLabel": "Cerca alimento",
+    "searchPlaceholder": "Cerca per nome o categoria…",
+    "clear": "Svuota",
+    "allCategories": "Tutte",
+    "sortLabel": "Ordina per",
+    "sort": {
+      "name": "Nome",
+      "kcal": "Energia",
+      "protein": "Proteine",
+      "carbs": "Carboidrati",
+      "fat": "Grassi"
+    },
+    "count": "{n} alimenti",
+    "countOne": "1 alimento",
+    "empty": "Nessun alimento corrisponde alla ricerca.",
+    "emptyHint": "Prova con un altro nome o categoria.",
+    "per100g": "per 100 g",
+    "source": "Fonte"
+  },
+  "foodCategory": {
+    "base": "Base",
+    "cereali": "Cereali",
+    "lievitanti": "Lievitanti",
+    "condimenti": "Condimenti",
+    "grassi": "Grassi e oli",
+    "uova": "Uova",
+    "latticini": "Latticini",
+    "salumi": "Salumi",
+    "carne": "Carne",
+    "pesce": "Pesce",
+    "verdure": "Verdure",
+    "erbe": "Erbe e spezie",
+    "legumi": "Legumi",
+    "dolci": "Dolci",
+    "frutta-secca": "Frutta secca",
+    "frutta": "Frutta",
+    "bevande": "Bevande"
   },
   "recipe": {
     "back": "Tutte le ricette",

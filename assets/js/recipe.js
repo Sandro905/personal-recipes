@@ -310,6 +310,9 @@ function wireControls() {
   document.getElementById('brandName').textContent = t('site.title');
   document.getElementById('back').textContent = `← ${t('recipe.back')}`;
   document.getElementById('back').href = `index.html?lang=${lang}`;
+  const navFoods = document.getElementById('navFoods');
+  navFoods.textContent = t('nav.foods');
+  navFoods.href = `alimenti.html?lang=${lang}`;
   document.getElementById('ingredientsTitle').textContent = t('recipe.ingredients');
   document.getElementById('stepsTitle').textContent = t('recipe.steps');
   document.getElementById('macrosTitle').textContent = t('macros.title');

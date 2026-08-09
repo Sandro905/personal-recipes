@@ -100,7 +100,12 @@ a:hover { text-decoration-color: currentColor; }
   backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--hair);
 }
-.topbar__inner { display: flex; align-items: center; gap: 1rem; min-height: 62px; }
+.topbar__inner { display: flex; flex-wrap: wrap; align-items: center; gap: 0.6rem 1rem; min-height: 62px; padding: 0.5rem 0; }
+@media (max-width: 480px) {
+  .topbar__inner { row-gap: 0.5rem; }
+  .brand { flex: 1 1 100%; margin-right: 0; }
+  .toplinks { margin-right: auto; }
+}
 
 .brand { display: flex; align-items: baseline; gap: 0.55rem; text-decoration: none; margin-right: auto; }
 .brand__mark {
@@ -113,9 +118,13 @@ a:hover { text-decoration-color: currentColor; }
   font-family: var(--mono); font-size: 0.78rem;
   background: transparent; color: var(--ink); border: 1px solid var(--hair);
   border-radius: 999px; padding: 0.42rem 0.8rem; cursor: pointer;
+  text-decoration: none; display: inline-block;
   transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease;
 }
 .iconbtn:hover, .pill:hover { border-color: var(--ink); }
+.iconbtn.is-active { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+
+.toplinks { display: flex; gap: 0.4rem; }
 
 .langs { display: flex; gap: 2px; border: 1px solid var(--hair); border-radius: 999px; padding: 2px; }
 .langs button {
@@ -217,6 +226,23 @@ a:hover { text-decoration-color: currentColor; }
 
 .empty { text-align: center; padding: 4rem 1rem; color: var(--ink-soft); }
 .empty h2 { font-size: 1.4rem; margin-bottom: 0.5rem; }
+
+/* ---------- griglia alimenti ---------- */
+
+.foodgrid {
+  list-style: none; margin: var(--gap) 0 4rem; padding: 0;
+  display: grid; gap: var(--gap);
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 16rem), 1fr));
+}
+.food-card {
+  background: var(--card); border: 1px solid var(--hair); border-radius: var(--radius);
+  box-shadow: var(--shadow); padding: 1.1rem 1.15rem 1.25rem; min-width: 0;
+}
+.food-card__cat {
+  font-family: var(--mono); font-size: 0.68rem; letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--ink-faint); margin: 0 0 0.3rem;
+}
+.food-card__name { font-size: 1.1rem; margin: 0 0 0.7rem; text-wrap: balance; }
 
 /* ---------- pagina ricetta ---------- */
 

@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Quaderno di cucina</title>
-<meta name="description" content="Ricettario personale con grammature scalabili e valori nutrizionali calcolati.">
+<title>Alimenti — Quaderno di cucina</title>
+<meta name="description" content="Database degli alimenti con valori nutrizionali per 100 g, usato per calcolare le ricette.">
 <meta name="color-scheme" content="light dark">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,7 +21,7 @@
       <span class="brand__name" id="brandName">Quaderno di cucina</span>
     </a>
     <nav class="toplinks">
-      <a id="navFoods" class="iconbtn" href="alimenti.html">Alimenti</a>
+      <a id="navFoods" class="iconbtn is-active" href="alimenti.html">Alimenti</a>
     </nav>
     <div class="langs" id="langs" role="group"></div>
     <button class="iconbtn" id="theme" type="button">◐</button>
@@ -31,8 +31,8 @@
 <main id="main">
   <div class="wrap">
     <div class="masthead">
-      <p class="eyebrow">Ricettario di casa</p>
-      <h1 id="headline">Quaderno di cucina</h1>
+      <p class="eyebrow" id="eyebrow">Database alimenti</p>
+      <h1 id="headline">Alimenti</h1>
       <p id="tagline"></p>
     </div>
 
@@ -45,19 +45,19 @@
         <select class="select" id="sort"></select>
         <span class="resultcount" id="count"></span>
       </div>
-      <div class="tagrow" id="tags"></div>
+      <div class="tagrow" id="cats"></div>
     </div>
 
-    <ul class="grid" id="grid"></ul>
+    <ul class="foodgrid" id="foodgrid"></ul>
   </div>
 </main>
 
 <footer class="sitefoot">
   <div class="wrap topbar__inner" style="min-height:auto">
-    <span>Uso personale · le macro sono stime sugli ingredienti crudi</span>
+    <span>Uso personale · le macro sono valori medi, non certificati</span>
   </div>
 </footer>
 
-<script type="module" src="assets/js/home.js"></script>
+<script type="module" src="assets/js/foods.js"></script>
 </body>
 </html>
