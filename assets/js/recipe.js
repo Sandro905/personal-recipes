@@ -272,6 +272,25 @@ function renderHead() {
     );
   } else source.hidden = true;
 
+  const gallery = recipe.gallery ?? [];
+  const gallerySection = document.getElementById('gallerySection');
+  if (gallery.length) {
+    document.getElementById('galleryTitle').textContent = t('recipe.gallery');
+    document.getElementById('photogrid').replaceChildren(
+      ...gallery.map((shot) =>
+        el('li', {}, [
+          el('a', { href: shot.image, target: '_blank', rel: 'noreferrer noopener' }, [
+            el('img', { src: shot.image, alt: tr(shot.caption, lang) ?? '', loading: 'lazy' })
+          ]),
+          tr(shot.caption, lang) && el('p', { text: tr(shot.caption, lang) })
+        ])
+      )
+    );
+    gallerySection.hidden = false;
+  } else {
+    gallerySection.hidden = true;
+  }
+
   const notes = recipe.notes ?? [];
   if (!notes.length) { document.getElementById('notes').hidden = true; return; }
   document.getElementById('notesTitle').textContent = t('recipe.notes');

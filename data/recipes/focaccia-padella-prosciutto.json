@@ -7,6 +7,17 @@
   "summary": {
     "it": "Senza forno e senza lievitazione lunga: si cuoce sul fornello in due tempi, girandola come una frittata."
   },
+  "image": "assets/img/recipes/focaccia-padella-prosciutto.jpg",
+  "gallery": [
+    {
+      "image": "assets/img/recipes/focaccia-padella-prosciutto-passaggi-1.jpg",
+      "caption": { "it": "Impasto: farina, lievito, acqua, olio e sale. Riposo, poi due panetti stesi e adagiati in padella." }
+    },
+    {
+      "image": "assets/img/recipes/focaccia-padella-prosciutto-passaggi-2.jpg",
+      "caption": { "it": "Farcitura, sigillatura dei bordi e cottura col coperchio a fiamma bassa." }
+    }
+  ],
   "yield": { "count": 2, "label": { "it": "persone", "en": "servings" } },
   "time": { "prep": 20, "rest": 20, "cook": 28 },
   "difficulty": "molto-facile",

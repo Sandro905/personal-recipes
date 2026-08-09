@@ -356,6 +356,24 @@ details.issues ul { margin: 0.5rem 0 0; padding-left: 1.1rem; font-size: 0.86rem
 .timer output { font-family: var(--mono); font-size: 0.9rem; font-variant-numeric: tabular-nums; color: var(--ink-faint); }
 .timer[data-done='true'] output { color: var(--wine); }
 
+/* --- galleria del procedimento --- */
+.gallery { margin-top: 2.6rem; padding-top: 1.6rem; border-top: 1px solid var(--hair); }
+.gallery h2 { font-size: 1.5rem; margin-bottom: 1.2rem; }
+.photogrid {
+  list-style: none; margin: 0; padding: 0;
+  display: grid; gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 15rem), 1fr));
+}
+.photogrid li { min-width: 0; }
+.photogrid a {
+  display: block; aspect-ratio: 4 / 3; border-radius: var(--radius-sm); overflow: hidden;
+  border: 1px solid var(--hair); box-shadow: var(--shadow);
+}
+.photogrid img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform 0.2s ease; }
+.photogrid a:hover img { transform: scale(1.04); }
+.photogrid p { margin: 0.55rem 0 0; font-size: 0.88rem; color: var(--ink-soft); }
+@media print { .gallery { display: none; } }
+
 .notes { max-width: var(--measure); margin-top: 3rem; padding-top: 1.6rem; border-top: 1px solid var(--hair); }
 .notes h2 { font-size: 1.5rem; margin-bottom: 1rem; }
 .notes dl { margin: 0; }

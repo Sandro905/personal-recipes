@@ -79,6 +79,10 @@ e si ferma — così non ti ritrovi macro sbagliate in silenzio.
   "title":   { "it": "…" },                // ogni testo è un oggetto per lingua
   "summary": { "it": "…" },
   "image": "assets/img/recipes/focaccia-padella-prosciutto.jpg",  // opzionale, foto di copertina
+  "gallery": [                             // opzionale, foto del procedimento (in fondo alla pagina)
+    { "image": "assets/img/recipes/focaccia-padella-prosciutto-passaggi-1.jpg",
+      "caption": { "it": "…" } }
+  ],
   "yield":   { "count": 2, "label": { "it": "persone" } },
   "time":    { "prep": 20, "rest": 20, "cook": 28 },   // minuti
   "difficulty": "molto-facile",            // chiavi definite in data/i18n/it.json
