@@ -1,4 +1,4 @@
-# Quaderno di cucina
+# Ricette personali
 
 Ricettario personale, sito statico, zero dipendenze da installare. Le grammature si
 ricalcolano al variare delle porzioni e le macro vengono calcolate dagli ingredienti
@@ -37,7 +37,7 @@ Node 20+ solo per gli script di manutenzione. Il **sito** è HTML/CSS/JS puro: n
 index.html            elenco ricette
 ricetta.html          dettaglio (?r=slug&lang=it)
 alimenti.html         database alimenti, macro per 100 g, con ricerca e filtri
-assets/css/style.css  tutto lo stile
+assets/css/style.css  design system completo (token, componenti, pagine)
 assets/js/
   home.js             pagina elenco
   recipe.js           pagina ricetta
@@ -46,6 +46,7 @@ assets/js/
   lib/nutrition.js    calcolo macro           ← condivisi con gli script Node
   lib/i18n.js         lingue e fallback
   lib/data.js         caricamento dati, formattazione, tema
+  lib/nav.js          barra, menu a scomparsa, icone SVG
 data/
   foods.json          database alimenti (macro per 100 g)
   recipes/*.json      una ricetta per file
@@ -232,10 +233,22 @@ oltre all'accesso ai file.
 
 ## Note sul design
 
-Palette e tipografia sono in cima a `style.css` come variabili CSS: cambiando `--saffron`,
-`--basil` e `--wine` cambi accento e colori delle macro in tutto il sito. Tema chiaro/scuro
-automatico dal sistema, con interruttore che sovrascrive e si ricorda. La stampa è già
-impostata: `Stampa` produce una pagina pulita senza barre né timer.
+`style.css` è organizzato come un design system: in cima i **token** (colori, scala
+tipografica, spaziature, raggi, ombre) come variabili CSS, sotto i **componenti**
+(`.btn`, `.field`, `.chip`, `.segmented`, `.card`, `.panel`…), infine le sezioni di
+pagina. Per cambiare l'accento di tutto il sito basta `--accent`; per i colori delle
+macro `--protein`, `--carbs`, `--fat`.
 
-Le spunte sugli ingredienti e le preferenze (lingua, tema) stanno in `localStorage`, quindi
-sono per browser e non richiedono account.
+Un solo carattere, **Inter**, con fallback al font di sistema: se Google Fonts non
+risponde la pagina resta identica nella struttura e leggibile.
+
+**Mobile first**: le regole base sono quelle del telefono, i breakpoint (`min-width`)
+aggiungono soltanto. Da 768px in su i link di navigazione tornano in barra e il menu
+a scomparsa sparisce; sotto, si apre dall'hamburger.
+
+Tema chiaro/scuro automatico dal sistema, con interruttore che sovrascrive e si
+ricorda. La stampa è già impostata: `Stampa` produce una pagina pulita senza barre,
+menu, timer né foto.
+
+Le spunte sugli ingredienti e le preferenze (lingua, tema) stanno in `localStorage`,
+quindi sono per browser e non richiedono account.

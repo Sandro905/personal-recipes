@@ -1,17 +1,11 @@
-import { LANGS, tr, makeT, detectLang, setLang } from './lib/i18n.js';
+import { tr, makeT, detectLang } from './lib/i18n.js';
 import { loadIndex, loadUI, el, num, minutes, initTheme } from './lib/data.js';
+import { initNav } from './lib/nav.js';
 
 const lang = detectLang();
 const toggleTheme = initTheme();
 
 const state = { query: '', tag: null, sort: 'recent', recipes: [], t: null };
-
-const TINTS = ['--saffron', '--basil', '--wine', '--ink'];
-function tintFor(slug) {
-  let h = 0;
-  for (const ch of slug) h = (h * 31 + ch.charCodeAt(0)) % 997;
-  return `color-mix(in srgb, var(${TINTS[h % TINTS.length]}) 16%, var(--card))`;
-}
 
 function totalTime(recipe) {
   const { prep = 0, rest = 0, cook = 0 } = recipe.time ?? {};
@@ -49,21 +43,21 @@ function card(recipe) {
 
   return el('li', { class: 'card' }, [
     el('a', { href: `ricetta.html?r=${encodeURIComponent(recipe.slug)}&lang=${lang}` }, [
-      el('div', { class: 'card__plate', style: `--tint:${tintFor(recipe.slug)}`, 'aria-hidden': 'true' }, [
+      el('div', { class: 'card__media' }, [
         recipe.image
           ? el('img', {
               src: recipe.image, alt: '', loading: 'lazy',
               style: recipe.imageFocus ? `object-position:${recipe.imageFocus}` : null
             })
-          : el('span', { class: 'card__initial', text: title.slice(0, 1) }),
-        recipe.method && el('span', { class: 'card__method', text: t(`method.${recipe.method}`) })
+          : el('span', { class: 'card__initial', 'aria-hidden': 'true', text: title.slice(0, 1) }),
+        recipe.method && el('span', { class: 'badge', text: t(`method.${recipe.method}`) })
       ]),
       el('div', { class: 'card__body' }, [
         el('h2', { class: 'card__title', text: title }),
         el('p', { class: 'card__summary', text: tr(recipe.summary, lang) }),
         el('div', { class: 'card__meta' }, [
-          el('span', {}, [el('b', { text: minutes(totalTime(recipe), t) })]),
-          kcal != null && el('span', {}, [el('b', { text: num(kcal) }), ` ${t('home.perServing')}`]),
+          el('span', { text: minutes(totalTime(recipe), t) }),
+          kcal != null && el('span', {}, [el('strong', { text: num(kcal) }), ` ${t('home.perServing')}`]),
           el('span', { text: t(`difficulty.${recipe.difficulty}`) })
         ])
       ])
@@ -75,21 +69,20 @@ function render() {
   const t = state.t;
   const list = sortRecipes(state.recipes.filter(matches));
   const grid = document.getElementById('grid');
-  grid.replaceChildren();
 
   document.getElementById('count').textContent =
     list.length === 1 ? t('site.recipesCountOne') : t('site.recipesCount', { n: list.length });
 
   if (!list.length) {
-    grid.append(
-      el('li', { class: 'empty', style: 'grid-column:1/-1' }, [
+    grid.replaceChildren(
+      el('li', { class: 'empty' }, [
         el('h2', { text: t('home.empty') }),
         el('p', { text: t('home.emptyHint') })
       ])
     );
     return;
   }
-  for (const recipe of list) grid.append(card(recipe));
+  grid.replaceChildren(...list.map(card));
 }
 
 function buildTagRow() {
@@ -101,46 +94,51 @@ function buildTagRow() {
   }
   const ordered = [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
 
-  const makeBtn = (tag, label) =>
+  const chip = (tag, label, n) =>
     el('button', {
-      class: 'pill',
+      class: 'chip',
       type: 'button',
       'aria-pressed': String(state.tag === tag),
-      onclick: () => {
+      'data-tag': tag ?? 'all',
+      onclick: (event) => {
         state.tag = tag;
         for (const btn of row.querySelectorAll('button')) btn.setAttribute('aria-pressed', 'false');
-        row.querySelector(`[data-tag="${tag ?? 'all'}"]`)?.setAttribute('aria-pressed', 'true');
+        event.currentTarget.setAttribute('aria-pressed', 'true');
+        event.currentTarget.scrollIntoView({ block: 'nearest', inline: 'nearest' });
         render();
-      },
-      'data-tag': tag ?? 'all',
-      text: label
-    });
+      }
+    }, [
+      label,
+      n != null && el('span', { class: 'chip__n', text: String(n) })
+    ]);
 
+  row.setAttribute('aria-label', t('home.filterByTag'));
   row.replaceChildren(
-    makeBtn(null, t('home.allTags')),
-    ...ordered.map(([tag, n]) => makeBtn(tag, `${t(`tags.${tag}`)} ${n}`))
+    chip(null, t('home.allTags'), null),
+    ...ordered.map(([tag, n]) => chip(tag, t(`tags.${tag}`), n))
   );
 }
 
-function wireChrome() {
+function wireControls() {
   const t = state.t;
-  document.documentElement.lang = lang;
-  document.title = `${t('site.title')}`;
-  document.getElementById('brandName').textContent = t('site.title');
-  const navFoods = document.getElementById('navFoods');
-  navFoods.textContent = t('nav.foods');
-  navFoods.href = `alimenti.html?lang=${lang}`;
+  document.title = t('site.title');
+  document.getElementById('eyebrow').textContent = t('home.eyebrow');
   document.getElementById('headline').textContent = t('site.title');
   document.getElementById('tagline').textContent = t('site.tagline');
+  document.getElementById('footnote').textContent = t('site.footnote');
 
   const input = document.getElementById('q');
+  const clear = document.getElementById('clear');
   input.placeholder = t('home.searchPlaceholder');
   input.setAttribute('aria-label', t('home.searchLabel'));
-  input.addEventListener('input', () => { state.query = input.value; render(); });
+  clear.setAttribute('aria-label', t('home.clear'));
 
-  const clear = document.getElementById('clear');
-  clear.title = t('home.clear');
-  clear.addEventListener('click', () => { input.value = ''; state.query = ''; input.focus(); render(); });
+  const syncClear = () => { clear.hidden = input.value === ''; };
+  input.addEventListener('input', () => { state.query = input.value; syncClear(); render(); });
+  clear.addEventListener('click', () => {
+    input.value = ''; state.query = ''; syncClear(); input.focus(); render();
+  });
+  syncClear();
 
   const sort = document.getElementById('sort');
   sort.setAttribute('aria-label', t('home.sortLabel'));
@@ -150,30 +148,14 @@ function wireChrome() {
     )
   );
   sort.addEventListener('change', () => { state.sort = sort.value; render(); });
-
-  const theme = document.getElementById('theme');
-  theme.title = t('nav.theme');
-  theme.addEventListener('click', () => toggleTheme());
-
-  const langs = document.getElementById('langs');
-  langs.setAttribute('aria-label', t('nav.lang'));
-  langs.replaceChildren(
-    ...LANGS.map((code) =>
-      el('button', {
-        type: 'button',
-        text: code,
-        'aria-pressed': String(code === lang),
-        onclick: () => { setLang(code); location.search = `?lang=${code}`; }
-      })
-    )
-  );
 }
 
 async function main() {
   const [ui, index] = await Promise.all([loadUI(lang), loadIndex()]);
   state.t = makeT(ui, lang);
   state.recipes = index.recipes ?? [];
-  wireChrome();
+  initNav({ t: state.t, lang, active: 'home', toggleTheme });
+  wireControls();
   buildTagRow();
   render();
 }
@@ -181,7 +163,7 @@ async function main() {
 main().catch((error) => {
   console.error(error);
   document.getElementById('grid').replaceChildren(
-    el('li', { class: 'empty', style: 'grid-column:1/-1' }, [
+    el('li', { class: 'empty' }, [
       el('h2', { text: 'Dati non caricati' }),
       el('p', { text: 'Apri il sito da un server locale (npm start) invece che con doppio clic sul file.' })
     ])

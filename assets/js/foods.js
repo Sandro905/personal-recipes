@@ -1,6 +1,7 @@
-import { LANGS, tr, makeT, detectLang, setLang } from './lib/i18n.js';
+import { tr, makeT, detectLang } from './lib/i18n.js';
 import { loadFoods, loadUI, el, num, initTheme } from './lib/data.js';
 import { energySplit } from './lib/nutrition.js';
+import { initNav } from './lib/nav.js';
 
 const lang = detectLang();
 const toggleTheme = initTheme();
@@ -41,7 +42,7 @@ function foodCard(food) {
   const split = energySplit(per100g);
 
   return el('li', { class: 'food-card' }, [
-    el('p', { class: 'food-card__cat', text: t(`foodCategory.${food.category}`) }),
+    el('span', { class: 'label', text: t(`foodCategory.${food.category}`) }),
     el('h2', { class: 'food-card__name', text: tr(food.name, lang) }),
     el('div', { class: 'kcal' }, [
       el('b', { text: num(per100g.kcal ?? 0) }),
@@ -70,21 +71,20 @@ function render() {
   const t = state.t;
   const list = sortFoods(state.foods.filter(matches));
   const grid = document.getElementById('foodgrid');
-  grid.replaceChildren();
 
   document.getElementById('count').textContent =
     list.length === 1 ? t('foods.countOne') : t('foods.count', { n: list.length });
 
   if (!list.length) {
-    grid.append(
-      el('li', { class: 'empty', style: 'grid-column:1/-1' }, [
+    grid.replaceChildren(
+      el('li', { class: 'empty' }, [
         el('h2', { text: t('foods.empty') }),
         el('p', { text: t('foods.emptyHint') })
       ])
     );
     return;
   }
-  for (const food of list) grid.append(foodCard(food));
+  grid.replaceChildren(...list.map(foodCard));
 }
 
 function buildCategoryRow() {
@@ -94,47 +94,51 @@ function buildCategoryRow() {
   for (const food of state.foods) counts.set(food.category, (counts.get(food.category) ?? 0) + 1);
   const ordered = [...counts.entries()].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]));
 
-  const makeBtn = (cat, label) =>
+  const chip = (cat, label, n) =>
     el('button', {
-      class: 'pill',
+      class: 'chip',
       type: 'button',
       'aria-pressed': String(state.category === cat),
-      onclick: () => {
+      'data-cat': cat ?? 'all',
+      onclick: (event) => {
         state.category = cat;
         for (const btn of row.querySelectorAll('button')) btn.setAttribute('aria-pressed', 'false');
-        row.querySelector(`[data-cat="${cat ?? 'all'}"]`)?.setAttribute('aria-pressed', 'true');
+        event.currentTarget.setAttribute('aria-pressed', 'true');
+        event.currentTarget.scrollIntoView({ block: 'nearest', inline: 'nearest' });
         render();
-      },
-      'data-cat': cat ?? 'all',
-      text: label
-    });
+      }
+    }, [
+      label,
+      n != null && el('span', { class: 'chip__n', text: String(n) })
+    ]);
 
+  row.setAttribute('aria-label', t('foods.filterByCategory'));
   row.replaceChildren(
-    makeBtn(null, t('foods.allCategories')),
-    ...ordered.map(([cat, n]) => makeBtn(cat, `${t(`foodCategory.${cat}`)} ${n}`))
+    chip(null, t('foods.allCategories'), null),
+    ...ordered.map(([cat, n]) => chip(cat, t(`foodCategory.${cat}`), n))
   );
 }
 
-function wireChrome() {
+function wireControls() {
   const t = state.t;
-  document.documentElement.lang = lang;
   document.title = `${t('foods.title')} — ${t('site.title')}`;
-  document.getElementById('brandName').textContent = t('site.title');
-  const navFoods = document.getElementById('navFoods');
-  navFoods.textContent = t('nav.foods');
-  navFoods.href = `alimenti.html?lang=${lang}`;
   document.getElementById('eyebrow').textContent = t('foods.eyebrow');
   document.getElementById('headline').textContent = t('foods.title');
   document.getElementById('tagline').textContent = t('foods.tagline');
+  document.getElementById('footnote').textContent = t('foods.footnote');
 
   const input = document.getElementById('q');
+  const clear = document.getElementById('clear');
   input.placeholder = t('foods.searchPlaceholder');
   input.setAttribute('aria-label', t('foods.searchLabel'));
-  input.addEventListener('input', () => { state.query = input.value; render(); });
+  clear.setAttribute('aria-label', t('foods.clear'));
 
-  const clear = document.getElementById('clear');
-  clear.title = t('foods.clear');
-  clear.addEventListener('click', () => { input.value = ''; state.query = ''; input.focus(); render(); });
+  const syncClear = () => { clear.hidden = input.value === ''; };
+  input.addEventListener('input', () => { state.query = input.value; syncClear(); render(); });
+  clear.addEventListener('click', () => {
+    input.value = ''; state.query = ''; syncClear(); input.focus(); render();
+  });
+  syncClear();
 
   const sort = document.getElementById('sort');
   sort.setAttribute('aria-label', t('foods.sortLabel'));
@@ -144,30 +148,14 @@ function wireChrome() {
     )
   );
   sort.addEventListener('change', () => { state.sort = sort.value; render(); });
-
-  const theme = document.getElementById('theme');
-  theme.title = t('nav.theme');
-  theme.addEventListener('click', () => toggleTheme());
-
-  const langs = document.getElementById('langs');
-  langs.setAttribute('aria-label', t('nav.lang'));
-  langs.replaceChildren(
-    ...LANGS.map((code) =>
-      el('button', {
-        type: 'button',
-        text: code,
-        'aria-pressed': String(code === lang),
-        onclick: () => { setLang(code); location.search = `?lang=${code}`; }
-      })
-    )
-  );
 }
 
 async function main() {
   const [ui, foods] = await Promise.all([loadUI(lang), loadFoods()]);
   state.t = makeT(ui, lang);
   state.foods = Object.entries(foods).map(([id, food]) => ({ id, ...food }));
-  wireChrome();
+  initNav({ t: state.t, lang, active: 'foods', toggleTheme });
+  wireControls();
   buildCategoryRow();
   render();
 }
@@ -175,7 +163,7 @@ async function main() {
 main().catch((error) => {
   console.error(error);
   document.getElementById('foodgrid').replaceChildren(
-    el('li', { class: 'empty', style: 'grid-column:1/-1' }, [
+    el('li', { class: 'empty' }, [
       el('h2', { text: 'Dati non caricati' }),
       el('p', { text: 'Apri il sito da un server locale (npm start) invece che con doppio clic sul file.' })
     ])

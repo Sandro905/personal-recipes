@@ -1,7 +1,8 @@
-import { LANGS, tr, makeT, unitLabel, detectLang, setLang } from './lib/i18n.js';
+import { tr, makeT, unitLabel, detectLang } from './lib/i18n.js';
 import { loadFoods, loadRecipe, loadUI, el, num, minutes, clock, inlineMarkdown, initTheme, store } from './lib/data.js';
 import { computeNutrition, energySplit, flatIngredients } from './lib/nutrition.js';
 import { toGrams, roundQty } from './lib/units.js';
+import { initNav, icons } from './lib/nav.js';
 
 const lang = detectLang();
 const toggleTheme = initTheme();
@@ -58,7 +59,7 @@ function renderIngredients() {
   let index = 0;
   for (const section of state.recipe.ingredients ?? []) {
     if (section.section) {
-      host.append(el('li', { class: 'ledger__section', text: tr(section.section, lang) }));
+      host.append(el('li', { class: 'label ledger__section', text: tr(section.section, lang) }));
     }
     for (const item of section.items ?? []) {
       const id = `ing-${index++}`;
@@ -77,7 +78,6 @@ function renderIngredients() {
             }),
             el('label', { for: id }, [
               el('span', { class: 'ing__name', text: ingredientName(item) }),
-              el('span', { class: 'ing__leader', 'aria-hidden': 'true' }),
               el('span', {
                 class: `ing__qty${known ? '' : ' is-estimate'}`,
                 title: hint ?? '',
@@ -199,7 +199,7 @@ function beep() {
 
 function timerWidget(seconds, i, t) {
   const output = el('output', { text: clock(seconds) });
-  const button = el('button', { type: 'button', text: t('timer.start') });
+  const button = el('button', { class: 'btn btn--secondary', type: 'button', text: t('timer.start') });
   const box = el('div', { class: 'timer', 'data-running': 'false' }, [button, output]);
   let handle = null;
   let left = seconds;
@@ -263,7 +263,7 @@ function renderHead() {
   ].filter(Boolean);
 
   document.getElementById('facts').replaceChildren(
-    ...facts.map(([label, value]) => el('div', { text: label }, [el('b', { text: value })]))
+    ...facts.map(([label, value]) => el('li', { class: 'label', text: label }, [el('b', { text: value })]))
   );
 
   const source = document.getElementById('source');
@@ -298,7 +298,7 @@ function renderHead() {
   document.getElementById('notesTitle').textContent = t('recipe.notes');
   document.getElementById('notesList').replaceChildren(
     ...notes.flatMap((note) => [
-      el('dt', { text: tr(note.title, lang) }),
+      el('dt', { class: 'label', text: tr(note.title, lang) }),
       el('dd', { html: inlineMarkdown(tr(note.text, lang)) })
     ])
   );
@@ -306,13 +306,11 @@ function renderHead() {
 
 function wireControls() {
   const t = state.t;
-  document.documentElement.lang = lang;
-  document.getElementById('brandName').textContent = t('site.title');
-  document.getElementById('back').textContent = `← ${t('recipe.back')}`;
-  document.getElementById('back').href = `index.html?lang=${lang}`;
-  const navFoods = document.getElementById('navFoods');
-  navFoods.textContent = t('nav.foods');
-  navFoods.href = `alimenti.html?lang=${lang}`;
+  const back = document.getElementById('back');
+  back.replaceChildren();
+  back.insertAdjacentHTML('afterbegin', icons.back);
+  back.append(document.createTextNode(t('recipe.back')));
+  back.href = `index.html?lang=${lang}`;
   document.getElementById('ingredientsTitle').textContent = t('recipe.ingredients');
   document.getElementById('stepsTitle').textContent = t('recipe.steps');
   document.getElementById('macrosTitle').textContent = t('macros.title');
@@ -322,8 +320,12 @@ function wireControls() {
   const less = document.getElementById('less');
   const more = document.getElementById('more');
   const out = document.getElementById('servingsValue');
+  less.innerHTML = icons.minus;
+  more.innerHTML = icons.plus;
   less.title = t('recipe.servingsDecrease');
   more.title = t('recipe.servingsIncrease');
+  less.setAttribute('aria-label', t('recipe.servingsDecrease'));
+  more.setAttribute('aria-label', t('recipe.servingsIncrease'));
 
   const step = state.base >= 12 ? Math.max(1, Math.round(state.base / 4)) : 1;
   const paint = () => {
@@ -359,20 +361,6 @@ function wireControls() {
   reset.textContent = t('recipe.uncheckAll');
   reset.addEventListener('click', () => { store.set(checkedKey(), []); renderIngredients(); });
 
-  const theme = document.getElementById('theme');
-  theme.title = t('nav.theme');
-  theme.addEventListener('click', () => toggleTheme());
-
-  const langs = document.getElementById('langs');
-  langs.replaceChildren(
-    ...LANGS.map((code) =>
-      el('button', {
-        type: 'button', text: code, 'aria-pressed': String(code === lang),
-        onclick: () => { setLang(code); location.search = `?r=${slug}&lang=${code}`; }
-      })
-    )
-  );
-
   paint();
 }
 
@@ -385,6 +373,7 @@ async function main() {
   state.recipe = recipe;
   state.base = recipe.yield?.count ?? 1;
   state.servings = state.base;
+  initNav({ t: state.t, lang, active: 'home', toggleTheme });
   renderHead();
   wireControls();
 }

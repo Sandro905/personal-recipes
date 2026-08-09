@@ -2,50 +2,84 @@
 <html lang="it" data-theme="">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Alimenti — Quaderno di cucina</title>
-<meta name="description" content="Database degli alimenti con valori nutrizionali per 100 g, usato per calcolare le ricette.">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Alimenti — Ricette personali</title>
+<meta name="description" content="Database degli alimenti con valori nutrizionali per 100 g, lo stesso usato per calcolare le ricette.">
 <meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#f6f6f7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0c0c0e" media="(prefers-color-scheme: dark)">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=DM+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400..600;1,6..72,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 <a class="skip" href="#main">Salta al contenuto</a>
 
-<header class="topbar">
-  <div class="wrap topbar__inner">
+<header class="appbar">
+  <div class="wrap appbar__inner">
     <a class="brand" href="index.html">
-      <span class="brand__mark">qdc</span>
-      <span class="brand__name" id="brandName">Quaderno di cucina</span>
+      <span class="brand__mark" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3v8a3 3 0 0 0 6 0V3"/><path d="M9 11v10"/><path d="M17 3c-1.5 2-2 4-2 6v3h3"/><path d="M18 12v9"/></svg>
+      </span>
+      <span class="brand__name" data-brand-name>Ricette personali</span>
     </a>
-    <nav class="toplinks">
-      <a id="navFoods" class="iconbtn is-active" href="alimenti.html">Alimenti</a>
-    </nav>
-    <div class="langs" id="langs" role="group"></div>
-    <button class="iconbtn" id="theme" type="button">◐</button>
+
+    <nav class="navlinks" data-navlinks></nav>
+
+    <div class="appbar__actions">
+      <div class="appbar__desktop">
+        <div class="segmented" data-langs role="group"></div>
+        <button class="btn btn--icon" type="button" data-theme-toggle></button>
+      </div>
+      <button class="btn btn--icon appbar__burger" type="button" data-burger aria-expanded="false" aria-controls="drawer"></button>
+    </div>
   </div>
 </header>
 
+<div class="scrim" data-scrim hidden></div>
+<aside class="drawer" id="drawer" data-drawer hidden tabindex="-1" aria-label="Menu">
+  <div class="drawer__head">
+    <span class="drawer__title" data-drawer-title>Menu</span>
+    <button class="btn btn--icon" type="button" data-drawer-close></button>
+  </div>
+  <nav class="drawer__nav" data-navlinks data-with-icons></nav>
+  <div class="drawer__foot">
+    <div class="drawer__section">
+      <span class="label" data-label="lang">Lingua</span>
+      <div class="segmented" data-langs role="group"></div>
+    </div>
+    <div class="drawer__section">
+      <span class="label" data-label="themeSection">Tema</span>
+      <button class="btn btn--icon" type="button" data-theme-toggle></button>
+    </div>
+  </div>
+</aside>
+
 <main id="main">
   <div class="wrap">
-    <div class="masthead">
-      <p class="eyebrow" id="eyebrow">Database alimenti</p>
+    <div class="pagehead">
+      <span class="label" id="eyebrow">Database alimenti</span>
       <h1 id="headline">Alimenti</h1>
       <p id="tagline"></p>
     </div>
 
-    <div class="controls">
-      <div class="searchrow">
-        <div class="search">
-          <input type="search" id="q" autocomplete="off">
-          <button class="search__clear" id="clear" type="button" aria-label="Svuota">×</button>
+    <div class="toolbar">
+      <div class="toolbar__row">
+        <div class="field field--search">
+          <svg class="field__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+          <input type="search" id="q" class="field__input" autocomplete="off">
+          <button class="field__clear" id="clear" type="button" hidden>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M18 6 6 18M6 6l12 12"/></svg>
+          </button>
         </div>
-        <select class="select" id="sort"></select>
+        <div class="field field--select">
+          <select class="select" id="sort"></select>
+          <svg class="field__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>
+        </div>
         <span class="resultcount" id="count"></span>
       </div>
-      <div class="tagrow" id="cats"></div>
+      <div class="chips" id="cats" role="group"></div>
     </div>
 
     <ul class="foodgrid" id="foodgrid"></ul>
@@ -53,8 +87,8 @@
 </main>
 
 <footer class="sitefoot">
-  <div class="wrap topbar__inner" style="min-height:auto">
-    <span>Uso personale · le macro sono valori medi, non certificati</span>
+  <div class="wrap">
+    <span id="footnote">Uso personale · valori medi, non certificati</span>
   </div>
 </footer>
 

@@ -1,20 +1,29 @@
 {
   "site": {
-    "title": "Quaderno di cucina",
-    "tagline": "Ricette di casa, con le grammature che tornano",
+    "title": "Ricette personali",
+    "tagline": "Le ricette di casa, con le grammature che tornano e le macro già calcolate.",
     "recipesCount": "{n} ricette",
-    "recipesCountOne": "1 ricetta"
+    "recipesCountOne": "1 ricetta",
+    "footnote": "Uso personale · le macro sono stime sugli ingredienti crudi"
   },
   "nav": {
-    "home": "Tutte le ricette",
+    "home": "Ricette",
     "foods": "Alimenti",
+    "sections": "Sezioni",
+    "menu": "Menu",
+    "close": "Chiudi",
     "theme": "Cambia tema",
+    "themeSection": "Tema",
+    "themeLight": "Chiaro",
+    "themeDark": "Scuro",
     "lang": "Lingua"
   },
   "home": {
+    "eyebrow": "Ricettario di casa",
     "searchLabel": "Cerca",
-    "searchPlaceholder": "Cerca per nome, ingrediente, categoria…",
-    "clear": "Svuota",
+    "searchPlaceholder": "Cerca ricette…",
+    "clear": "Svuota la ricerca",
+    "filterByTag": "Filtra per categoria",
     "allTags": "Tutte",
     "sortLabel": "Ordina per",
     "sort": {
@@ -32,9 +41,11 @@
     "title": "Alimenti",
     "tagline": "Valori nutrizionali per 100 g: lo stesso database usato per calcolare le ricette.",
     "searchLabel": "Cerca alimento",
-    "searchPlaceholder": "Cerca per nome o categoria…",
-    "clear": "Svuota",
-    "allCategories": "Tutte",
+    "searchPlaceholder": "Cerca alimenti…",
+    "clear": "Svuota la ricerca",
+    "filterByCategory": "Filtra per categoria",
+    "allCategories": "Tutti",
+    "footnote": "Uso personale · valori medi, non certificati",
     "sortLabel": "Ordina per",
     "sort": {
       "name": "Nome",

@@ -1,20 +1,29 @@
 {
   "site": {
-    "title": "Kitchen notebook",
-    "tagline": "Home recipes, with weights that add up",
+    "title": "Personal recipes",
+    "tagline": "Home recipes, with weights that add up and the macros already worked out.",
     "recipesCount": "{n} recipes",
-    "recipesCountOne": "1 recipe"
+    "recipesCountOne": "1 recipe",
+    "footnote": "Personal use · macros are estimates from raw ingredients"
   },
   "nav": {
-    "home": "All recipes",
+    "home": "Recipes",
     "foods": "Foods",
+    "sections": "Sections",
+    "menu": "Menu",
+    "close": "Close",
     "theme": "Switch theme",
+    "themeSection": "Theme",
+    "themeLight": "Light",
+    "themeDark": "Dark",
     "lang": "Language"
   },
   "home": {
+    "eyebrow": "Home cookbook",
     "searchLabel": "Search",
-    "searchPlaceholder": "Search by name, ingredient, category…",
-    "clear": "Clear",
+    "searchPlaceholder": "Search recipes…",
+    "clear": "Clear search",
+    "filterByTag": "Filter by category",
     "allTags": "All",
     "sortLabel": "Sort by",
     "sort": {
@@ -32,9 +41,11 @@
     "title": "Foods",
     "tagline": "Nutrition per 100 g: the same database used to calculate the recipes.",
     "searchLabel": "Search food",
-    "searchPlaceholder": "Search by name or category…",
-    "clear": "Clear",
+    "searchPlaceholder": "Search foods…",
+    "clear": "Clear search",
+    "filterByCategory": "Filter by category",
     "allCategories": "All",
+    "footnote": "Personal use · average values, not certified",
     "sortLabel": "Sort by",
     "sort": {
       "name": "Name",
