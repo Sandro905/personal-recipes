@@ -1,0 +1,183 @@
+{
+  "slug": "pasta-ragu-pollo",
+  "added": "2026-08-09",
+  "title": {
+    "it": "Pasta al ragù di pollo"
+  },
+  "summary": {
+    "it": "Il ragù della rotazione settimanale: pollo macinato, soffritto e passata. Si congela in porzioni e diventa la cena veloce dei giorni pieni."
+  },
+  "yield": {
+    "count": 1,
+    "label": {
+      "it": "porzione",
+      "en": "serving"
+    }
+  },
+  "time": {
+    "prep": 15,
+    "cook": 30
+  },
+  "difficulty": "facile",
+  "cost": "economico",
+  "method": "padella",
+  "tags": [
+    "salato",
+    "primi",
+    "pasta",
+    "pollo",
+    "carne",
+    "pranzo",
+    "proteico",
+    "congelabile"
+  ],
+  "ingredients": [
+    {
+      "section": null,
+      "items": [
+        {
+          "food": "pasta-secca",
+          "qty": 100,
+          "unit": "g",
+          "label": {
+            "it": "pasta corta (penne o rigatoni)"
+          }
+        },
+        {
+          "food": "pollo-macinato",
+          "qty": 130,
+          "unit": "g"
+        },
+        {
+          "food": "passata-pomodoro",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "food": "vino-bianco",
+          "qty": 30,
+          "unit": "g",
+          "label": {
+            "it": "vino bianco secco"
+          }
+        },
+        {
+          "food": "cipolla",
+          "qty": 60,
+          "unit": "g",
+          "label": {
+            "it": "cipolla piccola (½)"
+          }
+        },
+        {
+          "food": "carota",
+          "qty": 35,
+          "unit": "g",
+          "label": {
+            "it": "carota (½)"
+          }
+        },
+        {
+          "food": "sedano",
+          "qty": 30,
+          "unit": "g",
+          "label": {
+            "it": "gambo di sedano (½)"
+          }
+        },
+        {
+          "food": "olio-oliva-evo",
+          "qty": 10,
+          "unit": "g",
+          "label": {
+            "it": "1 cucchiaio (10 g)"
+          }
+        },
+        {
+          "food": "alloro",
+          "qty": 1,
+          "unit": "foglia"
+        },
+        {
+          "food": "sale",
+          "unit": "qb"
+        },
+        {
+          "food": "pepe-nero",
+          "unit": "qb"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": {
+        "it": "Soffritto"
+      },
+      "text": {
+        "it": "Trita finemente {{cipolla}}, {{carota}} e {{sedano}}. Falli appassire in {{olio-oliva-evo}} a fuoco dolce per 5 minuti, senza colorirli troppo."
+      },
+      "timer": 300
+    },
+    {
+      "title": {
+        "it": "Rosolare il pollo"
+      },
+      "text": {
+        "it": "Alza la fiamma e aggiungi {{pollo-macinato}}. Rosolalo bene sgranandolo con il cucchiaio: deve perdere tutta l'acqua e iniziare a colorire."
+      }
+    },
+    {
+      "title": {
+        "it": "Sfumare"
+      },
+      "text": {
+        "it": "Sfuma con {{vino-bianco}} e lascia evaporare un minuto, finché non senti più l'odore pungente dell'alcol."
+      },
+      "timer": 60
+    },
+    {
+      "title": {
+        "it": "Il sugo"
+      },
+      "text": {
+        "it": "Aggiungi {{passata-pomodoro}}, {{alloro}}, sale e pepe. Abbassa al minimo e cuoci 20-25 minuti, mescolando ogni tanto."
+      },
+      "timer": 1500
+    },
+    {
+      "title": {
+        "it": "Condire"
+      },
+      "text": {
+        "it": "Cuoci {{pasta-secca}} al dente, scolala tenendo un mestolo di acqua di cottura e saltala nel ragù per un minuto."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "title": {
+        "it": "Fai il triplo"
+      },
+      "text": {
+        "it": "Con le stesse pentole prepari 3 porzioni di ragù: cambia solo il tempo del soffritto. Porta le porzioni a 3 con il selettore qui sopra."
+      }
+    },
+    {
+      "title": {
+        "it": "Congelare"
+      },
+      "text": {
+        "it": "Il ragù da solo si congela benissimo in porzioni da ~250 g, fino a **2-3 mesi**. Scongelato in frigo la notte prima, la sera basta cuocere la pasta."
+      }
+    },
+    {
+      "title": {
+        "it": "Alleggerire"
+      },
+      "text": {
+        "it": "Il pollo macinato è già magro. Se vuoi scendere ancora di grassi, riduci l'olio a mezzo cucchiaio e usa una padella antiaderente."
+      }
+    }
+  ]
+}

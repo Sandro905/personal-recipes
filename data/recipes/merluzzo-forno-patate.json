@@ -1,0 +1,136 @@
+{
+  "slug": "merluzzo-forno-patate",
+  "added": "2026-08-09",
+  "title": {
+    "it": "Merluzzo al forno con patate"
+  },
+  "summary": {
+    "it": "Il pranzo più leggero della raccolta: 45 g di proteine e appena 13 g di grassi. Sotto il target calorico, quindi vuole del pane a fianco."
+  },
+  "yield": {
+    "count": 1,
+    "label": {
+      "it": "porzione",
+      "en": "serving"
+    }
+  },
+  "time": {
+    "prep": 10,
+    "cook": 35
+  },
+  "difficulty": "molto-facile",
+  "cost": "economico",
+  "method": "forno",
+  "tags": [
+    "salato",
+    "secondi",
+    "pesce",
+    "forno",
+    "pranzo",
+    "proteico"
+  ],
+  "ingredients": [
+    {
+      "section": null,
+      "items": [
+        {
+          "food": "merluzzo",
+          "qty": 220,
+          "unit": "g",
+          "label": {
+            "it": "filetto di merluzzo"
+          }
+        },
+        {
+          "food": "patate",
+          "qty": 300,
+          "unit": "g"
+        },
+        {
+          "food": "pomodorini",
+          "qty": 150,
+          "unit": "g"
+        },
+        {
+          "food": "aglio",
+          "qty": 1,
+          "unit": "spicchio"
+        },
+        {
+          "food": "prezzemolo",
+          "unit": "qb"
+        },
+        {
+          "food": "olio-oliva-evo",
+          "qty": 10,
+          "unit": "g",
+          "label": {
+            "it": "1 cucchiaio (10 g)"
+          }
+        },
+        {
+          "food": "sale",
+          "unit": "qb"
+        },
+        {
+          "food": "pepe-nero",
+          "unit": "qb"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": {
+        "it": "Patate avanti"
+      },
+      "text": {
+        "it": "Taglia {{patate}} a fette sottili, condisci con {{olio-oliva-evo}} e {{aglio}} e inforna a 200 °C per 15 minuti."
+      },
+      "timer": 900
+    },
+    {
+      "title": {
+        "it": "Aggiungere il pesce"
+      },
+      "text": {
+        "it": "Unisci {{pomodorini}} tagliati a metà e appoggia sopra {{merluzzo}} condito con sale e pepe."
+      }
+    },
+    {
+      "title": {
+        "it": "Fine cottura"
+      },
+      "text": {
+        "it": "Altri 18-20 minuti. Il merluzzo è pronto quando è opaco e si sfalda: è magrissimo, quindi perdona poco la cottura lunga."
+      },
+      "timer": 1200
+    },
+    {
+      "title": {
+        "it": "Servire"
+      },
+      "text": {
+        "it": "Finisci con {{prezzemolo}} tritato e un giro d'olio a crudo se ti va."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "title": {
+        "it": "Sotto target"
+      },
+      "text": {
+        "it": "Con 521 kcal questo piatto sta sotto il target del pranzo: aggiungi **una fetta di pane** (~35 g) per arrivarci."
+      }
+    },
+    {
+      "title": {
+        "it": "Merluzzo surgelato"
+      },
+      "text": {
+        "it": "Scongelalo in frigo, mai a temperatura ambiente, e **asciugalo bene** con carta da cucina. Bagnato rilascia acqua e invece di rosolare bolle."
+      }
+    }
+  ]
+}

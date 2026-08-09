@@ -1,0 +1,196 @@
+{
+  "slug": "spezzatino-manzo-patate",
+  "added": "2026-08-09",
+  "title": {
+    "it": "Spezzatino di manzo con patate"
+  },
+  "summary": {
+    "it": "Novanta minuti di fuoco bassissimo e la carne si scioglie. Quattro porzioni in freezer, e le patate entrano solo alla fine per non disfarsi."
+  },
+  "yield": {
+    "count": 4,
+    "label": {
+      "it": "porzioni",
+      "en": "portions"
+    }
+  },
+  "time": {
+    "prep": 20,
+    "cook": 120
+  },
+  "difficulty": "facile",
+  "cost": "medio",
+  "method": "padella",
+  "tags": [
+    "salato",
+    "secondi",
+    "manzo",
+    "carne",
+    "meal-prep",
+    "congelabile",
+    "proteico"
+  ],
+  "ingredients": [
+    {
+      "section": null,
+      "items": [
+        {
+          "food": "manzo-spezzatino",
+          "qty": 800,
+          "unit": "g",
+          "label": {
+            "it": "manzo per spezzatino (cappello del prete o muscolo)"
+          }
+        },
+        {
+          "food": "patate",
+          "qty": 600,
+          "unit": "g"
+        },
+        {
+          "food": "carota",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "food": "cipolla",
+          "qty": 150,
+          "unit": "g"
+        },
+        {
+          "food": "sedano",
+          "qty": 100,
+          "unit": "g"
+        },
+        {
+          "food": "passata-pomodoro",
+          "qty": 400,
+          "unit": "g"
+        },
+        {
+          "food": "vino-rosso",
+          "qty": 150,
+          "unit": "ml",
+          "label": {
+            "it": "vino rosso secco"
+          }
+        },
+        {
+          "food": "brodo-vegetale",
+          "qty": 300,
+          "unit": "ml",
+          "label": {
+            "it": "brodo caldo"
+          }
+        },
+        {
+          "food": "aglio",
+          "qty": 3,
+          "unit": "spicchio"
+        },
+        {
+          "food": "alloro",
+          "qty": 2,
+          "unit": "foglia"
+        },
+        {
+          "food": "rosmarino",
+          "unit": "qb"
+        },
+        {
+          "food": "olio-oliva-evo",
+          "qty": 15,
+          "unit": "g"
+        },
+        {
+          "food": "sale",
+          "unit": "qb"
+        },
+        {
+          "food": "pepe-nero",
+          "unit": "qb"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": {
+        "it": "Rosolare la carne"
+      },
+      "text": {
+        "it": "Asciuga bene {{manzo-spezzatino}} con carta da cucina e rosolalo in {{olio-oliva-evo}} a fuoco molto vivo, in 2-3 riprese. Mettilo da parte."
+      }
+    },
+    {
+      "title": {
+        "it": "Il soffritto"
+      },
+      "text": {
+        "it": "Nella stessa pentola fai appassire {{cipolla}}, {{sedano}}, {{carota}} e {{aglio}} per 5-6 minuti, raccogliendo il fondo di cottura."
+      },
+      "timer": 360
+    },
+    {
+      "title": {
+        "it": "Sfumare"
+      },
+      "text": {
+        "it": "Rimetti la carne e sfuma con {{vino-rosso}}, lasciando evaporare l'alcol."
+      },
+      "timer": 180
+    },
+    {
+      "title": {
+        "it": "Cottura lunga"
+      },
+      "text": {
+        "it": "Aggiungi {{passata-pomodoro}}, {{brodo-vegetale}}, {{alloro}} e {{rosmarino}}. Copri e cuoci a fuoco **bassissimo** per 90 minuti: deve appena sobbollire."
+      },
+      "timer": 5400
+    },
+    {
+      "title": {
+        "it": "Le patate"
+      },
+      "text": {
+        "it": "Unisci {{patate}} a cubetti e cuoci altri 25-30 minuti, finché sono tenere ma ancora intere."
+      },
+      "timer": 1800
+    },
+    {
+      "title": {
+        "it": "Congelare"
+      },
+      "text": {
+        "it": "Raffredda completamente, dividi in 4 contenitori ermetici e congela."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "title": {
+        "it": "Asciugare la carne"
+      },
+      "text": {
+        "it": "È il passaggio che fa la differenza: la carne bagnata non rosola, bolle. Carta da cucina e padella rovente."
+      }
+    },
+    {
+      "title": {
+        "it": "Completare il pasto"
+      },
+      "text": {
+        "it": "Con ~510 kcal a porzione resta sotto il target del pranzo: aggiungi **una fetta di pane** per arrivarci."
+      }
+    },
+    {
+      "title": {
+        "it": "Conservazione"
+      },
+      "text": {
+        "it": "Fino a **2-3 mesi** in freezer. Dal freezer diretto al microonde: 5-6 minuti a potenza media con un cucchiaio d'acqua."
+      }
+    }
+  ]
+}

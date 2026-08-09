@@ -78,7 +78,8 @@
     "dolci": "Sweets",
     "frutta-secca": "Nuts",
     "frutta": "Fruit",
-    "bevande": "Beverages"
+    "bevande": "Beverages",
+    "integratori": "Supplements"
   },
   "recipe": {
     "back": "All recipes",
@@ -213,7 +214,20 @@
     "primi": "Pasta & rice",
     "contorni": "Sides",
     "finger-food": "Finger food",
-    "svuota-frigo": "Fridge raid"
+    "svuota-frigo": "Fridge raid",
+    "pollo": "Chicken",
+    "manzo": "Beef",
+    "carne": "Meat",
+    "forno": "Oven",
+    "riso": "Rice",
+    "pasta": "Pasta",
+    "proteico": "High protein",
+    "pranzo": "Lunch",
+    "cena": "Dinner",
+    "colazione": "Breakfast",
+    "meal-prep": "Meal prep",
+    "congelabile": "Freezer-friendly",
+    "uova": "Eggs"
   },
   "format": {
     "qtyOf": "{qty} {unit} of {name}",

@@ -1,0 +1,160 @@
+{
+  "slug": "pasta-salmone-affumicato",
+  "added": "2026-08-09",
+  "title": {
+    "it": "Pasta al salmone affumicato"
+  },
+  "summary": {
+    "it": "Cremosa senza panna: la base è formaggio spalmabile light. Il salmone va aggiunto a fuoco spento, altrimenti diventa gommoso."
+  },
+  "yield": {
+    "count": 1,
+    "label": {
+      "it": "porzione",
+      "en": "serving"
+    }
+  },
+  "time": {
+    "prep": 10,
+    "cook": 15
+  },
+  "difficulty": "facile",
+  "cost": "medio",
+  "method": "padella",
+  "tags": [
+    "salato",
+    "primi",
+    "pasta",
+    "pesce",
+    "veloce",
+    "pranzo"
+  ],
+  "ingredients": [
+    {
+      "section": null,
+      "items": [
+        {
+          "food": "pasta-secca",
+          "qty": 100,
+          "unit": "g",
+          "label": {
+            "it": "pasta corta (rigatoni o farfalle)"
+          }
+        },
+        {
+          "food": "salmone-affumicato",
+          "qty": 120,
+          "unit": "g",
+          "label": {
+            "it": "salmone affumicato a striscioline"
+          }
+        },
+        {
+          "food": "philadelphia-light",
+          "qty": 50,
+          "unit": "g",
+          "label": {
+            "it": "formaggio spalmabile light"
+          }
+        },
+        {
+          "food": "cipolla",
+          "qty": 60,
+          "unit": "g",
+          "label": {
+            "it": "cipolla (½)"
+          }
+        },
+        {
+          "food": "vino-bianco",
+          "qty": 50,
+          "unit": "ml",
+          "label": {
+            "it": "vino bianco secco"
+          }
+        },
+        {
+          "food": "erba-cipollina",
+          "unit": "qb",
+          "label": {
+            "it": "erba cipollina fresca"
+          }
+        },
+        {
+          "food": "olio-oliva-evo",
+          "qty": 10,
+          "unit": "g",
+          "label": {
+            "it": "1 cucchiaio (10 g)"
+          }
+        },
+        {
+          "food": "pepe-nero",
+          "unit": "qb"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": {
+        "it": "La cipolla"
+      },
+      "text": {
+        "it": "Fai appassire {{cipolla}} tritata fine in {{olio-oliva-evo}} per 4-5 minuti a fuoco dolce, senza farle prendere colore."
+      },
+      "timer": 300
+    },
+    {
+      "title": {
+        "it": "Sfumare"
+      },
+      "text": {
+        "it": "Sfuma con {{vino-bianco}} e lascia evaporare."
+      },
+      "timer": 60
+    },
+    {
+      "title": {
+        "it": "La crema"
+      },
+      "text": {
+        "it": "Abbassa la fiamma, aggiungi {{philadelphia-light}} e mescola con un po' di acqua di cottura fino a una crema liscia."
+      }
+    },
+    {
+      "title": {
+        "it": "Il salmone"
+      },
+      "text": {
+        "it": "Spegni il fuoco e solo adesso unisci {{salmone-affumicato}}: è già pronto da mangiare, se lo cuoci si indurisce e perde il profumo."
+      }
+    },
+    {
+      "title": {
+        "it": "Mantecare"
+      },
+      "text": {
+        "it": "Manteca con {{pasta-secca}} al dente e acqua di cottura. Completa con {{erba-cipollina}} e pepe nero abbondante."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "title": {
+        "it": "Niente sale"
+      },
+      "text": {
+        "it": "Il salmone affumicato è già molto sapido: assaggia prima di aggiungere sale, probabilmente non serve."
+      }
+    },
+    {
+      "title": {
+        "it": "La più calorica"
+      },
+      "text": {
+        "it": "Con 763 kcal è il pranzo più pesante della raccolta. Va bene nei giorni di allenamento, meno in quelli di riposo."
+      }
+    }
+  ]
+}

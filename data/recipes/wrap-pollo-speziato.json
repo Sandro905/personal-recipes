@@ -1,0 +1,123 @@
+{
+  "slug": "wrap-pollo-speziato",
+  "added": "2026-08-09",
+  "title": {
+    "it": "Wrap di pollo speziato"
+  },
+  "summary": {
+    "it": "Da fare col pollo già cotto: dieci minuti e 57 g di proteine. La cena buona quando hai fatto meal prep nel weekend."
+  },
+  "yield": {
+    "count": 1,
+    "label": {
+      "it": "porzione",
+      "en": "serving"
+    }
+  },
+  "time": {
+    "prep": 10
+  },
+  "difficulty": "molto-facile",
+  "cost": "economico",
+  "method": "senza-cottura",
+  "tags": [
+    "salato",
+    "cena",
+    "pollo",
+    "carne",
+    "veloce",
+    "proteico"
+  ],
+  "ingredients": [
+    {
+      "section": null,
+      "items": [
+        {
+          "food": "tortilla",
+          "qty": 1,
+          "unit": "pz",
+          "label": {
+            "it": "tortilla di frumento (60 g)"
+          }
+        },
+        {
+          "food": "petto-pollo-cotto",
+          "qty": 180,
+          "unit": "g",
+          "label": {
+            "it": "petto di pollo già cotto"
+          }
+        },
+        {
+          "food": "insalata",
+          "qty": 60,
+          "unit": "g"
+        },
+        {
+          "food": "salsa-zero",
+          "qty": 20,
+          "unit": "g",
+          "label": {
+            "it": "salsa zero calorie"
+          }
+        },
+        {
+          "food": "paprika-dolce",
+          "unit": "qb"
+        },
+        {
+          "food": "sale",
+          "unit": "qb"
+        },
+        {
+          "food": "pepe-nero",
+          "unit": "qb"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": {
+        "it": "Scaldare"
+      },
+      "text": {
+        "it": "Passa {{tortilla}} 20 secondi per lato in padella asciutta: diventa morbida e non si spacca quando la arrotoli."
+      }
+    },
+    {
+      "title": {
+        "it": "Farcire"
+      },
+      "text": {
+        "it": "Scalda {{petto-pollo-cotto}} e condiscilo con {{paprika-dolce}}, sale e pepe. Disponilo al centro della tortilla con {{insalata}} e {{salsa-zero}}."
+      }
+    },
+    {
+      "title": {
+        "it": "Chiudere"
+      },
+      "text": {
+        "it": "Ripiega prima i due lati corti, poi arrotola stretto. Tagliato a metà in diagonale sta in piedi nel piatto."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "title": {
+        "it": "Con gli straccetti"
+      },
+      "text": {
+        "it": "Va benissimo con una porzione di straccetti di pollo alla paprika presi dal freezer: è il loro abbinamento naturale."
+      }
+    },
+    {
+      "title": {
+        "it": "Più proteine"
+      },
+      "text": {
+        "it": "Con 30 g di grana grattugiato arrivi a circa 645 kcal e 67 g di proteine."
+      }
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "slug": "risotto-gamberetti-limone",
+  "added": "2026-08-09",
+  "title": {
+    "it": "Risotto con gamberetti e limone"
+  },
+  "summary": {
+    "it": "Mantecato senza burro né parmigiano: la cremosità viene solo dall'amido del riso e il limone tiene tutto leggero."
+  },
+  "yield": {
+    "count": 1,
+    "label": {
+      "it": "porzione",
+      "en": "serving"
+    }
+  },
+  "time": {
+    "prep": 10,
+    "cook": 25
+  },
+  "difficulty": "facile",
+  "cost": "medio",
+  "method": "padella",
+  "tags": [
+    "salato",
+    "primi",
+    "riso",
+    "pesce",
+    "pranzo",
+    "proteico"
+  ],
+  "ingredients": [
+    {
+      "section": null,
+      "items": [
+        {
+          "food": "riso-carnaroli",
+          "qty": 100,
+          "unit": "g",
+          "label": {
+            "it": "riso Carnaroli o Arborio"
+          }
+        },
+        {
+          "food": "gamberi",
+          "qty": 200,
+          "unit": "g",
+          "label": {
+            "it": "gamberetti sgusciati"
+          }
+        },
+        {
+          "food": "aglio",
+          "qty": 1,
+          "unit": "spicchio"
+        },
+        {
+          "food": "limone",
+          "qty": 50,
+          "unit": "g",
+          "label": {
+            "it": "limone, succo e scorza (½)"
+          }
+        },
+        {
+          "food": "vino-bianco",
+          "qty": 50,
+          "unit": "ml",
+          "label": {
+            "it": "vino bianco secco"
+          }
+        },
+        {
+          "food": "brodo-vegetale",
+          "qty": 400,
+          "unit": "ml",
+          "label": {
+            "it": "brodo vegetale caldo"
+          }
+        },
+        {
+          "food": "prezzemolo",
+          "unit": "qb",
+          "label": {
+            "it": "prezzemolo fresco"
+          }
+        },
+        {
+          "food": "olio-oliva-evo",
+          "qty": 10,
+          "unit": "g",
+          "label": {
+            "it": "1 cucchiaio (10 g)"
+          }
+        },
+        {
+          "food": "sale",
+          "unit": "qb"
+        },
+        {
+          "food": "pepe-nero",
+          "unit": "qb"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": {
+        "it": "I gamberetti"
+      },
+      "text": {
+        "it": "Scalda {{olio-oliva-evo}} con {{aglio}}, rosola {{gamberi}} per 2 minuti scarsi e mettili subito da parte. Cotti adesso fino in fondo, alla fine sarebbero gomma."
+      },
+      "timer": 120
+    },
+    {
+      "title": {
+        "it": "Tostare"
+      },
+      "text": {
+        "it": "Nella stessa padella tosta {{riso-carnaroli}} per un minuto, poi sfuma con {{vino-bianco}} e lascia evaporare."
+      },
+      "timer": 60
+    },
+    {
+      "title": {
+        "it": "Cottura"
+      },
+      "text": {
+        "it": "Aggiungi {{brodo-vegetale}} un mestolo alla volta, mescolando spesso, per 18-20 minuti. Il riso deve restare sempre appena coperto, mai in ammollo."
+      },
+      "timer": 1200
+    },
+    {
+      "title": {
+        "it": "Mantecare"
+      },
+      "text": {
+        "it": "A fuoco spento unisci i gamberetti, la scorza e il succo di {{limone}}, {{prezzemolo}} e una macinata di pepe. Mescola energicamente 30 secondi."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "title": {
+        "it": "Niente burro né parmigiano"
+      },
+      "text": {
+        "it": "La mantecatura viene dall'amido: mescolare bene negli ultimi minuti fa più della materia grassa. Così il piatto resta sotto i 15 g di grassi."
+      }
+    },
+    {
+      "title": {
+        "it": "La scorza"
+      },
+      "text": {
+        "it": "Grattugia solo la parte gialla. Il bianco sotto è amaro e rovina il piatto."
+      }
+    }
+  ]
+}

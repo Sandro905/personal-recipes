@@ -78,7 +78,8 @@
     "dolci": "Dolci",
     "frutta-secca": "Frutta secca",
     "frutta": "Frutta",
-    "bevande": "Bevande"
+    "bevande": "Bevande",
+    "integratori": "Integratori"
   },
   "recipe": {
     "back": "Tutte le ricette",
@@ -213,7 +214,20 @@
     "primi": "Primi",
     "contorni": "Contorni",
     "finger-food": "Finger food",
-    "svuota-frigo": "Svuota frigo"
+    "svuota-frigo": "Svuota frigo",
+    "pollo": "Pollo",
+    "manzo": "Manzo",
+    "carne": "Carne",
+    "forno": "Forno",
+    "riso": "Riso",
+    "pasta": "Pasta",
+    "proteico": "Ad alte proteine",
+    "pranzo": "Pranzo",
+    "cena": "Cena",
+    "colazione": "Colazione",
+    "meal-prep": "Meal prep",
+    "congelabile": "Da congelare",
+    "uova": "Uova"
   },
   "format": {
     "qtyOf": "{qty} {unit} di {name}",

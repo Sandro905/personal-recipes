@@ -1,0 +1,154 @@
+{
+  "slug": "pollo-cacciatora-patate",
+  "added": "2026-08-09",
+  "title": {
+    "it": "Pollo alla cacciatora con patate"
+  },
+  "summary": {
+    "it": "Pomodoro, olive e origano: il pollo si insaporisce mentre cuoce coperto, e le patate vanno in forno da sole. 61 g di proteine con soli 15 g di grassi."
+  },
+  "yield": {
+    "count": 1,
+    "label": {
+      "it": "porzione",
+      "en": "serving"
+    }
+  },
+  "time": {
+    "prep": 15,
+    "cook": 35
+  },
+  "difficulty": "facile",
+  "cost": "economico",
+  "method": "padella",
+  "tags": [
+    "salato",
+    "secondi",
+    "pollo",
+    "carne",
+    "pranzo",
+    "proteico"
+  ],
+  "ingredients": [
+    {
+      "section": null,
+      "items": [
+        {
+          "food": "petto-pollo",
+          "qty": 220,
+          "unit": "g"
+        },
+        {
+          "food": "patate",
+          "qty": 300,
+          "unit": "g"
+        },
+        {
+          "food": "pomodori-pelati",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "food": "olive-nere",
+          "qty": 15,
+          "unit": "g",
+          "label": {
+            "it": "olive denocciolate"
+          }
+        },
+        {
+          "food": "cipolla",
+          "qty": 100,
+          "unit": "g",
+          "label": {
+            "it": "cipolla piccola (1)"
+          }
+        },
+        {
+          "food": "aglio",
+          "qty": 1,
+          "unit": "spicchio"
+        },
+        {
+          "food": "origano",
+          "unit": "qb"
+        },
+        {
+          "food": "alloro",
+          "qty": 1,
+          "unit": "foglia"
+        },
+        {
+          "food": "olio-oliva-evo",
+          "qty": 10,
+          "unit": "g",
+          "label": {
+            "it": "1 cucchiaio (10 g)"
+          }
+        },
+        {
+          "food": "sale",
+          "unit": "qb"
+        },
+        {
+          "food": "pepe-nero",
+          "unit": "qb"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": {
+        "it": "Patate in forno"
+      },
+      "text": {
+        "it": "Taglia {{patate}} a spicchi, condisci con sale e pepe e inforna a 200 °C per 30-35 minuti."
+      },
+      "timer": 2000
+    },
+    {
+      "title": {
+        "it": "Rosolare il pollo"
+      },
+      "text": {
+        "it": "Scalda {{olio-oliva-evo}} e rosola {{petto-pollo}} 3 minuti per lato, giusto per colorirlo. Non deve cuocere fino in fondo adesso."
+      }
+    },
+    {
+      "title": {
+        "it": "Il sugo"
+      },
+      "text": {
+        "it": "Aggiungi {{cipolla}} e {{aglio}} tritati, poi {{pomodori-pelati}}, {{olive-nere}}, {{origano}} e {{alloro}}."
+      }
+    },
+    {
+      "title": {
+        "it": "Cottura coperta"
+      },
+      "text": {
+        "it": "Copri e cuoci a fuoco medio-basso 25-30 minuti. Il pollo finisce di cuocere nel sugo e resta morbido invece di asciugarsi."
+      },
+      "timer": 1800
+    }
+  ],
+  "notes": [
+    {
+      "title": {
+        "it": "Perché coperto"
+      },
+      "text": {
+        "it": "Il petto di pollo è magrissimo e in padella scoperta diventa stopposo in pochi minuti. Nel sugo coperto resta tenero anche dopo mezz'ora."
+      }
+    },
+    {
+      "title": {
+        "it": "Il giorno dopo"
+      },
+      "text": {
+        "it": "È una di quelle cose che migliorano riscaldate. Si conserva 2 giorni in frigo in contenitore ermetico."
+      }
+    }
+  ]
+}

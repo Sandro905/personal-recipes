@@ -1,0 +1,142 @@
+{
+  "slug": "salmone-forno-patate-peperoni",
+  "added": "2026-08-09",
+  "title": {
+    "it": "Salmone al forno con patate e peperoni"
+  },
+  "summary": {
+    "it": "Il piatto più grasso della rotazione, ma sono grassi buoni: omega-3 dal salmone. Le verdure partono prima perché il pesce ci mette molto meno."
+  },
+  "yield": {
+    "count": 1,
+    "label": {
+      "it": "porzione",
+      "en": "serving"
+    }
+  },
+  "time": {
+    "prep": 15,
+    "cook": 33
+  },
+  "difficulty": "facile",
+  "cost": "medio",
+  "method": "forno",
+  "tags": [
+    "salato",
+    "secondi",
+    "pesce",
+    "forno",
+    "pranzo",
+    "proteico"
+  ],
+  "ingredients": [
+    {
+      "section": null,
+      "items": [
+        {
+          "food": "salmone",
+          "qty": 200,
+          "unit": "g",
+          "label": {
+            "it": "filetto di salmone"
+          }
+        },
+        {
+          "food": "patate",
+          "qty": 250,
+          "unit": "g"
+        },
+        {
+          "food": "peperone",
+          "qty": 180,
+          "unit": "g",
+          "label": {
+            "it": "peperone (1)"
+          }
+        },
+        {
+          "food": "aglio",
+          "qty": 2,
+          "unit": "spicchio"
+        },
+        {
+          "food": "rosmarino",
+          "unit": "qb",
+          "label": {
+            "it": "rosmarino o timo"
+          }
+        },
+        {
+          "food": "olio-oliva-evo",
+          "qty": 10,
+          "unit": "g",
+          "label": {
+            "it": "1 cucchiaio (10 g)"
+          }
+        },
+        {
+          "food": "sale",
+          "unit": "qb"
+        },
+        {
+          "food": "pepe-nero",
+          "unit": "qb"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": {
+        "it": "Le verdure"
+      },
+      "text": {
+        "it": "Taglia {{patate}} a fette di mezzo centimetro e {{peperone}} a listarelle. Condisci con {{olio-oliva-evo}}, {{aglio}} e {{rosmarino}}, sale e pepe."
+      }
+    },
+    {
+      "title": {
+        "it": "Primo giro di forno"
+      },
+      "text": {
+        "it": "Forno a 200 °C per 15 minuti: le patate devono essere già quasi cotte prima che entri il pesce."
+      },
+      "timer": 900
+    },
+    {
+      "title": {
+        "it": "Aggiungere il salmone"
+      },
+      "text": {
+        "it": "Appoggia {{salmone}} sulle verdure, condito con un filo d'olio, sale e pepe. Se ha la pelle, mettilo con la pelle sotto."
+      }
+    },
+    {
+      "title": {
+        "it": "Fine cottura"
+      },
+      "text": {
+        "it": "Altri 15-18 minuti. È pronto quando si sfoglia premendo con la forchetta e il centro è appena rosato: se diventa uniformemente opaco è già asciutto."
+      },
+      "timer": 1000
+    }
+  ],
+  "notes": [
+    {
+      "title": {
+        "it": "Non asciugarlo"
+      },
+      "text": {
+        "it": "Il salmone passa da perfetto a secco in due o tre minuti. Meglio toglierlo un attimo prima: continua a cuocere nel piatto."
+      }
+    },
+    {
+      "title": {
+        "it": "I grassi"
+      },
+      "text": {
+        "it": "I 36 g di grassi di questo piatto sono in buona parte omega-3. Se la giornata è già carica di grassi, cala il salmone a 150 g."
+      }
+    }
+  ]
+}

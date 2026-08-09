@@ -2,390 +2,2197 @@
   "meta": {
     "version": 1,
     "note": "Valori per 100 g di prodotto crudo / come acquistato. Aggiungi voci a mano oppure con scripts/import-food.mjs. Controlla sempre l'etichetta dei prodotti che usi davvero.",
-    "fields": { "kcal": "kcal", "protein": "g", "carbs": "g", "fat": "g", "fiber": "g", "sugars": "g", "salt": "g" }
+    "fields": {
+      "kcal": "kcal",
+      "protein": "g",
+      "carbs": "g",
+      "fat": "g",
+      "fiber": "g",
+      "sugars": "g",
+      "salt": "g"
+    }
   },
   "foods": {
     "acqua": {
-      "name": { "it": "acqua", "en": "water" },
+      "name": {
+        "it": "acqua",
+        "en": "water"
+      },
       "category": "base",
-      "per100g": { "kcal": 0, "protein": 0, "carbs": 0, "fat": 0, "fiber": 0, "sugars": 0, "salt": 0 },
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 0,
+        "fiber": 0,
+        "sugars": 0,
+        "salt": 0
+      },
       "density": 1,
-      "source": { "db": "manual" }
+      "source": {
+        "db": "manual"
+      }
     },
-    "farina-0": {
-      "name": { "it": "farina 0", "en": "type-0 wheat flour" },
-      "category": "cereali",
-      "per100g": { "kcal": 340, "protein": 11, "carbs": 71, "fat": 1.2, "fiber": 2.5, "sugars": 1.5, "salt": 0 },
-      "density": 0.55,
-      "source": { "db": "manual" }
-    },
-    "farina-00": {
-      "name": { "it": "farina 00", "en": "type-00 wheat flour" },
-      "category": "cereali",
-      "per100g": { "kcal": 343, "protein": 10.5, "carbs": 73, "fat": 1, "fiber": 2, "sugars": 1.5, "salt": 0 },
-      "density": 0.55,
-      "source": { "db": "manual" }
-    },
-    "semola-rimacinata": {
-      "name": { "it": "semola rimacinata di grano duro", "en": "fine durum semolina" },
-      "category": "cereali",
-      "per100g": { "kcal": 350, "protein": 12, "carbs": 72, "fat": 1.5, "fiber": 3.5, "sugars": 2, "salt": 0 },
-      "density": 0.65,
-      "source": { "db": "manual" }
-    },
-    "pangrattato": {
-      "name": { "it": "pangrattato", "en": "breadcrumbs" },
-      "category": "cereali",
-      "per100g": { "kcal": 350, "protein": 12, "carbs": 68, "fat": 4, "fiber": 4, "sugars": 3, "salt": 1.3 },
-      "density": 0.45,
-      "source": { "db": "manual" }
-    },
-    "pasta-secca": {
-      "name": { "it": "pasta di semola secca", "en": "dried semolina pasta" },
-      "category": "cereali",
-      "per100g": { "kcal": 353, "protein": 12.5, "carbs": 71, "fat": 1.5, "fiber": 3, "sugars": 3, "salt": 0 },
-      "source": { "db": "manual" }
-    },
-    "riso-carnaroli": {
-      "name": { "it": "riso Carnaroli", "en": "Carnaroli rice" },
-      "category": "cereali",
-      "per100g": { "kcal": 355, "protein": 7, "carbs": 78, "fat": 0.6, "fiber": 1, "sugars": 0.2, "salt": 0 },
-      "density": 0.85,
-      "source": { "db": "manual" }
-    },
-    "lievito-istantaneo-salato": {
-      "name": { "it": "lievito istantaneo per preparazioni salate", "en": "instant baking powder (savoury)" },
-      "category": "lievitanti",
-      "per100g": { "kcal": 90, "protein": 0.5, "carbs": 22, "fat": 0, "fiber": 0, "sugars": 0, "salt": 20 },
-      "units": { "bustina": 16 },
-      "source": { "db": "manual", "note": "molto variabile tra marche: controlla la bustina" }
-    },
-    "lievito-istantaneo-dolce": {
-      "name": { "it": "lievito istantaneo per dolci", "en": "instant baking powder (sweet)" },
-      "category": "lievitanti",
-      "per100g": { "kcal": 90, "protein": 0.5, "carbs": 22, "fat": 0, "fiber": 0, "sugars": 0, "salt": 18 },
-      "units": { "bustina": 16 },
-      "source": { "db": "manual" }
-    },
-    "lievito-birra-fresco": {
-      "name": { "it": "lievito di birra fresco", "en": "fresh yeast" },
-      "category": "lievitanti",
-      "per100g": { "kcal": 105, "protein": 12, "carbs": 12, "fat": 0.5, "fiber": 6, "sugars": 0, "salt": 0.1 },
-      "units": { "cubetto": 25 },
-      "source": { "db": "manual" }
-    },
-    "sale": {
-      "name": { "it": "sale fino", "en": "fine salt" },
-      "category": "condimenti",
-      "per100g": { "kcal": 0, "protein": 0, "carbs": 0, "fat": 0, "fiber": 0, "sugars": 0, "salt": 100 },
-      "density": 1.2,
-      "source": { "db": "manual" }
-    },
-    "pepe-nero": {
-      "name": { "it": "pepe nero macinato", "en": "ground black pepper" },
-      "category": "condimenti",
-      "per100g": { "kcal": 251, "protein": 10, "carbs": 64, "fat": 3.3, "fiber": 25, "sugars": 0.6, "salt": 0.05 },
-      "density": 0.5,
-      "source": { "db": "manual" }
-    },
-    "olio-oliva-evo": {
-      "name": { "it": "olio extravergine d'oliva", "en": "extra virgin olive oil" },
-      "category": "grassi",
-      "per100g": { "kcal": 899, "protein": 0, "carbs": 0, "fat": 99.9, "fiber": 0, "sugars": 0, "salt": 0 },
-      "density": 0.91,
-      "source": { "db": "manual" }
-    },
-    "olio-semi": {
-      "name": { "it": "olio di semi", "en": "seed oil" },
-      "category": "grassi",
-      "per100g": { "kcal": 899, "protein": 0, "carbs": 0, "fat": 99.9, "fiber": 0, "sugars": 0, "salt": 0 },
-      "density": 0.92,
-      "source": { "db": "manual" }
-    },
-    "burro": {
-      "name": { "it": "burro", "en": "butter" },
-      "category": "grassi",
-      "per100g": { "kcal": 758, "protein": 0.8, "carbs": 1, "fat": 83, "fiber": 0, "sugars": 1, "salt": 0.02 },
-      "source": { "db": "manual" }
-    },
-    "uova": {
-      "name": { "it": "uova", "en": "eggs" },
-      "category": "uova",
-      "per100g": { "kcal": 143, "protein": 12.6, "carbs": 0.7, "fat": 9.5, "fiber": 0, "sugars": 0.4, "salt": 0.36 },
-      "pieceWeight": 55,
-      "source": { "db": "manual", "note": "peso medio uovo sgusciato" }
-    },
-    "latte-intero": {
-      "name": { "it": "latte intero", "en": "whole milk" },
-      "category": "latticini",
-      "per100g": { "kcal": 64, "protein": 3.3, "carbs": 4.9, "fat": 3.6, "fiber": 0, "sugars": 4.9, "salt": 0.1 },
-      "density": 1.03,
-      "source": { "db": "manual" }
-    },
-    "panna-fresca": {
-      "name": { "it": "panna fresca", "en": "heavy cream" },
-      "category": "latticini",
-      "per100g": { "kcal": 337, "protein": 2.3, "carbs": 3, "fat": 35, "fiber": 0, "sugars": 3, "salt": 0.08 },
+    "brodo-vegetale": {
+      "name": {
+        "it": "brodo vegetale",
+        "en": "vegetable stock"
+      },
+      "category": "bevande",
+      "per100g": {
+        "kcal": 4,
+        "protein": 0.3,
+        "carbs": 0.4,
+        "fat": 0.1,
+        "fiber": 0,
+        "sugars": 0.2,
+        "salt": 0.6
+      },
       "density": 1,
-      "source": { "db": "manual" }
-    },
-    "mozzarella": {
-      "name": { "it": "mozzarella", "en": "mozzarella" },
-      "category": "latticini",
-      "per100g": { "kcal": 253, "protein": 18.7, "carbs": 2, "fat": 19.5, "fiber": 0, "sugars": 1, "salt": 0.6 },
-      "source": { "db": "manual" }
-    },
-    "scamorza": {
-      "name": { "it": "scamorza", "en": "scamorza cheese" },
-      "category": "latticini",
-      "per100g": { "kcal": 334, "protein": 25, "carbs": 2, "fat": 25, "fiber": 0, "sugars": 1, "salt": 1.5 },
-      "source": { "db": "manual" }
-    },
-    "grana-padano": {
-      "name": { "it": "grana padano grattugiato", "en": "grated Grana Padano" },
-      "category": "latticini",
-      "per100g": { "kcal": 392, "protein": 33, "carbs": 0, "fat": 28, "fiber": 0, "sugars": 0, "salt": 1.6 },
-      "density": 0.4,
-      "source": { "db": "manual", "note": "densità del grattugiato" }
-    },
-    "ricotta-vaccina": {
-      "name": { "it": "ricotta di vacca", "en": "cow's milk ricotta" },
-      "category": "latticini",
-      "per100g": { "kcal": 146, "protein": 8.8, "carbs": 3.5, "fat": 10.9, "fiber": 0, "sugars": 3.5, "salt": 0.2 },
-      "source": { "db": "manual" }
-    },
-    "yogurt-greco": {
-      "name": { "it": "yogurt greco", "en": "Greek yoghurt" },
-      "category": "latticini",
-      "per100g": { "kcal": 116, "protein": 6.4, "carbs": 4, "fat": 8, "fiber": 0, "sugars": 4, "salt": 0.1 },
-      "source": { "db": "manual" }
-    },
-    "prosciutto-cotto": {
-      "name": { "it": "prosciutto cotto", "en": "cooked ham" },
-      "category": "salumi",
-      "per100g": { "kcal": 215, "protein": 19, "carbs": 1, "fat": 15, "fiber": 0, "sugars": 1, "salt": 2.2 },
-      "source": { "db": "manual" }
-    },
-    "prosciutto-crudo": {
-      "name": { "it": "prosciutto crudo", "en": "dry-cured ham" },
-      "category": "salumi",
-      "per100g": { "kcal": 268, "protein": 26, "carbs": 0, "fat": 18, "fiber": 0, "sugars": 0, "salt": 5 },
-      "source": { "db": "manual" }
-    },
-    "speck": {
-      "name": { "it": "speck", "en": "speck" },
-      "category": "salumi",
-      "per100g": { "kcal": 270, "protein": 28, "carbs": 0.5, "fat": 17, "fiber": 0, "sugars": 0, "salt": 4.5 },
-      "source": { "db": "manual" }
-    },
-    "salame": {
-      "name": { "it": "salame", "en": "salami" },
-      "category": "salumi",
-      "per100g": { "kcal": 425, "protein": 22, "carbs": 1, "fat": 37, "fiber": 0, "sugars": 0.5, "salt": 4 },
-      "source": { "db": "manual" }
-    },
-    "salsiccia": {
-      "name": { "it": "salsiccia di maiale", "en": "pork sausage" },
-      "category": "carne",
-      "per100g": { "kcal": 304, "protein": 15, "carbs": 1, "fat": 27, "fiber": 0, "sugars": 0.5, "salt": 2 },
-      "source": { "db": "manual" }
-    },
-    "petto-pollo": {
-      "name": { "it": "petto di pollo", "en": "chicken breast" },
-      "category": "carne",
-      "per100g": { "kcal": 110, "protein": 23, "carbs": 0, "fat": 1.6, "fiber": 0, "sugars": 0, "salt": 0.1 },
-      "source": { "db": "manual" }
-    },
-    "macinato-manzo": {
-      "name": { "it": "macinato di manzo", "en": "ground beef" },
-      "category": "carne",
-      "per100g": { "kcal": 180, "protein": 20, "carbs": 0, "fat": 11, "fiber": 0, "sugars": 0, "salt": 0.15 },
-      "source": { "db": "manual" }
-    },
-    "tonno-sottolio": {
-      "name": { "it": "tonno sott'olio sgocciolato", "en": "canned tuna in oil, drained" },
-      "category": "pesce",
-      "per100g": { "kcal": 190, "protein": 25, "carbs": 0, "fat": 10, "fiber": 0, "sugars": 0, "salt": 1.2 },
-      "source": { "db": "manual" }
-    },
-    "tonno-naturale": {
-      "name": { "it": "tonno al naturale sgocciolato", "en": "canned tuna in water, drained" },
-      "category": "pesce",
-      "per100g": { "kcal": 103, "protein": 24, "carbs": 0, "fat": 0.6, "fiber": 0, "sugars": 0, "salt": 1 },
-      "source": { "db": "manual" }
-    },
-    "merluzzo": {
-      "name": { "it": "merluzzo", "en": "cod" },
-      "category": "pesce",
-      "per100g": { "kcal": 82, "protein": 17.8, "carbs": 0, "fat": 0.7, "fiber": 0, "sugars": 0, "salt": 0.2 },
-      "source": { "db": "manual" }
-    },
-    "gamberi": {
-      "name": { "it": "gamberi", "en": "prawns" },
-      "category": "pesce",
-      "per100g": { "kcal": 71, "protein": 13.6, "carbs": 0, "fat": 0.6, "fiber": 0, "sugars": 0, "salt": 0.5 },
-      "source": { "db": "manual" }
-    },
-    "patate": {
-      "name": { "it": "patate", "en": "potatoes" },
-      "category": "verdure",
-      "per100g": { "kcal": 77, "protein": 2, "carbs": 17, "fat": 0.1, "fiber": 2.2, "sugars": 0.8, "salt": 0.01 },
-      "pieceWeight": 150,
-      "source": { "db": "manual" }
-    },
-    "cipolla": {
-      "name": { "it": "cipolla", "en": "onion" },
-      "category": "verdure",
-      "per100g": { "kcal": 40, "protein": 1.1, "carbs": 9, "fat": 0.1, "fiber": 1.7, "sugars": 4.2, "salt": 0.01 },
-      "pieceWeight": 120,
-      "source": { "db": "manual" }
-    },
-    "aglio": {
-      "name": { "it": "aglio", "en": "garlic" },
-      "category": "verdure",
-      "per100g": { "kcal": 149, "protein": 6.4, "carbs": 33, "fat": 0.5, "fiber": 2.1, "sugars": 1, "salt": 0.02 },
-      "units": { "spicchio": 5 },
-      "source": { "db": "manual" }
-    },
-    "carota": {
-      "name": { "it": "carote", "en": "carrots" },
-      "category": "verdure",
-      "per100g": { "kcal": 41, "protein": 0.9, "carbs": 9.6, "fat": 0.2, "fiber": 2.8, "sugars": 4.7, "salt": 0.07 },
-      "pieceWeight": 70,
-      "source": { "db": "manual" }
-    },
-    "sedano": {
-      "name": { "it": "sedano", "en": "celery" },
-      "category": "verdure",
-      "per100g": { "kcal": 16, "protein": 0.7, "carbs": 3, "fat": 0.2, "fiber": 1.6, "sugars": 1.3, "salt": 0.2 },
-      "source": { "db": "manual" }
-    },
-    "zucchine": {
-      "name": { "it": "zucchine", "en": "courgettes" },
-      "category": "verdure",
-      "per100g": { "kcal": 17, "protein": 1.2, "carbs": 3.1, "fat": 0.3, "fiber": 1, "sugars": 2.5, "salt": 0.01 },
-      "pieceWeight": 200,
-      "source": { "db": "manual" }
-    },
-    "melanzane": {
-      "name": { "it": "melanzane", "en": "aubergines" },
-      "category": "verdure",
-      "per100g": { "kcal": 25, "protein": 1, "carbs": 6, "fat": 0.2, "fiber": 3, "sugars": 3.5, "salt": 0.01 },
-      "pieceWeight": 300,
-      "source": { "db": "manual" }
-    },
-    "pomodori-pelati": {
-      "name": { "it": "pomodori pelati", "en": "peeled tomatoes" },
-      "category": "verdure",
-      "per100g": { "kcal": 26, "protein": 1.2, "carbs": 4, "fat": 0.2, "fiber": 1.2, "sugars": 3.5, "salt": 0.1 },
-      "density": 1.02,
-      "source": { "db": "manual" }
-    },
-    "passata-pomodoro": {
-      "name": { "it": "passata di pomodoro", "en": "tomato passata" },
-      "category": "verdure",
-      "per100g": { "kcal": 32, "protein": 1.4, "carbs": 5.5, "fat": 0.2, "fiber": 1.5, "sugars": 4.8, "salt": 0.1 },
-      "density": 1.05,
-      "source": { "db": "manual" }
-    },
-    "olive-nere": {
-      "name": { "it": "olive nere", "en": "black olives" },
-      "category": "verdure",
-      "per100g": { "kcal": 235, "protein": 1.8, "carbs": 1, "fat": 25, "fiber": 4, "sugars": 0.5, "salt": 3 },
-      "source": { "db": "manual" }
-    },
-    "capperi": {
-      "name": { "it": "capperi", "en": "capers" },
-      "category": "condimenti",
-      "per100g": { "kcal": 23, "protein": 2.4, "carbs": 2, "fat": 0.9, "fiber": 3.2, "sugars": 0.4, "salt": 7 },
-      "source": { "db": "manual" }
-    },
-    "prezzemolo": {
-      "name": { "it": "prezzemolo", "en": "parsley" },
-      "category": "erbe",
-      "per100g": { "kcal": 36, "protein": 3, "carbs": 6, "fat": 0.8, "fiber": 3.3, "sugars": 0.9, "salt": 0.06 },
-      "density": 0.25,
-      "source": { "db": "manual", "note": "densità del tritato" }
-    },
-    "basilico": {
-      "name": { "it": "basilico", "en": "basil" },
-      "category": "erbe",
-      "per100g": { "kcal": 23, "protein": 3.1, "carbs": 2.7, "fat": 0.6, "fiber": 1.6, "sugars": 0.3, "salt": 0.01 },
-      "density": 0.2,
-      "source": { "db": "manual" }
-    },
-    "ceci-lessati": {
-      "name": { "it": "ceci lessati", "en": "cooked chickpeas" },
-      "category": "legumi",
-      "per100g": { "kcal": 120, "protein": 7, "carbs": 15, "fat": 2.4, "fiber": 6, "sugars": 0.8, "salt": 0.4 },
-      "source": { "db": "manual" }
-    },
-    "lenticchie-secche": {
-      "name": { "it": "lenticchie secche", "en": "dried lentils" },
-      "category": "legumi",
-      "per100g": { "kcal": 325, "protein": 25, "carbs": 51, "fat": 1, "fiber": 14, "sugars": 2, "salt": 0.02 },
-      "density": 0.85,
-      "source": { "db": "manual" }
-    },
-    "zucchero": {
-      "name": { "it": "zucchero", "en": "sugar" },
-      "category": "dolci",
-      "per100g": { "kcal": 392, "protein": 0, "carbs": 100, "fat": 0, "fiber": 0, "sugars": 100, "salt": 0 },
-      "density": 0.85,
-      "source": { "db": "manual" }
-    },
-    "miele": {
-      "name": { "it": "miele", "en": "honey" },
-      "category": "dolci",
-      "per100g": { "kcal": 304, "protein": 0.3, "carbs": 82, "fat": 0, "fiber": 0, "sugars": 82, "salt": 0.01 },
-      "density": 1.42,
-      "source": { "db": "manual" }
-    },
-    "cacao-amaro": {
-      "name": { "it": "cacao amaro in polvere", "en": "unsweetened cocoa powder" },
-      "category": "dolci",
-      "per100g": { "kcal": 355, "protein": 20, "carbs": 12, "fat": 21, "fiber": 30, "sugars": 1, "salt": 0.05 },
-      "density": 0.5,
-      "source": { "db": "manual" }
-    },
-    "cioccolato-fondente": {
-      "name": { "it": "cioccolato fondente", "en": "dark chocolate" },
-      "category": "dolci",
-      "per100g": { "kcal": 540, "protein": 7, "carbs": 45, "fat": 34, "fiber": 8, "sugars": 38, "salt": 0.02 },
-      "source": { "db": "manual" }
-    },
-    "mandorle": {
-      "name": { "it": "mandorle", "en": "almonds" },
-      "category": "frutta-secca",
-      "per100g": { "kcal": 603, "protein": 22, "carbs": 4.6, "fat": 51, "fiber": 12.7, "sugars": 3.7, "salt": 0.01 },
-      "source": { "db": "manual" }
-    },
-    "noci": {
-      "name": { "it": "noci", "en": "walnuts" },
-      "category": "frutta-secca",
-      "per100g": { "kcal": 654, "protein": 15, "carbs": 7, "fat": 65, "fiber": 6.7, "sugars": 2.6, "salt": 0.01 },
-      "source": { "db": "manual" }
-    },
-    "limone": {
-      "name": { "it": "limone", "en": "lemon" },
-      "category": "frutta",
-      "per100g": { "kcal": 29, "protein": 1.1, "carbs": 9, "fat": 0.3, "fiber": 2.8, "sugars": 2.5, "salt": 0.01 },
-      "pieceWeight": 100,
-      "source": { "db": "manual" }
+      "source": {
+        "db": "manual",
+        "note": "valore medio da tabelle di composizione"
+      }
     },
     "vino-bianco": {
-      "name": { "it": "vino bianco", "en": "white wine" },
+      "name": {
+        "it": "vino bianco",
+        "en": "white wine"
+      },
       "category": "bevande",
-      "per100g": { "kcal": 82, "protein": 0.1, "carbs": 2.6, "fat": 0, "fiber": 0, "sugars": 2.6, "salt": 0.01 },
+      "per100g": {
+        "kcal": 82,
+        "protein": 0.1,
+        "carbs": 2.6,
+        "fat": 0,
+        "fiber": 0,
+        "sugars": 2.6,
+        "salt": 0.01
+      },
       "density": 0.99,
-      "source": { "db": "manual" }
+      "source": {
+        "db": "manual"
+      }
+    },
+    "vino-rosso": {
+      "name": {
+        "it": "vino rosso",
+        "en": "red wine"
+      },
+      "category": "bevande",
+      "per100g": {
+        "kcal": 85,
+        "protein": 0.2,
+        "carbs": 2.6,
+        "fat": 0,
+        "fiber": 0,
+        "sugars": 0.6,
+        "salt": 0.01
+      },
+      "density": 0.99,
+      "source": {
+        "db": "manual",
+        "note": "valore medio da tabelle di composizione"
+      }
+    },
+    "alette-pollo": {
+      "name": {
+        "it": "alette di pollo",
+        "en": "chicken wings"
+      },
+      "category": "carne",
+      "per100g": {
+        "kcal": 186,
+        "protein": 18.3,
+        "carbs": 0,
+        "fat": 12.4,
+        "fiber": 0,
+        "sugars": 0,
+        "salt": 0.1
+      },
+      "source": {
+        "db": "manual",
+        "note": "con pelle, parte edibile: 350 g lordi con osso ≈ 200 g netti"
+      }
+    },
+    "fesa-manzo": {
+      "name": {
+        "it": "fesa di manzo",
+        "en": "beef topside"
+      },
+      "category": "carne",
+      "per100g": {
+        "kcal": 121,
+        "protein": 21.8,
+        "carbs": 0,
+        "fat": 3.6,
+        "fiber": 0,
+        "sugars": 0,
+        "salt": 0.15
+      },
+      "source": {
+        "db": "piano",
+        "note": "valori dalla tabella del piano nutrizionale"
+      }
+    },
+    "fusi-pollo": {
+      "name": {
+        "it": "fusi di pollo",
+        "en": "chicken drumsticks"
+      },
+      "category": "carne",
+      "per100g": {
+        "kcal": 161,
+        "protein": 18,
+        "carbs": 0,
+        "fat": 9.5,
+        "fiber": 0,
+        "sugars": 0,
+        "salt": 0.1
+      },
+      "source": {
+        "db": "manual",
+        "note": "con pelle, parte edibile: 300 g lordi con osso ≈ 190 g netti"
+      }
+    },
+    "macinato-manzo": {
+      "name": {
+        "it": "macinato di manzo",
+        "en": "ground beef"
+      },
+      "category": "carne",
+      "per100g": {
+        "kcal": 180,
+        "protein": 20,
+        "carbs": 0,
+        "fat": 11,
+        "fiber": 0,
+        "sugars": 0,
+        "salt": 0.15
+      },
+      "source": {
+        "db": "manual"
+      }
+    },
+    "macinato-manzo-magro": {
+      "name": {
+        "it": "macinato di manzo magro",
+        "en": "lean ground beef"
+      },
+      "category": "carne",
+      "per100g": {
+        "kcal": 121,
+        "protein": 21.8,
+        "carbs": 0,
+        "fat": 3.6,
+        "fiber": 0,
+        "sugars": 0,
+        "salt": 0.15
+      },
+      "source": {
+        "db": "piano",
+        "note": "valori dalla tabella del piano nutrizionale"
+      }
+    },
+    "manzo-spezzatino": {
+      "name": {
+        "it": "manzo per spezzatino",
+        "en": "beef stewing cuts"
+      },
+      "category": "carne",
+      "per100g": {
+        "kcal": 150,
+        "protein": 20,
+        "carbs": 0,
+        "fat": 7.5,
+        "fiber": 0,
+        "sugars": 0,
+        "salt": 0.15
+      },
+      "source": {
+        "db": "manual",
+        "note": "valore medio da tabelle di composizione"
+      }
+    },
+    "petto-pollo": {
+      "name": {
+        "it": "petto di pollo",
+        "en": "chicken breast"
+      },
+      "category": "carne",
+      "per100g": {
+        "kcal": 110,
+        "protein": 23,
+        "carbs": 0,
+        "fat": 1.6,
+        "fiber": 0,
+        "sugars": 0,
+        "salt": 0.1
+      },
+      "source": {
+        "db": "manual"
+      }
+    },
+    "petto-pollo-cotto": {
+      "name": {
+        "it": "petto di pollo cotto",
+        "en": "cooked chicken breast"
+      },
+      "category": "carne",
+      "per100g": {
+        "kcal": 165,
+        "protein": 31,
+        "carbs": 0,
+        "fat": 3.6,
+        "fiber": 0,
+        "sugars": 0,
+        "salt": 0.1
+      },
+      "source": {
+        "db": "manual",
+        "note": "peso da cotto: 100 g cotti ≈ 140 g crudi"
+      }
+    },
+    "pollo-macinato": {
+      "name": {
+        "it": "pollo macinato",
+        "en": "ground chicken"
+      },
+      "category": "carne",
+      "per100g": {
+        "kcal": 110,
+        "protein": 20.9,
+        "carbs": 0,
+        "fat": 3.3,
+        "fiber": 0,
+        "sugars": 0,
+        "salt": 0.1
+      },
+      "source": {
+        "db": "piano",
+        "note": "valori dalla tabella del piano nutrizionale"
+      }
+    },
+    "salsiccia": {
+      "name": {
+        "it": "salsiccia di maiale",
+        "en": "pork sausage"
+      },
+      "category": "carne",
+      "per100g": {
+        "kcal": 304,
+        "protein": 15,
+        "carbs": 1,
+        "fat": 27,
+        "fiber": 0,
+        "sugars": 0.5,
+        "salt": 2
+      },
+      "source": {
+        "db": "manual"
+      }
+    },
+    "avena": {
+      "name": {
+        "it": "fiocchi d'avena",
+        "en": "rolled oats"
+      },
+      "category": "cereali",
+      "per100g": {
+        "kcal": 370,
+        "protein": 13,
+        "carbs": 60,
+        "fat": 7,
+        "fiber": 10,
+        "sugars": 1,
+        "salt": 0
+      },
+      "density": 0.4,
+      "source": {
+        "db": "manual",
+        "note": "valore medio da tabelle di composizione"
+      }
+    },
+    "farina-0": {
+      "name": {
+        "it": "farina 0",
+        "en": "type-0 wheat flour"
+      },
+      "category": "cereali",
+      "per100g": {
+        "kcal": 340,
+        "protein": 11,
+        "carbs": 71,
+        "fat": 1.2,
+        "fiber": 2.5,
+        "sugars": 1.5,
+        "salt": 0
+      },
+      "density": 0.55,
+      "source": {
+        "db": "manual"
+      }
+    },
+    "farina-00": {
+      "name": {
+        "it": "farina 00",
+        "en": "type-00 wheat flour"
+      },
+      "category": "cereali",
+      "per100g": {
+        "kcal": 343,
+        "protein": 10.5,
+        "carbs": 73,
+        "fat": 1,
+        "fiber": 2,
+        "sugars": 1.5,
+        "salt": 0
+      },
+      "density": 0.55,
+      "source": {
+        "db": "manual"
+      }
+    },
+    "pane-bianco": {
+      "name": {
+        "it": "pane bianco",
+        "en": "white bread"
+      },
+      "category": "cereali",
+      "per100g": {
+        "kcal": 270,
+        "protein": 9,
+        "carbs": 54,
+        "fat": 2,
+        "fiber": 2.5,
+        "sugars": 2,
+        "salt": 1.2
+      },
+      "pieceWeight": 35,
+      "source": {
+        "db": "piano",
+        "note": "valori dalla tabella del piano nutrizionale"
+      }
+    },
+    "pane-integrale": {
+      "name": {
+        "it": "pane integrale",
+        "en": "wholemeal bread"
+      },
+      "category": "cereali",
+      "per100g": {
+        "kcal": 224,
+        "protein": 8.5,
+        "carbs": 42,
+        "fat": 2,
+        "fiber": 6,
+        "sugars": 2,
+        "salt": 1.2
+      },
+      "pieceWeight": 35,
+      "source": {
+        "db": "piano",
+        "note": "valori dalla tabella del piano nutrizionale"
+      }
+    },
+    "pangrattato": {
+      "name": {
+        "it": "pangrattato",
+        "en": "breadcrumbs"
+      },
+      "category": "cereali",
+      "per100g": {
+        "kcal": 350,
+        "protein": 12,
+        "carbs": 68,
+        "fat": 4,
+        "fiber": 4,
+        "sugars": 3,
+        "salt": 1.3
+      },
+      "density": 0.45,
+      "source": {
+        "db": "manual"
+      }
+    },
+    "pasta-fresca": {
+      "name": {
+        "it": "pasta fresca",
+        "en": "fresh pasta"
+      },
+      "category": "cereali",
+      "per100g": {
+        "kcal": 289,
+        "protein": 10,
+        "carbs": 60,
+        "fat": 1,
+        "fiber": 2,
+        "sugars": 2,
+        "salt": 0.5
+      },
+      "source": {
+        "db": "piano",
+        "note": "valori dalla tabella del piano nutrizionale"
+      }
+    },
+    "pasta-secca": {
+      "name": {
+        "it": "pasta di semola secca",
+        "en": "dried semolina pasta"
+      },
+      "category": "cereali",
+      "per100g": {
+        "kcal": 353,
+        "protein": 12.5,
+        "carbs": 71,
+        "fat": 1.5,
+        "fiber": 3,
+        "sugars": 3,
+        "salt": 0
+      },
+      "source": {
+        "db": "manual"
+      }
+    },
+    "riso-bianco": {
+      "name": {
+        "it": "riso bianco",
+        "en": "white rice"
+      },
+      "category": "cereali",
+      "per100g": {
+        "kcal": 332,
+        "protein": 6.7,
+        "carbs": 80.4,
+        "fat": 0.4,
+        "fiber": 1,
+        "sugars": 0.2,
+        "salt": 0
+      },
+      "density": 0.85,
+      "source": {
+        "db": "piano",
+        "note": "valori dalla tabella del piano nutrizionale"
+      }
+    },
+    "riso-carnaroli": {
+      "name": {
+        "it": "riso Carnaroli",
+        "en": "Carnaroli rice"
+      },
+      "category": "cereali",
+      "per100g": {
+        "kcal": 355,
+        "protein": 7,
+        "carbs": 78,
+        "fat": 0.6,
+        "fiber": 1,
+        "sugars": 0.2,
+        "salt": 0
+      },
+      "density": 0.85,
+      "source": {
+        "db": "manual"
+      }
+    },
+    "riso-precotto": {
+      "name": {
+        "it": "riso precotto in busta",
+        "en": "pre-cooked pouch rice"
+      },
+      "category": "cereali",
+      "per100g": {
+        "kcal": 150,
+        "protein": 3,
+        "carbs": 32,
+        "fat": 0.5,
+        "fiber": 1,
+        "sugars": 0.2,
+        "salt": 0.3
+      },
+      "source": {
+        "db": "manual",
+        "note": "valore medio da tabelle di composizione"
+      }
+    },
+    "semola-rimacinata": {
+      "name": {
+        "it": "semola rimacinata di grano duro",
+        "en": "fine durum semolina"
+      },
+      "category": "cereali",
+      "per100g": {
+        "kcal": 350,
+        "protein": 12,
+        "carbs": 72,
+        "fat": 1.5,
+        "fiber": 3.5,
+        "sugars": 2,
+        "salt": 0
+      },
+      "density": 0.65,
+      "source": {
+        "db": "manual"
+      }
+    },
+    "sfoglie-lasagna": {
+      "name": {
+        "it": "sfoglie per lasagna",
+        "en": "lasagne sheets"
+      },
+      "category": "cereali",
+      "per100g": {
+        "kcal": 350,
+        "protein": 12,
+        "carbs": 70,
+        "fat": 2,
+        "fiber": 3,
+        "sugars": 3,
+        "salt": 0.1
+      },
+      "source": {
+        "db": "manual",
+        "note": "valore medio da tabelle di composizione"
+      }
+    },
+    "tortilla": {
+      "name": {
+        "it": "tortilla di frumento",
+        "en": "wheat tortilla"
+      },
+      "category": "cereali",
+      "per100g": {
+        "kcal": 307,
+        "protein": 7.2,
+        "carbs": 48.3,
+        "fat": 8.8,
+        "fiber": 2.5,
+        "sugars": 2,
+        "salt": 1.1
+      },
+      "pieceWeight": 60,
+      "source": {
+        "db": "piano",
+        "note": "ricavato da 1 tortilla da 60 g = 184 kcal"
+      }
     },
     "aceto-balsamico": {
-      "name": { "it": "aceto balsamico", "en": "balsamic vinegar" },
+      "name": {
+        "it": "aceto balsamico",
+        "en": "balsamic vinegar"
+      },
       "category": "condimenti",
-      "per100g": { "kcal": 88, "protein": 0.5, "carbs": 17, "fat": 0, "fiber": 0, "sugars": 15, "salt": 0.05 },
+      "per100g": {
+        "kcal": 88,
+        "protein": 0.5,
+        "carbs": 17,
+        "fat": 0,
+        "fiber": 0,
+        "sugars": 15,
+        "salt": 0.05
+      },
       "density": 1.1,
-      "source": { "db": "manual" }
+      "source": {
+        "db": "manual"
+      }
+    },
+    "aglio-polvere": {
+      "name": {
+        "it": "aglio in polvere",
+        "en": "garlic powder"
+      },
+      "category": "condimenti",
+      "per100g": {
+        "kcal": 331,
+        "protein": 16.6,
+        "carbs": 72.7,
+        "fat": 0.7,
+        "fiber": 9,
+        "sugars": 2.4,
+        "salt": 0.06
+      },
+      "density": 0.45,
+      "source": {
+        "db": "manual",
+        "note": "valore medio da tabelle di composizione"
+      }
+    },
+    "capperi": {
+      "name": {
+        "it": "capperi",
+        "en": "capers"
+      },
+      "category": "condimenti",
+      "per100g": {
+        "kcal": 23,
+        "protein": 2.4,
+        "carbs": 2,
+        "fat": 0.9,
+        "fiber": 3.2,
+        "sugars": 0.4,
+        "salt": 7
+      },
+      "source": {
+        "db": "manual"
+      }
+    },
+    "cumino": {
+      "name": {
+        "it": "cumino",
+        "en": "cumin"
+      },
+      "category": "condimenti",
+      "per100g": {
+        "kcal": 375,
+        "protein": 17.8,
+        "carbs": 44,
+        "fat": 22,
+        "fiber": 10.5,
+        "sugars": 2.2,
+        "salt": 0.4
+      },
+      "density": 0.45,
+      "source": {
+        "db": "manual",
+        "note": "valore medio da tabelle di composizione"
+      }
+    },
+    "paprika-affumicata": {
+      "name": {
+        "it": "paprika affumicata",
+        "en": "smoked paprika"
+      },
+      "category": "condimenti",
+      "per100g": {
+        "kcal": 282,
+        "protein": 14.1,
+        "carbs": 54,
+        "fat": 13,
+        "fiber": 35,
+        "sugars": 10,
+        "salt": 0.07
+      },
+      "density": 0.45,
+      "source": {
+        "db": "manual",
+        "note": "valore medio da tabelle di composizione"
+      }
+    },
+    "paprika-dolce": {
+      "name": {
+        "it": "paprika dolce",
+        "en": "sweet paprika"
+      },
+      "category": "condimenti",
+      "per100g": {
+        "kcal": 282,
+        "protein": 14.1,
+        "carbs": 54,
+        "fat": 13,
+        "fiber": 35,
+        "sugars": 10,
+        "salt": 0.07
+      },
+      "density": 0.45,
+      "source": {
+        "db": "manual",
+        "note": "valore medio da tabelle di composizione"
+      }
+    },
+    "pepe-nero": {
+      "name": {
+        "it": "pepe nero macinato",
+        "en": "ground black pepper"
+      },
+      "category": "condimenti",
+      "per100g": {
+        "kcal": 251,
+        "protein": 10,
+        "carbs": 64,
+        "fat": 3.3,
+        "fiber": 25,
+        "sugars": 0.6,
+        "salt": 0.05
+      },
+      "density": 0.5,
+      "source": {
+        "db": "manual"
+      }
+    },
+    "peperoncino": {
+      "name": {
+        "it": "peperoncino",
+        "en": "chilli"
+      },
+      "category": "condimenti",
+      "per100g": {
+        "kcal": 40,
+        "protein": 1.9,
+        "carbs": 8.8,
+        "fat": 0.4,
+        "fiber": 1.5,
+        "sugars": 5,
+        "salt": 0.02
+      },
+      "source": {
+        "db": "manual",
+        "note": "valore medio da tabelle di composizione"
+      }
+    },
+    "sale": {
+      "name": {
+        "it": "sale fino",
+        "en": "fine salt"
+      },
+      "category": "condimenti",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 0,
+        "fiber": 0,
+        "sugars": 0,
+        "salt": 100
+      },
+      "density": 1.2,
+      "source": {
+        "db": "manual"
+      }
+    },
+    "salsa-bbq-zero": {
+      "name": {
+        "it": "salsa BBQ zero",
+        "en": "zero-calorie BBQ sauce"
+      },
+      "category": "condimenti",
+      "per100g": {
+        "kcal": 12,
+        "protein": 0.5,
+        "carbs": 2,
+        "fat": 0,
+        "fiber": 0.5,
+        "sugars": 1.5,
+        "salt": 2
+      },
+      "density": 1.1,
+      "source": {
+        "db": "manual",
+        "note": "valore medio da tabelle di composizione"
+      }
+    },
+    "salsa-zero": {
+      "name": {
+        "it": "salsa zero calorie",
+        "en": "zero-calorie sauce"
+      },
+      "category": "condimenti",
+      "per100g": {
+        "kcal": 12,
+        "protein": 0.5,
+        "carbs": 2,
+        "fat": 0,
+        "fiber": 0.5,
+        "sugars": 1.5,
+        "salt": 2
+      },
+      "density": 1.1,
+      "source": {
+        "db": "manual",
+        "note": "valore medio da tabelle di composizione"
+      }
+    },
+    "cacao-amaro": {
+      "name": {
+        "it": "cacao amaro in polvere",
+        "en": "unsweetened cocoa powder"
+      },
+      "category": "dolci",
+      "per100g": {
+        "kcal": 355,
+        "protein": 20,
+        "carbs": 12,
+        "fat": 21,
+        "fiber": 30,
+        "sugars": 1,
+        "salt": 0.05
+      },
+      "density": 0.5,
+      "source": {
+        "db": "manual"
+      }
+    },
+    "cioccolato-fondente": {
+      "name": {
+        "it": "cioccolato fondente",
+        "en": "dark chocolate"
+      },
+      "category": "dolci",
+      "per100g": {
+        "kcal": 540,
+        "protein": 7,
+        "carbs": 45,
+        "fat": 34,
+        "fiber": 8,
+        "sugars": 38,
+        "salt": 0.02
+      },
+      "source": {
+        "db": "manual"
+      }
+    },
+    "miele": {
+      "name": {
+        "it": "miele",
+        "en": "honey"
+      },
+      "category": "dolci",
+      "per100g": {
+        "kcal": 304,
+        "protein": 0.3,
+        "carbs": 82,
+        "fat": 0,
+        "fiber": 0,
+        "sugars": 82,
+        "salt": 0.01
+      },
+      "density": 1.42,
+      "source": {
+        "db": "manual"
+      }
+    },
+    "zucchero": {
+      "name": {
+        "it": "zucchero",
+        "en": "sugar"
+      },
+      "category": "dolci",
+      "per100g": {
+        "kcal": 392,
+        "protein": 0,
+        "carbs": 100,
+        "fat": 0,
+        "fiber": 0,
+        "sugars": 100,
+        "salt": 0
+      },
+      "density": 0.85,
+      "source": {
+        "db": "manual"
+      }
+    },
+    "alloro": {
+      "name": {
+        "it": "alloro",
+        "en": "bay leaf"
+      },
+      "category": "erbe",
+      "per100g": {
+        "kcal": 313,
+        "protein": 7.6,
+        "carbs": 75,
+        "fat": 8.4,
+        "fiber": 26,
+        "sugars": 0,
+        "salt": 0.06
+      },
+      "units": {
+        "foglia": 0.2
+      },
+      "source": {
+        "db": "manual",
+        "note": "valore medio da tabelle di composizione"
+      }
+    },
+    "basilico": {
+      "name": {
+        "it": "basilico",
+        "en": "basil"
+      },
+      "category": "erbe",
+      "per100g": {
+        "kcal": 23,
+        "protein": 3.1,
+        "carbs": 2.7,
+        "fat": 0.6,
+        "fiber": 1.6,
+        "sugars": 0.3,
+        "salt": 0.01
+      },
+      "density": 0.2,
+      "source": {
+        "db": "manual"
+      }
+    },
+    "erba-cipollina": {
+      "name": {
+        "it": "erba cipollina",
+        "en": "chives"
+      },
+      "category": "erbe",
+      "per100g": {
+        "kcal": 30,
+        "protein": 3.3,
+        "carbs": 4.4,
+        "fat": 0.7,
+        "fiber": 2.5,
+        "sugars": 1.9,
+        "salt": 0.01
+      },
+      "density": 0.25,
+      "source": {
+        "db": "manual",
+        "note": "valore medio da tabelle di composizione"
+      }
+    },
+    "origano": {
+      "name": {
+        "it": "origano",
+        "en": "oregano"
+      },
+      "category": "erbe",
+      "per100g": {
+        "kcal": 265,
+        "protein": 9,
+        "carbs": 68,
+        "fat": 4.3,
+        "fiber": 42,
+        "sugars": 4,
+        "salt": 0.06
+      },
+      "density": 0.25,
+      "source": {
+        "db": "manual",
+        "note": "valore medio da tabelle di composizione"
+      }
+    },
+    "prezzemolo": {
+      "name": {
+        "it": "prezzemolo",
+        "en": "parsley"
+      },
+      "category": "erbe",
+      "per100g": {
+        "kcal": 36,
+        "protein": 3,
+        "carbs": 6,
+        "fat": 0.8,
+        "fiber": 3.3,
+        "sugars": 0.9,
+        "salt": 0.06
+      },
+      "density": 0.25,
+      "source": {
+        "db": "manual",
+        "note": "densità del tritato"
+      }
+    },
+    "rosmarino": {
+      "name": {
+        "it": "rosmarino",
+        "en": "rosemary"
+      },
+      "category": "erbe",
+      "per100g": {
+        "kcal": 131,
+        "protein": 3.3,
+        "carbs": 20.7,
+        "fat": 5.9,
+        "fiber": 14,
+        "sugars": 0,
+        "salt": 0.07
+      },
+      "source": {
+        "db": "manual",
+        "note": "valore medio da tabelle di composizione"
+      }
+    },
+    "timo": {
+      "name": {
+        "it": "timo",
+        "en": "thyme"
+      },
+      "category": "erbe",
+      "per100g": {
+        "kcal": 101,
+        "protein": 5.6,
+        "carbs": 24.5,
+        "fat": 1.7,
+        "fiber": 14,
+        "sugars": 0,
+        "salt": 0.02
+      },
+      "source": {
+        "db": "manual",
+        "note": "valore medio da tabelle di composizione"
+      }
+    },
+    "avocado": {
+      "name": {
+        "it": "avocado",
+        "en": "avocado"
+      },
+      "category": "frutta",
+      "per100g": {
+        "kcal": 160,
+        "protein": 2,
+        "carbs": 8.5,
+        "fat": 15,
+        "fiber": 6.7,
+        "sugars": 0.7,
+        "salt": 0.01
+      },
+      "pieceWeight": 200,
+      "source": {
+        "db": "piano",
+        "note": "valori dalla tabella del piano nutrizionale"
+      }
+    },
+    "banana": {
+      "name": {
+        "it": "banana",
+        "en": "banana"
+      },
+      "category": "frutta",
+      "per100g": {
+        "kcal": 89,
+        "protein": 1.1,
+        "carbs": 23,
+        "fat": 0.3,
+        "fiber": 2.6,
+        "sugars": 12,
+        "salt": 0.01
+      },
+      "pieceWeight": 120,
+      "source": {
+        "db": "manual",
+        "note": "valore medio da tabelle di composizione"
+      }
+    },
+    "limone": {
+      "name": {
+        "it": "limone",
+        "en": "lemon"
+      },
+      "category": "frutta",
+      "per100g": {
+        "kcal": 29,
+        "protein": 1.1,
+        "carbs": 9,
+        "fat": 0.3,
+        "fiber": 2.8,
+        "sugars": 2.5,
+        "salt": 0.01
+      },
+      "pieceWeight": 100,
+      "source": {
+        "db": "manual"
+      }
+    },
+    "mela": {
+      "name": {
+        "it": "mela",
+        "en": "apple"
+      },
+      "category": "frutta",
+      "per100g": {
+        "kcal": 52,
+        "protein": 0.3,
+        "carbs": 14,
+        "fat": 0.2,
+        "fiber": 2.4,
+        "sugars": 10,
+        "salt": 0.01
+      },
+      "pieceWeight": 150,
+      "source": {
+        "db": "manual",
+        "note": "valore medio da tabelle di composizione"
+      }
+    },
+    "mandorle": {
+      "name": {
+        "it": "mandorle",
+        "en": "almonds"
+      },
+      "category": "frutta-secca",
+      "per100g": {
+        "kcal": 603,
+        "protein": 22,
+        "carbs": 4.6,
+        "fat": 51,
+        "fiber": 12.7,
+        "sugars": 3.7,
+        "salt": 0.01
+      },
+      "source": {
+        "db": "manual"
+      }
+    },
+    "noci": {
+      "name": {
+        "it": "noci",
+        "en": "walnuts"
+      },
+      "category": "frutta-secca",
+      "per100g": {
+        "kcal": 654,
+        "protein": 15,
+        "carbs": 7,
+        "fat": 65,
+        "fiber": 6.7,
+        "sugars": 2.6,
+        "salt": 0.01
+      },
+      "source": {
+        "db": "manual"
+      }
+    },
+    "burro": {
+      "name": {
+        "it": "burro",
+        "en": "butter"
+      },
+      "category": "grassi",
+      "per100g": {
+        "kcal": 758,
+        "protein": 0.8,
+        "carbs": 1,
+        "fat": 83,
+        "fiber": 0,
+        "sugars": 1,
+        "salt": 0.02
+      },
+      "source": {
+        "db": "manual"
+      }
+    },
+    "olio-oliva-evo": {
+      "name": {
+        "it": "olio extravergine d'oliva",
+        "en": "extra virgin olive oil"
+      },
+      "category": "grassi",
+      "per100g": {
+        "kcal": 899,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 99.9,
+        "fiber": 0,
+        "sugars": 0,
+        "salt": 0
+      },
+      "density": 0.91,
+      "source": {
+        "db": "manual"
+      }
+    },
+    "olio-semi": {
+      "name": {
+        "it": "olio di semi",
+        "en": "seed oil"
+      },
+      "category": "grassi",
+      "per100g": {
+        "kcal": 899,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 99.9,
+        "fiber": 0,
+        "sugars": 0,
+        "salt": 0
+      },
+      "density": 0.92,
+      "source": {
+        "db": "manual"
+      }
+    },
+    "barretta-proteica": {
+      "name": {
+        "it": "barretta proteica",
+        "en": "protein bar"
+      },
+      "category": "integratori",
+      "per100g": {
+        "kcal": 334,
+        "protein": 26.6,
+        "carbs": 32.6,
+        "fat": 12,
+        "fiber": 5,
+        "sugars": 5,
+        "salt": 0.5
+      },
+      "pieceWeight": 35,
+      "source": {
+        "db": "piano",
+        "note": "ricavato da 1 barretta = 117 kcal · 9,3 g pro"
+      }
+    },
+    "creatina": {
+      "name": {
+        "it": "creatina monoidrato",
+        "en": "creatine monohydrate"
+      },
+      "category": "integratori",
+      "per100g": {
+        "kcal": 0,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 0,
+        "fiber": 0,
+        "sugars": 0,
+        "salt": 0
+      },
+      "density": 0.6,
+      "source": {
+        "db": "manual",
+        "note": "apporto calorico trascurabile"
+      }
+    },
+    "whey": {
+      "name": {
+        "it": "proteine whey in polvere",
+        "en": "whey protein powder"
+      },
+      "category": "integratori",
+      "per100g": {
+        "kcal": 377,
+        "protein": 73.3,
+        "carbs": 8.7,
+        "fat": 6.7,
+        "fiber": 0,
+        "sugars": 5,
+        "salt": 0.5
+      },
+      "density": 0.4,
+      "units": {
+        "scoop": 30
+      },
+      "source": {
+        "db": "piano",
+        "note": "ricavato da 1 scoop da 30 g = 113 kcal"
+      }
+    },
+    "grana-padano": {
+      "name": {
+        "it": "grana padano grattugiato",
+        "en": "grated Grana Padano"
+      },
+      "category": "latticini",
+      "per100g": {
+        "kcal": 392,
+        "protein": 33,
+        "carbs": 0,
+        "fat": 28,
+        "fiber": 0,
+        "sugars": 0,
+        "salt": 1.6
+      },
+      "density": 0.4,
+      "source": {
+        "db": "manual",
+        "note": "densità del grattugiato"
+      }
+    },
+    "latte-intero": {
+      "name": {
+        "it": "latte intero",
+        "en": "whole milk"
+      },
+      "category": "latticini",
+      "per100g": {
+        "kcal": 64,
+        "protein": 3.3,
+        "carbs": 4.9,
+        "fat": 3.6,
+        "fiber": 0,
+        "sugars": 4.9,
+        "salt": 0.1
+      },
+      "density": 1.03,
+      "source": {
+        "db": "manual"
+      }
+    },
+    "latte-parz-scremato": {
+      "name": {
+        "it": "latte parzialmente scremato",
+        "en": "semi-skimmed milk"
+      },
+      "category": "latticini",
+      "per100g": {
+        "kcal": 46,
+        "protein": 3.3,
+        "carbs": 5,
+        "fat": 1.6,
+        "fiber": 0,
+        "sugars": 5,
+        "salt": 0.1
+      },
+      "density": 1.03,
+      "source": {
+        "db": "manual",
+        "note": "valore medio da tabelle di composizione"
+      }
+    },
+    "mozzarella": {
+      "name": {
+        "it": "mozzarella",
+        "en": "mozzarella"
+      },
+      "category": "latticini",
+      "per100g": {
+        "kcal": 253,
+        "protein": 18.7,
+        "carbs": 2,
+        "fat": 19.5,
+        "fiber": 0,
+        "sugars": 1,
+        "salt": 0.6
+      },
+      "source": {
+        "db": "manual"
+      }
+    },
+    "panna-fresca": {
+      "name": {
+        "it": "panna fresca",
+        "en": "heavy cream"
+      },
+      "category": "latticini",
+      "per100g": {
+        "kcal": 337,
+        "protein": 2.3,
+        "carbs": 3,
+        "fat": 35,
+        "fiber": 0,
+        "sugars": 3,
+        "salt": 0.08
+      },
+      "density": 1,
+      "source": {
+        "db": "manual"
+      }
+    },
+    "philadelphia-light": {
+      "name": {
+        "it": "formaggio spalmabile light",
+        "en": "light cream cheese"
+      },
+      "category": "latticini",
+      "per100g": {
+        "kcal": 150,
+        "protein": 9,
+        "carbs": 4,
+        "fat": 10.5,
+        "fiber": 0,
+        "sugars": 4,
+        "salt": 0.8
+      },
+      "source": {
+        "db": "piano",
+        "note": "valori dalla tabella del piano nutrizionale"
+      }
+    },
+    "ricotta-vaccina": {
+      "name": {
+        "it": "ricotta di vacca",
+        "en": "cow's milk ricotta"
+      },
+      "category": "latticini",
+      "per100g": {
+        "kcal": 146,
+        "protein": 8.8,
+        "carbs": 3.5,
+        "fat": 10.9,
+        "fiber": 0,
+        "sugars": 3.5,
+        "salt": 0.2
+      },
+      "source": {
+        "db": "manual"
+      }
+    },
+    "scamorza": {
+      "name": {
+        "it": "scamorza",
+        "en": "scamorza cheese"
+      },
+      "category": "latticini",
+      "per100g": {
+        "kcal": 334,
+        "protein": 25,
+        "carbs": 2,
+        "fat": 25,
+        "fiber": 0,
+        "sugars": 1,
+        "salt": 1.5
+      },
+      "source": {
+        "db": "manual"
+      }
+    },
+    "sottilette-light": {
+      "name": {
+        "it": "sottilette light",
+        "en": "light cheese slices"
+      },
+      "category": "latticini",
+      "per100g": {
+        "kcal": 200,
+        "protein": 20,
+        "carbs": 6,
+        "fat": 11,
+        "fiber": 0,
+        "sugars": 6,
+        "salt": 2.5
+      },
+      "pieceWeight": 20,
+      "source": {
+        "db": "manual",
+        "note": "valore medio da tabelle di composizione"
+      }
+    },
+    "yogurt-greco": {
+      "name": {
+        "it": "yogurt greco",
+        "en": "Greek yoghurt"
+      },
+      "category": "latticini",
+      "per100g": {
+        "kcal": 116,
+        "protein": 6.4,
+        "carbs": 4,
+        "fat": 8,
+        "fiber": 0,
+        "sugars": 4,
+        "salt": 0.1
+      },
+      "source": {
+        "db": "manual"
+      }
+    },
+    "yogurt-greco-0": {
+      "name": {
+        "it": "yogurt greco 0%",
+        "en": "fat-free Greek yoghurt"
+      },
+      "category": "latticini",
+      "per100g": {
+        "kcal": 59,
+        "protein": 10.3,
+        "carbs": 3.6,
+        "fat": 0.4,
+        "fiber": 0,
+        "sugars": 3.6,
+        "salt": 0.1
+      },
+      "source": {
+        "db": "manual",
+        "note": "valore medio da tabelle di composizione"
+      }
+    },
+    "ceci-lessati": {
+      "name": {
+        "it": "ceci lessati",
+        "en": "cooked chickpeas"
+      },
+      "category": "legumi",
+      "per100g": {
+        "kcal": 120,
+        "protein": 7,
+        "carbs": 15,
+        "fat": 2.4,
+        "fiber": 6,
+        "sugars": 0.8,
+        "salt": 0.4
+      },
+      "source": {
+        "db": "manual"
+      }
+    },
+    "lenticchie-secche": {
+      "name": {
+        "it": "lenticchie secche",
+        "en": "dried lentils"
+      },
+      "category": "legumi",
+      "per100g": {
+        "kcal": 325,
+        "protein": 25,
+        "carbs": 51,
+        "fat": 1,
+        "fiber": 14,
+        "sugars": 2,
+        "salt": 0.02
+      },
+      "density": 0.85,
+      "source": {
+        "db": "manual"
+      }
+    },
+    "lievito-birra-fresco": {
+      "name": {
+        "it": "lievito di birra fresco",
+        "en": "fresh yeast"
+      },
+      "category": "lievitanti",
+      "per100g": {
+        "kcal": 105,
+        "protein": 12,
+        "carbs": 12,
+        "fat": 0.5,
+        "fiber": 6,
+        "sugars": 0,
+        "salt": 0.1
+      },
+      "units": {
+        "cubetto": 25
+      },
+      "source": {
+        "db": "manual"
+      }
+    },
+    "lievito-istantaneo-dolce": {
+      "name": {
+        "it": "lievito istantaneo per dolci",
+        "en": "instant baking powder (sweet)"
+      },
+      "category": "lievitanti",
+      "per100g": {
+        "kcal": 90,
+        "protein": 0.5,
+        "carbs": 22,
+        "fat": 0,
+        "fiber": 0,
+        "sugars": 0,
+        "salt": 18
+      },
+      "units": {
+        "bustina": 16
+      },
+      "source": {
+        "db": "manual"
+      }
+    },
+    "lievito-istantaneo-salato": {
+      "name": {
+        "it": "lievito istantaneo per preparazioni salate",
+        "en": "instant baking powder (savoury)"
+      },
+      "category": "lievitanti",
+      "per100g": {
+        "kcal": 90,
+        "protein": 0.5,
+        "carbs": 22,
+        "fat": 0,
+        "fiber": 0,
+        "sugars": 0,
+        "salt": 20
+      },
+      "units": {
+        "bustina": 16
+      },
+      "source": {
+        "db": "manual",
+        "note": "molto variabile tra marche: controlla la bustina"
+      }
+    },
+    "gamberi": {
+      "name": {
+        "it": "gamberi",
+        "en": "prawns"
+      },
+      "category": "pesce",
+      "per100g": {
+        "kcal": 71,
+        "protein": 13.6,
+        "carbs": 0,
+        "fat": 0.6,
+        "fiber": 0,
+        "sugars": 0,
+        "salt": 0.5
+      },
+      "source": {
+        "db": "manual"
+      }
+    },
+    "merluzzo": {
+      "name": {
+        "it": "merluzzo",
+        "en": "cod"
+      },
+      "category": "pesce",
+      "per100g": {
+        "kcal": 82,
+        "protein": 17.8,
+        "carbs": 0,
+        "fat": 0.7,
+        "fiber": 0,
+        "sugars": 0,
+        "salt": 0.2
+      },
+      "source": {
+        "db": "manual"
+      }
+    },
+    "pesce-spada": {
+      "name": {
+        "it": "pesce spada",
+        "en": "swordfish"
+      },
+      "category": "pesce",
+      "per100g": {
+        "kcal": 109,
+        "protein": 22.1,
+        "carbs": 0,
+        "fat": 2.4,
+        "fiber": 0,
+        "sugars": 0,
+        "salt": 0.2
+      },
+      "source": {
+        "db": "piano",
+        "note": "valori dalla tabella del piano nutrizionale"
+      }
+    },
+    "salmone": {
+      "name": {
+        "it": "salmone fresco",
+        "en": "fresh salmon"
+      },
+      "category": "pesce",
+      "per100g": {
+        "kcal": 185,
+        "protein": 18.4,
+        "carbs": 0,
+        "fat": 12.4,
+        "fiber": 0,
+        "sugars": 0,
+        "salt": 0.1
+      },
+      "source": {
+        "db": "piano",
+        "note": "valori dalla tabella del piano nutrizionale"
+      }
+    },
+    "salmone-affumicato": {
+      "name": {
+        "it": "salmone affumicato",
+        "en": "smoked salmon"
+      },
+      "category": "pesce",
+      "per100g": {
+        "kcal": 162,
+        "protein": 25.4,
+        "carbs": 0,
+        "fat": 6.6,
+        "fiber": 0,
+        "sugars": 0,
+        "salt": 3
+      },
+      "source": {
+        "db": "piano",
+        "note": "valori dalla tabella del piano nutrizionale"
+      }
+    },
+    "tonno-naturale": {
+      "name": {
+        "it": "tonno al naturale sgocciolato",
+        "en": "canned tuna in water, drained"
+      },
+      "category": "pesce",
+      "per100g": {
+        "kcal": 103,
+        "protein": 24,
+        "carbs": 0,
+        "fat": 0.6,
+        "fiber": 0,
+        "sugars": 0,
+        "salt": 1
+      },
+      "source": {
+        "db": "manual"
+      }
+    },
+    "tonno-sottolio": {
+      "name": {
+        "it": "tonno sott'olio sgocciolato",
+        "en": "canned tuna in oil, drained"
+      },
+      "category": "pesce",
+      "per100g": {
+        "kcal": 190,
+        "protein": 25,
+        "carbs": 0,
+        "fat": 10,
+        "fiber": 0,
+        "sugars": 0,
+        "salt": 1.2
+      },
+      "source": {
+        "db": "manual"
+      }
+    },
+    "pancetta": {
+      "name": {
+        "it": "pancetta",
+        "en": "pancetta"
+      },
+      "category": "salumi",
+      "per100g": {
+        "kcal": 337,
+        "protein": 15,
+        "carbs": 0,
+        "fat": 31,
+        "fiber": 0,
+        "sugars": 0,
+        "salt": 2.4
+      },
+      "source": {
+        "db": "manual",
+        "note": "valore medio da tabelle di composizione"
+      }
+    },
+    "prosciutto-cotto": {
+      "name": {
+        "it": "prosciutto cotto",
+        "en": "cooked ham"
+      },
+      "category": "salumi",
+      "per100g": {
+        "kcal": 215,
+        "protein": 19,
+        "carbs": 1,
+        "fat": 15,
+        "fiber": 0,
+        "sugars": 1,
+        "salt": 2.2
+      },
+      "source": {
+        "db": "manual"
+      }
+    },
+    "prosciutto-crudo": {
+      "name": {
+        "it": "prosciutto crudo",
+        "en": "dry-cured ham"
+      },
+      "category": "salumi",
+      "per100g": {
+        "kcal": 268,
+        "protein": 26,
+        "carbs": 0,
+        "fat": 18,
+        "fiber": 0,
+        "sugars": 0,
+        "salt": 5
+      },
+      "source": {
+        "db": "manual"
+      }
+    },
+    "salame": {
+      "name": {
+        "it": "salame",
+        "en": "salami"
+      },
+      "category": "salumi",
+      "per100g": {
+        "kcal": 425,
+        "protein": 22,
+        "carbs": 1,
+        "fat": 37,
+        "fiber": 0,
+        "sugars": 0.5,
+        "salt": 4
+      },
+      "source": {
+        "db": "manual"
+      }
+    },
+    "speck": {
+      "name": {
+        "it": "speck",
+        "en": "speck"
+      },
+      "category": "salumi",
+      "per100g": {
+        "kcal": 270,
+        "protein": 28,
+        "carbs": 0.5,
+        "fat": 17,
+        "fiber": 0,
+        "sugars": 0,
+        "salt": 4.5
+      },
+      "source": {
+        "db": "manual"
+      }
+    },
+    "albume": {
+      "name": {
+        "it": "albume d'uovo",
+        "en": "egg white"
+      },
+      "category": "uova",
+      "per100g": {
+        "kcal": 43,
+        "protein": 9,
+        "carbs": 0.7,
+        "fat": 0.2,
+        "fiber": 0,
+        "sugars": 0.7,
+        "salt": 0.17
+      },
+      "source": {
+        "db": "piano",
+        "note": "valori dalla tabella del piano nutrizionale"
+      }
+    },
+    "uova": {
+      "name": {
+        "it": "uova",
+        "en": "eggs"
+      },
+      "category": "uova",
+      "per100g": {
+        "kcal": 143,
+        "protein": 12.6,
+        "carbs": 0.7,
+        "fat": 9.5,
+        "fiber": 0,
+        "sugars": 0.4,
+        "salt": 0.36
+      },
+      "pieceWeight": 55,
+      "source": {
+        "db": "manual",
+        "note": "peso medio uovo sgusciato"
+      }
+    },
+    "aglio": {
+      "name": {
+        "it": "aglio",
+        "en": "garlic"
+      },
+      "category": "verdure",
+      "per100g": {
+        "kcal": 149,
+        "protein": 6.4,
+        "carbs": 33,
+        "fat": 0.5,
+        "fiber": 2.1,
+        "sugars": 1,
+        "salt": 0.02
+      },
+      "units": {
+        "spicchio": 5
+      },
+      "source": {
+        "db": "manual"
+      }
+    },
+    "carota": {
+      "name": {
+        "it": "carote",
+        "en": "carrots"
+      },
+      "category": "verdure",
+      "per100g": {
+        "kcal": 41,
+        "protein": 0.9,
+        "carbs": 9.6,
+        "fat": 0.2,
+        "fiber": 2.8,
+        "sugars": 4.7,
+        "salt": 0.07
+      },
+      "pieceWeight": 70,
+      "source": {
+        "db": "manual"
+      }
+    },
+    "cipolla": {
+      "name": {
+        "it": "cipolla",
+        "en": "onion"
+      },
+      "category": "verdure",
+      "per100g": {
+        "kcal": 40,
+        "protein": 1.1,
+        "carbs": 9,
+        "fat": 0.1,
+        "fiber": 1.7,
+        "sugars": 4.2,
+        "salt": 0.01
+      },
+      "pieceWeight": 120,
+      "source": {
+        "db": "manual"
+      }
+    },
+    "concentrato-pomodoro": {
+      "name": {
+        "it": "concentrato di pomodoro",
+        "en": "tomato purée"
+      },
+      "category": "verdure",
+      "per100g": {
+        "kcal": 90,
+        "protein": 4.5,
+        "carbs": 15,
+        "fat": 0.5,
+        "fiber": 3,
+        "sugars": 13,
+        "salt": 0.5
+      },
+      "density": 1.1,
+      "source": {
+        "db": "manual",
+        "note": "valore medio da tabelle di composizione"
+      }
+    },
+    "funghi-champignon": {
+      "name": {
+        "it": "funghi champignon",
+        "en": "button mushrooms"
+      },
+      "category": "verdure",
+      "per100g": {
+        "kcal": 22,
+        "protein": 3.1,
+        "carbs": 0.4,
+        "fat": 0.3,
+        "fiber": 1,
+        "sugars": 0.2,
+        "salt": 0.01
+      },
+      "source": {
+        "db": "manual",
+        "note": "valore medio da tabelle di composizione"
+      }
+    },
+    "insalata": {
+      "name": {
+        "it": "insalata",
+        "en": "salad leaves"
+      },
+      "category": "verdure",
+      "per100g": {
+        "kcal": 19,
+        "protein": 1.8,
+        "carbs": 2.2,
+        "fat": 0.3,
+        "fiber": 1.5,
+        "sugars": 1.5,
+        "salt": 0.02
+      },
+      "source": {
+        "db": "manual",
+        "note": "valore medio da tabelle di composizione"
+      }
+    },
+    "melanzane": {
+      "name": {
+        "it": "melanzane",
+        "en": "aubergines"
+      },
+      "category": "verdure",
+      "per100g": {
+        "kcal": 25,
+        "protein": 1,
+        "carbs": 6,
+        "fat": 0.2,
+        "fiber": 3,
+        "sugars": 3.5,
+        "salt": 0.01
+      },
+      "pieceWeight": 300,
+      "source": {
+        "db": "manual"
+      }
+    },
+    "olive-nere": {
+      "name": {
+        "it": "olive nere",
+        "en": "black olives"
+      },
+      "category": "verdure",
+      "per100g": {
+        "kcal": 235,
+        "protein": 1.8,
+        "carbs": 1,
+        "fat": 25,
+        "fiber": 4,
+        "sugars": 0.5,
+        "salt": 3
+      },
+      "source": {
+        "db": "manual"
+      }
+    },
+    "passata-pomodoro": {
+      "name": {
+        "it": "passata di pomodoro",
+        "en": "tomato passata"
+      },
+      "category": "verdure",
+      "per100g": {
+        "kcal": 32,
+        "protein": 1.4,
+        "carbs": 5.5,
+        "fat": 0.2,
+        "fiber": 1.5,
+        "sugars": 4.8,
+        "salt": 0.1
+      },
+      "density": 1.05,
+      "source": {
+        "db": "manual"
+      }
+    },
+    "patate": {
+      "name": {
+        "it": "patate",
+        "en": "potatoes"
+      },
+      "category": "verdure",
+      "per100g": {
+        "kcal": 77,
+        "protein": 2,
+        "carbs": 17,
+        "fat": 0.1,
+        "fiber": 2.2,
+        "sugars": 0.8,
+        "salt": 0.01
+      },
+      "pieceWeight": 150,
+      "source": {
+        "db": "manual"
+      }
+    },
+    "peperone": {
+      "name": {
+        "it": "peperone",
+        "en": "bell pepper"
+      },
+      "category": "verdure",
+      "per100g": {
+        "kcal": 26,
+        "protein": 0.9,
+        "carbs": 4.6,
+        "fat": 0.3,
+        "fiber": 1.9,
+        "sugars": 4.2,
+        "salt": 0.01
+      },
+      "pieceWeight": 180,
+      "source": {
+        "db": "manual",
+        "note": "valore medio da tabelle di composizione"
+      }
+    },
+    "pomodori-pelati": {
+      "name": {
+        "it": "pomodori pelati",
+        "en": "peeled tomatoes"
+      },
+      "category": "verdure",
+      "per100g": {
+        "kcal": 26,
+        "protein": 1.2,
+        "carbs": 4,
+        "fat": 0.2,
+        "fiber": 1.2,
+        "sugars": 3.5,
+        "salt": 0.1
+      },
+      "density": 1.02,
+      "source": {
+        "db": "manual"
+      }
+    },
+    "pomodorini": {
+      "name": {
+        "it": "pomodorini",
+        "en": "cherry tomatoes"
+      },
+      "category": "verdure",
+      "per100g": {
+        "kcal": 18,
+        "protein": 0.9,
+        "carbs": 3.5,
+        "fat": 0.2,
+        "fiber": 1.2,
+        "sugars": 3,
+        "salt": 0.01
+      },
+      "pieceWeight": 15,
+      "source": {
+        "db": "manual",
+        "note": "valore medio da tabelle di composizione"
+      }
+    },
+    "pomodoro": {
+      "name": {
+        "it": "pomodoro",
+        "en": "tomato"
+      },
+      "category": "verdure",
+      "per100g": {
+        "kcal": 20,
+        "protein": 1,
+        "carbs": 3.5,
+        "fat": 0.2,
+        "fiber": 1.2,
+        "sugars": 3,
+        "salt": 0.01
+      },
+      "pieceWeight": 130,
+      "source": {
+        "db": "manual",
+        "note": "valore medio da tabelle di composizione"
+      }
+    },
+    "sedano": {
+      "name": {
+        "it": "sedano",
+        "en": "celery"
+      },
+      "category": "verdure",
+      "per100g": {
+        "kcal": 16,
+        "protein": 0.7,
+        "carbs": 3,
+        "fat": 0.2,
+        "fiber": 1.6,
+        "sugars": 1.3,
+        "salt": 0.2
+      },
+      "source": {
+        "db": "manual"
+      }
+    },
+    "zucchine": {
+      "name": {
+        "it": "zucchine",
+        "en": "courgettes"
+      },
+      "category": "verdure",
+      "per100g": {
+        "kcal": 17,
+        "protein": 1.2,
+        "carbs": 3.1,
+        "fat": 0.3,
+        "fiber": 1,
+        "sugars": 2.5,
+        "salt": 0.01
+      },
+      "pieceWeight": 200,
+      "source": {
+        "db": "manual"
+      }
     }
   }
 }

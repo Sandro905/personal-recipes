@@ -1,0 +1,212 @@
+{
+  "slug": "hot-pocket-manzo",
+  "added": "2026-08-09",
+  "title": {
+    "it": "Hot pocket al macinato di manzo"
+  },
+  "summary": {
+    "it": "Impasto di due ingredienti — farina e yogurt greco — ripieno speziato e formaggio. Otto pezzi, due a pasto: 64 g di proteine con soli 14 g di grassi."
+  },
+  "yield": {
+    "count": 4,
+    "label": {
+      "it": "pasti (2 pezzi)",
+      "en": "meals (2 pieces)"
+    }
+  },
+  "time": {
+    "prep": 30,
+    "cook": 8
+  },
+  "difficulty": "media",
+  "cost": "economico",
+  "method": "padella",
+  "tags": [
+    "salato",
+    "manzo",
+    "carne",
+    "meal-prep",
+    "congelabile",
+    "proteico",
+    "finger-food"
+  ],
+  "ingredients": [
+    {
+      "section": {
+        "it": "Per l'impasto"
+      },
+      "items": [
+        {
+          "food": "farina-00",
+          "qty": 400,
+          "unit": "g"
+        },
+        {
+          "food": "yogurt-greco-0",
+          "qty": 410,
+          "unit": "g",
+          "label": {
+            "it": "yogurt greco 0%"
+          }
+        },
+        {
+          "food": "sale",
+          "unit": "qb"
+        }
+      ]
+    },
+    {
+      "section": {
+        "it": "Per il ripieno"
+      },
+      "items": [
+        {
+          "food": "macinato-manzo-magro",
+          "qty": 600,
+          "unit": "g"
+        },
+        {
+          "food": "paprika-affumicata",
+          "qty": 2,
+          "unit": "cucchiaino"
+        },
+        {
+          "food": "paprika-dolce",
+          "qty": 2,
+          "unit": "cucchiaino"
+        },
+        {
+          "food": "cumino",
+          "qty": 1,
+          "unit": "cucchiaino"
+        },
+        {
+          "food": "aglio-polvere",
+          "qty": 1,
+          "unit": "cucchiaino"
+        },
+        {
+          "food": "concentrato-pomodoro",
+          "qty": 30,
+          "unit": "g"
+        },
+        {
+          "food": "salsa-bbq-zero",
+          "qty": 30,
+          "unit": "g",
+          "label": {
+            "it": "salsa BBQ zero (2 cucchiai)"
+          }
+        }
+      ]
+    },
+    {
+      "section": {
+        "it": "Per farcire"
+      },
+      "items": [
+        {
+          "food": "sottilette-light",
+          "qty": 8,
+          "unit": "pz",
+          "label": {
+            "it": "sottilette light (1 per pezzo)"
+          }
+        },
+        {
+          "food": "grana-padano",
+          "qty": 40,
+          "unit": "g",
+          "label": {
+            "it": "grana padano (5 g per pezzo)"
+          }
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": {
+        "it": "Il ripieno"
+      },
+      "text": {
+        "it": "Rosola {{macinato-manzo-magro}} a fuoco vivo **senza olio**: il magro rilascia comunque abbastanza grasso. Aggiungi {{paprika-affumicata}}, {{paprika-dolce}}, {{cumino}}, {{aglio-polvere}}, {{concentrato-pomodoro}} e {{salsa-bbq-zero}}."
+      }
+    },
+    {
+      "title": {
+        "it": "Raffreddare"
+      },
+      "text": {
+        "it": "Fai raffreddare completamente il ripieno prima di usarlo: caldo, scioglierebbe l'impasto e bagnerebbe la chiusura."
+      }
+    },
+    {
+      "title": {
+        "it": "L'impasto"
+      },
+      "text": {
+        "it": "Mescola {{farina-00}} con il sale, aggiungi {{yogurt-greco-0}} poco alla volta e impasta fino a un composto omogeneo e non appiccicoso."
+      }
+    },
+    {
+      "title": {
+        "it": "Stendere"
+      },
+      "text": {
+        "it": "Dividi in 8 parti da circa 100 g. Stendi ogni parte in un rettangolo di 15×10 cm, spessore 3 mm."
+      }
+    },
+    {
+      "title": {
+        "it": "Farcire"
+      },
+      "text": {
+        "it": "Al centro di ogni rettangolo: 75 g di ripieno, una {{sottilette-light}} spezzata e 5 g di {{grana-padano}}. Ripiega e **pizzica bene i bordi**: se si aprono in cottura perdi tutto il ripieno."
+      }
+    },
+    {
+      "title": {
+        "it": "Cuocere"
+      },
+      "text": {
+        "it": "Padella antiaderente a fuoco medio **con coperchio**, 3-4 minuti per lato. Il coperchio serve a cuocere l'impasto dentro mentre fuori si dora."
+      },
+      "timer": 420
+    },
+    {
+      "title": {
+        "it": "Congelare"
+      },
+      "text": {
+        "it": "Raffredda, avvolgi ogni pezzo in alluminio e congela."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "title": {
+        "it": "Riscaldare dal freezer"
+      },
+      "text": {
+        "it": "Togli l'alluminio, avvolgi in carta da cucina **umida** e microonde 3-4 minuti. Poi 2 minuti in padella per ridare la crosta."
+      }
+    },
+    {
+      "title": {
+        "it": "Impasto senza lievitazione"
+      },
+      "text": {
+        "it": "Farina e yogurt greco: niente lievito, niente attesa. Non lavorarlo troppo o diventa gommoso."
+      }
+    },
+    {
+      "title": {
+        "it": "Il pasto"
+      },
+      "text": {
+        "it": "Le macro qui sopra sono per **2 pezzi**, cioè un pasto completo. Con il selettore delle porzioni vedi le quantità per l'intera teglia."
+      }
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "slug": "alette-pollo-forno-patate",
+  "added": "2026-08-09",
+  "title": {
+    "it": "Alette di pollo al forno con patate"
+  },
+  "summary": {
+    "it": "Paprika e aglio in polvere, niente pastella: croccanti in forno senza friggere. Da mangiare con le mani."
+  },
+  "yield": {
+    "count": 1,
+    "label": {
+      "it": "porzione",
+      "en": "serving"
+    }
+  },
+  "time": {
+    "prep": 10,
+    "rest": 20,
+    "cook": 40
+  },
+  "difficulty": "molto-facile",
+  "cost": "economico",
+  "method": "forno",
+  "tags": [
+    "salato",
+    "secondi",
+    "pollo",
+    "carne",
+    "forno",
+    "finger-food",
+    "pranzo"
+  ],
+  "ingredients": [
+    {
+      "section": null,
+      "items": [
+        {
+          "food": "alette-pollo",
+          "qty": 200,
+          "unit": "g",
+          "label": {
+            "it": "alette di pollo (~350 g con osso)"
+          },
+          "note": {
+            "it": "il peso indicato è la parte edibile"
+          }
+        },
+        {
+          "food": "patate",
+          "qty": 280,
+          "unit": "g"
+        },
+        {
+          "food": "paprika-dolce",
+          "qty": 1,
+          "unit": "cucchiaino"
+        },
+        {
+          "food": "aglio-polvere",
+          "qty": 0.5,
+          "unit": "cucchiaino"
+        },
+        {
+          "food": "olio-oliva-evo",
+          "qty": 10,
+          "unit": "g",
+          "label": {
+            "it": "1 cucchiaio (10 g)"
+          }
+        },
+        {
+          "food": "sale",
+          "unit": "qb"
+        },
+        {
+          "food": "pepe-nero",
+          "unit": "qb"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": {
+        "it": "Marinare"
+      },
+      "text": {
+        "it": "Mescola {{alette-pollo}} con {{olio-oliva-evo}}, {{paprika-dolce}}, {{aglio-polvere}}, sale e pepe. Almeno 20 minuti, meglio un'ora."
+      },
+      "timer": 1200
+    },
+    {
+      "title": {
+        "it": "Le patate"
+      },
+      "text": {
+        "it": "Taglia {{patate}} a spicchi e condiscile con sale e pepe."
+      }
+    },
+    {
+      "title": {
+        "it": "In forno"
+      },
+      "text": {
+        "it": "Tutto in teglia in un solo strato, 200 °C per 35-40 minuti girando a metà."
+      },
+      "timer": 2400
+    },
+    {
+      "title": {
+        "it": "Croccantezza"
+      },
+      "text": {
+        "it": "Ultimi 5 minuti sotto il grill. Le alette devono essere scure e asciutte in superficie."
+      },
+      "timer": 300
+    }
+  ],
+  "notes": [
+    {
+      "title": {
+        "it": "Sul peso"
+      },
+      "text": {
+        "it": "I 200 g contati sono carne e pelle al netto dell'osso, cioè circa 350 g di alette intere."
+      }
+    },
+    {
+      "title": {
+        "it": "Valori approssimativi"
+      },
+      "text": {
+        "it": "Come per i fusi, il grasso che cola in teglia cambia parecchio il conto finale: prendi le macro come una stima."
+      }
+    },
+    {
+      "title": {
+        "it": "Asciugale prima"
+      },
+      "text": {
+        "it": "Tamponare le alette con carta da cucina prima di condirle fa una differenza enorme sulla croccantezza."
+      }
+    }
+  ]
+}

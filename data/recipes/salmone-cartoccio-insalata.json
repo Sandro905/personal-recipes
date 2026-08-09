@@ -1,0 +1,128 @@
+{
+  "slug": "salmone-cartoccio-insalata",
+  "added": "2026-08-09",
+  "title": {
+    "it": "Salmone al cartoccio con insalata"
+  },
+  "summary": {
+    "it": "Praticamente zero carboidrati e 40 g di proteine: la cena giusta per i giorni di riposo. Il cartoccio lo cuoce nel suo vapore."
+  },
+  "yield": {
+    "count": 1,
+    "label": {
+      "it": "porzione",
+      "en": "serving"
+    }
+  },
+  "time": {
+    "prep": 5,
+    "cook": 18
+  },
+  "difficulty": "molto-facile",
+  "cost": "medio",
+  "method": "forno",
+  "tags": [
+    "salato",
+    "cena",
+    "pesce",
+    "forno",
+    "veloce",
+    "proteico"
+  ],
+  "ingredients": [
+    {
+      "section": null,
+      "items": [
+        {
+          "food": "salmone",
+          "qty": 200,
+          "unit": "g",
+          "label": {
+            "it": "filetto di salmone"
+          }
+        },
+        {
+          "food": "limone",
+          "qty": 30,
+          "unit": "g",
+          "label": {
+            "it": "limone a fette"
+          }
+        },
+        {
+          "food": "rosmarino",
+          "unit": "qb",
+          "label": {
+            "it": "rosmarino o timo"
+          }
+        },
+        {
+          "food": "insalata",
+          "qty": 80,
+          "unit": "g"
+        },
+        {
+          "food": "olio-oliva-evo",
+          "qty": 5,
+          "unit": "g",
+          "label": {
+            "it": "1 cucchiaio (5 g)"
+          }
+        },
+        {
+          "food": "sale",
+          "unit": "qb"
+        },
+        {
+          "food": "pepe-nero",
+          "unit": "qb"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": {
+        "it": "Il cartoccio"
+      },
+      "text": {
+        "it": "Metti {{salmone}} su un foglio di carta forno con {{limone}} a fette, {{rosmarino}}, sale e pepe. Chiudi il cartoccio lasciando un po' d'aria dentro."
+      }
+    },
+    {
+      "title": {
+        "it": "In forno"
+      },
+      "text": {
+        "it": "18 minuti a 200 °C. Il vapore che si forma dentro lo tiene umido: è quasi impossibile asciugarlo."
+      },
+      "timer": 1080
+    },
+    {
+      "title": {
+        "it": "Servire"
+      },
+      "text": {
+        "it": "Apri il cartoccio a tavola e accompagna con {{insalata}} condita con {{olio-oliva-evo}}."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "title": {
+        "it": "Giorni di riposo"
+      },
+      "text": {
+        "it": "Con 5 g di carboidrati è pensata per le sere in cui non ti alleni e i carboidrati della giornata sono già a target."
+      }
+    },
+    {
+      "title": {
+        "it": "Niente da lavare"
+      },
+      "text": {
+        "it": "Il cartoccio si butta: resta solo il piatto. È il motivo principale per cui questa cena si fa davvero."
+      }
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "slug": "carbonara-semplificata",
+  "added": "2026-08-09",
+  "title": {
+    "it": "Carbonara semplificata"
+  },
+  "summary": {
+    "it": "Uova mantecate a fuoco spento, non strapazzate. Se la padella è ancora sul fuoco quando entrano le uova, è già finita."
+  },
+  "yield": {
+    "count": 1,
+    "label": {
+      "it": "porzione",
+      "en": "serving"
+    }
+  },
+  "time": {
+    "prep": 5,
+    "cook": 15
+  },
+  "difficulty": "facile",
+  "cost": "economico",
+  "method": "padella",
+  "tags": [
+    "salato",
+    "primi",
+    "pasta",
+    "cena",
+    "uova",
+    "veloce"
+  ],
+  "ingredients": [
+    {
+      "section": null,
+      "items": [
+        {
+          "food": "pasta-secca",
+          "qty": 100,
+          "unit": "g"
+        },
+        {
+          "food": "uova",
+          "qty": 2,
+          "unit": "pz"
+        },
+        {
+          "food": "pancetta",
+          "qty": 50,
+          "unit": "g"
+        },
+        {
+          "food": "grana-padano",
+          "qty": 20,
+          "unit": "g"
+        },
+        {
+          "food": "pepe-nero",
+          "unit": "qb"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": {
+        "it": "La pancetta"
+      },
+      "text": {
+        "it": "Rosola {{pancetta}} a fuoco medio in padella **senza olio**: rilascia il suo grasso, che è già abbastanza."
+      },
+      "timer": 300
+    },
+    {
+      "title": {
+        "it": "La crema"
+      },
+      "text": {
+        "it": "Sbatti {{uova}} con {{grana-padano}} e molto {{pepe-nero}} in una ciotola."
+      }
+    },
+    {
+      "title": {
+        "it": "Cuocere la pasta"
+      },
+      "text": {
+        "it": "Cuoci {{pasta-secca}} al dente e tieni da parte una tazza di acqua di cottura."
+      }
+    },
+    {
+      "title": {
+        "it": "Mantecare"
+      },
+      "text": {
+        "it": "**Spegni il fuoco** e aspetta mezzo minuto. Butta la pasta nella padella, versa le uova e mescola veloce aggiungendo acqua di cottura: deve diventare crema, non frittata."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "title": {
+        "it": "Il punto critico"
+      },
+      "text": {
+        "it": "Le uova coagulano intorno ai 65 °C. Padella spenta e un po' di acqua di cottura tengono la temperatura sotto quella soglia."
+      }
+    },
+    {
+      "title": {
+        "it": "Con pasta fresca"
+      },
+      "text": {
+        "it": "Usando 100 g di pasta fresca al posto della secca scendi a circa 684 kcal."
+      }
+    },
+    {
+      "title": {
+        "it": "Niente sale"
+      },
+      "text": {
+        "it": "Pancetta e grana salano già abbastanza: assaggia prima di aggiungerne."
+      }
+    }
+  ]
+}

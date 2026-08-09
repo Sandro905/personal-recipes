@@ -1,0 +1,216 @@
+{
+  "slug": "involtini-manzo-prosciutto",
+  "added": "2026-08-09",
+  "title": {
+    "it": "Involtini di manzo al prosciutto cotto"
+  },
+  "summary": {
+    "it": "Ripieno di pane e parmigiano, cottura lunga nel sugo. Sei porzioni da congelare, col pane a parte per non farlo ammollare."
+  },
+  "yield": {
+    "count": 6,
+    "label": {
+      "it": "porzioni",
+      "en": "portions"
+    }
+  },
+  "time": {
+    "prep": 40,
+    "cook": 60
+  },
+  "difficulty": "media",
+  "cost": "medio",
+  "method": "padella",
+  "tags": [
+    "salato",
+    "secondi",
+    "manzo",
+    "carne",
+    "meal-prep",
+    "congelabile",
+    "proteico"
+  ],
+  "ingredients": [
+    {
+      "section": {
+        "it": "Per gli involtini"
+      },
+      "items": [
+        {
+          "food": "fesa-manzo",
+          "qty": 900,
+          "unit": "g",
+          "label": {
+            "it": "fettine di manzo sottili (fesa o noce)"
+          }
+        },
+        {
+          "food": "prosciutto-cotto",
+          "qty": 120,
+          "unit": "g"
+        },
+        {
+          "food": "grana-padano",
+          "qty": 60,
+          "unit": "g"
+        },
+        {
+          "food": "pane-bianco",
+          "qty": 60,
+          "unit": "g",
+          "label": {
+            "it": "pane raffermo"
+          }
+        },
+        {
+          "food": "uova",
+          "qty": 1,
+          "unit": "pz"
+        },
+        {
+          "food": "aglio",
+          "qty": 2,
+          "unit": "spicchio"
+        },
+        {
+          "food": "prezzemolo",
+          "unit": "qb"
+        },
+        {
+          "food": "pepe-nero",
+          "unit": "qb"
+        }
+      ]
+    },
+    {
+      "section": {
+        "it": "Per il sugo"
+      },
+      "items": [
+        {
+          "food": "passata-pomodoro",
+          "qty": 800,
+          "unit": "g"
+        },
+        {
+          "food": "cipolla",
+          "qty": 120,
+          "unit": "g",
+          "label": {
+            "it": "cipolla (1)"
+          }
+        },
+        {
+          "food": "vino-rosso",
+          "qty": 50,
+          "unit": "ml"
+        },
+        {
+          "food": "olio-oliva-evo",
+          "qty": 15,
+          "unit": "g"
+        },
+        {
+          "food": "sale",
+          "unit": "qb"
+        }
+      ]
+    },
+    {
+      "section": {
+        "it": "Per accompagnare"
+      },
+      "items": [
+        {
+          "food": "pane-bianco",
+          "qty": 600,
+          "unit": "g",
+          "label": {
+            "it": "pane (100 g a porzione)"
+          },
+          "note": {
+            "it": "da congelare a fette, separato dagli involtini"
+          }
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": {
+        "it": "Il ripieno"
+      },
+      "text": {
+        "it": "Ammolla {{pane-bianco}} in acqua tiepida per 5 minuti, strizzalo bene e mescolalo con {{grana-padano}}, {{aglio}} tritato, {{prezzemolo}}, {{uova}} e pepe."
+      },
+      "timer": 300
+    },
+    {
+      "title": {
+        "it": "Formare gli involtini"
+      },
+      "text": {
+        "it": "Stendi ogni fettina di {{fesa-manzo}}, appoggia una fetta di {{prosciutto-cotto}}, metti il ripieno al centro, arrotola stretto e ferma con uno stecchino."
+      }
+    },
+    {
+      "title": {
+        "it": "Rosolare"
+      },
+      "text": {
+        "it": "Rosola gli involtini in {{olio-oliva-evo}} a fuoco vivo, 2-3 minuti per lato. Mettili da parte."
+      }
+    },
+    {
+      "title": {
+        "it": "Il sugo"
+      },
+      "text": {
+        "it": "Soffriggi {{cipolla}} tritata, sfuma con {{vino-rosso}} e aggiungi {{passata-pomodoro}} e sale."
+      }
+    },
+    {
+      "title": {
+        "it": "Cottura lenta"
+      },
+      "text": {
+        "it": "Rimetti gli involtini, copri e cuoci a fuoco bassissimo 50-60 minuti, girandoli ogni 20 minuti."
+      },
+      "timer": 3600
+    },
+    {
+      "title": {
+        "it": "Congelare"
+      },
+      "text": {
+        "it": "Togli gli stecchini, raffredda completamente e congela involtini e sugo insieme. Il {{pane-bianco#2}} va congelato a fette in sacchetti separati."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "title": {
+        "it": "Il pane separato"
+      },
+      "text": {
+        "it": "Congelato insieme al sugo si inzupperebbe. A fette in un sacchetto a parte, si scalda da congelato in 30 secondi di microonde o direttamente nel tostapane."
+      }
+    },
+    {
+      "title": {
+        "it": "Scongelare"
+      },
+      "text": {
+        "it": "Sposta il contenitore dal freezer al frigo la sera prima. A pranzo bastano 3-4 minuti di microonde."
+      }
+    },
+    {
+      "title": {
+        "it": "Stecchini"
+      },
+      "text": {
+        "it": "Contali quando li metti e quando li togli: è facile lasciarne uno dentro."
+      }
+    }
+  ]
+}

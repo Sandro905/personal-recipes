@@ -1,0 +1,143 @@
+{
+  "slug": "pasta-straccetti-manzo-funghi",
+  "added": "2026-08-09",
+  "title": {
+    "it": "Pasta con straccetti di manzo e funghi al vino rosso"
+  },
+  "summary": {
+    "it": "La carne si rosola a parte e torna in padella solo alla fine: due minuti in tutto, così resta rosata invece di stringersi."
+  },
+  "yield": {
+    "count": 1,
+    "label": {
+      "it": "porzione",
+      "en": "serving"
+    }
+  },
+  "time": {
+    "prep": 10,
+    "cook": 15
+  },
+  "difficulty": "facile",
+  "cost": "medio",
+  "method": "padella",
+  "tags": [
+    "salato",
+    "primi",
+    "pasta",
+    "manzo",
+    "carne",
+    "pranzo",
+    "proteico"
+  ],
+  "ingredients": [
+    {
+      "section": null,
+      "items": [
+        {
+          "food": "pasta-secca",
+          "qty": 100,
+          "unit": "g"
+        },
+        {
+          "food": "fesa-manzo",
+          "qty": 150,
+          "unit": "g",
+          "label": {
+            "it": "fesa di manzo a straccetti sottili"
+          }
+        },
+        {
+          "food": "funghi-champignon",
+          "qty": 100,
+          "unit": "g"
+        },
+        {
+          "food": "vino-rosso",
+          "qty": 50,
+          "unit": "ml"
+        },
+        {
+          "food": "aglio",
+          "qty": 1,
+          "unit": "spicchio"
+        },
+        {
+          "food": "rosmarino",
+          "unit": "qb"
+        },
+        {
+          "food": "olio-oliva-evo",
+          "qty": 10,
+          "unit": "g",
+          "label": {
+            "it": "1 cucchiaio (10 g)"
+          }
+        },
+        {
+          "food": "sale",
+          "unit": "qb"
+        },
+        {
+          "food": "pepe-nero",
+          "unit": "qb"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": {
+        "it": "Gli straccetti"
+      },
+      "text": {
+        "it": "Padella caldissima con {{olio-oliva-evo}}: rosola {{fesa-manzo}} 2 minuti in tutto, girandoli una volta sola. Toglili e mettili da parte."
+      },
+      "timer": 120
+    },
+    {
+      "title": {
+        "it": "I funghi"
+      },
+      "text": {
+        "it": "Nella stessa padella soffriggi {{aglio}} e {{rosmarino}}, aggiungi {{funghi-champignon}} a fette e cuoci 5 minuti finché perdono l'acqua."
+      },
+      "timer": 300
+    },
+    {
+      "title": {
+        "it": "Sfumare"
+      },
+      "text": {
+        "it": "Sfuma con {{vino-rosso}} e lascia evaporare quasi del tutto."
+      },
+      "timer": 120
+    },
+    {
+      "title": {
+        "it": "Unire"
+      },
+      "text": {
+        "it": "Rimetti la carne, spegni subito e salta con {{pasta-secca}} al dente e un po' di acqua di cottura."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "title": {
+        "it": "Padella rovente"
+      },
+      "text": {
+        "it": "Se la padella non è bollente la carne rilascia acqua e lessa. Meglio cuocere in due riprese che affollare la padella."
+      }
+    },
+    {
+      "title": {
+        "it": "Tagliare sottile"
+      },
+      "text": {
+        "it": "Gli straccetti vanno tagliati contro fibra e sottili: cuociono in un attimo e restano teneri."
+      }
+    }
+  ]
+}

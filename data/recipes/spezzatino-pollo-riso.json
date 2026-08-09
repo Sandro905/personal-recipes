@@ -1,0 +1,188 @@
+{
+  "slug": "spezzatino-pollo-riso",
+  "added": "2026-08-09",
+  "title": {
+    "it": "Spezzatino di pollo al pomodoro con riso"
+  },
+  "summary": {
+    "it": "Sei pasti completi in vaschetta: riso sul fondo, spezzatino sopra, senza mescolare. Il riso va cotto due minuti in meno perché finirà al microonde."
+  },
+  "yield": {
+    "count": 6,
+    "label": {
+      "it": "porzioni",
+      "en": "portions"
+    }
+  },
+  "time": {
+    "prep": 20,
+    "cook": 35
+  },
+  "difficulty": "facile",
+  "cost": "economico",
+  "method": "padella",
+  "tags": [
+    "salato",
+    "primi",
+    "riso",
+    "pollo",
+    "carne",
+    "meal-prep",
+    "congelabile",
+    "proteico"
+  ],
+  "ingredients": [
+    {
+      "section": {
+        "it": "Per lo spezzatino"
+      },
+      "items": [
+        {
+          "food": "petto-pollo",
+          "qty": 900,
+          "unit": "g",
+          "label": {
+            "it": "petto di pollo a cubetti di 3-4 cm"
+          }
+        },
+        {
+          "food": "pomodori-pelati",
+          "qty": 800,
+          "unit": "g"
+        },
+        {
+          "food": "peperone",
+          "qty": 360,
+          "unit": "g",
+          "label": {
+            "it": "peperoni (2)"
+          }
+        },
+        {
+          "food": "cipolla",
+          "qty": 240,
+          "unit": "g",
+          "label": {
+            "it": "cipolle (2)"
+          }
+        },
+        {
+          "food": "aglio",
+          "qty": 3,
+          "unit": "spicchio"
+        },
+        {
+          "food": "brodo-vegetale",
+          "qty": 200,
+          "unit": "ml",
+          "label": {
+            "it": "brodo vegetale caldo"
+          }
+        },
+        {
+          "food": "paprika-affumicata",
+          "qty": 2,
+          "unit": "cucchiaino"
+        },
+        {
+          "food": "paprika-dolce",
+          "qty": 2,
+          "unit": "cucchiaino"
+        },
+        {
+          "food": "olio-oliva-evo",
+          "qty": 20,
+          "unit": "g",
+          "label": {
+            "it": "2 cucchiai (20 g)"
+          }
+        },
+        {
+          "food": "sale",
+          "unit": "qb"
+        },
+        {
+          "food": "pepe-nero",
+          "unit": "qb"
+        }
+      ]
+    },
+    {
+      "section": {
+        "it": "Per il riso"
+      },
+      "items": [
+        {
+          "food": "riso-bianco",
+          "qty": 480,
+          "unit": "g",
+          "label": {
+            "it": "riso (peso da crudo)"
+          }
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": {
+        "it": "Rosolare il pollo"
+      },
+      "text": {
+        "it": "Rosola {{petto-pollo}} in {{olio-oliva-evo}} a fuoco vivo in 2 riprese, giusto per colorirlo. Mettilo da parte."
+      }
+    },
+    {
+      "title": {
+        "it": "Le verdure"
+      },
+      "text": {
+        "it": "Soffriggi {{cipolla}}, {{aglio}} e {{peperone}} con {{paprika-affumicata}} e {{paprika-dolce}} per 7-8 minuti."
+      },
+      "timer": 480
+    },
+    {
+      "title": {
+        "it": "Cottura"
+      },
+      "text": {
+        "it": "Rimetti il pollo, aggiungi {{pomodori-pelati}} e {{brodo-vegetale}}, sale e pepe. Copri e cuoci 25-30 minuti."
+      },
+      "timer": 1800
+    },
+    {
+      "title": {
+        "it": "Il riso"
+      },
+      "text": {
+        "it": "Cuoci {{riso-bianco}} al dente, **due minuti in meno** del solito: finirà di cuocere quando lo riscaldi."
+      }
+    },
+    {
+      "title": {
+        "it": "Comporre le vaschette"
+      },
+      "text": {
+        "it": "In ogni contenitore: riso sul fondo, spezzatino sopra. **Non mescolare** — il riso resta asciutto e non diventa una pappa. Raffredda e congela."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "title": {
+        "it": "Riscaldare"
+      },
+      "text": {
+        "it": "Microonde 4-5 minuti a potenza media con un cucchiaio d'acqua, mescolando a metà."
+      }
+    },
+    {
+      "title": {
+        "it": "Perché non mescolare"
+      },
+      "text": {
+        "it": "Il riso a contatto col sugo per settimane in freezer assorbe liquido e si spappola. Tenendoli separati nella stessa vaschetta si mescolano solo al momento di mangiare."
+      }
+    }
+  ]
+}

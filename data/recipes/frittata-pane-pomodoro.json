@@ -1,0 +1,129 @@
+{
+  "slug": "frittata-pane-pomodoro",
+  "added": "2026-08-09",
+  "title": {
+    "it": "Frittata di quattro uova con pane e pomodoro"
+  },
+  "summary": {
+    "it": "Dieci minuti in tutto. Il segreto è il fuoco basso: la frittata cotta piano resta morbida, quella cotta forte diventa gommosa."
+  },
+  "yield": {
+    "count": 1,
+    "label": {
+      "it": "porzione",
+      "en": "serving"
+    }
+  },
+  "time": {
+    "prep": 5,
+    "cook": 10
+  },
+  "difficulty": "molto-facile",
+  "cost": "molto-economico",
+  "method": "padella",
+  "tags": [
+    "salato",
+    "cena",
+    "uova",
+    "veloce",
+    "proteico"
+  ],
+  "ingredients": [
+    {
+      "section": null,
+      "items": [
+        {
+          "food": "uova",
+          "qty": 4,
+          "unit": "pz"
+        },
+        {
+          "food": "pane-integrale",
+          "qty": 70,
+          "unit": "g",
+          "label": {
+            "it": "pane integrale (2 fette)"
+          }
+        },
+        {
+          "food": "pomodoro",
+          "qty": 130,
+          "unit": "g",
+          "label": {
+            "it": "pomodoro a fette (1)"
+          }
+        },
+        {
+          "food": "olio-oliva-evo",
+          "qty": 5,
+          "unit": "g",
+          "label": {
+            "it": "1 cucchiaio (5 g)"
+          }
+        },
+        {
+          "food": "sale",
+          "unit": "qb"
+        },
+        {
+          "food": "pepe-nero",
+          "unit": "qb"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": {
+        "it": "Sbattere"
+      },
+      "text": {
+        "it": "Sbatti {{uova}} con sale e pepe, senza esagerare: basta che tuorli e albumi siano uniti."
+      }
+    },
+    {
+      "title": {
+        "it": "In padella"
+      },
+      "text": {
+        "it": "Scalda {{olio-oliva-evo}} in una padella antiaderente a fuoco **basso**, versa le uova e lascia rapprendere 5-6 minuti senza toccare."
+      },
+      "timer": 360
+    },
+    {
+      "title": {
+        "it": "Girare"
+      },
+      "text": {
+        "it": "Quando la superficie è quasi asciutta, gira con l'aiuto di un piatto e cuoci altri 2 minuti."
+      },
+      "timer": 120
+    },
+    {
+      "title": {
+        "it": "Servire"
+      },
+      "text": {
+        "it": "Accompagna con {{pane-integrale}} e {{pomodoro}} a fette."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "title": {
+        "it": "Fuoco basso"
+      },
+      "text": {
+        "it": "È l'unica regola che conta. A fuoco alto le proteine dell'uovo si stringono e la frittata diventa asciutta e gommosa."
+      }
+    },
+    {
+      "title": {
+        "it": "Più proteine, meno grassi"
+      },
+      "text": {
+        "it": "Sostituendo due uova intere con quattro albumi tieni le proteine e togli circa 10 g di grassi."
+      }
+    }
+  ]
+}

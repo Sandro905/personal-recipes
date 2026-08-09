@@ -1,0 +1,153 @@
+{
+  "slug": "pasta-tonno-pomodorini",
+  "added": "2026-08-09",
+  "title": {
+    "it": "Pasta al tonno con pomodorini"
+  },
+  "summary": {
+    "it": "Quindici minuti dalla dispensa al piatto, ed è il pranzo con più proteine della settimana. Sta in piedi sul tonno: sgocciolalo bene."
+  },
+  "yield": {
+    "count": 1,
+    "label": {
+      "it": "porzione",
+      "en": "serving"
+    }
+  },
+  "time": {
+    "prep": 10,
+    "cook": 15
+  },
+  "difficulty": "molto-facile",
+  "cost": "economico",
+  "method": "padella",
+  "tags": [
+    "salato",
+    "primi",
+    "pasta",
+    "pesce",
+    "veloce",
+    "pranzo",
+    "proteico"
+  ],
+  "ingredients": [
+    {
+      "section": null,
+      "items": [
+        {
+          "food": "pasta-secca",
+          "qty": 100,
+          "unit": "g",
+          "label": {
+            "it": "pasta lunga o corta (spaghetti o fusilli)"
+          }
+        },
+        {
+          "food": "tonno-sottolio",
+          "qty": 160,
+          "unit": "g",
+          "label": {
+            "it": "tonno sott'olio ben sgocciolato"
+          }
+        },
+        {
+          "food": "pomodorini",
+          "qty": 150,
+          "unit": "g"
+        },
+        {
+          "food": "olive-nere",
+          "qty": 15,
+          "unit": "g",
+          "label": {
+            "it": "olive denocciolate (~5)"
+          }
+        },
+        {
+          "food": "aglio",
+          "qty": 1,
+          "unit": "spicchio"
+        },
+        {
+          "food": "prezzemolo",
+          "unit": "qb",
+          "label": {
+            "it": "prezzemolo fresco"
+          }
+        },
+        {
+          "food": "olio-oliva-evo",
+          "qty": 10,
+          "unit": "g",
+          "label": {
+            "it": "1 cucchiaio (10 g)"
+          }
+        },
+        {
+          "food": "sale",
+          "unit": "qb"
+        },
+        {
+          "food": "peperoncino",
+          "unit": "qb",
+          "label": {
+            "it": "peperoncino (facoltativo)"
+          }
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": {
+        "it": "Base"
+      },
+      "text": {
+        "it": "Scalda {{olio-oliva-evo}} con {{aglio}} schiacciato e, se ti va, {{peperoncino}}. Appena l'aglio profuma togli lo spicchio."
+      }
+    },
+    {
+      "title": {
+        "it": "Pomodorini"
+      },
+      "text": {
+        "it": "Aggiungi {{pomodorini}} tagliati a metà e cuoci 5 minuti a fuoco vivace, schiacciandone qualcuno per far uscire il succo."
+      },
+      "timer": 300
+    },
+    {
+      "title": {
+        "it": "Tonno e olive"
+      },
+      "text": {
+        "it": "Unisci {{tonno-sottolio}} ben sgocciolato e {{olive-nere}}. Mescola appena: il tonno non deve sfaldarsi del tutto."
+      }
+    },
+    {
+      "title": {
+        "it": "Mantecare"
+      },
+      "text": {
+        "it": "Cuoci {{pasta-secca}} al dente e tieni da parte un mestolo di acqua di cottura. Salta tutto insieme un minuto, aggiungendo acqua se serve, e finisci con {{prezzemolo}} tritato."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "title": {
+        "it": "Sgocciolare bene"
+      },
+      "text": {
+        "it": "Premi il tonno nel barattolo con il coperchio e tienilo inclinato qualche secondo. L'olio di conservazione è quasi tutto grasso: sgocciolato male, il piatto cambia di 80-100 kcal."
+      }
+    },
+    {
+      "title": {
+        "it": "Al naturale"
+      },
+      "text": {
+        "it": "Con il tonno al naturale scendi a circa 610 kcal e 12 g di grassi, tenendo quasi tutte le proteine. Aggiungi mezzo cucchiaio d'olio a crudo per compensare il gusto."
+      }
+    }
+  ]
+}

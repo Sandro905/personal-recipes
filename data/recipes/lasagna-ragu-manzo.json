@@ -1,0 +1,179 @@
+{
+  "slug": "lasagna-ragu-manzo",
+  "added": "2026-08-09",
+  "title": {
+    "it": "Lasagna al ragù di manzo"
+  },
+  "summary": {
+    "it": "Senza besciamella: uovo sbattuto e mozzarella fra gli strati. Sette porzioni, il piatto più proteico della raccolta."
+  },
+  "yield": {
+    "count": 7,
+    "label": {
+      "it": "porzioni",
+      "en": "portions"
+    }
+  },
+  "time": {
+    "prep": 40,
+    "rest": 15,
+    "cook": 50
+  },
+  "difficulty": "media",
+  "cost": "medio",
+  "method": "forno",
+  "tags": [
+    "salato",
+    "primi",
+    "pasta",
+    "manzo",
+    "carne",
+    "forno",
+    "meal-prep",
+    "congelabile",
+    "proteico"
+  ],
+  "ingredients": [
+    {
+      "section": {
+        "it": "Per il ragù"
+      },
+      "items": [
+        {
+          "food": "macinato-manzo-magro",
+          "qty": 800,
+          "unit": "g"
+        },
+        {
+          "food": "pomodori-pelati",
+          "qty": 1200,
+          "unit": "g"
+        },
+        {
+          "food": "vino-bianco",
+          "qty": 50,
+          "unit": "ml"
+        },
+        {
+          "food": "olio-oliva-evo",
+          "qty": 15,
+          "unit": "g"
+        },
+        {
+          "food": "sale",
+          "unit": "qb"
+        },
+        {
+          "food": "pepe-nero",
+          "unit": "qb"
+        }
+      ]
+    },
+    {
+      "section": {
+        "it": "Per gli strati"
+      },
+      "items": [
+        {
+          "food": "sfoglie-lasagna",
+          "qty": 500,
+          "unit": "g"
+        },
+        {
+          "food": "mozzarella",
+          "qty": 525,
+          "unit": "g"
+        },
+        {
+          "food": "grana-padano",
+          "qty": 150,
+          "unit": "g"
+        },
+        {
+          "food": "uova",
+          "qty": 4,
+          "unit": "pz"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": {
+        "it": "Il ragù"
+      },
+      "text": {
+        "it": "Rosola {{macinato-manzo-magro}} in {{olio-oliva-evo}} a fuoco vivo sgranandolo bene, poi sfuma con {{vino-bianco}}."
+      }
+    },
+    {
+      "title": {
+        "it": "Restringere"
+      },
+      "text": {
+        "it": "Aggiungi {{pomodori-pelati}}, sale e pepe. Cuoci a fuoco medio-basso 25-30 minuti finché è **asciutto**: un ragù liquido rende la lasagna molle."
+      },
+      "timer": 1800
+    },
+    {
+      "title": {
+        "it": "Preparare il resto"
+      },
+      "text": {
+        "it": "Sbatti {{uova}} con sale e pepe. Taglia {{mozzarella}} a fette e falla scolare su carta da cucina — passaggio fondamentale, altrimenti rilascia acqua in cottura."
+      }
+    },
+    {
+      "title": {
+        "it": "Montare"
+      },
+      "text": {
+        "it": "In teglia: un velo di ragù, poi {{sfoglie-lasagna}}, ragù, mozzarella, uovo sbattuto e {{grana-padano}}. Ripeti fino a esaurire, chiudendo con ragù, mozzarella e grana abbondante."
+      }
+    },
+    {
+      "title": {
+        "it": "Cuocere"
+      },
+      "text": {
+        "it": "Forno statico 180 °C coperto con alluminio per 30 minuti, poi scoperto altri 15-20 finché è dorata in superficie."
+      },
+      "timer": 3000
+    },
+    {
+      "title": {
+        "it": "Riposo"
+      },
+      "text": {
+        "it": "Lascia riposare **15 minuti** prima di tagliare: appena sfornata si sfalda. Poi dividi in 7 porzioni e congela."
+      },
+      "timer": 900
+    }
+  ],
+  "notes": [
+    {
+      "title": {
+        "it": "Scolare la mozzarella"
+      },
+      "text": {
+        "it": "Mezz'ora su carta da cucina. È la differenza fra una lasagna compatta e una che nuota."
+      }
+    },
+    {
+      "title": {
+        "it": "Il riposo"
+      },
+      "text": {
+        "it": "Quindici minuti fuori dal forno fanno rapprendere gli strati: si taglia a porzioni nette invece di crollare."
+      }
+    },
+    {
+      "title": {
+        "it": "Conservazione"
+      },
+      "text": {
+        "it": "Congelata a porzioni singole, fino a **2-3 mesi**. Si riscalda meglio in forno che al microonde se hai tempo."
+      }
+    }
+  ]
+}

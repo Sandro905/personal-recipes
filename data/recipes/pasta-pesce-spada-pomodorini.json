@@ -1,0 +1,153 @@
+{
+  "slug": "pasta-pesce-spada-pomodorini",
+  "added": "2026-08-09",
+  "title": {
+    "it": "Pasta con pesce spada e pomodorini"
+  },
+  "summary": {
+    "it": "Funziona identica con pesce spada, tonno fresco o merluzzo surgelato: cambia solo il pesce, il resto del procedimento resta uguale."
+  },
+  "yield": {
+    "count": 1,
+    "label": {
+      "it": "porzione",
+      "en": "serving"
+    }
+  },
+  "time": {
+    "prep": 10,
+    "cook": 15
+  },
+  "difficulty": "facile",
+  "cost": "medio",
+  "method": "padella",
+  "tags": [
+    "salato",
+    "primi",
+    "pasta",
+    "pesce",
+    "veloce",
+    "pranzo"
+  ],
+  "ingredients": [
+    {
+      "section": null,
+      "items": [
+        {
+          "food": "pasta-secca",
+          "qty": 100,
+          "unit": "g"
+        },
+        {
+          "food": "pesce-spada",
+          "qty": 150,
+          "unit": "g",
+          "label": {
+            "it": "pesce spada o tonno fresco a cubetti"
+          }
+        },
+        {
+          "food": "pomodorini",
+          "qty": 150,
+          "unit": "g"
+        },
+        {
+          "food": "olive-nere",
+          "qty": 15,
+          "unit": "g",
+          "label": {
+            "it": "olive denocciolate"
+          }
+        },
+        {
+          "food": "vino-bianco",
+          "qty": 30,
+          "unit": "g",
+          "label": {
+            "it": "vino bianco secco"
+          }
+        },
+        {
+          "food": "aglio",
+          "qty": 1,
+          "unit": "spicchio"
+        },
+        {
+          "food": "prezzemolo",
+          "unit": "qb"
+        },
+        {
+          "food": "olio-oliva-evo",
+          "qty": 10,
+          "unit": "g",
+          "label": {
+            "it": "1 cucchiaio (10 g)"
+          }
+        },
+        {
+          "food": "sale",
+          "unit": "qb"
+        },
+        {
+          "food": "pepe-nero",
+          "unit": "qb"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": {
+        "it": "Rosolare il pesce"
+      },
+      "text": {
+        "it": "Scalda {{olio-oliva-evo}} con {{aglio}} e rosola {{pesce-spada}} a cubetti 2 minuti per lato a fuoco vivo. Deve prendere colore fuori e restare appena rosato dentro."
+      },
+      "timer": 120
+    },
+    {
+      "title": {
+        "it": "Sfumare"
+      },
+      "text": {
+        "it": "Sfuma con {{vino-bianco}} e lascia evaporare."
+      },
+      "timer": 60
+    },
+    {
+      "title": {
+        "it": "Il sugo"
+      },
+      "text": {
+        "it": "Aggiungi {{pomodorini}} tagliati a metà e {{olive-nere}}, cuoci 4-5 minuti."
+      },
+      "timer": 280
+    },
+    {
+      "title": {
+        "it": "Mantecare"
+      },
+      "text": {
+        "it": "Salta con {{pasta-secca}} al dente e un po' di acqua di cottura, finisci con {{prezzemolo}}."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "title": {
+        "it": "Con il merluzzo"
+      },
+      "text": {
+        "it": "Sostituisci con **180 g di merluzzo** surgelato scongelato e asciugato: scendi a circa 600 kcal mantenendo 46 g di proteine."
+      }
+    },
+    {
+      "title": {
+        "it": "Non stracuocere"
+      },
+      "text": {
+        "it": "Il pesce a cubetti cuoce in pochissimo. Se lo lasci nel sugo tutto il tempo diventa asciutto: meglio toglierlo e rimetterlo alla fine."
+      }
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "slug": "bistecca-patate-forno",
+  "added": "2026-08-09",
+  "title": {
+    "it": "Bistecca con patate al forno"
+  },
+  "summary": {
+    "it": "Il pranzo con più proteine di tutti. Il segreto non è la cottura ma i due minuti di riposo alla fine: saltali e il piatto si allaga di succhi."
+  },
+  "yield": {
+    "count": 1,
+    "label": {
+      "it": "porzione",
+      "en": "serving"
+    }
+  },
+  "time": {
+    "prep": 10,
+    "cook": 35
+  },
+  "difficulty": "facile",
+  "cost": "medio",
+  "method": "padella",
+  "tags": [
+    "salato",
+    "secondi",
+    "manzo",
+    "carne",
+    "pranzo",
+    "proteico"
+  ],
+  "ingredients": [
+    {
+      "section": null,
+      "items": [
+        {
+          "food": "fesa-manzo",
+          "qty": 220,
+          "unit": "g",
+          "label": {
+            "it": "controfiletto o fesa di manzo"
+          }
+        },
+        {
+          "food": "patate",
+          "qty": 400,
+          "unit": "g"
+        },
+        {
+          "food": "aglio",
+          "qty": 2,
+          "unit": "spicchio"
+        },
+        {
+          "food": "rosmarino",
+          "unit": "qb",
+          "label": {
+            "it": "rosmarino fresco"
+          }
+        },
+        {
+          "food": "olio-oliva-evo",
+          "qty": 10,
+          "unit": "g",
+          "label": {
+            "it": "1 cucchiaio (10 g)"
+          }
+        },
+        {
+          "food": "sale",
+          "unit": "qb"
+        },
+        {
+          "food": "pepe-nero",
+          "unit": "qb"
+        },
+        {
+          "food": "insalata",
+          "qty": 80,
+          "unit": "g",
+          "label": {
+            "it": "insalata o pomodoro a parte"
+          }
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": {
+        "it": "Patate in forno"
+      },
+      "text": {
+        "it": "Taglia {{patate}} a spicchi e condiscile con {{olio-oliva-evo}}, {{aglio}}, {{rosmarino}}, sale e pepe. Forno a 200 °C per 35 minuti."
+      },
+      "timer": 2100
+    },
+    {
+      "title": {
+        "it": "Scaldare la padella"
+      },
+      "text": {
+        "it": "Quando mancano 10 minuti alle patate, metti una padella pesante sul fuoco al massimo. Deve essere davvero rovente, non tiepida."
+      }
+    },
+    {
+      "title": {
+        "it": "Cuocere la carne"
+      },
+      "text": {
+        "it": "Ungi {{fesa-manzo}} con un filo d'olio (non la padella), sala e pepa. Cuoci 2-3 minuti per lato per una cottura media, senza mai muoverla mentre è sul fondo."
+      }
+    },
+    {
+      "title": {
+        "it": "Riposo"
+      },
+      "text": {
+        "it": "Toglila e lasciala riposare 2 minuti su un tagliere prima di tagliarla: i succhi si redistribuiscono invece di finire nel piatto. Servi con {{insalata}}."
+      },
+      "timer": 120
+    }
+  ],
+  "notes": [
+    {
+      "title": {
+        "it": "Perché il riposo"
+      },
+      "text": {
+        "it": "Tagliata subito, la carne perde liquidi e diventa asciutta dentro. Due minuti bastano per una bistecca di questo spessore."
+      }
+    },
+    {
+      "title": {
+        "it": "Sale"
+      },
+      "text": {
+        "it": "Sala appena prima di cuocere oppure almeno 40 minuti prima. Nel mezzo il sale tira fuori l'acqua e impedisce alla crosta di formarsi."
+      }
+    }
+  ]
+}

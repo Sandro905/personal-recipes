@@ -1,0 +1,167 @@
+{
+  "slug": "riso-pollo-peperoni",
+  "added": "2026-08-09",
+  "title": {
+    "it": "Riso con pollo e peperoni"
+  },
+  "summary": {
+    "it": "Si cuoce come un risotto ma con riso comune e brodo vegetale: un piatto unico completo, il più bilanciato della settimana."
+  },
+  "yield": {
+    "count": 1,
+    "label": {
+      "it": "porzione",
+      "en": "serving"
+    }
+  },
+  "time": {
+    "prep": 15,
+    "cook": 25
+  },
+  "difficulty": "facile",
+  "cost": "economico",
+  "method": "padella",
+  "tags": [
+    "salato",
+    "primi",
+    "riso",
+    "pollo",
+    "carne",
+    "pranzo",
+    "proteico"
+  ],
+  "ingredients": [
+    {
+      "section": null,
+      "items": [
+        {
+          "food": "riso-bianco",
+          "qty": 100,
+          "unit": "g"
+        },
+        {
+          "food": "petto-pollo",
+          "qty": 150,
+          "unit": "g",
+          "label": {
+            "it": "petto di pollo a pezzetti"
+          }
+        },
+        {
+          "food": "peperone",
+          "qty": 180,
+          "unit": "g",
+          "label": {
+            "it": "peperone rosso o giallo (1)"
+          }
+        },
+        {
+          "food": "cipolla",
+          "qty": 60,
+          "unit": "g",
+          "label": {
+            "it": "cipolla (½)"
+          }
+        },
+        {
+          "food": "pomodori-pelati",
+          "qty": 100,
+          "unit": "g"
+        },
+        {
+          "food": "brodo-vegetale",
+          "qty": 250,
+          "unit": "ml",
+          "label": {
+            "it": "brodo vegetale caldo"
+          }
+        },
+        {
+          "food": "olio-oliva-evo",
+          "qty": 10,
+          "unit": "g",
+          "label": {
+            "it": "1 cucchiaio (10 g)"
+          }
+        },
+        {
+          "food": "paprika-dolce",
+          "qty": 1,
+          "unit": "cucchiaino"
+        },
+        {
+          "food": "sale",
+          "unit": "qb"
+        },
+        {
+          "food": "pepe-nero",
+          "unit": "qb"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": {
+        "it": "Cipolla"
+      },
+      "text": {
+        "it": "Fai appassire {{cipolla}} tritata in {{olio-oliva-evo}} per 3 minuti."
+      },
+      "timer": 180
+    },
+    {
+      "title": {
+        "it": "Il pollo"
+      },
+      "text": {
+        "it": "Aggiungi {{petto-pollo}} a pezzetti e fallo colorire a fuoco vivo. Non muoverlo troppo: deve prendere colore, non lessarsi."
+      }
+    },
+    {
+      "title": {
+        "it": "Peperone"
+      },
+      "text": {
+        "it": "Unisci {{peperone}} a cubetti e {{paprika-dolce}}, cuoci 3 minuti."
+      },
+      "timer": 180
+    },
+    {
+      "title": {
+        "it": "Tostare il riso"
+      },
+      "text": {
+        "it": "Aggiungi {{riso-bianco}} e tostalo un minuto mescolando, finché i chicchi diventano lucidi."
+      },
+      "timer": 60
+    },
+    {
+      "title": {
+        "it": "Cottura"
+      },
+      "text": {
+        "it": "Unisci {{pomodori-pelati}} e poi {{brodo-vegetale}} un mestolo alla volta, mescolando come un risotto, per 18-20 minuti. Aggiusta di sale e pepe."
+      },
+      "timer": 1200
+    }
+  ],
+  "notes": [
+    {
+      "title": {
+        "it": "Il brodo caldo"
+      },
+      "text": {
+        "it": "Tienilo caldo in un pentolino a fianco: aggiunto freddo blocca la cottura ogni volta e il riso viene irregolare."
+      }
+    },
+    {
+      "title": {
+        "it": "Più cremoso"
+      },
+      "text": {
+        "it": "Se lo vuoi più legato, negli ultimi 2 minuti mescola energicamente: l'amido del riso fa il resto senza bisogno di burro."
+      }
+    }
+  ]
+}
