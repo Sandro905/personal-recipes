@@ -12,7 +12,6 @@
   --ink-faint: #8698a1;
   --hair: #cfd9dc;
   --hair-soft: #e2e9ea;
-  --grid: rgba(20, 33, 42, 0.055);
 
   --saffron: #d9910f;
   --saffron-soft: #f6e7c6;
@@ -39,7 +38,6 @@
   --ink-faint: #6d838d;
   --hair: #27373f;
   --hair-soft: #1e2d35;
-  --grid: rgba(233, 239, 241, 0.045);
   --saffron: #e9a83a;
   --saffron-soft: #3a2f18;
   --basil: #57a37c;
@@ -56,7 +54,6 @@
     --ink-faint: #6d838d;
     --hair: #27373f;
     --hair-soft: #1e2d35;
-    --grid: rgba(233, 239, 241, 0.045);
     --saffron: #e9a83a;
     --saffron-soft: #3a2f18;
     --basil: #57a37c;
@@ -73,11 +70,6 @@ body {
   margin: 0;
   min-height: 100vh;
   background-color: var(--paper);
-  /* quadretti */
-  background-image:
-    linear-gradient(to right, var(--grid) 1px, transparent 1px),
-    linear-gradient(to bottom, var(--grid) 1px, transparent 1px);
-  background-size: 26px 26px;
   color: var(--ink);
   font-family: var(--prose);
   font-size: 1.02rem;
@@ -231,6 +223,14 @@ a:hover { text-decoration-color: currentColor; }
 .backlink { font-family: var(--mono); font-size: 0.76rem; text-decoration: none; color: var(--ink-soft); display: inline-block; margin: 1.6rem 0 0; }
 .backlink:hover { color: var(--ink); }
 
+.recipe-photo {
+  margin: 1.4rem 0 0; padding: 0; border-radius: var(--radius); overflow: hidden;
+  border: 1px solid var(--hair); box-shadow: var(--shadow);
+  aspect-ratio: 21 / 9; background: var(--hair-soft);
+}
+.recipe-photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
+@media print { .recipe-photo { display: none; } }
+
 .recipe-head { padding: 1.4rem 0 1.8rem; border-bottom: 1px solid var(--hair); }
 .recipe-head h1 { font-size: clamp(2rem, 5.6vw, 3.4rem); max-width: 26ch; text-wrap: balance; }
 .recipe-head .lede { color: var(--ink-soft); max-width: 56ch; font-size: 1.08rem; margin: 0.9rem 0 0; }
@@ -245,16 +245,16 @@ a:hover { text-decoration-color: currentColor; }
 
 .layout {
   display: grid; gap: clamp(1.8rem, 4vw, 3.2rem);
-  grid-template-columns: minmax(0, 20rem) minmax(0, 1fr);
+  grid-template-columns: minmax(0, 1fr);
   align-items: start;
   padding: 2.2rem 0 5rem;
 }
-@media (max-width: 860px) { .layout { grid-template-columns: 1fr; } }
+@media (min-width: 861px) { .layout { grid-template-columns: minmax(0, 20rem) minmax(0, 1fr); } }
 
-.sidecol { display: grid; gap: 1.2rem; position: sticky; top: 78px; }
-@media (max-width: 860px) { .sidecol { position: static; } }
+.sidecol { display: grid; gap: 1.2rem; min-width: 0; position: static; }
+@media (min-width: 861px) { .sidecol { position: sticky; top: 78px; } }
 
-.panel { background: var(--card); border: 1px solid var(--hair); border-radius: var(--radius); box-shadow: var(--shadow); padding: 1.1rem 1.15rem 1.25rem; }
+.panel { background: var(--card); border: 1px solid var(--hair); border-radius: var(--radius); box-shadow: var(--shadow); padding: 1.1rem 1.15rem 1.25rem; min-width: 0; }
 .panel > h2 { font-size: 1.02rem; letter-spacing: 0; margin-bottom: 0.85rem; }
 
 /* stepper porzioni */
@@ -328,7 +328,7 @@ details.issues ul { margin: 0.5rem 0 0; padding-left: 1.1rem; font-size: 0.86rem
 .steps { list-style: none; counter-reset: step; margin: 0; padding: 0; max-width: var(--measure); }
 .steps > li {
   counter-increment: step;
-  display: grid; grid-template-columns: 2.4rem 1fr; gap: 0 1rem;
+  display: grid; grid-template-columns: 2.4rem minmax(0, 1fr); gap: 0 1rem;
   padding: 1.15rem 0; border-top: 1px solid var(--hair);
 }
 .steps > li:first-child { border-top: 0; padding-top: 0.3rem; }
@@ -341,7 +341,8 @@ details.issues ul { margin: 0.5rem 0 0; padding-left: 1.1rem; font-size: 0.86rem
 .step__text { margin: 0; }
 .step__text .q {
   font-family: var(--mono); font-size: 0.9em; font-variant-numeric: tabular-nums;
-  background: var(--saffron-soft); border-radius: 4px; padding: 0.05em 0.3em; white-space: nowrap;
+  background: var(--saffron-soft); border-radius: 4px; padding: 0.05em 0.3em;
+  box-decoration-break: clone; -webkit-box-decoration-break: clone;
 }
 
 .timer { grid-column: 2; justify-self: start; margin-top: 0.7rem; display: flex; align-items: center; gap: 0.6rem; }

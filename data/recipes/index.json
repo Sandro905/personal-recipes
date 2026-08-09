@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-09T12:05:30.873Z",
+  "generated": "2026-08-09T13:51:27.313Z",
   "count": 2,
   "recipes": [
     {
@@ -11,6 +11,7 @@
       "summary": {
         "it": "Senza forno e senza lievitazione lunga: si cuoce sul fornello in due tempi, girandola come una frittata."
       },
+      "image": null,
       "tags": [
         "salato",
         "lievitati",
@@ -49,6 +50,7 @@
       "summary": {
         "it": "Croccanti fuori, morbide dentro, con il cuore di scamorza che fila. Due riposi brevi tengono insieme tutto in cottura."
       },
+      "image": null,
       "tags": [
         "salato",
         "pesce",

@@ -242,6 +242,15 @@ function renderHead() {
   document.getElementById('title').textContent = tr(recipe.title, lang);
   document.getElementById('lede').textContent = tr(recipe.summary, lang);
 
+  const photo = document.getElementById('photo');
+  if (recipe.image) {
+    document.getElementById('photoImg').src = recipe.image;
+    document.getElementById('photoImg').alt = tr(recipe.title, lang);
+    photo.hidden = false;
+  } else {
+    photo.hidden = true;
+  }
+
   const facts = [
     time.prep && [t('time.prep'), minutes(time.prep, t)],
     time.rest && [t('time.rest'), minutes(time.rest, t)],
