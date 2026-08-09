@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-09T14:08:47.922Z",
+  "generated": "2026-08-09T14:48:51.242Z",
   "count": 2,
   "recipes": [
     {
@@ -12,6 +12,7 @@
         "it": "Senza forno e senza lievitazione lunga: si cuoce sul fornello in due tempi, girandola come una frittata."
       },
       "image": "assets/img/recipes/focaccia-padella-prosciutto.jpg",
+      "imageFocus": null,
       "tags": [
         "salato",
         "lievitati",
@@ -50,7 +51,8 @@
       "summary": {
         "it": "Croccanti fuori, morbide dentro, con il cuore di scamorza che fila. Due riposi brevi tengono insieme tutto in cottura."
       },
-      "image": null,
+      "image": "assets/img/recipes/polpette-tonno-patate-friggitrice.jpg",
+      "imageFocus": "center 72%",
       "tags": [
         "salato",
         "pesce",

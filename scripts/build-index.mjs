@@ -43,6 +43,7 @@ for (const file of files) {
     title: recipe.title,
     summary: recipe.summary,
     image: recipe.image ?? null,
+    imageFocus: recipe.imageFocus ?? null,
     tags: recipe.tags ?? [],
     method: recipe.method ?? null,
     difficulty: recipe.difficulty ?? null,

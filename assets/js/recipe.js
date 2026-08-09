@@ -244,8 +244,10 @@ function renderHead() {
 
   const photo = document.getElementById('photo');
   if (recipe.image) {
-    document.getElementById('photoImg').src = recipe.image;
-    document.getElementById('photoImg').alt = tr(recipe.title, lang);
+    const photoImg = document.getElementById('photoImg');
+    photoImg.src = recipe.image;
+    photoImg.alt = tr(recipe.title, lang);
+    photoImg.style.objectPosition = recipe.imageFocus ?? '';
     photo.hidden = false;
   } else {
     photo.hidden = true;

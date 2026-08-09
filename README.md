@@ -79,6 +79,7 @@ e si ferma — così non ti ritrovi macro sbagliate in silenzio.
   "title":   { "it": "…" },                // ogni testo è un oggetto per lingua
   "summary": { "it": "…" },
   "image": "assets/img/recipes/focaccia-padella-prosciutto.jpg",  // opzionale, foto di copertina
+  "imageFocus": "center 72%",              // opzionale, object-position CSS per ritagli stretti (card, hero)
   "gallery": [                             // opzionale, foto del procedimento (in fondo alla pagina)
     { "image": "assets/img/recipes/focaccia-padella-prosciutto-passaggi-1.jpg",
       "caption": { "it": "…" } }

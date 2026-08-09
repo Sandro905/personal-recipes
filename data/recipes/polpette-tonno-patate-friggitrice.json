@@ -7,6 +7,22 @@
   "summary": {
     "it": "Croccanti fuori, morbide dentro, con il cuore di scamorza che fila. Due riposi brevi tengono insieme tutto in cottura."
   },
+  "image": "assets/img/recipes/polpette-tonno-patate-friggitrice.jpg",
+  "imageFocus": "center 72%",
+  "gallery": [
+    {
+      "image": "assets/img/recipes/polpette-tonno-patate-friggitrice-passaggi-1.jpg",
+      "caption": { "it": "Patate lessate e schiacciate, poi tonno e grana per l'impasto." }
+    },
+    {
+      "image": "assets/img/recipes/polpette-tonno-patate-friggitrice-passaggi-2.jpg",
+      "caption": { "it": "Polpette formate col cuore di scamorza, poi passate nell'uovo e nel pangrattato." }
+    },
+    {
+      "image": "assets/img/recipes/polpette-tonno-patate-friggitrice-passaggi-3.jpg",
+      "caption": { "it": "Qui fritte in olio — l'alternativa alla friggitrice ad aria indicata in \"Altri metodi\"." }
+    }
+  ],
   "yield": { "count": 20, "label": { "it": "polpette", "en": "meatballs" } },
   "time": { "prep": 25, "rest": 25, "cook": 18 },
   "difficulty": "molto-facile",

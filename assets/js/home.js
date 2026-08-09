@@ -51,7 +51,10 @@ function card(recipe) {
     el('a', { href: `ricetta.html?r=${encodeURIComponent(recipe.slug)}&lang=${lang}` }, [
       el('div', { class: 'card__plate', style: `--tint:${tintFor(recipe.slug)}`, 'aria-hidden': 'true' }, [
         recipe.image
-          ? el('img', { src: recipe.image, alt: '', loading: 'lazy' })
+          ? el('img', {
+              src: recipe.image, alt: '', loading: 'lazy',
+              style: recipe.imageFocus ? `object-position:${recipe.imageFocus}` : null
+            })
           : el('span', { class: 'card__initial', text: title.slice(0, 1) }),
         recipe.method && el('span', { class: 'card__method', text: t(`method.${recipe.method}`) })
       ]),

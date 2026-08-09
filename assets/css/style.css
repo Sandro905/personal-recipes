@@ -190,7 +190,7 @@ a:hover { text-decoration-color: currentColor; }
   border-bottom: 1px solid var(--hair);
   display: grid; place-items: center;
 }
-.card__plate img { width: 100%; height: 100%; object-fit: cover; }
+.card__plate img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
 .card__initial {
   font-family: var(--display); font-size: 3.4rem; font-weight: 700;
   color: color-mix(in srgb, var(--ink) 22%, transparent);
