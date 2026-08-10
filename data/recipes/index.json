@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-10T10:38:07.327Z",
-  "count": 28,
+  "generated": "2026-08-10T10:44:48.761Z",
+  "count": 27,
   "recipes": [
     {
       "slug": "alette-pollo-forno-patate",
@@ -122,43 +122,6 @@
       "search": {
         "it": "Carbonara semplificata · Uova mantecate a fuoco spento, non strapazzate. Se la padella è ancora sul fuoco quando entrano le uova, è già finita. · pasta di semola secca · uova · pancetta · grana padano grattugiato · pepe nero macinato · La pancetta · La crema · Cuocere la pasta · Mantecare",
         "en": "Carbonara semplificata · Uova mantecate a fuoco spento, non strapazzate. Se la padella è ancora sul fuoco quando entrano le uova, è già finita. · dried semolina pasta · eggs · pancetta · grated Grana Padano · ground black pepper · La pancetta · La crema · Cuocere la pasta · Mantecare"
-      }
-    },
-    {
-      "slug": "colazione-shake-avena",
-      "added": "2026-08-09",
-      "title": {
-        "it": "Shake proteico con avena e frutta"
-      },
-      "summary": {
-        "it": "La colazione di tutti i giorni: tre ingredienti, un minuto, 29 g di proteine. L'avena va nello shaker direttamente, senza cuocerla."
-      },
-      "image": null,
-      "imageFocus": null,
-      "tags": [
-        "colazione",
-        "veloce",
-        "proteico",
-        "dolce"
-      ],
-      "method": "senza-cottura",
-      "difficulty": "molto-facile",
-      "cost": "economico",
-      "time": {
-        "prep": 3
-      },
-      "yield": {
-        "count": 1,
-        "label": {
-          "it": "porzione",
-          "en": "serving"
-        }
-      },
-      "kcalPerServing": 368,
-      "coverage": 1,
-      "search": {
-        "it": "Shake proteico con avena e frutta · La colazione di tutti i giorni: tre ingredienti, un minuto, 29 g di proteine. L'avena va nello shaker direttamente, senza cuocerla. · proteine whey (1 scoop) proteine whey in polvere · fiocchi d'avena fiocchi d'avena · frutto di stagione (1 banana, mela, pera…) banana · acqua o latte parzialmente scremato acqua · Shakerare · Il frutto",
-        "en": "Shake proteico con avena e frutta · La colazione di tutti i giorni: tre ingredienti, un minuto, 29 g di proteine. L'avena va nello shaker direttamente, senza cuocerla. · proteine whey (1 scoop) whey protein powder · fiocchi d'avena rolled oats · frutto di stagione (1 banana, mela, pera…) banana · acqua o latte parzialmente scremato water · Shakerare · Il frutto"
       }
     },
     {
@@ -661,8 +624,8 @@
       "summary": {
         "it": "Pomodoro, olive e origano: il pollo si insaporisce mentre cuoce coperto e le patate vanno in forno da sole. È il pranzo con più proteine della raccolta, 61 g."
       },
-      "image": null,
-      "imageFocus": null,
+      "image": "assets/img/recipes/pollo-cacciatora-patate.jpg",
+      "imageFocus": "center 55%",
       "tags": [
         "salato",
         "secondi",
@@ -701,8 +664,8 @@
       "summary": {
         "it": "Una teglia, venticinque minuti, e il freezer pieno. Si congelano già cotte e tornano croccanti con due minuti di padella."
       },
-      "image": null,
-      "imageFocus": null,
+      "image": "assets/img/recipes/polpette-pollo-forno.jpg",
+      "imageFocus": "center 50%",
       "tags": [
         "salato",
         "secondi",
@@ -865,8 +828,8 @@
       "summary": {
         "it": "Praticamente zero carboidrati e 39 g di proteine: la cena giusta per i giorni di riposo. Il cartoccio lo cuoce nel suo vapore."
       },
-      "image": null,
-      "imageFocus": null,
+      "image": "assets/img/recipes/salmone-cartoccio-insalata.jpg",
+      "imageFocus": "center 50%",
       "tags": [
         "salato",
         "cena",

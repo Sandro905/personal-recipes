@@ -7,6 +7,8 @@
   "summary": {
     "it": "Una teglia, venticinque minuti, e il freezer pieno. Si congelano già cotte e tornano croccanti con due minuti di padella."
   },
+  "image": "assets/img/recipes/polpette-pollo-forno.jpg",
+  "imageFocus": "center 50%",
   "yield": {
     "count": 4,
     "label": {
