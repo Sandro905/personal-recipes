@@ -7,6 +7,8 @@
   "summary": {
     "it": "Impasto di due ingredienti — farina e yogurt greco — ripieno speziato e formaggio. Otto pezzi, due a pasto: 66 g di proteine con soli 14 g di grassi, il piatto più proteico della raccolta."
   },
+  "image": "assets/img/recipes/hot-pocket-manzo.jpg",
+  "imageFocus": "center 48%",
   "yield": {
     "count": 4,
     "label": {

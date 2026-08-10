@@ -7,6 +7,8 @@
   "summary": {
     "it": "Ripieno di pane e parmigiano, cottura lunga nel sugo. Sei porzioni da congelare, col pane a parte per non farlo ammollare."
   },
+  "image": "assets/img/recipes/involtini-manzo-prosciutto.jpg",
+  "imageFocus": "center 55%",
   "yield": {
     "count": 6,
     "label": {

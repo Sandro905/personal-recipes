@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-10T07:27:48.565Z",
+  "generated": "2026-08-10T07:40:06.202Z",
   "count": 28,
   "recipes": [
     {
@@ -291,8 +291,8 @@
       "summary": {
         "it": "Impasto di due ingredienti — farina e yogurt greco — ripieno speziato e formaggio. Otto pezzi, due a pasto: 66 g di proteine con soli 14 g di grassi, il piatto più proteico della raccolta."
       },
-      "image": null,
-      "imageFocus": null,
+      "image": "assets/img/recipes/hot-pocket-manzo.jpg",
+      "imageFocus": "center 48%",
       "tags": [
         "salato",
         "manzo",
@@ -332,8 +332,8 @@
       "summary": {
         "it": "Ripieno di pane e parmigiano, cottura lunga nel sugo. Sei porzioni da congelare, col pane a parte per non farlo ammollare."
       },
-      "image": null,
-      "imageFocus": null,
+      "image": "assets/img/recipes/involtini-manzo-prosciutto.jpg",
+      "imageFocus": "center 55%",
       "tags": [
         "salato",
         "secondi",
@@ -784,8 +784,8 @@
       "summary": {
         "it": "Si cuoce come un risotto ma con riso comune e brodo vegetale: un piatto unico completo, il più bilanciato della settimana."
       },
-      "image": null,
-      "imageFocus": null,
+      "image": "assets/img/recipes/riso-pollo-peperoni.jpg",
+      "imageFocus": "center 55%",
       "tags": [
         "salato",
         "primi",
