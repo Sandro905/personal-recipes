@@ -219,6 +219,12 @@ button, input, select { font: inherit; color: inherit; }
 }
 .btn svg { width: 18px; height: 18px; flex: none; }
 
+/* Le icone non devono mai essere il bersaglio del clic: senza questo il
+   <path> dell'SVG è l'elemento in cima al punto premuto e su WebKit il
+   pulsante può non ricevere l'evento. Vale per ogni icona dentro un
+   comando. */
+button svg, a svg, label svg { pointer-events: none; }
+
 .btn--primary { background: var(--accent); color: var(--accent-text); }
 .btn--primary:hover { background: var(--accent-hover); }
 
@@ -300,6 +306,10 @@ button, input, select { font: inherit; color: inherit; }
   overscroll-behavior: contain;
 }
 .drawer.is-open { transform: translateX(0); }
+/* stessa ragione del foglio: senza questa, "display: flex" batte la regola
+   `[hidden] { display: none }` del browser e le voci del menu chiuso
+   restano raggiungibili con il tab e dai lettori di schermo */
+.drawer[hidden] { display: none; }
 
 .drawer__head {
   display: flex; align-items: center; justify-content: space-between;
@@ -737,8 +747,13 @@ details.issues ul { margin: 0.5rem 0 0; padding-left: 1.1rem; font-size: var(--t
   background: var(--surface); color: var(--text);
   box-shadow: var(--shadow-lg);
   overflow: hidden;
-  display: flex; flex-direction: column;
+  flex-direction: column;
 }
+/* Solo da aperto. Dichiarare "display: flex" sulla classe sovrascriverebbe
+   la regola del browser `dialog:not([open]) { display: none }` — gli stili
+   d'autore battono quelli dello user-agent — e il foglio resterebbe
+   disegnato nel flusso della pagina anche dopo la chiusura. */
+.sheet[open] { display: flex; }
 .sheet::backdrop { background: rgba(10, 10, 12, 0.5); backdrop-filter: blur(2px); }
 .sheet[open] { animation: sheet-up 0.28s cubic-bezier(0.32, 0.72, 0, 1); }
 @keyframes sheet-up { from { transform: translateY(100%); } to { transform: translateY(0); } }
