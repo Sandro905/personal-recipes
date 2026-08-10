@@ -5,8 +5,10 @@
     "it": "Pasta con pesce spada e pomodorini"
   },
   "summary": {
-    "it": "Funziona identica con pesce spada, tonno fresco o merluzzo surgelato: cambia solo il pesce, il resto del procedimento resta uguale."
+    "it": "Pesce spada a cubetti rosolato a fuoco vivo, pomodorini e olive: un piatto di pesce da venticinque minuti in tutto."
   },
+  "image": "assets/img/recipes/pasta-pesce-spada-pomodorini.jpg",
+  "imageFocus": "center 55%",
   "yield": {
     "count": 1,
     "label": {
@@ -43,7 +45,7 @@
           "qty": 150,
           "unit": "g",
           "label": {
-            "it": "pesce spada o tonno fresco a cubetti"
+            "it": "pesce spada a cubetti"
           }
         },
         {
@@ -135,10 +137,10 @@
   "notes": [
     {
       "title": {
-        "it": "Con il merluzzo"
+        "it": "Se cambi pesce"
       },
       "text": {
-        "it": "Con **180 g di merluzzo** surgelato scongelato e asciugato resti sulle 685 kcal, con 47 g di proteine e qualche grasso in meno."
+        "it": "Le quantità qui sotto tengono il piatto sulle **700 kcal e 48 g di proteine** del riferimento.\n**Tonno fresco** — a parità di peso sali a 750 kcal, una cinquantina in più, con le proteine quasi identiche. Per restare sulle 700 kcal usane **115 g** invece di 150.\n**Merluzzo** — a parità di peso scendi a 660 kcal, ma perdi anche 6 g di proteine perché è molto più magro. Per tenere le stesse proteine servono **185 g**, e il piatto torna sulle 690 kcal."
       }
     },
     {
@@ -146,7 +148,15 @@
         "it": "Non stracuocere"
       },
       "text": {
-        "it": "Il pesce a cubetti cuoce in pochissimo. Se lo lasci nel sugo tutto il tempo diventa asciutto: meglio toglierlo e rimetterlo alla fine."
+        "it": "Il pesce a cubetti cuoce in pochissimo. Se lo lasci nel sugo tutto il tempo diventa asciutto: meglio toglierlo dopo la rosolatura e rimetterlo alla fine."
+      }
+    },
+    {
+      "title": {
+        "it": "Il taglio"
+      },
+      "text": {
+        "it": "Cubetti da 2-3 cm: più piccoli si sfaldano nel sugo, più grandi restano crudi al centro nei due minuti di rosolatura."
       }
     }
   ]
