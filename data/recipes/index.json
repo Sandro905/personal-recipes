@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-10T10:54:56.847Z",
-  "count": 26,
+  "generated": "2026-08-10T11:44:19.095Z",
+  "count": 24,
   "recipes": [
     {
       "slug": "alette-pollo-forno-patate",
@@ -542,8 +542,8 @@
       "summary": {
         "it": "La carne si rosola a parte e torna in padella solo alla fine: due minuti in tutto, così resta rosata invece di stringersi."
       },
-      "image": null,
-      "imageFocus": null,
+      "image": "assets/img/recipes/pasta-straccetti-manzo-funghi.jpg",
+      "imageFocus": "center 50%",
       "tags": [
         "salato",
         "primi",
@@ -739,47 +739,6 @@
       }
     },
     {
-      "slug": "riso-pollo-peperoni",
-      "added": "2026-08-09",
-      "title": {
-        "it": "Riso con pollo e peperoni"
-      },
-      "summary": {
-        "it": "Si cuoce come un risotto ma con riso comune e brodo vegetale: un piatto unico completo, il più bilanciato della settimana."
-      },
-      "image": "assets/img/recipes/riso-pollo-peperoni.jpg",
-      "imageFocus": "center 55%",
-      "tags": [
-        "salato",
-        "primi",
-        "riso",
-        "pollo",
-        "carne",
-        "pranzo",
-        "proteico"
-      ],
-      "method": "padella",
-      "difficulty": "facile",
-      "cost": "economico",
-      "time": {
-        "prep": 15,
-        "cook": 25
-      },
-      "yield": {
-        "count": 1,
-        "label": {
-          "it": "porzione",
-          "en": "serving"
-        }
-      },
-      "kcalPerServing": 700,
-      "coverage": 0.8,
-      "search": {
-        "it": "Riso con pollo e peperoni · Si cuoce come un risotto ma con riso comune e brodo vegetale: un piatto unico completo, il più bilanciato della settimana. · riso bianco · petto di pollo a pezzetti petto di pollo · peperone rosso o giallo (1) peperone · cipolla (½) cipolla · pomodori pelati · brodo vegetale caldo brodo vegetale · olio extravergine d'oliva (1 cucchiaio) olio extravergine d'oliva · paprika dolce · sale fino · pepe nero macinato · Cipolla · Il pollo · Peperone · Tostare il riso · Cottura",
-        "en": "Riso con pollo e peperoni · Si cuoce come un risotto ma con riso comune e brodo vegetale: un piatto unico completo, il più bilanciato della settimana. · white rice · petto di pollo a pezzetti chicken breast · peperone rosso o giallo (1) bell pepper · cipolla (½) onion · peeled tomatoes · brodo vegetale caldo vegetable stock · olio extravergine d'oliva (1 cucchiaio) extra virgin olive oil · sweet paprika · fine salt · ground black pepper · Cipolla · Il pollo · Peperone · Tostare il riso · Cottura"
-      }
-    },
-    {
       "slug": "risotto-gamberetti-limone",
       "added": "2026-08-09",
       "title": {
@@ -949,8 +908,8 @@
       "summary": {
         "it": "Sei pasti completi in vaschetta: riso sul fondo, spezzatino sopra, senza mescolare. Il riso va cotto due minuti in meno perché finirà al microonde."
       },
-      "image": null,
-      "imageFocus": null,
+      "image": "assets/img/recipes/spezzatino-pollo-riso.jpg",
+      "imageFocus": "center 55%",
       "tags": [
         "salato",
         "primi",
@@ -980,45 +939,6 @@
       "search": {
         "it": "Spezzatino di pollo al pomodoro con riso · Sei pasti completi in vaschetta: riso sul fondo, spezzatino sopra, senza mescolare. Il riso va cotto due minuti in meno perché finirà al microonde. · petto di pollo a cubetti di 3-4 cm petto di pollo · pomodori pelati · peperoni (2) peperone · cipolle (2) cipolla · aglio · brodo vegetale caldo brodo vegetale · paprika affumicata · paprika dolce · olio extravergine d'oliva (2 cucchiai) olio extravergine d'oliva · sale fino · pepe nero macinato · riso (peso da crudo) riso bianco · Rosolare il pollo · Le verdure · Cottura · Il riso · Comporre le vaschette",
         "en": "Spezzatino di pollo al pomodoro con riso · Sei pasti completi in vaschetta: riso sul fondo, spezzatino sopra, senza mescolare. Il riso va cotto due minuti in meno perché finirà al microonde. · petto di pollo a cubetti di 3-4 cm chicken breast · peeled tomatoes · peperoni (2) bell pepper · cipolle (2) onion · garlic · brodo vegetale caldo vegetable stock · smoked paprika · sweet paprika · olio extravergine d'oliva (2 cucchiai) extra virgin olive oil · fine salt · ground black pepper · riso (peso da crudo) white rice · Rosolare il pollo · Le verdure · Cottura · Il riso · Comporre le vaschette"
-      }
-    },
-    {
-      "slug": "tonno-riso-insalata",
-      "added": "2026-08-09",
-      "title": {
-        "it": "Tonno, riso in busta e insalata"
-      },
-      "summary": {
-        "it": "Cinque minuti, zero cottura vera, 44 g di proteine. La cena dei giorni di palestra con rientro tardi."
-      },
-      "image": null,
-      "imageFocus": null,
-      "tags": [
-        "salato",
-        "cena",
-        "pesce",
-        "veloce",
-        "proteico",
-        "riso"
-      ],
-      "method": "senza-cottura",
-      "difficulty": "molto-facile",
-      "cost": "economico",
-      "time": {
-        "prep": 5
-      },
-      "yield": {
-        "count": 1,
-        "label": {
-          "it": "porzione",
-          "en": "serving"
-        }
-      },
-      "kcalPerServing": 457,
-      "coverage": 0.67,
-      "search": {
-        "it": "Tonno, riso in busta e insalata · Cinque minuti, zero cottura vera, 44 g di proteine. La cena dei giorni di palestra con rientro tardi. · tonno al naturale sgocciolato tonno al naturale sgocciolato · riso precotto in busta riso precotto in busta · insalata · olio extravergine d'oliva (1 cucchiaio) olio extravergine d'oliva · sale fino · pepe nero macinato · Il riso · Comporre",
-        "en": "Tonno, riso in busta e insalata · Cinque minuti, zero cottura vera, 44 g di proteine. La cena dei giorni di palestra con rientro tardi. · tonno al naturale sgocciolato canned tuna in water, drained · riso precotto in busta pre-cooked pouch rice · salad leaves · olio extravergine d'oliva (1 cucchiaio) extra virgin olive oil · fine salt · ground black pepper · Il riso · Comporre"
       }
     },
     {

@@ -7,6 +7,8 @@
   "summary": {
     "it": "Sei pasti completi in vaschetta: riso sul fondo, spezzatino sopra, senza mescolare. Il riso va cotto due minuti in meno perché finirà al microonde."
   },
+  "image": "assets/img/recipes/spezzatino-pollo-riso.jpg",
+  "imageFocus": "center 55%",
   "yield": {
     "count": 6,
     "label": {
