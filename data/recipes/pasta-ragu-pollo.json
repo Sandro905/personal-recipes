@@ -7,6 +7,8 @@
   "summary": {
     "it": "Il ragù della rotazione settimanale: pollo macinato, soffritto e passata. Si congela in porzioni e diventa la cena veloce dei giorni pieni."
   },
+  "image": "assets/img/recipes/pasta-ragu-pollo.jpg",
+  "imageFocus": "center 55%",
   "yield": {
     "count": 1,
     "label": {

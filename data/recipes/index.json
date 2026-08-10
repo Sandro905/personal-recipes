@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-10T10:33:45.855Z",
+  "generated": "2026-08-10T10:37:46.269Z",
   "count": 28,
   "recipes": [
     {
@@ -497,8 +497,8 @@
       "summary": {
         "it": "Il ragù della rotazione settimanale: pollo macinato, soffritto e passata. Si congela in porzioni e diventa la cena veloce dei giorni pieni."
       },
-      "image": null,
-      "imageFocus": null,
+      "image": "assets/img/recipes/pasta-ragu-pollo.jpg",
+      "imageFocus": "center 55%",
       "tags": [
         "salato",
         "primi",
@@ -539,8 +539,8 @@
       "summary": {
         "it": "Cremosa senza panna: la base è formaggio spalmabile light. Il salmone va aggiunto a fuoco spento, altrimenti diventa gommoso."
       },
-      "image": null,
-      "imageFocus": null,
+      "image": "assets/img/recipes/pasta-salmone-affumicato.jpg",
+      "imageFocus": "center 50%",
       "tags": [
         "salato",
         "primi",
@@ -620,8 +620,8 @@
       "summary": {
         "it": "Quindici minuti dalla dispensa al piatto, ed è il pranzo più sostanzioso della raccolta. Sta in piedi sul tonno: sgocciolalo bene."
       },
-      "image": null,
-      "imageFocus": null,
+      "image": "assets/img/recipes/pasta-tonno-pomodorini.jpg",
+      "imageFocus": "center 55%",
       "tags": [
         "salato",
         "primi",
