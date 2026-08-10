@@ -7,6 +7,22 @@
   "summary": {
     "it": "Il piatto più grasso della rotazione, ma sono grassi buoni: omega-3 dal salmone. Le verdure partono prima perché il pesce ci mette molto meno."
   },
+  "image": "assets/img/recipes/salmone-forno-patate-peperoni.jpg",
+  "imageFocus": "center 62%",
+  "gallery": [
+    {
+      "image": "assets/img/recipes/salmone-forno-patate-peperoni-passaggi-1.jpg",
+      "caption": {
+        "it": "Patate pelate e tagliate a cubetti, peperone lavato e ridotto a pezzi."
+      }
+    },
+    {
+      "image": "assets/img/recipes/salmone-forno-patate-peperoni-passaggi-2.jpg",
+      "caption": {
+        "it": "Verdure condite e infornate; il salmone si appoggia sopra quando sono già quasi cotte."
+      }
+    }
+  ],
   "yield": {
     "count": 1,
     "label": {
