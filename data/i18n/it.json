@@ -1,7 +1,6 @@
 {
   "site": {
     "title": "Ricette personali",
-    "tagline": "Le ricette di casa, con le grammature che tornano e le macro già calcolate.",
     "recipesCount": "{n} ricette",
     "recipesCountOne": "1 ricetta",
     "footnote": "Uso personale · le macro sono stime sugli ingredienti crudi"
@@ -26,7 +25,6 @@
     "online": "Di nuovo online"
   },
   "home": {
-    "eyebrow": "Ricettario di casa",
     "searchLabel": "Cerca",
     "searchPlaceholder": "Cerca ricette…",
     "clear": "Svuota la ricerca",

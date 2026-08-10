@@ -99,6 +99,9 @@ async function registra(t) {
   } catch {
     return; // niente copia locale: il sito funziona lo stesso, con la rete
   }
+  // Dove i service worker sono disattivati (policy, navigazione privata di
+  // alcuni browser) register() non rifiuta: risolve con undefined.
+  if (!registrazione) return;
 
   versioneInPiede();
   prefetchFoto();

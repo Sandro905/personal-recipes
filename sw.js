@@ -1,9 +1,9 @@
 // GENERATO da scripts/build-sw.mjs — non modificarlo a mano.
 // Sorgente: scripts/sw-runtime.js · rigenera con `npm run build`.
 
-const VERSION = '1810abb051';
+const VERSION = 'becd2f3dec';
 
-// Guscio: HTML, stile, codice, font, icone e dati. ~455 KB,
+// Guscio: HTML, stile, codice, font, icone e dati. ~456 KB,
 // salvato tutto insieme all'installazione. Se manca un pezzo l'installazione
 // fallisce e resta attiva la versione precedente: mai una copia a metà.
 const SHELL = [

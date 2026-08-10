@@ -1,7 +1,6 @@
 {
   "site": {
     "title": "Personal recipes",
-    "tagline": "Home recipes, with weights that add up and the macros already worked out.",
     "recipesCount": "{n} recipes",
     "recipesCountOne": "1 recipe",
     "footnote": "Personal use · macros are estimates from raw ingredients"
@@ -26,7 +25,6 @@
     "online": "Back online"
   },
   "home": {
-    "eyebrow": "Home cookbook",
     "searchLabel": "Search",
     "searchPlaceholder": "Search recipes…",
     "clear": "Clear search",

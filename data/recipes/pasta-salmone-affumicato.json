@@ -5,7 +5,7 @@
     "it": "Pasta al salmone affumicato"
   },
   "summary": {
-    "it": "Cremosa senza panna: la base è formaggio spalmabile light. Il salmone va aggiunto a fuoco spento, altrimenti diventa gommoso."
+    "it": "Cremosa senza panna: la base è formaggio spalmabile light su cipolla sfumata al vino. Il salmone entra a fuoco spento, altrimenti diventa gommoso."
   },
   "image": "assets/img/recipes/pasta-salmone-affumicato.jpg",
   "imageFocus": "center 50%",
@@ -152,10 +152,10 @@
     },
     {
       "title": {
-        "it": "Da giorno di allenamento"
+        "it": "Piatto sostanzioso"
       },
       "text": {
-        "it": "Con 777 kcal è fra i pranzi più pesanti della raccolta. Va bene nei giorni in cui ti alleni, meno in quelli di riposo."
+        "it": "Fra salmone, formaggio e olio è un piatto ricco: se vuoi alleggerirlo, i 10 g di olio si possono togliere del tutto, la cremosità la fa il formaggio spalmabile."
       }
     }
   ]

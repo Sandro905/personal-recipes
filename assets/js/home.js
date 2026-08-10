@@ -123,9 +123,7 @@ function buildTagRow() {
 function wireControls() {
   const t = state.t;
   document.title = t('site.title');
-  document.getElementById('eyebrow').textContent = t('home.eyebrow');
   document.getElementById('headline').textContent = t('site.title');
-  document.getElementById('tagline').textContent = t('site.tagline');
   document.getElementById('footnote').textContent = t('site.footnote');
 
   const input = document.getElementById('q');

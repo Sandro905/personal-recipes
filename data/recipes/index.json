@@ -8,7 +8,7 @@
         "it": "Alette di pollo al forno con patate"
       },
       "summary": {
-        "it": "Paprika e aglio in polvere, niente pastella: croccanti in forno senza friggere. Da mangiare con le mani."
+        "it": "Alette marinate con paprika e aglio in polvere, niente pastella: cuociono in forno con le patate e restano croccanti senza friggere."
       },
       "image": "assets/img/recipes/alette-pollo-forno-patate.jpg",
       "imageFocus": "center 55%",
@@ -39,8 +39,8 @@
       "kcalPerServing": 688,
       "coverage": 0.71,
       "search": {
-        "it": "Alette di pollo al forno con patate · Paprika e aglio in polvere, niente pastella: croccanti in forno senza friggere. Da mangiare con le mani. · alette di pollo (~350 g con osso) alette di pollo · patate · paprika dolce · aglio in polvere · olio extravergine d'oliva (1 cucchiaio) olio extravergine d'oliva · sale fino · pepe nero macinato · Marinare · Le patate · In forno · Croccantezza",
-        "en": "Alette di pollo al forno con patate · Paprika e aglio in polvere, niente pastella: croccanti in forno senza friggere. Da mangiare con le mani. · alette di pollo (~350 g con osso) chicken wings · potatoes · sweet paprika · garlic powder · olio extravergine d'oliva (1 cucchiaio) extra virgin olive oil · fine salt · ground black pepper · Marinare · Le patate · In forno · Croccantezza"
+        "it": "Alette di pollo al forno con patate · Alette marinate con paprika e aglio in polvere, niente pastella: cuociono in forno con le patate e restano croccanti senza friggere. · alette di pollo (~350 g con osso) alette di pollo · patate · paprika dolce · aglio in polvere · olio extravergine d'oliva (1 cucchiaio) olio extravergine d'oliva · sale fino · pepe nero macinato · Marinare · Le patate · In forno · Croccantezza",
+        "en": "Alette di pollo al forno con patate · Alette marinate con paprika e aglio in polvere, niente pastella: cuociono in forno con le patate e restano croccanti senza friggere. · alette di pollo (~350 g con osso) chicken wings · potatoes · sweet paprika · garlic powder · olio extravergine d'oliva (1 cucchiaio) extra virgin olive oil · fine salt · ground black pepper · Marinare · Le patate · In forno · Croccantezza"
       }
     },
     {
@@ -50,7 +50,7 @@
         "it": "Bistecca con patate al forno"
       },
       "summary": {
-        "it": "Fra i pranzi più proteici della raccolta, con 58 g. Il segreto non è la cottura ma i due minuti di riposo alla fine: saltali e il piatto si allaga di succhi."
+        "it": "Fesa di manzo in padella rovente con aglio e rosmarino, patate al forno a fianco. I due minuti di riposo alla fine non sono facoltativi: saltali e il piatto si allaga di succhi."
       },
       "image": "assets/img/recipes/bistecca-patate-forno.jpg",
       "imageFocus": "center 62%",
@@ -79,8 +79,8 @@
       "kcalPerServing": 694,
       "coverage": 0.63,
       "search": {
-        "it": "Bistecca con patate al forno · Fra i pranzi più proteici della raccolta, con 58 g. Il segreto non è la cottura ma i due minuti di riposo alla fine: saltali e il piatto si allaga di succhi. · controfiletto o fesa di manzo fesa di manzo · patate · aglio · rosmarino fresco rosmarino · olio extravergine d'oliva (1 cucchiaio) olio extravergine d'oliva · sale fino · pepe nero macinato · insalata o pomodoro a parte insalata · Patate in forno · Scaldare la padella · Cuocere la carne · Riposo",
-        "en": "Bistecca con patate al forno · Fra i pranzi più proteici della raccolta, con 58 g. Il segreto non è la cottura ma i due minuti di riposo alla fine: saltali e il piatto si allaga di succhi. · controfiletto o fesa di manzo beef topside · potatoes · garlic · rosmarino fresco rosemary · olio extravergine d'oliva (1 cucchiaio) extra virgin olive oil · fine salt · ground black pepper · insalata o pomodoro a parte salad leaves · Patate in forno · Scaldare la padella · Cuocere la carne · Riposo"
+        "it": "Bistecca con patate al forno · Fesa di manzo in padella rovente con aglio e rosmarino, patate al forno a fianco. I due minuti di riposo alla fine non sono facoltativi: saltali e il piatto si allaga di succhi. · controfiletto o fesa di manzo fesa di manzo · patate · aglio · rosmarino fresco rosmarino · olio extravergine d'oliva (1 cucchiaio) olio extravergine d'oliva · sale fino · pepe nero macinato · insalata o pomodoro a parte insalata · Patate in forno · Scaldare la padella · Cuocere la carne · Riposo",
+        "en": "Bistecca con patate al forno · Fesa di manzo in padella rovente con aglio e rosmarino, patate al forno a fianco. I due minuti di riposo alla fine non sono facoltativi: saltali e il piatto si allaga di succhi. · controfiletto o fesa di manzo beef topside · potatoes · garlic · rosmarino fresco rosemary · olio extravergine d'oliva (1 cucchiaio) extra virgin olive oil · fine salt · ground black pepper · insalata o pomodoro a parte salad leaves · Patate in forno · Scaldare la padella · Cuocere la carne · Riposo"
       }
     },
     {
@@ -90,7 +90,7 @@
         "it": "Carbonara semplificata"
       },
       "summary": {
-        "it": "Uova mantecate a fuoco spento, non strapazzate. Se la padella è ancora sul fuoco quando entrano le uova, è già finita."
+        "it": "Uova, pancetta e grana, mantecata a fuoco spento. Se la padella è ancora sul fuoco quando entrano le uova, sono già strapazzate."
       },
       "image": "assets/img/recipes/carbonara-semplificata.jpg",
       "imageFocus": "center 55%",
@@ -119,8 +119,8 @@
       "kcalPerServing": 757,
       "coverage": 0.8,
       "search": {
-        "it": "Carbonara semplificata · Uova mantecate a fuoco spento, non strapazzate. Se la padella è ancora sul fuoco quando entrano le uova, è già finita. · pasta di semola secca · uova · pancetta · grana padano grattugiato · pepe nero macinato · La pancetta · La crema · Cuocere la pasta · Mantecare",
-        "en": "Carbonara semplificata · Uova mantecate a fuoco spento, non strapazzate. Se la padella è ancora sul fuoco quando entrano le uova, è già finita. · dried semolina pasta · eggs · pancetta · grated Grana Padano · ground black pepper · La pancetta · La crema · Cuocere la pasta · Mantecare"
+        "it": "Carbonara semplificata · Uova, pancetta e grana, mantecata a fuoco spento. Se la padella è ancora sul fuoco quando entrano le uova, sono già strapazzate. · pasta di semola secca · uova · pancetta · grana padano grattugiato · pepe nero macinato · La pancetta · La crema · Cuocere la pasta · Mantecare",
+        "en": "Carbonara semplificata · Uova, pancetta e grana, mantecata a fuoco spento. Se la padella è ancora sul fuoco quando entrano le uova, sono già strapazzate. · dried semolina pasta · eggs · pancetta · grated Grana Padano · ground black pepper · La pancetta · La crema · Cuocere la pasta · Mantecare"
       }
     },
     {
@@ -130,7 +130,7 @@
         "it": "Focaccia in padella con prosciutto e mozzarella"
       },
       "summary": {
-        "it": "Senza forno e senza lievitazione lunga: si cuoce sul fornello in due tempi, girandola come una frittata."
+        "it": "Farcita con prosciutto cotto e mozzarella, senza forno e senza lievitazione lunga: cuoce sul fornello in due tempi, girandola come una frittata."
       },
       "image": "assets/img/recipes/focaccia-padella-prosciutto.jpg",
       "imageFocus": null,
@@ -159,8 +159,8 @@
       "kcalPerServing": 1145,
       "coverage": 1,
       "search": {
-        "it": "Focaccia in padella con prosciutto e mozzarella · Senza forno e senza lievitazione lunga: si cuoce sul fornello in due tempi, girandola come una frittata. · farina 0 · acqua · olio extravergine d'oliva · sale fino · lievito istantaneo per preparazioni salate · prosciutto cotto · mozzarella, ben sgocciolata mozzarella · olio per ungere olio extravergine d'oliva · Impastare · Far riposare · Stendere la base · Farcire e sigillare · Cuocere il primo lato · Girare e completare · Controllare",
-        "en": "Focaccia in padella con prosciutto e mozzarella · Senza forno e senza lievitazione lunga: si cuoce sul fornello in due tempi, girandola come una frittata. · type-0 wheat flour · water · extra virgin olive oil · fine salt · instant baking powder (savoury) · cooked ham · mozzarella, ben sgocciolata mozzarella · olio per ungere extra virgin olive oil · Impastare · Far riposare · Stendere la base · Farcire e sigillare · Cuocere il primo lato · Girare e completare · Controllare"
+        "it": "Focaccia in padella con prosciutto e mozzarella · Farcita con prosciutto cotto e mozzarella, senza forno e senza lievitazione lunga: cuoce sul fornello in due tempi, girandola come una frittata. · farina 0 · acqua · olio extravergine d'oliva · sale fino · lievito istantaneo per preparazioni salate · prosciutto cotto · mozzarella, ben sgocciolata mozzarella · olio per ungere olio extravergine d'oliva · Impastare · Far riposare · Stendere la base · Farcire e sigillare · Cuocere il primo lato · Girare e completare · Controllare",
+        "en": "Focaccia in padella con prosciutto e mozzarella · Farcita con prosciutto cotto e mozzarella, senza forno e senza lievitazione lunga: cuoce sul fornello in due tempi, girandola come una frittata. · type-0 wheat flour · water · extra virgin olive oil · fine salt · instant baking powder (savoury) · cooked ham · mozzarella, ben sgocciolata mozzarella · olio per ungere extra virgin olive oil · Impastare · Far riposare · Stendere la base · Farcire e sigillare · Cuocere il primo lato · Girare e completare · Controllare"
       }
     },
     {
@@ -170,7 +170,7 @@
         "it": "Frittata di quattro uova con pane e pomodoro"
       },
       "summary": {
-        "it": "Dieci minuti in tutto. Il segreto è il fuoco basso: la frittata cotta piano resta morbida, quella cotta forte diventa gommosa."
+        "it": "Quattro uova con pane integrale e pomodoro a fianco, dieci minuti in tutto. Il fuoco basso è tutto: cotta piano resta morbida, cotta forte diventa gommosa."
       },
       "image": "assets/img/recipes/frittata-pane-pomodoro.jpg",
       "imageFocus": "center 50%",
@@ -198,8 +198,8 @@
       "kcalPerServing": 542,
       "coverage": 0.67,
       "search": {
-        "it": "Frittata di quattro uova con pane e pomodoro · Dieci minuti in tutto. Il segreto è il fuoco basso: la frittata cotta piano resta morbida, quella cotta forte diventa gommosa. · uova · pane integrale (2 fette) pane integrale · pomodoro a fette (1) pomodoro · olio extravergine d'oliva (per la padella) olio extravergine d'oliva · sale fino · pepe nero macinato · Sbattere · In padella · Girare · Servire",
-        "en": "Frittata di quattro uova con pane e pomodoro · Dieci minuti in tutto. Il segreto è il fuoco basso: la frittata cotta piano resta morbida, quella cotta forte diventa gommosa. · eggs · pane integrale (2 fette) wholemeal bread · pomodoro a fette (1) tomato · olio extravergine d'oliva (per la padella) extra virgin olive oil · fine salt · ground black pepper · Sbattere · In padella · Girare · Servire"
+        "it": "Frittata di quattro uova con pane e pomodoro · Quattro uova con pane integrale e pomodoro a fianco, dieci minuti in tutto. Il fuoco basso è tutto: cotta piano resta morbida, cotta forte diventa gommosa. · uova · pane integrale (2 fette) pane integrale · pomodoro a fette (1) pomodoro · olio extravergine d'oliva (per la padella) olio extravergine d'oliva · sale fino · pepe nero macinato · Sbattere · In padella · Girare · Servire",
+        "en": "Frittata di quattro uova con pane e pomodoro · Quattro uova con pane integrale e pomodoro a fianco, dieci minuti in tutto. Il fuoco basso è tutto: cotta piano resta morbida, cotta forte diventa gommosa. · eggs · pane integrale (2 fette) wholemeal bread · pomodoro a fette (1) tomato · olio extravergine d'oliva (per la padella) extra virgin olive oil · fine salt · ground black pepper · Sbattere · In padella · Girare · Servire"
       }
     },
     {
@@ -209,7 +209,7 @@
         "it": "Fusi di pollo al forno con patate"
       },
       "summary": {
-        "it": "Una teglia sola, quaranta minuti di forno e zero sorveglianza. La marinatura è quello che fa la differenza fra un fuso qualsiasi e uno buono."
+        "it": "Fusi marinati mezz’ora con aglio e rosmarino, poi una teglia sola con le patate e quarantacinque minuti di forno senza sorveglianza."
       },
       "image": "assets/img/recipes/fusi-pollo-forno-patate.jpg",
       "imageFocus": "center 58%",
@@ -240,8 +240,8 @@
       "kcalPerServing": 626,
       "coverage": 0.57,
       "search": {
-        "it": "Fusi di pollo al forno con patate · Una teglia sola, quaranta minuti di forno e zero sorveglianza. La marinatura è quello che fa la differenza fra un fuso qualsiasi e uno buono. · fusi di pollo (3, ~300 g con osso) fusi di pollo · patate · aglio · rosmarino fresco rosmarino · olio extravergine d'oliva (1 cucchiaio) olio extravergine d'oliva · sale fino · pepe nero macinato · Marinare · Le patate · In forno · Dorare",
-        "en": "Fusi di pollo al forno con patate · Una teglia sola, quaranta minuti di forno e zero sorveglianza. La marinatura è quello che fa la differenza fra un fuso qualsiasi e uno buono. · fusi di pollo (3, ~300 g con osso) chicken drumsticks · potatoes · garlic · rosmarino fresco rosemary · olio extravergine d'oliva (1 cucchiaio) extra virgin olive oil · fine salt · ground black pepper · Marinare · Le patate · In forno · Dorare"
+        "it": "Fusi di pollo al forno con patate · Fusi marinati mezz’ora con aglio e rosmarino, poi una teglia sola con le patate e quarantacinque minuti di forno senza sorveglianza. · fusi di pollo (3, ~300 g con osso) fusi di pollo · patate · aglio · rosmarino fresco rosmarino · olio extravergine d'oliva (1 cucchiaio) olio extravergine d'oliva · sale fino · pepe nero macinato · Marinare · Le patate · In forno · Dorare",
+        "en": "Fusi di pollo al forno con patate · Fusi marinati mezz’ora con aglio e rosmarino, poi una teglia sola con le patate e quarantacinque minuti di forno senza sorveglianza. · fusi di pollo (3, ~300 g con osso) chicken drumsticks · potatoes · garlic · rosmarino fresco rosemary · olio extravergine d'oliva (1 cucchiaio) extra virgin olive oil · fine salt · ground black pepper · Marinare · Le patate · In forno · Dorare"
       }
     },
     {
@@ -251,7 +251,7 @@
         "it": "Hot pocket al macinato di manzo"
       },
       "summary": {
-        "it": "Impasto di due ingredienti — farina e yogurt greco — ripieno speziato e formaggio. Otto pezzi, due a pasto: 66 g di proteine con soli 14 g di grassi, il piatto più proteico della raccolta."
+        "it": "Impasto di due soli ingredienti, farina e yogurt greco, chiuso su un ripieno di macinato speziato e formaggio. Otto pezzi da cuocere in padella e congelare."
       },
       "image": "assets/img/recipes/hot-pocket-manzo.jpg",
       "imageFocus": "center 48%",
@@ -281,8 +281,8 @@
       "kcalPerServing": 722,
       "coverage": 0.92,
       "search": {
-        "it": "Hot pocket al macinato di manzo · Impasto di due ingredienti — farina e yogurt greco — ripieno speziato e formaggio. Otto pezzi, due a pasto: 66 g di proteine con soli 14 g di grassi, il piatto più proteico della raccolta. · farina 00 · yogurt greco 0% yogurt greco 0% · sale fino · macinato di manzo magro · paprika affumicata · paprika dolce · cumino · aglio in polvere · concentrato di pomodoro · salsa BBQ zero (2 cucchiai) salsa BBQ zero · sottilette light (1 per pezzo) sottilette light · grana padano (5 g per pezzo) grana padano grattugiato · Il ripieno · Raffreddare · L'impasto · Stendere · Farcire · Cuocere · Congelare",
-        "en": "Hot pocket al macinato di manzo · Impasto di due ingredienti — farina e yogurt greco — ripieno speziato e formaggio. Otto pezzi, due a pasto: 66 g di proteine con soli 14 g di grassi, il piatto più proteico della raccolta. · type-00 wheat flour · yogurt greco 0% fat-free Greek yoghurt · fine salt · lean ground beef · smoked paprika · sweet paprika · cumin · garlic powder · tomato purée · salsa BBQ zero (2 cucchiai) zero-calorie BBQ sauce · sottilette light (1 per pezzo) light cheese slices · grana padano (5 g per pezzo) grated Grana Padano · Il ripieno · Raffreddare · L'impasto · Stendere · Farcire · Cuocere · Congelare"
+        "it": "Hot pocket al macinato di manzo · Impasto di due soli ingredienti, farina e yogurt greco, chiuso su un ripieno di macinato speziato e formaggio. Otto pezzi da cuocere in padella e congelare. · farina 00 · yogurt greco 0% yogurt greco 0% · sale fino · macinato di manzo magro · paprika affumicata · paprika dolce · cumino · aglio in polvere · concentrato di pomodoro · salsa BBQ zero (2 cucchiai) salsa BBQ zero · sottilette light (1 per pezzo) sottilette light · grana padano (5 g per pezzo) grana padano grattugiato · Il ripieno · Raffreddare · L'impasto · Stendere · Farcire · Cuocere · Congelare",
+        "en": "Hot pocket al macinato di manzo · Impasto di due soli ingredienti, farina e yogurt greco, chiuso su un ripieno di macinato speziato e formaggio. Otto pezzi da cuocere in padella e congelare. · type-00 wheat flour · yogurt greco 0% fat-free Greek yoghurt · fine salt · lean ground beef · smoked paprika · sweet paprika · cumin · garlic powder · tomato purée · salsa BBQ zero (2 cucchiai) zero-calorie BBQ sauce · sottilette light (1 per pezzo) light cheese slices · grana padano (5 g per pezzo) grated Grana Padano · Il ripieno · Raffreddare · L'impasto · Stendere · Farcire · Cuocere · Congelare"
       }
     },
     {
@@ -292,7 +292,7 @@
         "it": "Involtini di manzo al prosciutto cotto"
       },
       "summary": {
-        "it": "Ripieno di pane e parmigiano, cottura lunga nel sugo. Sei porzioni da congelare, col pane a parte per non farlo ammollare."
+        "it": "Fesa di manzo arrotolata su prosciutto cotto, pane e parmigiano, poi un’ora di cottura lenta nel sugo di pomodoro e vino rosso. Il pane si serve a parte per non farlo ammollare."
       },
       "image": "assets/img/recipes/involtini-manzo-prosciutto.jpg",
       "imageFocus": "center 55%",
@@ -322,8 +322,8 @@
       "kcalPerServing": 656,
       "coverage": 0.79,
       "search": {
-        "it": "Involtini di manzo al prosciutto cotto · Ripieno di pane e parmigiano, cottura lunga nel sugo. Sei porzioni da congelare, col pane a parte per non farlo ammollare. · fettine di manzo sottili (fesa o noce) fesa di manzo · prosciutto cotto · grana padano grattugiato · pane raffermo pane bianco · uova · aglio · prezzemolo · pepe nero macinato · passata di pomodoro · cipolla (1) cipolla · vino rosso · olio extravergine d'oliva · sale fino · pane (100 g a porzione) pane bianco · Il ripieno · Formare gli involtini · Rosolare · Il sugo · Cottura lenta · Congelare",
-        "en": "Involtini di manzo al prosciutto cotto · Ripieno di pane e parmigiano, cottura lunga nel sugo. Sei porzioni da congelare, col pane a parte per non farlo ammollare. · fettine di manzo sottili (fesa o noce) beef topside · cooked ham · grated Grana Padano · pane raffermo white bread · eggs · garlic · parsley · ground black pepper · tomato passata · cipolla (1) onion · red wine · extra virgin olive oil · fine salt · pane (100 g a porzione) white bread · Il ripieno · Formare gli involtini · Rosolare · Il sugo · Cottura lenta · Congelare"
+        "it": "Involtini di manzo al prosciutto cotto · Fesa di manzo arrotolata su prosciutto cotto, pane e parmigiano, poi un’ora di cottura lenta nel sugo di pomodoro e vino rosso. Il pane si serve a parte per non farlo ammollare. · fettine di manzo sottili (fesa o noce) fesa di manzo · prosciutto cotto · grana padano grattugiato · pane raffermo pane bianco · uova · aglio · prezzemolo · pepe nero macinato · passata di pomodoro · cipolla (1) cipolla · vino rosso · olio extravergine d'oliva · sale fino · pane (100 g a porzione) pane bianco · Il ripieno · Formare gli involtini · Rosolare · Il sugo · Cottura lenta · Congelare",
+        "en": "Involtini di manzo al prosciutto cotto · Fesa di manzo arrotolata su prosciutto cotto, pane e parmigiano, poi un’ora di cottura lenta nel sugo di pomodoro e vino rosso. Il pane si serve a parte per non farlo ammollare. · fettine di manzo sottili (fesa o noce) beef topside · cooked ham · grated Grana Padano · pane raffermo white bread · eggs · garlic · parsley · ground black pepper · tomato passata · cipolla (1) onion · red wine · extra virgin olive oil · fine salt · pane (100 g a porzione) white bread · Il ripieno · Formare gli involtini · Rosolare · Il sugo · Cottura lenta · Congelare"
       }
     },
     {
@@ -333,7 +333,7 @@
         "it": "Lasagna al ragù di manzo"
       },
       "summary": {
-        "it": "Senza besciamella: uovo sbattuto e mozzarella fra gli strati. Sette porzioni da 61 g di proteine l'una."
+        "it": "Senza besciamella: fra gli strati vanno uovo sbattuto, mozzarella e grana. Il ragù cuoce a lungo per restringersi prima di montare la teglia."
       },
       "image": "assets/img/recipes/lasagna-ragu-manzo.jpg",
       "imageFocus": "center 55%",
@@ -366,8 +366,8 @@
       "kcalPerServing": 777,
       "coverage": 0.8,
       "search": {
-        "it": "Lasagna al ragù di manzo · Senza besciamella: uovo sbattuto e mozzarella fra gli strati. Sette porzioni da 61 g di proteine l'una. · macinato di manzo magro · pomodori pelati · vino bianco · olio extravergine d'oliva · sale fino · pepe nero macinato · sfoglie per lasagna · mozzarella · grana padano grattugiato · uova · Il ragù · Restringere · Preparare il resto · Montare · Cuocere · Riposo",
-        "en": "Lasagna al ragù di manzo · Senza besciamella: uovo sbattuto e mozzarella fra gli strati. Sette porzioni da 61 g di proteine l'una. · lean ground beef · peeled tomatoes · white wine · extra virgin olive oil · fine salt · ground black pepper · lasagne sheets · mozzarella · grated Grana Padano · eggs · Il ragù · Restringere · Preparare il resto · Montare · Cuocere · Riposo"
+        "it": "Lasagna al ragù di manzo · Senza besciamella: fra gli strati vanno uovo sbattuto, mozzarella e grana. Il ragù cuoce a lungo per restringersi prima di montare la teglia. · macinato di manzo magro · pomodori pelati · vino bianco · olio extravergine d'oliva · sale fino · pepe nero macinato · sfoglie per lasagna · mozzarella · grana padano grattugiato · uova · Il ragù · Restringere · Preparare il resto · Montare · Cuocere · Riposo",
+        "en": "Lasagna al ragù di manzo · Senza besciamella: fra gli strati vanno uovo sbattuto, mozzarella e grana. Il ragù cuoce a lungo per restringersi prima di montare la teglia. · lean ground beef · peeled tomatoes · white wine · extra virgin olive oil · fine salt · ground black pepper · lasagne sheets · mozzarella · grated Grana Padano · eggs · Il ragù · Restringere · Preparare il resto · Montare · Cuocere · Riposo"
       }
     },
     {
@@ -377,7 +377,7 @@
         "it": "Merluzzo al forno con patate"
       },
       "summary": {
-        "it": "Il pranzo più leggero della raccolta: 47 g di proteine e appena 12 g di grassi. Sotto il target calorico, quindi vuole del pane a fianco."
+        "it": "Filetto di merluzzo con pomodorini, aglio e prezzemolo. Le patate partono da sole in forno e il pesce entra solo negli ultimi minuti, altrimenti si asciuga."
       },
       "image": "assets/img/recipes/merluzzo-forno-patate.jpg",
       "imageFocus": "center 52%",
@@ -406,8 +406,8 @@
       "kcalPerServing": 536,
       "coverage": 0.63,
       "search": {
-        "it": "Merluzzo al forno con patate · Il pranzo più leggero della raccolta: 47 g di proteine e appena 12 g di grassi. Sotto il target calorico, quindi vuole del pane a fianco. · filetto di merluzzo merluzzo · patate · pomodorini · aglio · prezzemolo · olio extravergine d'oliva (1 cucchiaio) olio extravergine d'oliva · sale fino · pepe nero macinato · Patate avanti · Aggiungere il pesce · Fine cottura · Servire",
-        "en": "Merluzzo al forno con patate · Il pranzo più leggero della raccolta: 47 g di proteine e appena 12 g di grassi. Sotto il target calorico, quindi vuole del pane a fianco. · filetto di merluzzo cod · potatoes · cherry tomatoes · garlic · parsley · olio extravergine d'oliva (1 cucchiaio) extra virgin olive oil · fine salt · ground black pepper · Patate avanti · Aggiungere il pesce · Fine cottura · Servire"
+        "it": "Merluzzo al forno con patate · Filetto di merluzzo con pomodorini, aglio e prezzemolo. Le patate partono da sole in forno e il pesce entra solo negli ultimi minuti, altrimenti si asciuga. · filetto di merluzzo merluzzo · patate · pomodorini · aglio · prezzemolo · olio extravergine d'oliva (1 cucchiaio) olio extravergine d'oliva · sale fino · pepe nero macinato · Patate avanti · Aggiungere il pesce · Fine cottura · Servire",
+        "en": "Merluzzo al forno con patate · Filetto di merluzzo con pomodorini, aglio e prezzemolo. Le patate partono da sole in forno e il pesce entra solo negli ultimi minuti, altrimenti si asciuga. · filetto di merluzzo cod · potatoes · cherry tomatoes · garlic · parsley · olio extravergine d'oliva (1 cucchiaio) extra virgin olive oil · fine salt · ground black pepper · Patate avanti · Aggiungere il pesce · Fine cottura · Servire"
       }
     },
     {
@@ -417,7 +417,7 @@
         "it": "Pasta con pesce spada e pomodorini"
       },
       "summary": {
-        "it": "Pesce spada a cubetti rosolato a fuoco vivo, pomodorini e olive: un piatto di pesce da venticinque minuti in tutto."
+        "it": "Pesce spada a cubetti rosolato a fuoco vivo e sfumato al vino bianco, poi pomodorini e olive. Venticinque minuti in tutto."
       },
       "image": "assets/img/recipes/pasta-pesce-spada-pomodorini.jpg",
       "imageFocus": "center 55%",
@@ -446,8 +446,8 @@
       "kcalPerServing": 701,
       "coverage": 0.7,
       "search": {
-        "it": "Pasta con pesce spada e pomodorini · Pesce spada a cubetti rosolato a fuoco vivo, pomodorini e olive: un piatto di pesce da venticinque minuti in tutto. · pasta di semola secca · pesce spada a cubetti pesce spada · pomodorini · olive denocciolate olive nere · vino bianco secco vino bianco · aglio · prezzemolo · olio extravergine d'oliva (1 cucchiaio) olio extravergine d'oliva · sale fino · pepe nero macinato · Rosolare il pesce · Sfumare · Il sugo · Mantecare",
-        "en": "Pasta con pesce spada e pomodorini · Pesce spada a cubetti rosolato a fuoco vivo, pomodorini e olive: un piatto di pesce da venticinque minuti in tutto. · dried semolina pasta · pesce spada a cubetti swordfish · cherry tomatoes · olive denocciolate black olives · vino bianco secco white wine · garlic · parsley · olio extravergine d'oliva (1 cucchiaio) extra virgin olive oil · fine salt · ground black pepper · Rosolare il pesce · Sfumare · Il sugo · Mantecare"
+        "it": "Pasta con pesce spada e pomodorini · Pesce spada a cubetti rosolato a fuoco vivo e sfumato al vino bianco, poi pomodorini e olive. Venticinque minuti in tutto. · pasta di semola secca · pesce spada a cubetti pesce spada · pomodorini · olive denocciolate olive nere · vino bianco secco vino bianco · aglio · prezzemolo · olio extravergine d'oliva (1 cucchiaio) olio extravergine d'oliva · sale fino · pepe nero macinato · Rosolare il pesce · Sfumare · Il sugo · Mantecare",
+        "en": "Pasta con pesce spada e pomodorini · Pesce spada a cubetti rosolato a fuoco vivo e sfumato al vino bianco, poi pomodorini e olive. Venticinque minuti in tutto. · dried semolina pasta · pesce spada a cubetti swordfish · cherry tomatoes · olive denocciolate black olives · vino bianco secco white wine · garlic · parsley · olio extravergine d'oliva (1 cucchiaio) extra virgin olive oil · fine salt · ground black pepper · Rosolare il pesce · Sfumare · Il sugo · Mantecare"
       }
     },
     {
@@ -457,7 +457,7 @@
         "it": "Pasta al ragù di pollo"
       },
       "summary": {
-        "it": "Il ragù della rotazione settimanale: pollo macinato, soffritto e passata. Si congela in porzioni e diventa la cena veloce dei giorni pieni."
+        "it": "Ragù di pollo macinato su soffritto di cipolla, carota e sedano, sfumato al vino bianco e cotto mezz’ora nella passata. Si congela in porzioni."
       },
       "image": "assets/img/recipes/pasta-ragu-pollo.jpg",
       "imageFocus": "center 55%",
@@ -488,8 +488,8 @@
       "kcalPerServing": 718,
       "coverage": 0.82,
       "search": {
-        "it": "Pasta al ragù di pollo · Il ragù della rotazione settimanale: pollo macinato, soffritto e passata. Si congela in porzioni e diventa la cena veloce dei giorni pieni. · pasta corta (penne o rigatoni) pasta di semola secca · pollo macinato · passata di pomodoro · vino bianco secco vino bianco · cipolla piccola (½) cipolla · carota (½) carote · gambo di sedano (½) sedano · olio extravergine d'oliva (1 cucchiaio) olio extravergine d'oliva · alloro · sale fino · pepe nero macinato · Soffritto · Rosolare il pollo · Sfumare · Il sugo · Condire",
-        "en": "Pasta al ragù di pollo · Il ragù della rotazione settimanale: pollo macinato, soffritto e passata. Si congela in porzioni e diventa la cena veloce dei giorni pieni. · pasta corta (penne o rigatoni) dried semolina pasta · ground chicken · tomato passata · vino bianco secco white wine · cipolla piccola (½) onion · carota (½) carrots · gambo di sedano (½) celery · olio extravergine d'oliva (1 cucchiaio) extra virgin olive oil · bay leaf · fine salt · ground black pepper · Soffritto · Rosolare il pollo · Sfumare · Il sugo · Condire"
+        "it": "Pasta al ragù di pollo · Ragù di pollo macinato su soffritto di cipolla, carota e sedano, sfumato al vino bianco e cotto mezz’ora nella passata. Si congela in porzioni. · pasta corta (penne o rigatoni) pasta di semola secca · pollo macinato · passata di pomodoro · vino bianco secco vino bianco · cipolla piccola (½) cipolla · carota (½) carote · gambo di sedano (½) sedano · olio extravergine d'oliva (1 cucchiaio) olio extravergine d'oliva · alloro · sale fino · pepe nero macinato · Soffritto · Rosolare il pollo · Sfumare · Il sugo · Condire",
+        "en": "Pasta al ragù di pollo · Ragù di pollo macinato su soffritto di cipolla, carota e sedano, sfumato al vino bianco e cotto mezz’ora nella passata. Si congela in porzioni. · pasta corta (penne o rigatoni) dried semolina pasta · ground chicken · tomato passata · vino bianco secco white wine · cipolla piccola (½) onion · carota (½) carrots · gambo di sedano (½) celery · olio extravergine d'oliva (1 cucchiaio) extra virgin olive oil · bay leaf · fine salt · ground black pepper · Soffritto · Rosolare il pollo · Sfumare · Il sugo · Condire"
       }
     },
     {
@@ -499,7 +499,7 @@
         "it": "Pasta al salmone affumicato"
       },
       "summary": {
-        "it": "Cremosa senza panna: la base è formaggio spalmabile light. Il salmone va aggiunto a fuoco spento, altrimenti diventa gommoso."
+        "it": "Cremosa senza panna: la base è formaggio spalmabile light su cipolla sfumata al vino. Il salmone entra a fuoco spento, altrimenti diventa gommoso."
       },
       "image": "assets/img/recipes/pasta-salmone-affumicato.jpg",
       "imageFocus": "center 50%",
@@ -528,8 +528,8 @@
       "kcalPerServing": 777,
       "coverage": 0.75,
       "search": {
-        "it": "Pasta al salmone affumicato · Cremosa senza panna: la base è formaggio spalmabile light. Il salmone va aggiunto a fuoco spento, altrimenti diventa gommoso. · pasta corta (rigatoni o farfalle) pasta di semola secca · salmone affumicato a striscioline salmone affumicato · formaggio spalmabile light formaggio spalmabile light · cipolla (½) cipolla · vino bianco secco vino bianco · erba cipollina fresca erba cipollina · olio extravergine d'oliva (1 cucchiaio) olio extravergine d'oliva · pepe nero macinato · La cipolla · Sfumare · La crema · Il salmone · Mantecare",
-        "en": "Pasta al salmone affumicato · Cremosa senza panna: la base è formaggio spalmabile light. Il salmone va aggiunto a fuoco spento, altrimenti diventa gommoso. · pasta corta (rigatoni o farfalle) dried semolina pasta · salmone affumicato a striscioline smoked salmon · formaggio spalmabile light light cream cheese · cipolla (½) onion · vino bianco secco white wine · erba cipollina fresca chives · olio extravergine d'oliva (1 cucchiaio) extra virgin olive oil · ground black pepper · La cipolla · Sfumare · La crema · Il salmone · Mantecare"
+        "it": "Pasta al salmone affumicato · Cremosa senza panna: la base è formaggio spalmabile light su cipolla sfumata al vino. Il salmone entra a fuoco spento, altrimenti diventa gommoso. · pasta corta (rigatoni o farfalle) pasta di semola secca · salmone affumicato a striscioline salmone affumicato · formaggio spalmabile light formaggio spalmabile light · cipolla (½) cipolla · vino bianco secco vino bianco · erba cipollina fresca erba cipollina · olio extravergine d'oliva (1 cucchiaio) olio extravergine d'oliva · pepe nero macinato · La cipolla · Sfumare · La crema · Il salmone · Mantecare",
+        "en": "Pasta al salmone affumicato · Cremosa senza panna: la base è formaggio spalmabile light su cipolla sfumata al vino. Il salmone entra a fuoco spento, altrimenti diventa gommoso. · pasta corta (rigatoni o farfalle) dried semolina pasta · salmone affumicato a striscioline smoked salmon · formaggio spalmabile light light cream cheese · cipolla (½) onion · vino bianco secco white wine · erba cipollina fresca chives · olio extravergine d'oliva (1 cucchiaio) extra virgin olive oil · ground black pepper · La cipolla · Sfumare · La crema · Il salmone · Mantecare"
       }
     },
     {
@@ -539,7 +539,7 @@
         "it": "Pasta con straccetti di manzo e funghi al vino rosso"
       },
       "summary": {
-        "it": "La carne si rosola a parte e torna in padella solo alla fine: due minuti in tutto, così resta rosata invece di stringersi."
+        "it": "Straccetti di fesa e champignon sfumati al vino rosso. La carne si rosola a parte e torna in padella solo alla fine, così resta rosata invece di stringersi."
       },
       "image": "assets/img/recipes/pasta-straccetti-manzo-funghi.jpg",
       "imageFocus": "center 50%",
@@ -569,8 +569,8 @@
       "kcalPerServing": 696,
       "coverage": 0.67,
       "search": {
-        "it": "Pasta con straccetti di manzo e funghi al vino rosso · La carne si rosola a parte e torna in padella solo alla fine: due minuti in tutto, così resta rosata invece di stringersi. · pasta di semola secca · fesa di manzo a straccetti sottili fesa di manzo · funghi champignon · vino rosso · aglio · rosmarino · olio extravergine d'oliva (1 cucchiaio) olio extravergine d'oliva · sale fino · pepe nero macinato · Gli straccetti · I funghi · Sfumare · Unire",
-        "en": "Pasta con straccetti di manzo e funghi al vino rosso · La carne si rosola a parte e torna in padella solo alla fine: due minuti in tutto, così resta rosata invece di stringersi. · dried semolina pasta · fesa di manzo a straccetti sottili beef topside · button mushrooms · red wine · garlic · rosemary · olio extravergine d'oliva (1 cucchiaio) extra virgin olive oil · fine salt · ground black pepper · Gli straccetti · I funghi · Sfumare · Unire"
+        "it": "Pasta con straccetti di manzo e funghi al vino rosso · Straccetti di fesa e champignon sfumati al vino rosso. La carne si rosola a parte e torna in padella solo alla fine, così resta rosata invece di stringersi. · pasta di semola secca · fesa di manzo a straccetti sottili fesa di manzo · funghi champignon · vino rosso · aglio · rosmarino · olio extravergine d'oliva (1 cucchiaio) olio extravergine d'oliva · sale fino · pepe nero macinato · Gli straccetti · I funghi · Sfumare · Unire",
+        "en": "Pasta con straccetti di manzo e funghi al vino rosso · Straccetti di fesa e champignon sfumati al vino rosso. La carne si rosola a parte e torna in padella solo alla fine, così resta rosata invece di stringersi. · dried semolina pasta · fesa di manzo a straccetti sottili beef topside · button mushrooms · red wine · garlic · rosemary · olio extravergine d'oliva (1 cucchiaio) extra virgin olive oil · fine salt · ground black pepper · Gli straccetti · I funghi · Sfumare · Unire"
       }
     },
     {
@@ -580,7 +580,7 @@
         "it": "Pasta al tonno con pomodorini"
       },
       "summary": {
-        "it": "Quindici minuti dalla dispensa al piatto, ed è il pranzo più sostanzioso della raccolta. Sta in piedi sul tonno: sgocciolalo bene."
+        "it": "Tonno sott’olio, pomodorini, olive e un po’ di peperoncino: quindici minuti dalla dispensa al piatto. Sta in piedi sul tonno, quindi sgocciolalo bene."
       },
       "image": "assets/img/recipes/pasta-tonno-pomodorini.jpg",
       "imageFocus": "center 55%",
@@ -610,8 +610,8 @@
       "kcalPerServing": 817,
       "coverage": 0.67,
       "search": {
-        "it": "Pasta al tonno con pomodorini · Quindici minuti dalla dispensa al piatto, ed è il pranzo più sostanzioso della raccolta. Sta in piedi sul tonno: sgocciolalo bene. · pasta lunga o corta (spaghetti o fusilli) pasta di semola secca · tonno sott'olio ben sgocciolato tonno sott'olio sgocciolato · pomodorini · olive denocciolate (~5) olive nere · aglio · prezzemolo fresco prezzemolo · olio extravergine d'oliva (1 cucchiaio) olio extravergine d'oliva · sale fino · peperoncino (facoltativo) peperoncino · Base · Pomodorini · Tonno e olive · Mantecare",
-        "en": "Pasta al tonno con pomodorini · Quindici minuti dalla dispensa al piatto, ed è il pranzo più sostanzioso della raccolta. Sta in piedi sul tonno: sgocciolalo bene. · pasta lunga o corta (spaghetti o fusilli) dried semolina pasta · tonno sott'olio ben sgocciolato canned tuna in oil, drained · cherry tomatoes · olive denocciolate (~5) black olives · garlic · prezzemolo fresco parsley · olio extravergine d'oliva (1 cucchiaio) extra virgin olive oil · fine salt · peperoncino (facoltativo) chilli · Base · Pomodorini · Tonno e olive · Mantecare"
+        "it": "Pasta al tonno con pomodorini · Tonno sott’olio, pomodorini, olive e un po’ di peperoncino: quindici minuti dalla dispensa al piatto. Sta in piedi sul tonno, quindi sgocciolalo bene. · pasta lunga o corta (spaghetti o fusilli) pasta di semola secca · tonno sott'olio ben sgocciolato tonno sott'olio sgocciolato · pomodorini · olive denocciolate (~5) olive nere · aglio · prezzemolo fresco prezzemolo · olio extravergine d'oliva (1 cucchiaio) olio extravergine d'oliva · sale fino · peperoncino (facoltativo) peperoncino · Base · Pomodorini · Tonno e olive · Mantecare",
+        "en": "Pasta al tonno con pomodorini · Tonno sott’olio, pomodorini, olive e un po’ di peperoncino: quindici minuti dalla dispensa al piatto. Sta in piedi sul tonno, quindi sgocciolalo bene. · pasta lunga o corta (spaghetti o fusilli) dried semolina pasta · tonno sott'olio ben sgocciolato canned tuna in oil, drained · cherry tomatoes · olive denocciolate (~5) black olives · garlic · prezzemolo fresco parsley · olio extravergine d'oliva (1 cucchiaio) extra virgin olive oil · fine salt · peperoncino (facoltativo) chilli · Base · Pomodorini · Tonno e olive · Mantecare"
       }
     },
     {
@@ -621,7 +621,7 @@
         "it": "Pollo alla cacciatora con patate"
       },
       "summary": {
-        "it": "Pomodoro, olive e origano: il pollo si insaporisce mentre cuoce coperto e le patate vanno in forno da sole. È il pranzo con più proteine della raccolta, 61 g."
+        "it": "Petto di pollo rosolato e poi finito coperto nei pelati con olive, cipolla e origano, mentre le patate cuociono in forno da sole."
       },
       "image": "assets/img/recipes/pollo-cacciatora-patate.jpg",
       "imageFocus": "center 55%",
@@ -650,8 +650,8 @@
       "kcalPerServing": 698,
       "coverage": 0.73,
       "search": {
-        "it": "Pollo alla cacciatora con patate · Pomodoro, olive e origano: il pollo si insaporisce mentre cuoce coperto e le patate vanno in forno da sole. È il pranzo con più proteine della raccolta, 61 g. · petto di pollo · patate · pomodori pelati · olive denocciolate olive nere · cipolla piccola (1) cipolla · aglio · origano · alloro · olio extravergine d'oliva (1 cucchiaio) olio extravergine d'oliva · sale fino · pepe nero macinato · Patate in forno · Rosolare il pollo · Il sugo · Cottura coperta",
-        "en": "Pollo alla cacciatora con patate · Pomodoro, olive e origano: il pollo si insaporisce mentre cuoce coperto e le patate vanno in forno da sole. È il pranzo con più proteine della raccolta, 61 g. · chicken breast · potatoes · peeled tomatoes · olive denocciolate black olives · cipolla piccola (1) onion · garlic · oregano · bay leaf · olio extravergine d'oliva (1 cucchiaio) extra virgin olive oil · fine salt · ground black pepper · Patate in forno · Rosolare il pollo · Il sugo · Cottura coperta"
+        "it": "Pollo alla cacciatora con patate · Petto di pollo rosolato e poi finito coperto nei pelati con olive, cipolla e origano, mentre le patate cuociono in forno da sole. · petto di pollo · patate · pomodori pelati · olive denocciolate olive nere · cipolla piccola (1) cipolla · aglio · origano · alloro · olio extravergine d'oliva (1 cucchiaio) olio extravergine d'oliva · sale fino · pepe nero macinato · Patate in forno · Rosolare il pollo · Il sugo · Cottura coperta",
+        "en": "Pollo alla cacciatora con patate · Petto di pollo rosolato e poi finito coperto nei pelati con olive, cipolla e origano, mentre le patate cuociono in forno da sole. · chicken breast · potatoes · peeled tomatoes · olive denocciolate black olives · cipolla piccola (1) onion · garlic · oregano · bay leaf · olio extravergine d'oliva (1 cucchiaio) extra virgin olive oil · fine salt · ground black pepper · Patate in forno · Rosolare il pollo · Il sugo · Cottura coperta"
       }
     },
     {
@@ -661,7 +661,7 @@
         "it": "Polpette di pollo al forno"
       },
       "summary": {
-        "it": "Una teglia, venticinque minuti, e il freezer pieno. Si congelano già cotte e tornano croccanti con due minuti di padella."
+        "it": "Pollo macinato, pangrattato e grana, in forno invece che fritte. Una teglia, venticinque minuti: si congelano già cotte e tornano croccanti con due minuti di padella."
       },
       "image": "assets/img/recipes/polpette-pollo-forno.jpg",
       "imageFocus": "center 50%",
@@ -692,8 +692,8 @@
       "kcalPerServing": 251,
       "coverage": 0.63,
       "search": {
-        "it": "Polpette di pollo al forno · Una teglia, venticinque minuti, e il freezer pieno. Si congelano già cotte e tornano croccanti con due minuti di padella. · pollo macinato · uova · pangrattato · grana padano grattugiato · prezzemolo tritato prezzemolo · aglio · sale fino · pepe nero macinato · Impastare · Formare · In forno · Congelare",
-        "en": "Polpette di pollo al forno · Una teglia, venticinque minuti, e il freezer pieno. Si congelano già cotte e tornano croccanti con due minuti di padella. · ground chicken · eggs · breadcrumbs · grated Grana Padano · prezzemolo tritato parsley · garlic · fine salt · ground black pepper · Impastare · Formare · In forno · Congelare"
+        "it": "Polpette di pollo al forno · Pollo macinato, pangrattato e grana, in forno invece che fritte. Una teglia, venticinque minuti: si congelano già cotte e tornano croccanti con due minuti di padella. · pollo macinato · uova · pangrattato · grana padano grattugiato · prezzemolo tritato prezzemolo · aglio · sale fino · pepe nero macinato · Impastare · Formare · In forno · Congelare",
+        "en": "Polpette di pollo al forno · Pollo macinato, pangrattato e grana, in forno invece che fritte. Una teglia, venticinque minuti: si congelano già cotte e tornano croccanti con due minuti di padella. · ground chicken · eggs · breadcrumbs · grated Grana Padano · prezzemolo tritato parsley · garlic · fine salt · ground black pepper · Impastare · Formare · In forno · Congelare"
       }
     },
     {
@@ -703,7 +703,7 @@
         "it": "Polpette di tonno e patate in friggitrice ad aria"
       },
       "summary": {
-        "it": "Croccanti fuori, morbide dentro, con il cuore di scamorza che fila. Due riposi brevi tengono insieme tutto in cottura."
+        "it": "Purè di patate e tonno impanato, col cuore di scamorza che fila. Due riposi brevi in frigo tengono insieme l’impasto in cottura."
       },
       "image": "assets/img/recipes/polpette-tonno-patate-friggitrice.jpg",
       "imageFocus": "center 72%",
@@ -733,8 +733,8 @@
       "kcalPerServing": 131,
       "coverage": 1,
       "search": {
-        "it": "Polpette di tonno e patate in friggitrice ad aria · Croccanti fuori, morbide dentro, con il cuore di scamorza che fila. Due riposi brevi tengono insieme tutto in cottura. · patate farinose patate · tonno sott'olio sgocciolato · grana padano grattugiato · uova medie uova · pangrattato · prezzemolo tritato prezzemolo · sale fino · pepe nero macinato · scamorza, per il cuore filante scamorza · uova · pangrattato · olio da nebulizzare olio extravergine d'oliva · Cuocere le patate · Schiacciare · Preparare l'impasto · Primo riposo · Formare le polpette · Impanare · Secondo riposo · Cuocere a 180 °C · Girare e completare",
-        "en": "Polpette di tonno e patate in friggitrice ad aria · Croccanti fuori, morbide dentro, con il cuore di scamorza che fila. Due riposi brevi tengono insieme tutto in cottura. · patate farinose potatoes · canned tuna in oil, drained · grated Grana Padano · uova medie eggs · breadcrumbs · prezzemolo tritato parsley · fine salt · ground black pepper · scamorza, per il cuore filante scamorza cheese · eggs · breadcrumbs · olio da nebulizzare extra virgin olive oil · Cuocere le patate · Schiacciare · Preparare l'impasto · Primo riposo · Formare le polpette · Impanare · Secondo riposo · Cuocere a 180 °C · Girare e completare"
+        "it": "Polpette di tonno e patate in friggitrice ad aria · Purè di patate e tonno impanato, col cuore di scamorza che fila. Due riposi brevi in frigo tengono insieme l’impasto in cottura. · patate farinose patate · tonno sott'olio sgocciolato · grana padano grattugiato · uova medie uova · pangrattato · prezzemolo tritato prezzemolo · sale fino · pepe nero macinato · scamorza, per il cuore filante scamorza · uova · pangrattato · olio da nebulizzare olio extravergine d'oliva · Cuocere le patate · Schiacciare · Preparare l'impasto · Primo riposo · Formare le polpette · Impanare · Secondo riposo · Cuocere a 180 °C · Girare e completare",
+        "en": "Polpette di tonno e patate in friggitrice ad aria · Purè di patate e tonno impanato, col cuore di scamorza che fila. Due riposi brevi in frigo tengono insieme l’impasto in cottura. · patate farinose potatoes · canned tuna in oil, drained · grated Grana Padano · uova medie eggs · breadcrumbs · prezzemolo tritato parsley · fine salt · ground black pepper · scamorza, per il cuore filante scamorza cheese · eggs · breadcrumbs · olio da nebulizzare extra virgin olive oil · Cuocere le patate · Schiacciare · Preparare l'impasto · Primo riposo · Formare le polpette · Impanare · Secondo riposo · Cuocere a 180 °C · Girare e completare"
       }
     },
     {
@@ -744,7 +744,7 @@
         "it": "Risotto con gamberetti e limone"
       },
       "summary": {
-        "it": "Mantecato senza burro né parmigiano: la cremosità viene solo dall'amido del riso e il limone tiene tutto leggero."
+        "it": "Mantecato senza burro né parmigiano: la cremosità viene solo dall’amido del riso, e il limone tiene tutto leggero."
       },
       "image": "assets/img/recipes/risotto-gamberetti-limone.jpg",
       "imageFocus": "center 45%",
@@ -773,8 +773,8 @@
       "kcalPerServing": 665,
       "coverage": 0.7,
       "search": {
-        "it": "Risotto con gamberetti e limone · Mantecato senza burro né parmigiano: la cremosità viene solo dall'amido del riso e il limone tiene tutto leggero. · riso Carnaroli o Arborio riso Carnaroli · gamberetti sgusciati gamberi · aglio · limone, succo e scorza (½) limone · vino bianco secco vino bianco · brodo vegetale caldo brodo vegetale · prezzemolo fresco prezzemolo · olio extravergine d'oliva (1 cucchiaio) olio extravergine d'oliva · sale fino · pepe nero macinato · I gamberetti · Tostare · Cottura · Mantecare",
-        "en": "Risotto con gamberetti e limone · Mantecato senza burro né parmigiano: la cremosità viene solo dall'amido del riso e il limone tiene tutto leggero. · riso Carnaroli o Arborio Carnaroli rice · gamberetti sgusciati prawns · garlic · limone, succo e scorza (½) lemon · vino bianco secco white wine · brodo vegetale caldo vegetable stock · prezzemolo fresco parsley · olio extravergine d'oliva (1 cucchiaio) extra virgin olive oil · fine salt · ground black pepper · I gamberetti · Tostare · Cottura · Mantecare"
+        "it": "Risotto con gamberetti e limone · Mantecato senza burro né parmigiano: la cremosità viene solo dall’amido del riso, e il limone tiene tutto leggero. · riso Carnaroli o Arborio riso Carnaroli · gamberetti sgusciati gamberi · aglio · limone, succo e scorza (½) limone · vino bianco secco vino bianco · brodo vegetale caldo brodo vegetale · prezzemolo fresco prezzemolo · olio extravergine d'oliva (1 cucchiaio) olio extravergine d'oliva · sale fino · pepe nero macinato · I gamberetti · Tostare · Cottura · Mantecare",
+        "en": "Risotto con gamberetti e limone · Mantecato senza burro né parmigiano: la cremosità viene solo dall’amido del riso, e il limone tiene tutto leggero. · riso Carnaroli o Arborio Carnaroli rice · gamberetti sgusciati prawns · garlic · limone, succo e scorza (½) lemon · vino bianco secco white wine · brodo vegetale caldo vegetable stock · prezzemolo fresco parsley · olio extravergine d'oliva (1 cucchiaio) extra virgin olive oil · fine salt · ground black pepper · I gamberetti · Tostare · Cottura · Mantecare"
       }
     },
     {
@@ -784,7 +784,7 @@
         "it": "Salmone al cartoccio con insalata"
       },
       "summary": {
-        "it": "Praticamente zero carboidrati e 39 g di proteine: la cena giusta per i giorni di riposo. Il cartoccio lo cuoce nel suo vapore."
+        "it": "Trancio di salmone chiuso in cartoccio con limone e rosmarino: cuoce nel suo vapore in meno di venti minuti, senza sporcare niente. Insalata a fianco."
       },
       "image": "assets/img/recipes/salmone-cartoccio-insalata.jpg",
       "imageFocus": "center 50%",
@@ -813,8 +813,8 @@
       "kcalPerServing": 439,
       "coverage": 0.57,
       "search": {
-        "it": "Salmone al cartoccio con insalata · Praticamente zero carboidrati e 39 g di proteine: la cena giusta per i giorni di riposo. Il cartoccio lo cuoce nel suo vapore. · filetto di salmone salmone fresco · limone a fette limone · rosmarino o timo rosmarino · insalata · olio extravergine d'oliva (per la padella) olio extravergine d'oliva · sale fino · pepe nero macinato · Il cartoccio · In forno · Servire",
-        "en": "Salmone al cartoccio con insalata · Praticamente zero carboidrati e 39 g di proteine: la cena giusta per i giorni di riposo. Il cartoccio lo cuoce nel suo vapore. · filetto di salmone fresh salmon · limone a fette lemon · rosmarino o timo rosemary · salad leaves · olio extravergine d'oliva (per la padella) extra virgin olive oil · fine salt · ground black pepper · Il cartoccio · In forno · Servire"
+        "it": "Salmone al cartoccio con insalata · Trancio di salmone chiuso in cartoccio con limone e rosmarino: cuoce nel suo vapore in meno di venti minuti, senza sporcare niente. Insalata a fianco. · filetto di salmone salmone fresco · limone a fette limone · rosmarino o timo rosmarino · insalata · olio extravergine d'oliva (per la padella) olio extravergine d'oliva · sale fino · pepe nero macinato · Il cartoccio · In forno · Servire",
+        "en": "Salmone al cartoccio con insalata · Trancio di salmone chiuso in cartoccio con limone e rosmarino: cuoce nel suo vapore in meno di venti minuti, senza sporcare niente. Insalata a fianco. · filetto di salmone fresh salmon · limone a fette lemon · rosmarino o timo rosemary · salad leaves · olio extravergine d'oliva (per la padella) extra virgin olive oil · fine salt · ground black pepper · Il cartoccio · In forno · Servire"
       }
     },
     {
@@ -824,7 +824,7 @@
         "it": "Salmone al forno con patate e peperoni"
       },
       "summary": {
-        "it": "Il piatto più grasso della rotazione, ma sono grassi buoni: omega-3 dal salmone. Le verdure partono prima perché il pesce ci mette molto meno."
+        "it": "Una teglia sola ma in due tempi: patate e peperoni partono avanti, il salmone entra a metà cottura perché ci mette molto meno."
       },
       "image": "assets/img/recipes/salmone-forno-patate-peperoni.jpg",
       "imageFocus": "center 62%",
@@ -853,8 +853,8 @@
       "kcalPerServing": 714,
       "coverage": 0.63,
       "search": {
-        "it": "Salmone al forno con patate e peperoni · Il piatto più grasso della rotazione, ma sono grassi buoni: omega-3 dal salmone. Le verdure partono prima perché il pesce ci mette molto meno. · filetto di salmone salmone fresco · patate · peperone (1) peperone · aglio · rosmarino o timo rosmarino · olio extravergine d'oliva (1 cucchiaio) olio extravergine d'oliva · sale fino · pepe nero macinato · Le verdure · Primo giro di forno · Aggiungere il salmone · Fine cottura",
-        "en": "Salmone al forno con patate e peperoni · Il piatto più grasso della rotazione, ma sono grassi buoni: omega-3 dal salmone. Le verdure partono prima perché il pesce ci mette molto meno. · filetto di salmone fresh salmon · potatoes · peperone (1) bell pepper · garlic · rosmarino o timo rosemary · olio extravergine d'oliva (1 cucchiaio) extra virgin olive oil · fine salt · ground black pepper · Le verdure · Primo giro di forno · Aggiungere il salmone · Fine cottura"
+        "it": "Salmone al forno con patate e peperoni · Una teglia sola ma in due tempi: patate e peperoni partono avanti, il salmone entra a metà cottura perché ci mette molto meno. · filetto di salmone salmone fresco · patate · peperone (1) peperone · aglio · rosmarino o timo rosmarino · olio extravergine d'oliva (1 cucchiaio) olio extravergine d'oliva · sale fino · pepe nero macinato · Le verdure · Primo giro di forno · Aggiungere il salmone · Fine cottura",
+        "en": "Salmone al forno con patate e peperoni · Una teglia sola ma in due tempi: patate e peperoni partono avanti, il salmone entra a metà cottura perché ci mette molto meno. · filetto di salmone fresh salmon · potatoes · peperone (1) bell pepper · garlic · rosmarino o timo rosemary · olio extravergine d'oliva (1 cucchiaio) extra virgin olive oil · fine salt · ground black pepper · Le verdure · Primo giro di forno · Aggiungere il salmone · Fine cottura"
       }
     },
     {
@@ -864,7 +864,7 @@
         "it": "Spezzatino di manzo con patate"
       },
       "summary": {
-        "it": "Novanta minuti di fuoco bassissimo e la carne si scioglie. Quattro porzioni in freezer, e le patate entrano solo alla fine per non disfarsi."
+        "it": "Due ore di fuoco bassissimo nel vino rosso e nella passata, finché la carne si scioglie. Le patate entrano solo alla fine per non disfarsi."
       },
       "image": "assets/img/recipes/spezzatino-manzo-patate.jpg",
       "imageFocus": "center 50%",
@@ -894,8 +894,8 @@
       "kcalPerServing": 561,
       "coverage": 0.79,
       "search": {
-        "it": "Spezzatino di manzo con patate · Novanta minuti di fuoco bassissimo e la carne si scioglie. Quattro porzioni in freezer, e le patate entrano solo alla fine per non disfarsi. · manzo per spezzatino (cappello del prete o muscolo) manzo per spezzatino · patate · carote · cipolla · sedano · passata di pomodoro · vino rosso secco vino rosso · brodo caldo brodo vegetale · aglio · alloro · rosmarino · olio extravergine d'oliva · sale fino · pepe nero macinato · Rosolare la carne · Il soffritto · Sfumare · Cottura lunga · Le patate · Congelare",
-        "en": "Spezzatino di manzo con patate · Novanta minuti di fuoco bassissimo e la carne si scioglie. Quattro porzioni in freezer, e le patate entrano solo alla fine per non disfarsi. · manzo per spezzatino (cappello del prete o muscolo) beef stewing cuts · potatoes · carrots · onion · celery · tomato passata · vino rosso secco red wine · brodo caldo vegetable stock · garlic · bay leaf · rosemary · extra virgin olive oil · fine salt · ground black pepper · Rosolare la carne · Il soffritto · Sfumare · Cottura lunga · Le patate · Congelare"
+        "it": "Spezzatino di manzo con patate · Due ore di fuoco bassissimo nel vino rosso e nella passata, finché la carne si scioglie. Le patate entrano solo alla fine per non disfarsi. · manzo per spezzatino (cappello del prete o muscolo) manzo per spezzatino · patate · carote · cipolla · sedano · passata di pomodoro · vino rosso secco vino rosso · brodo caldo brodo vegetale · aglio · alloro · rosmarino · olio extravergine d'oliva · sale fino · pepe nero macinato · Rosolare la carne · Il soffritto · Sfumare · Cottura lunga · Le patate · Congelare",
+        "en": "Spezzatino di manzo con patate · Due ore di fuoco bassissimo nel vino rosso e nella passata, finché la carne si scioglie. Le patate entrano solo alla fine per non disfarsi. · manzo per spezzatino (cappello del prete o muscolo) beef stewing cuts · potatoes · carrots · onion · celery · tomato passata · vino rosso secco red wine · brodo caldo vegetable stock · garlic · bay leaf · rosemary · extra virgin olive oil · fine salt · ground black pepper · Rosolare la carne · Il soffritto · Sfumare · Cottura lunga · Le patate · Congelare"
       }
     },
     {
@@ -905,7 +905,7 @@
         "it": "Spezzatino di pollo al pomodoro con riso"
       },
       "summary": {
-        "it": "Sei pasti completi in vaschetta: riso sul fondo, spezzatino sopra, senza mescolare. Il riso va cotto due minuti in meno perché finirà al microonde."
+        "it": "Bocconcini di pollo con peperoni e pelati, insaporiti alle due paprike e serviti sul riso. In vaschetta si compone a strati senza mescolare, e il riso va cotto due minuti in meno perché finirà al microonde."
       },
       "image": "assets/img/recipes/spezzatino-pollo-riso.jpg",
       "imageFocus": "center 55%",
@@ -936,8 +936,8 @@
       "kcalPerServing": 536,
       "coverage": 0.83,
       "search": {
-        "it": "Spezzatino di pollo al pomodoro con riso · Sei pasti completi in vaschetta: riso sul fondo, spezzatino sopra, senza mescolare. Il riso va cotto due minuti in meno perché finirà al microonde. · petto di pollo a cubetti di 3-4 cm petto di pollo · pomodori pelati · peperoni (2) peperone · cipolle (2) cipolla · aglio · brodo vegetale caldo brodo vegetale · paprika affumicata · paprika dolce · olio extravergine d'oliva (2 cucchiai) olio extravergine d'oliva · sale fino · pepe nero macinato · riso (peso da crudo) riso bianco · Rosolare il pollo · Le verdure · Cottura · Il riso · Comporre le vaschette",
-        "en": "Spezzatino di pollo al pomodoro con riso · Sei pasti completi in vaschetta: riso sul fondo, spezzatino sopra, senza mescolare. Il riso va cotto due minuti in meno perché finirà al microonde. · petto di pollo a cubetti di 3-4 cm chicken breast · peeled tomatoes · peperoni (2) bell pepper · cipolle (2) onion · garlic · brodo vegetale caldo vegetable stock · smoked paprika · sweet paprika · olio extravergine d'oliva (2 cucchiai) extra virgin olive oil · fine salt · ground black pepper · riso (peso da crudo) white rice · Rosolare il pollo · Le verdure · Cottura · Il riso · Comporre le vaschette"
+        "it": "Spezzatino di pollo al pomodoro con riso · Bocconcini di pollo con peperoni e pelati, insaporiti alle due paprike e serviti sul riso. In vaschetta si compone a strati senza mescolare, e il riso va cotto due minuti in meno perché finirà al microonde. · petto di pollo a cubetti di 3-4 cm petto di pollo · pomodori pelati · peperoni (2) peperone · cipolle (2) cipolla · aglio · brodo vegetale caldo brodo vegetale · paprika affumicata · paprika dolce · olio extravergine d'oliva (2 cucchiai) olio extravergine d'oliva · sale fino · pepe nero macinato · riso (peso da crudo) riso bianco · Rosolare il pollo · Le verdure · Cottura · Il riso · Comporre le vaschette",
+        "en": "Spezzatino di pollo al pomodoro con riso · Bocconcini di pollo con peperoni e pelati, insaporiti alle due paprike e serviti sul riso. In vaschetta si compone a strati senza mescolare, e il riso va cotto due minuti in meno perché finirà al microonde. · petto di pollo a cubetti di 3-4 cm chicken breast · peeled tomatoes · peperoni (2) bell pepper · cipolle (2) onion · garlic · brodo vegetale caldo vegetable stock · smoked paprika · sweet paprika · olio extravergine d'oliva (2 cucchiai) extra virgin olive oil · fine salt · ground black pepper · riso (peso da crudo) white rice · Rosolare il pollo · Le verdure · Cottura · Il riso · Comporre le vaschette"
       }
     },
     {
@@ -947,7 +947,7 @@
         "it": "Wrap di pollo alla paprika"
       },
       "summary": {
-        "it": "Straccetti di pollo alla paprika affumicata, arrotolati in una tortilla con insalata. Gli straccetti si cuociono in batch e si congelano: la sera il wrap si monta in cinque minuti."
+        "it": "Straccetti di petto di pollo marinati alla paprika affumicata, arrotolati in una tortilla con insalata e salsa. Il pollo si cuoce in anticipo e si congela: la sera il wrap si monta in cinque minuti."
       },
       "image": "assets/img/recipes/wrap-pollo-speziato.jpg",
       "imageFocus": "center 55%",
@@ -978,8 +978,8 @@
       "kcalPerServing": 532,
       "coverage": 0.8,
       "search": {
-        "it": "Wrap di pollo alla paprika · Straccetti di pollo alla paprika affumicata, arrotolati in una tortilla con insalata. Gli straccetti si cuociono in batch e si congelano: la sera il wrap si monta in cinque minuti. · petto di pollo a straccetti petto di pollo · paprika affumicata · paprika dolce · aglio · olio extravergine d'oliva (mezzo cucchiaio) olio extravergine d'oliva · sale fino · pepe nero macinato · tortilla di frumento (60 g) tortilla di frumento · insalata · salsa zero calorie salsa zero calorie · Tagliare · Marinare · Cuocere · Scaldare la tortilla · Farcire · Chiudere",
-        "en": "Wrap di pollo alla paprika · Straccetti di pollo alla paprika affumicata, arrotolati in una tortilla con insalata. Gli straccetti si cuociono in batch e si congelano: la sera il wrap si monta in cinque minuti. · petto di pollo a straccetti chicken breast · smoked paprika · sweet paprika · garlic · olio extravergine d'oliva (mezzo cucchiaio) extra virgin olive oil · fine salt · ground black pepper · tortilla di frumento (60 g) wheat tortilla · salad leaves · salsa zero calorie zero-calorie sauce · Tagliare · Marinare · Cuocere · Scaldare la tortilla · Farcire · Chiudere"
+        "it": "Wrap di pollo alla paprika · Straccetti di petto di pollo marinati alla paprika affumicata, arrotolati in una tortilla con insalata e salsa. Il pollo si cuoce in anticipo e si congela: la sera il wrap si monta in cinque minuti. · petto di pollo a straccetti petto di pollo · paprika affumicata · paprika dolce · aglio · olio extravergine d'oliva (mezzo cucchiaio) olio extravergine d'oliva · sale fino · pepe nero macinato · tortilla di frumento (60 g) tortilla di frumento · insalata · salsa zero calorie salsa zero calorie · Tagliare · Marinare · Cuocere · Scaldare la tortilla · Farcire · Chiudere",
+        "en": "Wrap di pollo alla paprika · Straccetti di petto di pollo marinati alla paprika affumicata, arrotolati in una tortilla con insalata e salsa. Il pollo si cuoce in anticipo e si congela: la sera il wrap si monta in cinque minuti. · petto di pollo a straccetti chicken breast · smoked paprika · sweet paprika · garlic · olio extravergine d'oliva (mezzo cucchiaio) extra virgin olive oil · fine salt · ground black pepper · tortilla di frumento (60 g) wheat tortilla · salad leaves · salsa zero calorie zero-calorie sauce · Tagliare · Marinare · Cuocere · Scaldare la tortilla · Farcire · Chiudere"
       }
     }
   ]
