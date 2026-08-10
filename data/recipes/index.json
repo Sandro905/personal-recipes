@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-10T04:51:10.024Z",
+  "generated": "2026-08-10T06:03:22.824Z",
   "count": 28,
   "recipes": [
     {
@@ -373,8 +373,8 @@
       "summary": {
         "it": "Senza besciamella: uovo sbattuto e mozzarella fra gli strati. Sette porzioni da 61 g di proteine l'una."
       },
-      "image": null,
-      "imageFocus": null,
+      "image": "assets/img/recipes/lasagna-ragu-manzo.jpg",
+      "imageFocus": "center 55%",
       "tags": [
         "salato",
         "primi",

@@ -1,6 +1,6 @@
 import { tr, makeT, unitLabel, detectLang } from './lib/i18n.js';
 import { loadFoods, loadRecipe, loadUI, el, num, minutes, clock, inlineMarkdown, initTheme, store } from './lib/data.js';
-import { computeNutrition, energySplit, flatIngredients } from './lib/nutrition.js';
+import { computeNutrition, energySplit, flatIngredients, MACRO_KEYS } from './lib/nutrition.js';
 import { toGrams, roundQty } from './lib/units.js';
 import { initNav, icons } from './lib/nav.js';
 
@@ -97,16 +97,33 @@ function renderIngredients() {
 
 /* ---------- macro ---------- */
 
+/**
+ * Per cosa dividere i totali nella vista scelta, e come chiamarla.
+ * Un posto solo, così il pannello e il dettaglio non possono divergere.
+ * `divisor` è null quando la vista non è calcolabile (nessun ingrediente
+ * pesabile ⇒ niente "per 100 g").
+ */
+function viewScale(result) {
+  const t = state.t;
+  if (state.view === 'total') return { divisor: 1, label: t('macros.total') };
+  if (state.view === 'per100') {
+    return { divisor: result.grams > 0 ? result.grams / 100 : null, label: t('macros.per100') };
+  }
+  return { divisor: result.servings || 1, label: t('macros.perServing') };
+}
+
 function renderMacros() {
   const t = state.t;
   const scale = state.servings / state.base;
   const result = computeNutrition(state.recipe, state.foods, { scale });
-  const macros = state.view === 'serving' ? result.perServing : result.totals;
+  const { divisor, label } = viewScale(result);
+  const macros = Object.fromEntries(
+    MACRO_KEYS.map((k) => [k, divisor ? result.totals[k] / divisor : null])
+  );
   const split = energySplit(macros);
 
   document.getElementById('kcalValue').textContent = num(macros.kcal);
-  document.getElementById('kcalUnit').textContent =
-    state.view === 'serving' ? `kcal · ${t('macros.perServing').toLowerCase()}` : `kcal · ${t('macros.total').toLowerCase()}`;
+  document.getElementById('kcalUnit').textContent = `kcal · ${label.toLowerCase()}`;
 
   const bar = document.getElementById('macrobar');
   bar.replaceChildren(
@@ -135,6 +152,10 @@ function renderMacros() {
       ])
     )
   );
+
+  // il "per 100 g" merita un avvertimento in più: è sul crudo pesato
+  document.getElementById('macroNote').textContent =
+    state.view === 'per100' ? t('macros.per100Note') : t('macros.estimate');
 
   const issues = document.getElementById('issues');
   const unique = [...new Map(result.warnings.map((w) => [`${w.food}:${w.issue}`, w])).values()];
@@ -169,9 +190,11 @@ function ingredientLabel(contribution) {
 function renderBreakdown() {
   const t = state.t;
   const scale = state.servings / state.base;
-  const { contributions, totals, servings } = computeNutrition(state.recipe, state.foods, { scale });
+  const result = computeNutrition(state.recipe, state.foods, { scale });
+  const { contributions, totals } = result;
   const metric = METRICS.find((m) => m.key === state.metric) ?? METRICS[0];
-  const divisor = state.view === 'serving' ? (servings || 1) : 1;
+  const { divisor: rawDivisor, label: viewLabel } = viewScale(result);
+  const divisor = rawDivisor || 1;
 
   const counted = contributions.filter((c) => c.grams != null);
   const excluded = contributions.filter((c) => c.grams == null);
@@ -183,7 +206,7 @@ function renderBreakdown() {
 
   document.getElementById('breakdownLead').innerHTML =
     `${t(`macros.${metric.key}`)}: <b>${fmt(totalValue)}${metric.key === 'kcal' ? ' kcal' : ''}</b> · ` +
-    `${state.view === 'serving' ? t('macros.perServing').toLowerCase() : t('macros.total').toLowerCase()}`;
+    `${viewLabel.toLowerCase()}`;
 
   const rows = [...counted].sort((a, b) => value(b) - value(a));
   document.getElementById('contribList').replaceChildren(
@@ -429,7 +452,7 @@ function wireControls() {
   document.getElementById('stepsTitle').textContent = t('recipe.steps');
   document.getElementById('macrosTitle').textContent = t('macros.title');
   document.getElementById('servingsLabel').textContent = t('recipe.servings');
-  document.getElementById('macroNote').textContent = t('macros.estimate');
+  // la nota sotto le macro la scrive renderMacros: cambia con la vista
 
   const less = document.getElementById('less');
   const more = document.getElementById('more');
@@ -457,7 +480,11 @@ function wireControls() {
 
   const toggle = document.getElementById('macroToggle');
   toggle.replaceChildren(
-    ...[['serving', 'macros.perServing'], ['total', 'macros.total']].map(([view, key]) =>
+    ...[
+      ['serving', 'macros.viewServing'],
+      ['total', 'macros.viewTotal'],
+      ['per100', 'macros.view100']
+    ].map(([view, key]) =>
       el('button', {
         type: 'button', text: t(key), 'aria-pressed': String(state.view === view),
         onclick: (event) => {
