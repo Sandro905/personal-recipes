@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-10T07:51:29.779Z",
+  "generated": "2026-08-10T10:27:47.078Z",
   "count": 28,
   "recipes": [
     {
@@ -417,8 +417,8 @@
       "summary": {
         "it": "Il pranzo più leggero della raccolta: 47 g di proteine e appena 12 g di grassi. Sotto il target calorico, quindi vuole del pane a fianco."
       },
-      "image": null,
-      "imageFocus": null,
+      "image": "assets/img/recipes/merluzzo-forno-patate.jpg",
+      "imageFocus": "center 52%",
       "tags": [
         "salato",
         "secondi",
