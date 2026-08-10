@@ -7,6 +7,8 @@
   "summary": {
     "it": "Novanta minuti di fuoco bassissimo e la carne si scioglie. Quattro porzioni in freezer, e le patate entrano solo alla fine per non disfarsi."
   },
+  "image": "assets/img/recipes/spezzatino-manzo-patate.jpg",
+  "imageFocus": "center 50%",
   "yield": {
     "count": 4,
     "label": {

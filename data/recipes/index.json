@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-10T10:45:13.657Z",
-  "count": 27,
+  "generated": "2026-08-10T10:54:44.629Z",
+  "count": 26,
   "recipes": [
     {
       "slug": "alette-pollo-forno-patate",
@@ -908,8 +908,8 @@
       "summary": {
         "it": "Novanta minuti di fuoco bassissimo e la carne si scioglie. Quattro porzioni in freezer, e le patate entrano solo alla fine per non disfarsi."
       },
-      "image": null,
-      "imageFocus": null,
+      "image": "assets/img/recipes/spezzatino-manzo-patate.jpg",
+      "imageFocus": "center 50%",
       "tags": [
         "salato",
         "secondi",
@@ -983,48 +983,6 @@
       }
     },
     {
-      "slug": "straccetti-pollo-paprika",
-      "added": "2026-08-09",
-      "title": {
-        "it": "Straccetti di pollo alla paprika"
-      },
-      "summary": {
-        "it": "Solo proteina, da tenere in freezer e abbinare la sera a riso, pasta o un wrap. Cotti a fuoco vivo in poche riprese, restano morbidi anche riscaldati."
-      },
-      "image": null,
-      "imageFocus": null,
-      "tags": [
-        "salato",
-        "secondi",
-        "pollo",
-        "carne",
-        "meal-prep",
-        "congelabile",
-        "proteico"
-      ],
-      "method": "padella",
-      "difficulty": "molto-facile",
-      "cost": "economico",
-      "time": {
-        "prep": 15,
-        "rest": 10,
-        "cook": 15
-      },
-      "yield": {
-        "count": 5,
-        "label": {
-          "it": "porzioni",
-          "en": "portions"
-        }
-      },
-      "kcalPerServing": 139,
-      "coverage": 0.71,
-      "search": {
-        "it": "Straccetti di pollo alla paprika · Solo proteina, da tenere in freezer e abbinare la sera a riso, pasta o un wrap. Cotti a fuoco vivo in poche riprese, restano morbidi anche riscaldati. · petto di pollo a straccetti petto di pollo · paprika affumicata · paprika dolce · aglio · olio extravergine d'oliva (1 cucchiaio) olio extravergine d'oliva · sale fino · pepe nero macinato · Tagliare · Marinare · Cuocere · Raffreddare e dividere",
-        "en": "Straccetti di pollo alla paprika · Solo proteina, da tenere in freezer e abbinare la sera a riso, pasta o un wrap. Cotti a fuoco vivo in poche riprese, restano morbidi anche riscaldati. · petto di pollo a straccetti chicken breast · smoked paprika · sweet paprika · garlic · olio extravergine d'oliva (1 cucchiaio) extra virgin olive oil · fine salt · ground black pepper · Tagliare · Marinare · Cuocere · Raffreddare e dividere"
-      }
-    },
-    {
       "slug": "tonno-riso-insalata",
       "added": "2026-08-09",
       "title": {
@@ -1067,39 +1025,42 @@
       "slug": "wrap-pollo-speziato",
       "added": "2026-08-09",
       "title": {
-        "it": "Wrap di pollo speziato"
+        "it": "Wrap di pollo alla paprika"
       },
       "summary": {
-        "it": "Da fare col pollo già cotto: dieci minuti e 61 g di proteine. La cena buona quando hai fatto meal prep nel weekend."
+        "it": "Straccetti di pollo alla paprika affumicata, arrotolati in una tortilla con insalata. Gli straccetti si cuociono in batch e si congelano: la sera il wrap si monta in cinque minuti."
       },
-      "image": null,
-      "imageFocus": null,
+      "image": "assets/img/recipes/wrap-pollo-speziato.jpg",
+      "imageFocus": "center 55%",
       "tags": [
         "salato",
         "cena",
         "pollo",
         "carne",
-        "veloce",
-        "proteico"
+        "proteico",
+        "meal-prep",
+        "congelabile"
       ],
-      "method": "senza-cottura",
+      "method": "padella",
       "difficulty": "molto-facile",
       "cost": "economico",
       "time": {
-        "prep": 10
+        "prep": 15,
+        "rest": 10,
+        "cook": 10
       },
       "yield": {
         "count": 1,
         "label": {
-          "it": "porzione",
-          "en": "serving"
+          "it": "wrap",
+          "en": "wrap"
         }
       },
-      "kcalPerServing": 495,
-      "coverage": 0.57,
+      "kcalPerServing": 532,
+      "coverage": 0.8,
       "search": {
-        "it": "Wrap di pollo speziato · Da fare col pollo già cotto: dieci minuti e 61 g di proteine. La cena buona quando hai fatto meal prep nel weekend. · tortilla di frumento (60 g) tortilla di frumento · petto di pollo già cotto petto di pollo cotto · insalata · salsa zero calorie salsa zero calorie · paprika dolce · sale fino · pepe nero macinato · Scaldare · Farcire · Chiudere",
-        "en": "Wrap di pollo speziato · Da fare col pollo già cotto: dieci minuti e 61 g di proteine. La cena buona quando hai fatto meal prep nel weekend. · tortilla di frumento (60 g) wheat tortilla · petto di pollo già cotto cooked chicken breast · salad leaves · salsa zero calorie zero-calorie sauce · sweet paprika · fine salt · ground black pepper · Scaldare · Farcire · Chiudere"
+        "it": "Wrap di pollo alla paprika · Straccetti di pollo alla paprika affumicata, arrotolati in una tortilla con insalata. Gli straccetti si cuociono in batch e si congelano: la sera il wrap si monta in cinque minuti. · petto di pollo a straccetti petto di pollo · paprika affumicata · paprika dolce · aglio · olio extravergine d'oliva (mezzo cucchiaio) olio extravergine d'oliva · sale fino · pepe nero macinato · tortilla di frumento (60 g) tortilla di frumento · insalata · salsa zero calorie salsa zero calorie · Tagliare · Marinare · Cuocere · Scaldare la tortilla · Farcire · Chiudere",
+        "en": "Wrap di pollo alla paprika · Straccetti di pollo alla paprika affumicata, arrotolati in una tortilla con insalata. Gli straccetti si cuociono in batch e si congelano: la sera il wrap si monta in cinque minuti. · petto di pollo a straccetti chicken breast · smoked paprika · sweet paprika · garlic · olio extravergine d'oliva (mezzo cucchiaio) extra virgin olive oil · fine salt · ground black pepper · tortilla di frumento (60 g) wheat tortilla · salad leaves · salsa zero calorie zero-calorie sauce · Tagliare · Marinare · Cuocere · Scaldare la tortilla · Farcire · Chiudere"
       }
     }
   ]

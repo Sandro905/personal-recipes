@@ -2,35 +2,91 @@
   "slug": "wrap-pollo-speziato",
   "added": "2026-08-09",
   "title": {
-    "it": "Wrap di pollo speziato"
+    "it": "Wrap di pollo alla paprika"
   },
   "summary": {
-    "it": "Da fare col pollo già cotto: dieci minuti e 61 g di proteine. La cena buona quando hai fatto meal prep nel weekend."
+    "it": "Straccetti di pollo alla paprika affumicata, arrotolati in una tortilla con insalata. Gli straccetti si cuociono in batch e si congelano: la sera il wrap si monta in cinque minuti."
   },
+  "image": "assets/img/recipes/wrap-pollo-speziato.jpg",
+  "imageFocus": "center 55%",
   "yield": {
     "count": 1,
     "label": {
-      "it": "porzione",
-      "en": "serving"
+      "it": "wrap",
+      "en": "wrap"
     }
   },
   "time": {
-    "prep": 10
+    "prep": 15,
+    "rest": 10,
+    "cook": 10
   },
   "difficulty": "molto-facile",
   "cost": "economico",
-  "method": "senza-cottura",
+  "method": "padella",
   "tags": [
     "salato",
     "cena",
     "pollo",
     "carne",
-    "veloce",
-    "proteico"
+    "proteico",
+    "meal-prep",
+    "congelabile"
   ],
   "ingredients": [
     {
-      "section": null,
+      "section": {
+        "it": "Per gli straccetti"
+      },
+      "items": [
+        {
+          "food": "petto-pollo",
+          "qty": 250,
+          "unit": "g",
+          "label": {
+            "it": "petto di pollo a straccetti"
+          },
+          "note": {
+            "it": "250 g crudi rendono circa 180 g cotti"
+          }
+        },
+        {
+          "food": "paprika-affumicata",
+          "qty": 0.5,
+          "unit": "cucchiaino"
+        },
+        {
+          "food": "paprika-dolce",
+          "qty": 0.5,
+          "unit": "cucchiaino"
+        },
+        {
+          "food": "aglio",
+          "qty": 1,
+          "unit": "spicchio"
+        },
+        {
+          "food": "olio-oliva-evo",
+          "qty": 5,
+          "unit": "g",
+          "label": {
+            "it": "olio extravergine d'oliva (mezzo cucchiaio)"
+          }
+        },
+        {
+          "food": "sale",
+          "unit": "qb"
+        },
+        {
+          "food": "pepe-nero",
+          "unit": "qb"
+        }
+      ]
+    },
+    {
+      "section": {
+        "it": "Per il wrap"
+      },
       "items": [
         {
           "food": "tortilla",
@@ -38,14 +94,6 @@
           "unit": "pz",
           "label": {
             "it": "tortilla di frumento (60 g)"
-          }
-        },
-        {
-          "food": "petto-pollo-cotto",
-          "qty": 180,
-          "unit": "g",
-          "label": {
-            "it": "petto di pollo già cotto"
           }
         },
         {
@@ -60,18 +108,6 @@
           "label": {
             "it": "salsa zero calorie"
           }
-        },
-        {
-          "food": "paprika-dolce",
-          "unit": "qb"
-        },
-        {
-          "food": "sale",
-          "unit": "qb"
-        },
-        {
-          "food": "pepe-nero",
-          "unit": "qb"
         }
       ]
     }
@@ -79,7 +115,33 @@
   "steps": [
     {
       "title": {
-        "it": "Scaldare"
+        "it": "Tagliare"
+      },
+      "text": {
+        "it": "Taglia {{petto-pollo}} a straccetti sottili, circa 1 cm, contro fibra."
+      }
+    },
+    {
+      "title": {
+        "it": "Marinare"
+      },
+      "text": {
+        "it": "Condisci con {{olio-oliva-evo}}, {{paprika-affumicata}}, {{paprika-dolce}}, {{aglio}} tritato, sale e pepe. Almeno 10 minuti."
+      },
+      "timer": 600
+    },
+    {
+      "title": {
+        "it": "Cuocere"
+      },
+      "text": {
+        "it": "Padella antiaderente a fuoco molto vivo, 2-3 minuti per lato **senza mescolare**: devono rosolare, non lessare. Se fai più porzioni cuoci in 2-3 riprese."
+      },
+      "timer": 300
+    },
+    {
+      "title": {
+        "it": "Scaldare la tortilla"
       },
       "text": {
         "it": "Passa {{tortilla}} 20 secondi per lato in padella asciutta: diventa morbida e non si spacca quando la arrotoli."
@@ -90,7 +152,7 @@
         "it": "Farcire"
       },
       "text": {
-        "it": "Scalda {{petto-pollo-cotto}} e condiscilo con {{paprika-dolce}}, sale e pepe. Disponilo al centro della tortilla con {{insalata}} e {{salsa-zero}}."
+        "it": "Disponi gli straccetti al centro della tortilla con {{insalata}} e {{salsa-zero}}, lasciando liberi i bordi."
       }
     },
     {
@@ -105,10 +167,26 @@
   "notes": [
     {
       "title": {
-        "it": "Con gli straccetti"
+        "it": "Farne cinque in una volta"
       },
       "text": {
-        "it": "Va benissimo con una porzione di straccetti di pollo alla paprika presi dal freezer: è il loro abbinamento naturale."
+        "it": "Porta le porzioni a **5** con il selettore qui sopra: cuoci tutti gli straccetti insieme, raffreddali completamente e congelali in porzioni. La sera il wrap si monta in cinque minuti.\nDue quantità non vanno moltiplicate: **l'olio** — un cucchiaio (10 g) basta per l'intera padella — e l'aglio, che a 5 spicchi diventa invadente: tre bastano."
+      }
+    },
+    {
+      "title": {
+        "it": "Non affollare la padella"
+      },
+      "text": {
+        "it": "Se metti tutto insieme la temperatura crolla e il pollo bolle nel suo liquido invece di rosolare. Due o tre riprese cambiano completamente il risultato."
+      }
+    },
+    {
+      "title": {
+        "it": "Riscaldare gli straccetti"
+      },
+      "text": {
+        "it": "Dal freezer: microonde 2-3 minuti con un cucchiaio d'acqua sopra, altrimenti si asciugano."
       }
     },
     {
@@ -116,7 +194,7 @@
         "it": "Più proteine"
       },
       "text": {
-        "it": "Con 30 g di grana grattugiato arrivi a circa 615 kcal e 71 g di proteine."
+        "it": "Con 30 g di grana grattugiato arrivi a circa **650 kcal e 74 g di proteine**."
       }
     }
   ]
