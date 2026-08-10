@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-10T07:06:01.263Z",
+  "generated": "2026-08-10T07:27:23.145Z",
   "count": 28,
   "recipes": [
     {
@@ -11,8 +11,8 @@
       "summary": {
         "it": "Paprika e aglio in polvere, niente pastella: croccanti in forno senza friggere. Da mangiare con le mani."
       },
-      "image": null,
-      "imageFocus": null,
+      "image": "assets/img/recipes/alette-pollo-forno-patate.jpg",
+      "imageFocus": "center 55%",
       "tags": [
         "salato",
         "secondi",
@@ -93,8 +93,8 @@
       "summary": {
         "it": "Uova mantecate a fuoco spento, non strapazzate. Se la padella è ancora sul fuoco quando entrano le uova, è già finita."
       },
-      "image": null,
-      "imageFocus": null,
+      "image": "assets/img/recipes/carbonara-semplificata.jpg",
+      "imageFocus": "center 55%",
       "tags": [
         "salato",
         "primi",
@@ -210,8 +210,8 @@
       "summary": {
         "it": "Dieci minuti in tutto. Il segreto è il fuoco basso: la frittata cotta piano resta morbida, quella cotta forte diventa gommosa."
       },
-      "image": null,
-      "imageFocus": null,
+      "image": "assets/img/recipes/frittata-pane-pomodoro.jpg",
+      "imageFocus": "center 50%",
       "tags": [
         "salato",
         "cena",
@@ -249,8 +249,8 @@
       "summary": {
         "it": "Una teglia sola, quaranta minuti di forno e zero sorveglianza. La marinatura è quello che fa la differenza fra un fuso qualsiasi e uno buono."
       },
-      "image": null,
-      "imageFocus": null,
+      "image": "assets/img/recipes/fusi-pollo-forno-patate.jpg",
+      "imageFocus": "center 58%",
       "tags": [
         "salato",
         "secondi",
@@ -825,8 +825,8 @@
       "summary": {
         "it": "Mantecato senza burro né parmigiano: la cremosità viene solo dall'amido del riso e il limone tiene tutto leggero."
       },
-      "image": null,
-      "imageFocus": null,
+      "image": "assets/img/recipes/risotto-gamberetti-limone.jpg",
+      "imageFocus": "center 45%",
       "tags": [
         "salato",
         "primi",
