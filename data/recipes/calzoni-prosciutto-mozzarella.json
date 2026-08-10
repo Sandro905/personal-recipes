@@ -1,0 +1,207 @@
+{
+  "slug": "calzoni-prosciutto-mozzarella",
+  "added": "2026-08-10",
+  "title": {
+    "it": "Calzoni al prosciutto cotto con impasto allo yogurt greco"
+  },
+  "summary": {
+    "it": "Impasto di farina e yogurt greco, senza lievito e senza attesa, richiuso su passata, mozzarella light e prosciutto cotto. Sei calzoni da forno, buoni anche freddi il giorno dopo."
+  },
+  "yield": {
+    "count": 6,
+    "label": {
+      "it": "calzoni",
+      "en": "calzones"
+    }
+  },
+  "time": {
+    "prep": 25,
+    "rest": 10,
+    "cook": 22
+  },
+  "difficulty": "facile",
+  "cost": "economico",
+  "method": "forno",
+  "tags": [
+    "salato",
+    "forno",
+    "carne",
+    "proteico",
+    "meal-prep",
+    "finger-food",
+    "cena"
+  ],
+  "source": {
+    "name": "@panaceapalm (YouTube)",
+    "url": "https://youtube.com/shorts/ipWJCQLiHdQ"
+  },
+  "ingredients": [
+    {
+      "section": {
+        "it": "Per l'impasto"
+      },
+      "items": [
+        {
+          "food": "farina-00",
+          "qty": 400,
+          "unit": "g"
+        },
+        {
+          "food": "yogurt-greco-0",
+          "qty": 500,
+          "unit": "g"
+        },
+        {
+          "food": "sale",
+          "qty": 1,
+          "unit": "cucchiaino"
+        }
+      ]
+    },
+    {
+      "section": {
+        "it": "Per il ripieno"
+      },
+      "items": [
+        {
+          "food": "passata-pomodoro",
+          "qty": 120,
+          "unit": "g",
+          "label": {
+            "it": "passata di pomodoro (20 g a calzone)"
+          }
+        },
+        {
+          "food": "mozzarella-light",
+          "qty": 150,
+          "unit": "g"
+        },
+        {
+          "food": "prosciutto-cotto",
+          "qty": 180,
+          "unit": "g",
+          "label": {
+            "it": "prosciutto cotto a fette (30 g a calzone)"
+          }
+        },
+        {
+          "food": "origano",
+          "unit": "qb"
+        }
+      ]
+    },
+    {
+      "section": {
+        "it": "Per la teglia e la superficie"
+      },
+      "items": [
+        {
+          "food": "olio-oliva-evo",
+          "qty": 5,
+          "unit": "g",
+          "label": {
+            "it": "olio extravergine d'oliva (per teglia e superficie)"
+          }
+        },
+        {
+          "food": "prezzemolo",
+          "unit": "qb"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": {
+        "it": "L'impasto"
+      },
+      "text": {
+        "it": "Mescola {{farina-00}} con {{sale}}, poi unisci {{yogurt-greco-0}} in due o tre volte, lavorando con una forchetta finché non si raccoglie. Passa sulla spianatoia infarinata e impasta un paio di minuti, giusto il tempo che diventi liscio: **più lo lavori, più diventa gommoso**."
+      }
+    },
+    {
+      "title": {
+        "it": "Riposo"
+      },
+      "text": {
+        "it": "Copri e lascia stare dieci minuti. Non è una lievitazione — non c'è lievito — ma la farina finisce di assorbire lo yogurt e stendere diventa molto più facile."
+      },
+      "timer": 600
+    },
+    {
+      "title": {
+        "it": "Condire la passata"
+      },
+      "text": {
+        "it": "Aggiungi a {{passata-pomodoro}} un pizzico di {{sale}} e {{origano}}. Cruda e non condita saprebbe di poco, e dentro al calzone cuoce troppo poco per insaporirsi da sola."
+      }
+    },
+    {
+      "title": {
+        "it": "Stendere"
+      },
+      "text": {
+        "it": "Accendi il forno a 200 °C. Dividi l'impasto in 6 parti da circa 150 g e stendi ogni parte in un disco di 18 cm, spesso 3-4 mm."
+      }
+    },
+    {
+      "title": {
+        "it": "Farcire"
+      },
+      "text": {
+        "it": "Su metà disco: 20 g di passata, poi {{mozzarella-light}} e {{prosciutto-cotto}} divisi fra i sei. **Lascia due dita di bordo libero**, altrimenti la chiusura non tiene."
+      }
+    },
+    {
+      "title": {
+        "it": "Chiudere"
+      },
+      "text": {
+        "it": "Ripiega a mezzaluna, schiaccia il bordo con i rebbi della forchetta e fai **un taglietto sopra** per far uscire il vapore: è quello che evita che si aprano da soli in forno."
+      }
+    },
+    {
+      "title": {
+        "it": "In forno"
+      },
+      "text": {
+        "it": "Teglia con carta forno unta con parte dell'{{olio-oliva-evo}}, il resto spennellato in superficie. 200 °C per 20-22 minuti, finché non sono dorati. Finisci con {{prezzemolo}} tritato."
+      },
+      "timer": 1320
+    }
+  ],
+  "notes": [
+    {
+      "title": {
+        "it": "Se l'impasto resta appiccicoso"
+      },
+      "text": {
+        "it": "Gli yogurt greci non sono tutti uguali di consistenza: con uno molto cremoso servono 30-40 g di farina in più. Aggiungila un cucchiaio alla volta, non tutta insieme."
+      }
+    },
+    {
+      "title": {
+        "it": "Conservazione"
+      },
+      "text": {
+        "it": "Avvolti in alluminio, fino a 5 giorni in frigo. Per riscaldarli: togli l'alluminio, avvolgi in carta da cucina **umida** e microonde un paio di minuti, poi un minuto in friggitrice ad aria se li vuoi di nuovo croccanti fuori."
+      }
+    },
+    {
+      "title": {
+        "it": "In friggitrice ad aria"
+      },
+      "text": {
+        "it": "Vanno bene anche a 180 °C per 12-14 minuti, due o tre per volta. Non ammucchiarli: se si toccano restano pallidi dove si sfiorano."
+      }
+    },
+    {
+      "title": {
+        "it": "Con il prosciutto crudo"
+      },
+      "text": {
+        "it": "Tenendo gli stessi 180 g si sposta poco: una quindicina di kcal in più a calzone e un paio di grammi di proteine. Sala di meno il pomodoro, però, perché il crudo è più sapido."
+      }
+    }
+  ]
+}

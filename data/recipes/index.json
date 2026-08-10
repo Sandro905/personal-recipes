@@ -1,6 +1,48 @@
 {
-  "count": 24,
+  "count": 25,
   "recipes": [
+    {
+      "slug": "calzoni-prosciutto-mozzarella",
+      "added": "2026-08-10",
+      "title": {
+        "it": "Calzoni al prosciutto cotto con impasto allo yogurt greco"
+      },
+      "summary": {
+        "it": "Impasto di farina e yogurt greco, senza lievito e senza attesa, richiuso su passata, mozzarella light e prosciutto cotto. Sei calzoni da forno, buoni anche freddi il giorno dopo."
+      },
+      "image": null,
+      "imageFocus": null,
+      "tags": [
+        "salato",
+        "forno",
+        "carne",
+        "proteico",
+        "meal-prep",
+        "finger-food",
+        "cena"
+      ],
+      "method": "forno",
+      "difficulty": "facile",
+      "cost": "economico",
+      "time": {
+        "prep": 25,
+        "rest": 10,
+        "cook": 22
+      },
+      "yield": {
+        "count": 6,
+        "label": {
+          "it": "calzoni",
+          "en": "calzones"
+        }
+      },
+      "kcalPerServing": 406,
+      "coverage": 0.78,
+      "search": {
+        "it": "Calzoni al prosciutto cotto con impasto allo yogurt greco · Impasto di farina e yogurt greco, senza lievito e senza attesa, richiuso su passata, mozzarella light e prosciutto cotto. Sei calzoni da forno, buoni anche freddi il giorno dopo. · farina 00 · yogurt greco 0% · sale fino · passata di pomodoro (20 g a calzone) passata di pomodoro · mozzarella light grattugiata · prosciutto cotto a fette (30 g a calzone) prosciutto cotto · origano · olio extravergine d'oliva (per teglia e superficie) olio extravergine d'oliva · prezzemolo · L'impasto · Riposo · Condire la passata · Stendere · Farcire · Chiudere · In forno",
+        "en": "Calzoni al prosciutto cotto con impasto allo yogurt greco · Impasto di farina e yogurt greco, senza lievito e senza attesa, richiuso su passata, mozzarella light e prosciutto cotto. Sei calzoni da forno, buoni anche freddi il giorno dopo. · type-00 wheat flour · fat-free Greek yoghurt · fine salt · passata di pomodoro (20 g a calzone) tomato passata · reduced-fat grated mozzarella · prosciutto cotto a fette (30 g a calzone) cooked ham · oregano · olio extravergine d'oliva (per teglia e superficie) extra virgin olive oil · parsley · L'impasto · Riposo · Condire la passata · Stendere · Farcire · Chiudere · In forno"
+      }
+    },
     {
       "slug": "alette-pollo-forno-patate",
       "added": "2026-08-09",
