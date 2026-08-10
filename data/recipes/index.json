@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-10T06:03:42.610Z",
+  "generated": "2026-08-10T07:05:38.682Z",
   "count": 28,
   "recipes": [
     {
@@ -53,8 +53,8 @@
       "summary": {
         "it": "Fra i pranzi più proteici della raccolta, con 58 g. Il segreto non è la cottura ma i due minuti di riposo alla fine: saltali e il piatto si allaga di succhi."
       },
-      "image": null,
-      "imageFocus": null,
+      "image": "assets/img/recipes/bistecca-patate-forno.jpg",
+      "imageFocus": "center 62%",
       "tags": [
         "salato",
         "secondi",
