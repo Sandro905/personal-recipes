@@ -3,6 +3,7 @@ import { loadFoods, loadRecipe, loadUI, el, num, minutes, clock, inlineMarkdown,
 import { computeNutrition, energySplit, flatIngredients, MACRO_KEYS } from './lib/nutrition.js';
 import { toGrams, roundQty } from './lib/units.js';
 import { initNav, icons } from './lib/nav.js';
+import { initPWA } from './lib/pwa.js';
 
 const lang = detectLang();
 const toggleTheme = initTheme();
@@ -521,6 +522,7 @@ async function main() {
   state.base = recipe.yield?.count ?? 1;
   state.servings = state.base;
   initNav({ t: state.t, lang, active: 'home', toggleTheme });
+  initPWA({ t: state.t });
   renderHead();
   wireControls();
 }

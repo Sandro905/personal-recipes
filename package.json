@@ -6,8 +6,9 @@
   "description": "Ricettario personale statico, con grammature scalabili e macro calcolate",
   "scripts": {
     "start": "python3 -m http.server 8080",
-    "build": "node scripts/build-index.mjs && node scripts/validate.mjs",
+    "build": "node scripts/build-index.mjs && node scripts/validate.mjs && node scripts/build-sw.mjs",
     "index": "node scripts/build-index.mjs",
+    "sw": "node scripts/build-sw.mjs",
     "check": "node scripts/validate.mjs",
     "new": "node scripts/new-recipe.mjs"
   },

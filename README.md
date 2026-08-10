@@ -22,9 +22,10 @@ file JSON. Qualunque server statico va bene (`npx serve`, `php -S`, estensione L
 | Comando | Cosa fa |
 |---|---|
 | `npm start` | Server locale di anteprima |
-| `npm run build` | Rigenera l'indice **e** valida tutto. Da lanciare prima di pubblicare |
+| `npm run build` | Rigenera l'indice, valida tutto **e** rigenera `sw.js`. Da lanciare prima di pubblicare |
 | `npm run new -- "Titolo ricetta"` | Crea `data/recipes/<slug>.json` già impostato |
 | `npm run check` | Solo validazione (esce con errore se qualcosa non torna) |
+| `npm run sw` | Solo rigenerazione del service worker |
 | `node scripts/import-food.mjs …` | Importa un alimento da USDA o Open Food Facts |
 
 Node 20+ solo per gli script di manutenzione. Il **sito** è HTML/CSS/JS puro: nessuna build, nessun bundler.
@@ -47,6 +48,11 @@ assets/js/
   lib/i18n.js         lingue e fallback
   lib/data.js         caricamento dati, formattazione, tema
   lib/nav.js          barra, menu a scomparsa, icone SVG
+  lib/pwa.js          copia locale: registrazione, avviso di aggiornamento
+  fonts/              Inter (SIL OFL), servito dal sito e non da un CDN
+  icons/              icone dell'app per la schermata home
+sw.js                 GENERATO — service worker, vedi "Copia locale e offline"
+manifest.webmanifest  scheda dell'app (nome, icone, colori)
 data/
   foods.json          database alimenti (macro per 100 g)
   recipes/*.json      una ricetta per file
@@ -69,8 +75,8 @@ npm run new -- "Torta all'acqua al cacao"
 npm run build
 ```
 
-`build` fa due cose: ricalcola `index.json` (titoli, tag, tempi, kcal/porzione, testo
-cercabile) e valida. Se un ingrediente non esiste in `foods.json`, la validazione lo dice
+`build` fa tre cose: ricalcola `index.json` (titoli, tag, tempi, kcal/porzione, testo
+cercabile), valida e rigenera `sw.js`. Se un ingrediente non esiste in `foods.json`, la validazione lo dice
 e si ferma — così non ti ritrovi macro sbagliate in silenzio.
 
 ### Schema di una ricetta
@@ -219,7 +225,7 @@ jobs:
       - run: |
           git config user.name github-actions
           git config user.email actions@github.com
-          git commit -am "rigenera indice" || echo "niente da committare"
+          git commit -am "rigenera indice e service worker" || echo "niente da committare"
           git push
 ```
 
@@ -231,6 +237,62 @@ oltre all'accesso ai file.
 
 ---
 
+## Copia locale e offline
+
+Alla prima visita il sito si salva nel browser e da lì in poi si apre da lì: le pagine
+compaiono subito, senza attendere la rete, e continuano a funzionare quando la rete non
+c'è. Su telefono si può aggiungere alla schermata home ("Installa app" / "Aggiungi a
+Home") e si apre a schermo intero come un'applicazione.
+
+A gestirlo è `sw.js`, un **service worker**. Non si scrive a mano: lo genera
+`scripts/build-sw.mjs` unendo l'elenco dei file al corpo `scripts/sw-runtime.js`.
+**Le modifiche vanno fatte in `scripts/sw-runtime.js`**, poi `npm run build`.
+
+### Come funziona l'aggiornamento
+
+Il numero di versione è l'**impronta del contenuto**: `sha256` di tutti i file del sito,
+troncato. Cambia se e solo se cambia davvero qualcosa — non c'è nessun numero da
+incrementare a mano e non ci si può dimenticare di farlo.
+
+1. il browser riscarica `sw.js` a ogni visita (`updateViaCache: 'none'`, quindi mai dalla
+   cache HTTP);
+2. se i byte sono diversi installa la nuova copia **accanto** a quella vecchia, senza
+   toccarla: chi sta leggendo una ricetta non si vede cambiare la pagina sotto le dita;
+3. a installazione finita compare in basso *"Nuova versione disponibile · Aggiorna"*;
+4. premendo **Aggiorna** la nuova copia prende il posto della vecchia, le cache
+   precedenti vengono cancellate e la pagina si ricarica.
+
+Chi non preme niente resta sulla versione salvata e la trova aggiornata alla riapertura
+successiva. La versione attiva è scritta in fondo a ogni pagina (`v` + 8 cifre): serve a
+capire a colpo d'occhio se quello che si sta guardando è l'ultimo.
+
+### Due cache, perché
+
+| cache | contenuto | vita |
+|---|---|---|
+| `ricette-guscio-<versione>` | HTML, CSS, JS, font, icone, **tutti** i dati (~455 KB) | si rifà a ogni versione |
+| `ricette-foto` | le foto delle ricette (~5,6 MB) | sopravvive agli aggiornamenti |
+
+Il guscio si salva tutto insieme all'installazione: se manca un pezzo l'installazione
+fallisce e resta attiva la versione precedente, mai una copia a metà. Le foto pesano
+dieci volte tanto e cambiano di rado, perciò stanno a parte: a ogni aggiornamento si
+confrontano le impronte e si riscarica **solo** ciò che è cambiato davvero. Correggere
+una virgola in una ricetta costa qualche decina di KB, non 6 MB.
+
+Le foto non bloccano nulla: si scaricano in sottofondo a pagina caricata, così dopo la
+prima visita anche le ricette mai aperte hanno la loro immagine offline. Su connessione
+a consumo (`saveData`, 2G) il precaricamento si salta e le foto arrivano man mano che le
+ricette vengono aperte.
+
+### In sviluppo
+
+Il service worker gira solo su `https` e su `localhost` — con `npm start` è attivo, e una
+copia salvata può nascondere le modifiche appena fatte. In DevTools → Application →
+Service Workers ci sono *Update on reload* e *Bypass for network*; in alternativa
+`npm run build` cambia la versione e fa comparire l'avviso di aggiornamento.
+
+---
+
 ## Note sul design
 
 `style.css` è organizzato come un design system: in cima i **token** (colori, scala
@@ -239,8 +301,10 @@ tipografica, spaziature, raggi, ombre) come variabili CSS, sotto i **componenti*
 pagina. Per cambiare l'accento di tutto il sito basta `--accent`; per i colori delle
 macro `--protein`, `--carbs`, `--fat`.
 
-Un solo carattere, **Inter**, con fallback al font di sistema: se Google Fonts non
-risponde la pagina resta identica nella struttura e leggibile.
+Un solo carattere, **Inter**, servito dal sito stesso (`assets/fonts/`, un file
+variabile per sottoinsieme, 134 KB in tutto) e non da un CDN: la tipografia resta la
+stessa anche senza rete, e non c'è una richiesta a terzi a bloccare il primo disegno.
+Resta il fallback al font di sistema.
 
 **Mobile first**: le regole base sono quelle del telefono, i breakpoint (`min-width`)
 aggiungono soltanto. Da 768px in su i link di navigazione tornano in barra e il menu

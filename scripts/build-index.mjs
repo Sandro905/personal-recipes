@@ -60,7 +60,11 @@ recipes.sort((a, b) => String(b.added ?? '').localeCompare(String(a.added ?? '')
 
 await writeFile(
   join(recipesDir, 'index.json'),
-  `${JSON.stringify({ generated: new Date().toISOString(), count: recipes.length, recipes }, null, 2)}\n`,
+  // Niente data di generazione: l'indice deve dipendere solo dalle ricette.
+  // Un campo che cambia a ogni build farebbe cambiare la versione del service
+  // worker anche quando non è cambiato niente, e il telefono riscaricherebbe
+  // il sito per nulla.
+  `${JSON.stringify({ count: recipes.length, recipes }, null, 2)}\n`,
   'utf8'
 );
 

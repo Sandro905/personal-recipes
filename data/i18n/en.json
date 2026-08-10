@@ -18,6 +18,13 @@
     "themeDark": "Dark",
     "lang": "Language"
   },
+  "pwa": {
+    "updateReady": "A new version is available",
+    "updateAction": "Update",
+    "ready": "Site saved on this device: it now works without a connection",
+    "offline": "You're offline · showing the saved copy",
+    "online": "Back online"
+  },
   "home": {
     "eyebrow": "Home cookbook",
     "searchLabel": "Search",

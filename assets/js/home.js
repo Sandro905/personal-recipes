@@ -1,6 +1,7 @@
 import { tr, makeT, detectLang } from './lib/i18n.js';
 import { loadIndex, loadUI, el, num, minutes, initTheme } from './lib/data.js';
 import { initNav } from './lib/nav.js';
+import { initPWA } from './lib/pwa.js';
 
 const lang = detectLang();
 const toggleTheme = initTheme();
@@ -155,6 +156,7 @@ async function main() {
   state.t = makeT(ui, lang);
   state.recipes = index.recipes ?? [];
   initNav({ t: state.t, lang, active: 'home', toggleTheme });
+  initPWA({ t: state.t });
   wireControls();
   buildTagRow();
   render();

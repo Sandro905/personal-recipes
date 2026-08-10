@@ -13,5 +13,5 @@ jobs:
       - run: |
           git config user.name github-actions
           git config user.email actions@github.com
-          git commit -am "rigenera indice" || echo "niente da committare"
+          git commit -am "rigenera indice e service worker" || echo "niente da committare"
           git push

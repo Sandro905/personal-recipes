@@ -2,6 +2,7 @@ import { tr, makeT, detectLang } from './lib/i18n.js';
 import { loadFoods, loadUI, el, num, initTheme } from './lib/data.js';
 import { energySplit } from './lib/nutrition.js';
 import { initNav } from './lib/nav.js';
+import { initPWA } from './lib/pwa.js';
 
 const lang = detectLang();
 const toggleTheme = initTheme();
@@ -155,6 +156,7 @@ async function main() {
   state.t = makeT(ui, lang);
   state.foods = Object.entries(foods).map(([id, food]) => ({ id, ...food }));
   initNav({ t: state.t, lang, active: 'foods', toggleTheme });
+  initPWA({ t: state.t });
   wireControls();
   buildCategoryRow();
   render();

@@ -18,6 +18,13 @@
     "themeDark": "Scuro",
     "lang": "Lingua"
   },
+  "pwa": {
+    "updateReady": "Nuova versione disponibile",
+    "updateAction": "Aggiorna",
+    "ready": "Sito salvato sul dispositivo: da ora funziona anche senza rete",
+    "offline": "Sei offline · stai leggendo la copia salvata",
+    "online": "Di nuovo online"
+  },
   "home": {
     "eyebrow": "Ricettario di casa",
     "searchLabel": "Cerca",

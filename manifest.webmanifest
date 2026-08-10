@@ -1,0 +1,29 @@
+{
+  "id": "./",
+  "name": "Ricette personali",
+  "short_name": "Ricette",
+  "description": "Ricettario personale: grammature che si ricalcolano sulle porzioni e valori nutrizionali calcolati dagli ingredienti.",
+  "lang": "it",
+  "dir": "ltr",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#f6f6f7",
+  "background_color": "#f6f6f7",
+  "categories": ["food", "lifestyle", "utilities"],
+  "icons": [
+    { "src": "assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "assets/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    {
+      "name": "Alimenti",
+      "short_name": "Alimenti",
+      "description": "Database alimenti con le macro per 100 g",
+      "url": "./alimenti.html",
+      "icons": [{ "src": "assets/icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
