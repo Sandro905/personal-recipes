@@ -4,8 +4,10 @@
   "title": {
     "it": "Calzoni al prosciutto cotto con impasto allo yogurt greco"
   },
+  "image": "assets/img/recipes/calzoni-prosciutto-mozzarella.jpg",
+  "imageFocus": "center 45%",
   "summary": {
-    "it": "Impasto di farina e yogurt greco, senza lievito e senza attesa, richiuso su passata, mozzarella light e prosciutto cotto. Sei calzoni da forno, buoni anche freddi il giorno dopo."
+    "it": "Impasto di farina e yogurt greco, senza lievito e senza attesa, richiuso su passata, sottiletta e prosciutto cotto. Sei calzoni in friggitrice ad aria, buoni anche freddi il giorno dopo."
   },
   "yield": {
     "count": 6,
@@ -17,14 +19,14 @@
   "time": {
     "prep": 25,
     "rest": 10,
-    "cook": 22
+    "cook": 14
   },
   "difficulty": "facile",
   "cost": "economico",
-  "method": "forno",
+  "method": "friggitrice-ad-aria",
   "tags": [
     "salato",
-    "forno",
+    "friggitrice-ad-aria",
     "carne",
     "proteico",
     "meal-prep",
@@ -72,9 +74,12 @@
           }
         },
         {
-          "food": "mozzarella-light",
-          "qty": 150,
-          "unit": "g"
+          "food": "sottilette-light",
+          "qty": 6,
+          "unit": "pz",
+          "label": {
+            "it": "sottilette light (1 a calzone)"
+          }
         },
         {
           "food": "prosciutto-cotto",
@@ -98,10 +103,7 @@
         {
           "food": "olio-oliva-evo",
           "qty": 5,
-          "unit": "g",
-          "label": {
-            "it": "olio extravergine d'oliva (per teglia e superficie)"
-          }
+          "unit": "g"
         },
         {
           "food": "prezzemolo",
@@ -141,7 +143,7 @@
         "it": "Stendere"
       },
       "text": {
-        "it": "Accendi il forno a 200 °C. Dividi l'impasto in 6 parti da circa 150 g e stendi ogni parte in un disco di 18 cm, spesso 3-4 mm."
+        "it": "Dividi l'impasto in 6 parti da circa 150 g e stendi ogni parte in un disco di 18 cm, spesso 3-4 mm. Se la friggitrice va preriscaldata, accendila adesso a 180 °C."
       }
     },
     {
@@ -149,7 +151,7 @@
         "it": "Farcire"
       },
       "text": {
-        "it": "Su metà disco: 20 g di passata, poi {{mozzarella-light}} e {{prosciutto-cotto}} divisi fra i sei. **Lascia due dita di bordo libero**, altrimenti la chiusura non tiene."
+        "it": "Su metà disco: 20 g di passata, una {{sottilette-light}} spezzata in due o tre pezzi e 30 g di {{prosciutto-cotto}}. **Lascia due dita di bordo libero**, altrimenti la chiusura non tiene."
       }
     },
     {
@@ -162,12 +164,12 @@
     },
     {
       "title": {
-        "it": "In forno"
+        "it": "In friggitrice ad aria"
       },
       "text": {
-        "it": "Teglia con carta forno unta con parte dell'{{olio-oliva-evo}}, il resto spennellato in superficie. 200 °C per 20-22 minuti, finché non sono dorati. Finisci con {{prezzemolo}} tritato."
+        "it": "Spennella la superficie con {{olio-oliva-evo}}. 180 °C per 12-14 minuti, **due o tre per volta**: se si toccano restano pallidi dove si sfiorano. Finisci con {{prezzemolo}} tritato."
       },
-      "timer": 1320
+      "timer": 840
     }
   ],
   "notes": [
@@ -189,10 +191,18 @@
     },
     {
       "title": {
-        "it": "In friggitrice ad aria"
+        "it": "Più filante"
       },
       "text": {
-        "it": "Vanno bene anche a 180 °C per 12-14 minuti, due o tre per volta. Non ammucchiarli: se si toccano restano pallidi dove si sfiorano."
+        "it": "Con due sottilette a calzone invece di una fila molto di più, e sono circa 40 kcal e 4 g di proteine in più a testa. Spezzale sempre: intera resta un blocco da una parte sola."
+      }
+    },
+    {
+      "title": {
+        "it": "In forno"
+      },
+      "text": {
+        "it": "Se li fai tutti e sei insieme: 200 °C per 20-22 minuti su teglia con carta forno, finché non sono dorati. Vengono un filo meno croccanti sotto."
       }
     },
     {
