@@ -110,6 +110,10 @@
     "salt": "Salt",
     "split": "Energy split",
     "estimate": "Estimated from raw ingredients, cooking losses not included.",
+    "breakdown": "Where it comes from",
+    "breakdownMetric": "Choose what to compare",
+    "breakdownNote": "Each ingredient is converted to grams and multiplied by its per-100 g values. The percentage is of the dish total.",
+    "excludedTitle": "Left out of the calculation",
     "issues": {
       "unknown-food": "{food}: not in the food database",
       "no-density": "{food}: no density, converted as water",

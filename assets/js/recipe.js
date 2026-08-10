@@ -8,7 +8,7 @@ const lang = detectLang();
 const toggleTheme = initTheme();
 const slug = new URLSearchParams(location.search).get('r');
 
-const state = { recipe: null, foods: null, t: null, ui: null, servings: 1, base: 1, view: 'serving' };
+const state = { recipe: null, foods: null, t: null, ui: null, servings: 1, base: 1, view: 'serving', metric: 'kcal' };
 
 /* ---------- quantità ---------- */
 
@@ -148,6 +148,120 @@ function renderMacros() {
       })
     )
   );
+}
+
+/* ---------- da dove arrivano le macro ---------- */
+
+// Quale colore usa la barra, per ogni metrica.
+const METRICS = [
+  { key: 'kcal', unit: '', color: 'var(--accent)' },
+  { key: 'protein', unit: 'g', color: 'var(--protein)' },
+  { key: 'carbs', unit: 'g', color: 'var(--carbs)' },
+  { key: 'fat', unit: 'g', color: 'var(--fat)' }
+];
+
+function ingredientLabel(contribution) {
+  return tr(contribution.label, lang)
+    || tr(state.foods[contribution.food]?.name, lang)
+    || contribution.food;
+}
+
+function renderBreakdown() {
+  const t = state.t;
+  const scale = state.servings / state.base;
+  const { contributions, totals, servings } = computeNutrition(state.recipe, state.foods, { scale });
+  const metric = METRICS.find((m) => m.key === state.metric) ?? METRICS[0];
+  const divisor = state.view === 'serving' ? (servings || 1) : 1;
+
+  const counted = contributions.filter((c) => c.grams != null);
+  const excluded = contributions.filter((c) => c.grams == null);
+
+  const value = (c) => c.macros[metric.key] / divisor;
+  const totalValue = totals[metric.key] / divisor;
+
+  const fmt = (v) => `${num(v, v < 10 && v > 0 ? 1 : 0)}${metric.unit ? ' ' + metric.unit : ''}`;
+
+  document.getElementById('breakdownLead').innerHTML =
+    `${t(`macros.${metric.key}`)}: <b>${fmt(totalValue)}${metric.key === 'kcal' ? ' kcal' : ''}</b> · ` +
+    `${state.view === 'serving' ? t('macros.perServing').toLowerCase() : t('macros.total').toLowerCase()}`;
+
+  const rows = [...counted].sort((a, b) => value(b) - value(a));
+  document.getElementById('contribList').replaceChildren(
+    ...rows.map((c) => {
+      const v = value(c);
+      const share = totalValue > 0 ? (v / totalValue) * 100 : 0;
+      return el('li', { class: `contrib__row${v <= 0 ? ' is-zero' : ''}` }, [
+        el('div', { class: 'contrib__top' }, [
+          el('span', { class: 'contrib__name', text: ingredientLabel(c) }),
+          el('span', { class: 'contrib__val', text: fmt(v) })
+        ]),
+        // la barra è la quota sul totale: così lunghezza e percentuale
+        // raccontano la stessa cosa
+        el('div', { class: 'contrib__track' }, [
+          el('span', {
+            class: 'contrib__fill',
+            style: `width:${Math.max(0, share)}%;--metric:${metric.color}`
+          })
+        ]),
+        el('div', {
+          class: 'contrib__sub',
+          text: `${num(c.grams / divisor)} g · ${num(share)}%`
+        })
+      ]);
+    })
+  );
+
+  const box = document.getElementById('contribExcluded');
+  if (excluded.length) {
+    box.hidden = false;
+    document.getElementById('contribExcludedTitle').textContent = t('macros.excludedTitle');
+    document.getElementById('contribExcludedList').textContent =
+      excluded.map(ingredientLabel).join(' · ');
+  } else box.hidden = true;
+
+  document.getElementById('breakdownNote').textContent = t('macros.breakdownNote');
+}
+
+function wireBreakdown() {
+  const t = state.t;
+  const dialog = document.getElementById('breakdown');
+  const open = document.getElementById('breakdownOpen');
+  const close = document.getElementById('breakdownClose');
+
+  open.querySelector('span').textContent = t('macros.breakdown');
+  document.getElementById('breakdownTitle').textContent = t('macros.breakdown');
+  close.innerHTML = icons.close;
+  close.setAttribute('aria-label', t('nav.close'));
+
+  const metrics = document.getElementById('breakdownMetric');
+  metrics.setAttribute('aria-label', t('macros.breakdownMetric'));
+  metrics.replaceChildren(
+    ...METRICS.map((m) =>
+      el('button', {
+        type: 'button',
+        text: t(`macros.${m.key}`),
+        'aria-pressed': String(state.metric === m.key),
+        onclick: (event) => {
+          state.metric = m.key;
+          for (const b of metrics.querySelectorAll('button')) b.setAttribute('aria-pressed', 'false');
+          event.currentTarget.setAttribute('aria-pressed', 'true');
+          renderBreakdown();
+        }
+      })
+    )
+  );
+
+  open.addEventListener('click', () => { renderBreakdown(); dialog.showModal(); });
+  close.addEventListener('click', () => dialog.close());
+  // clic sullo sfondo: il target è il dialog stesso solo se si è fuori dal riquadro
+  dialog.addEventListener('click', (event) => {
+    if (event.target !== dialog) return;
+    const box = dialog.getBoundingClientRect();
+    const fuori =
+      event.clientY < box.top || event.clientY > box.bottom ||
+      event.clientX < box.left || event.clientX > box.right;
+    if (fuori) dialog.close();
+  });
 }
 
 /* ---------- passaggi ---------- */
@@ -328,12 +442,15 @@ function wireControls() {
   more.setAttribute('aria-label', t('recipe.servingsIncrease'));
 
   const step = state.base >= 12 ? Math.max(1, Math.round(state.base / 4)) : 1;
+  const dialog = document.getElementById('breakdown');
   const paint = () => {
     out.value = `${state.servings}`;
     less.disabled = state.servings - step < step;
     renderIngredients();
     renderMacros();
     renderSteps();
+    // se il dettaglio è aperto, deve seguire il cambio di porzioni
+    if (dialog.open) renderBreakdown();
   };
   less.addEventListener('click', () => { state.servings = Math.max(step, state.servings - step); paint(); });
   more.addEventListener('click', () => { state.servings += step; paint(); });
@@ -348,10 +465,13 @@ function wireControls() {
           for (const btn of toggle.querySelectorAll('button')) btn.setAttribute('aria-pressed', 'false');
           event.currentTarget.setAttribute('aria-pressed', 'true');
           renderMacros();
+          if (dialog.open) renderBreakdown();
         }
       })
     )
   );
+
+  wireBreakdown();
 
   const print = document.getElementById('print');
   print.textContent = t('recipe.print');

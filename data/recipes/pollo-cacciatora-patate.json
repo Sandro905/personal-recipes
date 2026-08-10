@@ -5,7 +5,7 @@
     "it": "Pollo alla cacciatora con patate"
   },
   "summary": {
-    "it": "Pomodoro, olive e origano: il pollo si insaporisce mentre cuoce coperto, e le patate vanno in forno da sole. 61 g di proteine con soli 15 g di grassi."
+    "it": "Pomodoro, olive e origano: il pollo si insaporisce mentre cuoce coperto e le patate vanno in forno da sole. È il pranzo con più proteine della raccolta, 61 g."
   },
   "yield": {
     "count": 1,
@@ -83,7 +83,7 @@
           "qty": 10,
           "unit": "g",
           "label": {
-            "it": "1 cucchiaio (10 g)"
+            "it": "olio extravergine d'oliva (1 cucchiaio)"
           }
         },
         {

@@ -5,7 +5,7 @@
     "it": "Pasta al tonno con pomodorini"
   },
   "summary": {
-    "it": "Quindici minuti dalla dispensa al piatto, ed è il pranzo con più proteine della settimana. Sta in piedi sul tonno: sgocciolalo bene."
+    "it": "Quindici minuti dalla dispensa al piatto, ed è il pranzo più sostanzioso della raccolta. Sta in piedi sul tonno: sgocciolalo bene."
   },
   "yield": {
     "count": 1,
@@ -80,7 +80,7 @@
           "qty": 10,
           "unit": "g",
           "label": {
-            "it": "1 cucchiaio (10 g)"
+            "it": "olio extravergine d'oliva (1 cucchiaio)"
           }
         },
         {
@@ -146,7 +146,7 @@
         "it": "Al naturale"
       },
       "text": {
-        "it": "Con il tonno al naturale scendi a circa 610 kcal e 12 g di grassi, tenendo quasi tutte le proteine. Aggiungi mezzo cucchiaio d'olio a crudo per compensare il gusto."
+        "it": "Con il tonno al naturale scendi a circa **680 kcal** e 17 g di grassi, tenendo 53 g di proteine. Aggiungi mezzo cucchiaio d'olio a crudo per compensare il gusto."
       }
     }
   ]

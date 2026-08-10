@@ -63,7 +63,7 @@
           "qty": 10,
           "unit": "g",
           "label": {
-            "it": "1 cucchiaio (10 g)"
+            "it": "olio extravergine d'oliva (1 cucchiaio)"
           },
           "note": {
             "it": "uno solo: serve la padella antiaderente"
@@ -118,10 +118,10 @@
   "notes": [
     {
       "title": {
-        "it": "Sulle macro dichiarate"
+        "it": "Quanto pollo a porzione"
       },
       "text": {
-        "it": "Il piano indica 196 kcal e 39 g di proteine a porzione, che corrispondono a ~180 g di pollo crudo. Con 500 g divisi in 5 ne restano 100 a testa: le macro qui sopra sono quelle reali. Per arrivare ai valori del piano servono **900 g di pollo** per 5 porzioni, oppure dividi questi 500 g in **3 porzioni**."
+        "it": "Con 500 g divisi in 5 restano 100 g di pollo crudo a testa: una quota proteica leggera, pensata per essere abbinata. Se preferisci una porzione piena da ~170 g — **231 kcal e 39 g di proteine** — dividi lo stesso impasto in **3 porzioni** invece di 5."
       }
     },
     {

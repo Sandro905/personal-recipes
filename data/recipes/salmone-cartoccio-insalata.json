@@ -5,7 +5,7 @@
     "it": "Salmone al cartoccio con insalata"
   },
   "summary": {
-    "it": "Praticamente zero carboidrati e 40 g di proteine: la cena giusta per i giorni di riposo. Il cartoccio lo cuoce nel suo vapore."
+    "it": "Praticamente zero carboidrati e 39 g di proteine: la cena giusta per i giorni di riposo. Il cartoccio lo cuoce nel suo vapore."
   },
   "yield": {
     "count": 1,
@@ -66,7 +66,7 @@
           "qty": 5,
           "unit": "g",
           "label": {
-            "it": "1 cucchiaio (5 g)"
+            "it": "olio extravergine d'oliva (per la padella)"
           }
         },
         {
@@ -113,7 +113,7 @@
         "it": "Giorni di riposo"
       },
       "text": {
-        "it": "Con 5 g di carboidrati è pensata per le sere in cui non ti alleni e i carboidrati della giornata sono già a target."
+        "it": "Con 4 g di carboidrati è pensata per le sere in cui non ti alleni e i carboidrati della giornata sono già a target."
       }
     },
     {

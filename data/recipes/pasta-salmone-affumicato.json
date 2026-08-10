@@ -85,7 +85,7 @@
           "qty": 10,
           "unit": "g",
           "label": {
-            "it": "1 cucchiaio (10 g)"
+            "it": "olio extravergine d'oliva (1 cucchiaio)"
           }
         },
         {
@@ -150,10 +150,10 @@
     },
     {
       "title": {
-        "it": "La più calorica"
+        "it": "Da giorno di allenamento"
       },
       "text": {
-        "it": "Con 763 kcal è il pranzo più pesante della raccolta. Va bene nei giorni di allenamento, meno in quelli di riposo."
+        "it": "Con 777 kcal è fra i pranzi più pesanti della raccolta. Va bene nei giorni in cui ti alleni, meno in quelli di riposo."
       }
     }
   ]

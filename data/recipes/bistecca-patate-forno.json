@@ -5,7 +5,7 @@
     "it": "Bistecca con patate al forno"
   },
   "summary": {
-    "it": "Il pranzo con più proteine di tutti. Il segreto non è la cottura ma i due minuti di riposo alla fine: saltali e il piatto si allaga di succhi."
+    "it": "Fra i pranzi più proteici della raccolta, con 58 g. Il segreto non è la cottura ma i due minuti di riposo alla fine: saltali e il piatto si allaga di succhi."
   },
   "yield": {
     "count": 1,
@@ -63,7 +63,7 @@
           "qty": 10,
           "unit": "g",
           "label": {
-            "it": "1 cucchiaio (10 g)"
+            "it": "olio extravergine d'oliva (1 cucchiaio)"
           }
         },
         {

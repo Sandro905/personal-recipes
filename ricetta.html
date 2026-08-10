@@ -98,6 +98,10 @@
           </div>
           <div class="macrobar" id="macrobar"></div>
           <ul class="macrolist" id="macrolist"></ul>
+          <button class="btn btn--secondary btn--full" id="breakdownOpen" type="button">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M3 12h5M3 6h11M3 18h8"/></svg>
+            <span>Da dove arrivano</span>
+          </button>
           <p class="footnote" id="macroNote"></p>
           <details class="issues" id="issues" hidden>
             <summary></summary>
@@ -125,6 +129,23 @@
     </div>
   </div>
 </main>
+
+<dialog class="sheet" id="breakdown" aria-labelledby="breakdownTitle">
+  <div class="sheet__head">
+    <h2 class="sheet__title" id="breakdownTitle">Da dove arrivano</h2>
+    <button class="btn btn--icon" id="breakdownClose" type="button"></button>
+  </div>
+  <div class="sheet__body">
+    <div class="segmented segmented--grid" id="breakdownMetric" role="group"></div>
+    <p class="sheet__lead" id="breakdownLead"></p>
+    <ol class="contrib" id="contribList"></ol>
+    <div class="contrib__excluded" id="contribExcluded" hidden>
+      <span class="label" id="contribExcludedTitle"></span>
+      <p id="contribExcludedList"></p>
+    </div>
+    <p class="footnote" id="breakdownNote"></p>
+  </div>
+</dialog>
 
 <script type="module" src="assets/js/recipe.js"></script>
 </body>

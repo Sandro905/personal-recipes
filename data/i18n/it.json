@@ -110,6 +110,10 @@
     "salt": "Sale",
     "split": "Ripartizione energetica",
     "estimate": "Stime calcolate sugli ingredienti crudi, senza perdite di cottura.",
+    "breakdown": "Da dove arrivano",
+    "breakdownMetric": "Scegli cosa confrontare",
+    "breakdownNote": "Ogni ingrediente è convertito in grammi e moltiplicato per i suoi valori per 100 g. La percentuale è sul totale del piatto.",
+    "excludedTitle": "Fuori dal calcolo",
     "issues": {
       "unknown-food": "{food}: non è nel database alimenti",
       "no-density": "{food}: densità mancante, convertito come acqua",

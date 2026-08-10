@@ -26,6 +26,8 @@ export function flatIngredients(recipe) {
 export function computeNutrition(recipe, foods, { scale = 1 } = {}) {
   const totals = emptyTotals();
   const warnings = [];
+  // Contributo di ogni singolo ingrediente, per il dettaglio "da dove arrivano".
+  const contributions = [];
   let countedGrams = 0;
   let counted = 0;
   let total = 0;
@@ -36,6 +38,7 @@ export function computeNutrition(recipe, foods, { scale = 1 } = {}) {
 
     if (!food) {
       warnings.push({ food: item.food, issue: 'unknown-food' });
+      contributions.push({ food: item.food, label: item.label ?? null, grams: null, macros: emptyTotals(), issue: 'unknown-food' });
       continue;
     }
 
@@ -45,14 +48,20 @@ export function computeNutrition(recipe, foods, { scale = 1 } = {}) {
       if (issue !== 'open-quantity' || (food.per100g?.kcal ?? 0) > 0) {
         warnings.push({ food: item.food, issue });
       }
+      contributions.push({ food: item.food, label: item.label ?? null, grams: null, macros: emptyTotals(), issue });
       continue;
     }
     if (!exact) warnings.push({ food: item.food, issue });
 
     const factor = (grams * scale) / 100;
-    for (const key of MACRO_KEYS) totals[key] += (food.per100g?.[key] ?? 0) * factor;
+    const macros = emptyTotals();
+    for (const key of MACRO_KEYS) {
+      macros[key] = (food.per100g?.[key] ?? 0) * factor;
+      totals[key] += macros[key];
+    }
     countedGrams += grams * scale;
     counted += 1;
+    contributions.push({ food: item.food, label: item.label ?? null, grams: grams * scale, macros, issue: exact ? null : issue });
   }
 
   const servings = (recipe.yield?.count ?? 1) * scale;
@@ -66,6 +75,7 @@ export function computeNutrition(recipe, foods, { scale = 1 } = {}) {
     servings,
     grams: countedGrams,
     warnings,
+    contributions,
     coverage: total === 0 ? 1 : counted / total
   };
 }
