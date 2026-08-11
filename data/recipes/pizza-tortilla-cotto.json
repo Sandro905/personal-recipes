@@ -7,18 +7,18 @@
   "image": "assets/img/recipes/pizza-tortilla-cotto.jpg",
   "imageFocus": "center 50%",
   "summary": {
-    "it": "Tortilla al posto dell'impasto: passata all'origano, sottiletta e prosciutto cotto, dieci minuti in friggitrice ad aria. Il bordo viene sottile e croccante come una pizza bassa."
+    "it": "Due tortillas impilate al posto dell'impasto, ognuna con la sua passata all'origano, sottiletta e prosciutto cotto. Dieci minuti in friggitrice ad aria e il bordo viene sottile e croccante come una pizza bassa."
   },
   "yield": {
     "count": 1,
     "label": {
-      "it": "cena (2 pizze)",
-      "en": "dinner (2 pizzas)"
+      "it": "pizza doppia",
+      "en": "double pizza"
     }
   },
   "time": {
     "prep": 10,
-    "cook": 16
+    "cook": 10
   },
   "difficulty": "molto-facile",
   "cost": "molto-economico",
@@ -34,7 +34,7 @@
   "ingredients": [
     {
       "section": {
-        "it": "Per le due pizze"
+        "it": "Per la pizza"
       },
       "items": [
         {
@@ -42,7 +42,7 @@
           "qty": 2,
           "unit": "pz",
           "label": {
-            "it": "tortilla di frumento (1 a pizza)"
+            "it": "tortilla di frumento (una sopra l'altra)"
           }
         },
         {
@@ -50,7 +50,7 @@
           "qty": 100,
           "unit": "g",
           "label": {
-            "it": "passata di pomodoro (50 g a pizza)"
+            "it": "passata di pomodoro (50 g a strato)"
           }
         },
         {
@@ -62,7 +62,7 @@
           "qty": 2,
           "unit": "pz",
           "label": {
-            "it": "sottilette light (1 a pizza)"
+            "it": "sottilette light (1 a strato)"
           }
         },
         {
@@ -70,7 +70,7 @@
           "qty": 80,
           "unit": "g",
           "label": {
-            "it": "prosciutto cotto a fette (40 g a pizza)"
+            "it": "prosciutto cotto a fette (40 g a strato)"
           }
         }
       ]
@@ -104,19 +104,35 @@
     },
     {
       "title": {
-        "it": "Scaldare la base da sola"
+        "it": "Asciugare le tortillas"
       },
       "text": {
-        "it": "Metti la {{tortilla}} nuda nel cestello e falle fare **2 minuti a 180 °C**. È il passaggio che decide tutto: una tortilla morbida assorbe la passata e resta molliccia, una già asciutta regge il condimento e viene croccante."
+        "it": "Metti le {{tortilla}} nude nel cestello, sovrapposte se non ci stanno affiancate, e falle fare **2 minuti a 180 °C**. È il passaggio che decide tutto: una tortilla morbida assorbe la passata e resta molliccia, una già asciutta la regge."
       },
       "timer": 120
     },
     {
       "title": {
-        "it": "Farcire"
+        "it": "Primo strato"
       },
       "text": {
-        "it": "50 g di passata sulla tortilla calda, lasciando un dito di bordo libero. Sopra una {{sottilette-light}} spezzata in pezzi — sparsa copre meglio che intera — e 40 g di {{prosciutto-cotto}} a ciuffi, non steso piatto."
+        "it": "Sulla prima tortilla: 50 g di passata lasciando **un dito di bordo pulito**, una {{sottilette-light}} spezzata in pezzi e 40 g di {{prosciutto-cotto}} a ciuffi, non steso piatto."
+      }
+    },
+    {
+      "title": {
+        "it": "Coprire"
+      },
+      "text": {
+        "it": "Appoggia sopra la seconda tortilla e premi tutt'intorno sul bordo rimasto pulito: il formaggio che fonde fa da colla e le due basi restano attaccate invece di scivolare quando la tagli."
+      }
+    },
+    {
+      "title": {
+        "it": "Secondo strato"
+      },
+      "text": {
+        "it": "Sulla tortilla di sopra il resto: 50 g di passata, la seconda {{sottilette-light}} spezzata, gli altri 40 g di {{prosciutto-cotto}}."
       }
     },
     {
@@ -124,42 +140,42 @@
         "it": "Cuocere"
       },
       "text": {
-        "it": "180 °C per 5-6 minuti, finché il formaggio si è sciolto e il bordo si scurisce. Tienila d'occhio dal quarto minuto: fra dorata e bruciata passa poco."
+        "it": "180 °C per 7-8 minuti: un paio in più della pizza singola, perché il calore deve arrivare anche allo strato chiuso in mezzo. Tienila d'occhio dal quinto minuto, fra bordo dorato e bordo bruciato passa poco."
       },
-      "timer": 330
-    },
-    {
-      "title": {
-        "it": "La seconda"
-      },
-      "text": {
-        "it": "Ripeti con la seconda tortilla. La prima si mangia mentre cuoce l'altra: fredda perde la croccantezza."
-      }
+      "timer": 450
     },
     {
       "title": {
         "it": "A tavola"
       },
       "text": {
-        "it": "{{insalata}} condita con {{olio-oliva-evo}} a fianco, per avere qualcosa di fresco e un po' di fibra accanto a un piatto che ne ha poca."
+        "it": "Falla riposare un minuto prima di tagliarla, così gli strati si assestano. {{insalata}} condita con {{olio-oliva-evo}} a fianco, per avere qualcosa di fresco e un po' di fibra accanto a un piatto che ne ha poca."
       }
     }
   ],
   "notes": [
     {
       "title": {
-        "it": "Occhio al sale"
+        "it": "Lo strato in mezzo resta morbido"
       },
       "text": {
-        "it": "È il punto debole del piatto: tortilla, sottiletta e prosciutto cotto sono tutti e tre salati di loro e insieme arrivano vicini al riferimento giornaliero. Se lo mangi spesso, scendi a 30 g di prosciutto a pizza o cercane uno a ridotto contenuto di sale."
+        "it": "È inevitabile: chiuso fra due tortillas non evapora niente. È anche il bello della versione doppia — fuori croccante, dentro filante. Se invece le vuoi croccanti tutte e due, non impilarle: due pizze singole da 5-6 minuti l'una, stessi ingredienti e stesse macro."
       }
     },
     {
       "title": {
-        "it": "Più verdura sopra"
+        "it": "Occhio al sale"
       },
       "text": {
-        "it": "Pomodorini a metà o peperone a striscioline reggono benissimo la cottura e aggiungono pochissimo. Le foglie no: rucola o basilico vanno messi **dopo**, a pizza fuori dal cestello, altrimenti bruciano."
+        "it": "È il punto debole del piatto: tortilla, sottiletta e prosciutto cotto sono tutti e tre salati di loro e insieme arrivano vicini al riferimento giornaliero. Se lo mangi spesso, scendi a 30 g di prosciutto a strato o cercane uno a ridotto contenuto di sale."
+      }
+    },
+    {
+      "title": {
+        "it": "Più verdura"
+      },
+      "text": {
+        "it": "Pomodorini a metà o peperone a striscioline reggono la cottura e aggiungono pochissimo, ma mettili **solo sopra**: in mezzo rilasciano acqua che non ha da nessuna parte dove andare. Rucola e basilico vanno messi a pizza già fuori dal cestello, altrimenti bruciano."
       }
     },
     {
@@ -175,7 +191,7 @@
         "it": "In padella"
       },
       "text": {
-        "it": "Padella antiaderente a fuoco medio con coperchio, 5-6 minuti: il coperchio scioglie il formaggio, il fondo asciutto fa la crosta. In forno serve la griglia alta, sulla teglia il fondo resta pallido."
+        "it": "Padella antiaderente con coperchio, fuoco medio-basso, 8-9 minuti. Doppia com'è non la giri: il coperchio scioglie il formaggio e scalda il centro, il fondo asciutto fa la crosta sotto."
       }
     }
   ]
