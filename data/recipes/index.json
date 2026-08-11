@@ -1,6 +1,46 @@
 {
-  "count": 25,
+  "count": 26,
   "recipes": [
+    {
+      "slug": "pizza-tortilla-cotto",
+      "added": "2026-08-11",
+      "title": {
+        "it": "Pizza di tortilla al prosciutto cotto"
+      },
+      "summary": {
+        "it": "Tortilla al posto dell'impasto: passata all'origano, sottiletta e prosciutto cotto, dieci minuti in friggitrice ad aria. Il bordo viene sottile e croccante come una pizza bassa."
+      },
+      "image": "assets/img/recipes/pizza-tortilla-cotto.jpg",
+      "imageFocus": "center 50%",
+      "tags": [
+        "salato",
+        "friggitrice-ad-aria",
+        "veloce",
+        "carne",
+        "proteico",
+        "cena"
+      ],
+      "method": "friggitrice-ad-aria",
+      "difficulty": "molto-facile",
+      "cost": "molto-economico",
+      "time": {
+        "prep": 10,
+        "cook": 16
+      },
+      "yield": {
+        "count": 1,
+        "label": {
+          "it": "cena (2 pizze)",
+          "en": "dinner (2 pizzas)"
+        }
+      },
+      "kcalPerServing": 716,
+      "coverage": 0.86,
+      "search": {
+        "it": "Pizza di tortilla al prosciutto cotto · Tortilla al posto dell'impasto: passata all'origano, sottiletta e prosciutto cotto, dieci minuti in friggitrice ad aria. Il bordo viene sottile e croccante come una pizza bassa. · tortilla di frumento (1 a pizza) tortilla di frumento · passata di pomodoro (50 g a pizza) passata di pomodoro · origano · sottilette light (1 a pizza) sottilette light · prosciutto cotto a fette (40 g a pizza) prosciutto cotto · insalata · olio extravergine d'oliva · Condire la passata · Scaldare la base da sola · Farcire · Cuocere · La seconda · A tavola",
+        "en": "Pizza di tortilla al prosciutto cotto · Tortilla al posto dell'impasto: passata all'origano, sottiletta e prosciutto cotto, dieci minuti in friggitrice ad aria. Il bordo viene sottile e croccante come una pizza bassa. · tortilla di frumento (1 a pizza) wheat tortilla · passata di pomodoro (50 g a pizza) tomato passata · oregano · sottilette light (1 a pizza) light cheese slices · prosciutto cotto a fette (40 g a pizza) cooked ham · salad leaves · extra virgin olive oil · Condire la passata · Scaldare la base da sola · Farcire · Cuocere · La seconda · A tavola"
+      }
+    },
     {
       "slug": "calzoni-prosciutto-mozzarella",
       "added": "2026-08-10",
