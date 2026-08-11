@@ -1,0 +1,205 @@
+{
+  "slug": "pasta-sugo-costine",
+  "added": "2026-08-11",
+  "title": {
+    "it": "Pasta al sugo di costine di maiale"
+  },
+  "image": "assets/img/recipes/pasta-sugo-costine.jpg",
+  "imageFocus": "center 50%",
+  "summary": {
+    "it": "Un'ora di sobbollire piano e la carne si stacca dall'osso da sola: si spolpa, torna nel sugo e diventa il condimento. La cipolla si insaporisce nel grasso delle costine prima che entri il pomodoro."
+  },
+  "yield": {
+    "count": 2,
+    "label": {
+      "it": "persone",
+      "en": "people"
+    }
+  },
+  "time": {
+    "prep": 15,
+    "cook": 85
+  },
+  "difficulty": "facile",
+  "cost": "economico",
+  "method": "padella",
+  "tags": [
+    "salato",
+    "padella",
+    "pasta",
+    "primi",
+    "carne",
+    "pranzo"
+  ],
+  "ingredients": [
+    {
+      "section": {
+        "it": "Per il sugo"
+      },
+      "items": [
+        {
+          "food": "costine-maiale",
+          "qty": 200,
+          "unit": "g",
+          "label": {
+            "it": "costine di maiale (~350 g con osso)"
+          },
+          "note": {
+            "it": "il peso indicato è la parte edibile"
+          }
+        },
+        {
+          "food": "cipolla",
+          "qty": 150,
+          "unit": "g",
+          "label": {
+            "it": "cipolla grande (1)"
+          }
+        },
+        {
+          "food": "passata-pomodoro",
+          "qty": 500,
+          "unit": "g"
+        },
+        {
+          "food": "vino-bianco",
+          "qty": 50,
+          "unit": "ml"
+        },
+        {
+          "food": "olio-oliva-evo",
+          "qty": 10,
+          "unit": "g",
+          "label": {
+            "it": "olio extravergine d'oliva (2 cucchiaini)"
+          }
+        },
+        {
+          "food": "sale",
+          "unit": "qb"
+        },
+        {
+          "food": "pepe-nero",
+          "unit": "qb"
+        }
+      ]
+    },
+    {
+      "section": {
+        "it": "Per la pasta"
+      },
+      "items": [
+        {
+          "food": "pasta-secca",
+          "qty": 160,
+          "unit": "g",
+          "label": {
+            "it": "pasta corta (rigatoni o mezze maniche)"
+          }
+        },
+        {
+          "food": "grana-padano",
+          "qty": 12,
+          "unit": "g",
+          "label": {
+            "it": "grana padano o pecorino"
+          }
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": {
+        "it": "Cipolla e costine"
+      },
+      "text": {
+        "it": "Dividi le {{costine-maiale}} seguendo le ossa. In casseruola scalda l'{{olio-oliva-evo}} e fai appassire la {{cipolla}} affettata, poi unisci le costine."
+      }
+    },
+    {
+      "title": {
+        "it": "Rosolare, venti minuti"
+      },
+      "text": {
+        "it": "Fuoco medio-basso, girando ogni tanto. Non è solo per colorare la carne: è qui che la cipolla si insaporisce nel grasso che le costine rilasciano, e quel grasso è metà del sapore del sugo. Se la cipolla sta per attaccarsi, un goccio d'acqua."
+      },
+      "timer": 1200
+    },
+    {
+      "title": {
+        "it": "Sfumare"
+      },
+      "text": {
+        "it": "Alza la fiamma, versa il {{vino-bianco}} e lascia evaporare finché non senti più l'odore pungente dell'alcol."
+      }
+    },
+    {
+      "title": {
+        "it": "Il pomodoro"
+      },
+      "text": {
+        "it": "Unisci la {{passata-pomodoro}}, poco {{sale}} e {{pepe-nero}}. Copri e lascia andare **un'ora a fuoco basso**: deve sobbollire appena, con qualche bolla ogni tanto. A bollore pieno la carne si asciuga invece di sfaldarsi."
+      },
+      "timer": 3600
+    },
+    {
+      "title": {
+        "it": "Spolpare"
+      },
+      "text": {
+        "it": "La carne deve venire via dall'osso senza forzare: se resiste, dàlle altri dieci minuti. Tira fuori le costine, butta le ossa, sfilaccia la carne grossolanamente e rimettila nel sugo."
+      }
+    },
+    {
+      "title": {
+        "it": "La pasta"
+      },
+      "text": {
+        "it": "Cuoci la {{pasta-secca}} in acqua salata e scolala **un paio di minuti prima** del tempo sulla confezione. Tieni da parte un mestolo di acqua di cottura."
+      }
+    },
+    {
+      "title": {
+        "it": "Mantecare"
+      },
+      "text": {
+        "it": "Pasta nella casseruola con il sugo, uno o due minuti mescolando, allungando con l'acqua di cottura se serve. Fuori dal fuoco unisci il {{grana-padano}}: sul fornello filerebbe invece di legare. Altro pepe nel piatto."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "title": {
+        "it": "Sul peso delle costine"
+      },
+      "text": {
+        "it": "I 200 g contati nelle macro sono carne al netto dell'osso, cioè circa **350 g di costine intere** come le compri. L'osso non si mangia e non entra nel conto."
+      }
+    },
+    {
+      "title": {
+        "it": "Quanta passata"
+      },
+      "text": {
+        "it": "500 g sembrano tanti per 160 g di pasta, ma un'ora col coperchio ne asciuga una parte e il resto serve a condire la carne sfilacciata. Se lo vuoi più stretto scendi a 400 g e tieni il coperchio socchiuso nell'ultima mezz'ora."
+      }
+    },
+    {
+      "title": {
+        "it": "Il sugo si congela"
+      },
+      "text": {
+        "it": "Spolpato e senza pasta regge benissimo il freezer. Conviene raddoppiare le costine e il pomodoro in un colpo solo: l'ora di cottura è la stessa, e la volta dopo la cena è pronta nei dieci minuti della pasta."
+      }
+    },
+    {
+      "title": {
+        "it": "È un piatto grasso"
+      },
+      "text": {
+        "it": "Le costine portano da sole circa **due terzi dei grassi** del piatto, e quello che rendono in cottura resta nel sugo. Se vuoi alleggerire, a fine cottura lascia intiepidire e togli col cucchiaio il velo arancione che affiora."
+      }
+    }
+  ]
+}

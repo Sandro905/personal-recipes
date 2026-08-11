@@ -1,9 +1,9 @@
 // GENERATO da scripts/build-sw.mjs — non modificarlo a mano.
 // Sorgente: scripts/sw-runtime.js · rigenera con `npm run build`.
 
-const VERSION = '5196ac9ff2';
+const VERSION = '6b8044ad1a';
 
-// Guscio: HTML, stile, codice, font, icone e dati. ~481 KB,
+// Guscio: HTML, stile, codice, font, icone e dati. ~489 KB,
 // salvato tutto insieme all'installazione. Se manca un pezzo l'installazione
 // fallisce e resta attiva la versione precedente: mai una copia a metà.
 const SHELL = [
@@ -46,6 +46,7 @@ const SHELL = [
   './data/recipes/pasta-ragu-pollo.json',
   './data/recipes/pasta-salmone-affumicato.json',
   './data/recipes/pasta-straccetti-manzo-funghi.json',
+  './data/recipes/pasta-sugo-costine.json',
   './data/recipes/pasta-tonno-pomodorini.json',
   './data/recipes/pizza-tortilla-cotto.json',
   './data/recipes/pollo-cacciatora-patate.json',
@@ -60,7 +61,7 @@ const SHELL = [
   './data/recipes/wrap-pollo-speziato.json'
 ];
 
-// Foto: ~6 MB. Stanno in una cache a parte che sopravvive
+// Foto: ~6.2 MB. Stanno in una cache a parte che sopravvive
 // agli aggiornamenti; l'impronta dice quali sono davvero cambiate.
 const MEDIA = {
   './assets/img/recipes/alette-pollo-forno-patate.jpg': '586e1eb542785521',
@@ -80,6 +81,7 @@ const MEDIA = {
   './assets/img/recipes/pasta-ragu-pollo.jpg': 'ffe84e11e4f1c49c',
   './assets/img/recipes/pasta-salmone-affumicato.jpg': '517f24c6317e515c',
   './assets/img/recipes/pasta-straccetti-manzo-funghi.jpg': 'fb5279c9a76cf042',
+  './assets/img/recipes/pasta-sugo-costine.jpg': '14473c482ebe21c4',
   './assets/img/recipes/pasta-tonno-pomodorini.jpg': '8ca36a6a967e123d',
   './assets/img/recipes/pizza-tortilla-cotto.jpg': 'e721b71096de3917',
   './assets/img/recipes/pollo-cacciatora-patate.jpg': 'b8894d645cb71205',

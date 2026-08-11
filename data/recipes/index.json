@@ -1,6 +1,46 @@
 {
-  "count": 27,
+  "count": 28,
   "recipes": [
+    {
+      "slug": "pasta-sugo-costine",
+      "added": "2026-08-11",
+      "title": {
+        "it": "Pasta al sugo di costine di maiale"
+      },
+      "summary": {
+        "it": "Un'ora di sobbollire piano e la carne si stacca dall'osso da sola: si spolpa, torna nel sugo e diventa il condimento. La cipolla si insaporisce nel grasso delle costine prima che entri il pomodoro."
+      },
+      "image": "assets/img/recipes/pasta-sugo-costine.jpg",
+      "imageFocus": "center 50%",
+      "tags": [
+        "salato",
+        "padella",
+        "pasta",
+        "primi",
+        "carne",
+        "pranzo"
+      ],
+      "method": "padella",
+      "difficulty": "facile",
+      "cost": "economico",
+      "time": {
+        "prep": 15,
+        "cook": 85
+      },
+      "yield": {
+        "count": 2,
+        "label": {
+          "it": "persone",
+          "en": "people"
+        }
+      },
+      "kcalPerServing": 731,
+      "coverage": 0.78,
+      "search": {
+        "it": "Pasta al sugo di costine di maiale · Un'ora di sobbollire piano e la carne si stacca dall'osso da sola: si spolpa, torna nel sugo e diventa il condimento. La cipolla si insaporisce nel grasso delle costine prima che entri il pomodoro. · costine di maiale (~350 g con osso) costine di maiale · cipolla grande (1) cipolla · passata di pomodoro · vino bianco · olio extravergine d'oliva (2 cucchiaini) olio extravergine d'oliva · sale fino · pepe nero macinato · pasta corta (rigatoni o mezze maniche) pasta di semola secca · grana padano o pecorino grana padano grattugiato · Cipolla e costine · Rosolare, venti minuti · Sfumare · Il pomodoro · Spolpare · La pasta · Mantecare",
+        "en": "Pasta al sugo di costine di maiale · Un'ora di sobbollire piano e la carne si stacca dall'osso da sola: si spolpa, torna nel sugo e diventa il condimento. La cipolla si insaporisce nel grasso delle costine prima che entri il pomodoro. · costine di maiale (~350 g con osso) pork spare ribs · cipolla grande (1) onion · tomato passata · white wine · olio extravergine d'oliva (2 cucchiaini) extra virgin olive oil · fine salt · ground black pepper · pasta corta (rigatoni o mezze maniche) dried semolina pasta · grana padano o pecorino grated Grana Padano · Cipolla e costine · Rosolare, venti minuti · Sfumare · Il pomodoro · Spolpare · La pasta · Mantecare"
+      }
+    },
     {
       "slug": "pizza-tortilla-cotto",
       "added": "2026-08-11",
