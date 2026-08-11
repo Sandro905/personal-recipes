@@ -1,0 +1,201 @@
+{
+  "slug": "tortilla-frittata-cotto",
+  "added": "2026-08-11",
+  "title": {
+    "it": "Tortilla saldata alla frittata, con cotto e insalata"
+  },
+  "image": "assets/img/recipes/tortilla-frittata-cotto.jpg",
+  "imageFocus": "center 45%",
+  "summary": {
+    "it": "La tortilla si appoggia sulle uova ancora crude in superficie e ci si incolla: viene un unico foglio, frittata da una parte e tortilla croccante dall'altra, chiuso a portafoglio su sottiletta, cotto e insalata."
+  },
+  "yield": {
+    "count": 1,
+    "label": {
+      "it": "portafoglio",
+      "en": "folded wrap"
+    }
+  },
+  "time": {
+    "prep": 5,
+    "cook": 12
+  },
+  "difficulty": "facile",
+  "cost": "molto-economico",
+  "method": "padella",
+  "tags": [
+    "salato",
+    "padella",
+    "veloce",
+    "uova",
+    "carne",
+    "proteico",
+    "cena"
+  ],
+  "ingredients": [
+    {
+      "section": {
+        "it": "Per la frittata"
+      },
+      "items": [
+        {
+          "food": "uova",
+          "qty": 2,
+          "unit": "pz"
+        },
+        {
+          "food": "albume",
+          "qty": 100,
+          "unit": "g",
+          "label": {
+            "it": "albumi"
+          }
+        },
+        {
+          "food": "grana-padano",
+          "qty": 5,
+          "unit": "g",
+          "label": {
+            "it": "grana padano (un pizzico)"
+          }
+        },
+        {
+          "food": "prezzemolo",
+          "unit": "qb"
+        },
+        {
+          "food": "sale",
+          "unit": "qb"
+        },
+        {
+          "food": "pepe-nero",
+          "unit": "qb"
+        },
+        {
+          "food": "olio-oliva-evo",
+          "qty": 4,
+          "unit": "g",
+          "label": {
+            "it": "olio extravergine d'oliva (una spruzzata)"
+          }
+        }
+      ]
+    },
+    {
+      "section": {
+        "it": "Per chiudere"
+      },
+      "items": [
+        {
+          "food": "tortilla",
+          "qty": 1,
+          "unit": "pz"
+        },
+        {
+          "food": "sottilette-light",
+          "qty": 1,
+          "unit": "pz"
+        },
+        {
+          "food": "prosciutto-cotto",
+          "qty": 50,
+          "unit": "g",
+          "label": {
+            "it": "prosciutto cotto a fette"
+          }
+        },
+        {
+          "food": "insalata",
+          "qty": 60,
+          "unit": "g"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": {
+        "it": "Sbattere"
+      },
+      "text": {
+        "it": "{{uova}} e {{albume}} insieme, con {{grana-padano}}, {{prezzemolo}}, {{sale}} e {{pepe-nero}}. Vai leggero col sale: il grana, la sottiletta e il prosciutto ne portano già parecchio."
+      }
+    },
+    {
+      "title": {
+        "it": "In padella, fuoco basso"
+      },
+      "text": {
+        "it": "{{olio-oliva-evo}} in una padella antiaderente larga quanto la tortilla, poi versa le uova. **Fiamma bassa**: con tanto albume il fuoco forte le fa gonfiare e stringere, e la frittata diventa gommosa."
+      }
+    },
+    {
+      "title": {
+        "it": "Incollare la tortilla"
+      },
+      "text": {
+        "it": "Quando il fondo è rappreso ma la superficie è **ancora umida**, appoggia sopra la {{tortilla}} e premi piano con la spatola. È l'uovo crudo che fa da colla: se aspetti che si asciughi, la tortilla non si attacca più."
+      }
+    },
+    {
+      "title": {
+        "it": "Finire le uova"
+      },
+      "text": {
+        "it": "Ancora un paio di minuti così, finché sotto la tortilla non c'è più niente di liquido."
+      },
+      "timer": 120
+    },
+    {
+      "title": {
+        "it": "Girare"
+      },
+      "text": {
+        "it": "Capovolgi il disco con l'aiuto di un piatto e rimettilo giù dalla parte della tortilla. Due minuti scarsi, senza olio in più: deve solo prendere colore e diventare croccante."
+      },
+      "timer": 120
+    },
+    {
+      "title": {
+        "it": "Farcire e chiudere"
+      },
+      "text": {
+        "it": "Spegni. Su metà disco, sul lato della frittata: la {{sottilette-light}} — sul caldo si scioglie da sola — poi {{prosciutto-cotto}} e {{insalata}}. Chiudi a portafoglio, premi un attimo e taglia a metà."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "title": {
+        "it": "Il momento giusto"
+      },
+      "text": {
+        "it": "Tutto il piatto sta in quel passaggio: superficie ancora lucida e umida, ma bordi già rappresi. Troppo presto e la tortilla affonda nell'uovo liquido, troppo tardi e resta appoggiata sopra senza saldarsi, e poi si sfila mentre mangi."
+      }
+    },
+    {
+      "title": {
+        "it": "L'insalata va per ultima"
+      },
+      "text": {
+        "it": "A fuoco spento e a padella lasciata. Se la metti mentre il disco è ancora sul fornello appassisce e bagna tutto, e la tortilla che hai appena reso croccante torna molle."
+      }
+    },
+    {
+      "title": {
+        "it": "Se non si gira intero"
+      },
+      "text": {
+        "it": "Serve una padella larga quanto la tortilla, altrimenti il disco si accartoccia sui bordi e nel giro si spezza. In alternativa non girarlo: copri due minuti col coperchio per finire le uova e rinuncia alla tortilla croccante."
+      }
+    },
+    {
+      "title": {
+        "it": "Solo uova intere"
+      },
+      "text": {
+        "it": "Con 3 uova intere al posto di 2 più l'albume cambia poco sulla bilancia — una trentina di kcal in più — ma sposta 5 g di grassi al posto di 2 g di proteine. L'albume serve a questo: fa volume in padella senza portarsi dietro il tuorlo."
+      }
+    }
+  ]
+}

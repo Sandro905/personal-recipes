@@ -1,5 +1,5 @@
 {
-  "count": 26,
+  "count": 27,
   "recipes": [
     {
       "slug": "pizza-tortilla-cotto",
@@ -39,6 +39,47 @@
       "search": {
         "it": "Pizza di tortilla al prosciutto cotto · Due tortillas impilate al posto dell'impasto, ognuna con la sua passata all'origano, sottiletta e prosciutto cotto. Dieci minuti in friggitrice ad aria e il bordo viene sottile e croccante come una pizza bassa. · tortilla di frumento (una sopra l'altra) tortilla di frumento · passata di pomodoro (50 g a strato) passata di pomodoro · origano · sottilette light (1 a strato) sottilette light · prosciutto cotto a fette (40 g a strato) prosciutto cotto · insalata · olio extravergine d'oliva · Condire la passata · Asciugare le tortillas · Primo strato · Coprire · Secondo strato · Cuocere · A tavola",
         "en": "Pizza di tortilla al prosciutto cotto · Due tortillas impilate al posto dell'impasto, ognuna con la sua passata all'origano, sottiletta e prosciutto cotto. Dieci minuti in friggitrice ad aria e il bordo viene sottile e croccante come una pizza bassa. · tortilla di frumento (una sopra l'altra) wheat tortilla · passata di pomodoro (50 g a strato) tomato passata · oregano · sottilette light (1 a strato) light cheese slices · prosciutto cotto a fette (40 g a strato) cooked ham · salad leaves · extra virgin olive oil · Condire la passata · Asciugare le tortillas · Primo strato · Coprire · Secondo strato · Cuocere · A tavola"
+      }
+    },
+    {
+      "slug": "tortilla-frittata-cotto",
+      "added": "2026-08-11",
+      "title": {
+        "it": "Tortilla saldata alla frittata, con cotto e insalata"
+      },
+      "summary": {
+        "it": "La tortilla si appoggia sulle uova ancora crude in superficie e ci si incolla: viene un unico foglio, frittata da una parte e tortilla croccante dall'altra, chiuso a portafoglio su sottiletta, cotto e insalata."
+      },
+      "image": "assets/img/recipes/tortilla-frittata-cotto.jpg",
+      "imageFocus": "center 45%",
+      "tags": [
+        "salato",
+        "padella",
+        "veloce",
+        "uova",
+        "carne",
+        "proteico",
+        "cena"
+      ],
+      "method": "padella",
+      "difficulty": "facile",
+      "cost": "molto-economico",
+      "time": {
+        "prep": 5,
+        "cook": 12
+      },
+      "yield": {
+        "count": 1,
+        "label": {
+          "it": "portafoglio",
+          "en": "folded wrap"
+        }
+      },
+      "kcalPerServing": 599,
+      "coverage": 0.73,
+      "search": {
+        "it": "Tortilla saldata alla frittata, con cotto e insalata · La tortilla si appoggia sulle uova ancora crude in superficie e ci si incolla: viene un unico foglio, frittata da una parte e tortilla croccante dall'altra, chiuso a portafoglio su sottiletta, cotto e insalata. · uova · albumi albume d'uovo · grana padano (un pizzico) grana padano grattugiato · prezzemolo · sale fino · pepe nero macinato · olio extravergine d'oliva (una spruzzata) olio extravergine d'oliva · tortilla di frumento · sottilette light · prosciutto cotto a fette prosciutto cotto · insalata · Sbattere · In padella, fuoco basso · Incollare la tortilla · Finire le uova · Girare · Farcire e chiudere",
+        "en": "Tortilla saldata alla frittata, con cotto e insalata · La tortilla si appoggia sulle uova ancora crude in superficie e ci si incolla: viene un unico foglio, frittata da una parte e tortilla croccante dall'altra, chiuso a portafoglio su sottiletta, cotto e insalata. · eggs · albumi egg white · grana padano (un pizzico) grated Grana Padano · parsley · fine salt · ground black pepper · olio extravergine d'oliva (una spruzzata) extra virgin olive oil · wheat tortilla · light cheese slices · prosciutto cotto a fette cooked ham · salad leaves · Sbattere · In padella, fuoco basso · Incollare la tortilla · Finire le uova · Girare · Farcire e chiudere"
       }
     },
     {

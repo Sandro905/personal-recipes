@@ -1,9 +1,9 @@
 // GENERATO da scripts/build-sw.mjs — non modificarlo a mano.
 // Sorgente: scripts/sw-runtime.js · rigenera con `npm run build`.
 
-const VERSION = '8337b7bbf3';
+const VERSION = '5196ac9ff2';
 
-// Guscio: HTML, stile, codice, font, icone e dati. ~473 KB,
+// Guscio: HTML, stile, codice, font, icone e dati. ~481 KB,
 // salvato tutto insieme all'installazione. Se manca un pezzo l'installazione
 // fallisce e resta attiva la versione precedente: mai una copia a metà.
 const SHELL = [
@@ -56,10 +56,11 @@ const SHELL = [
   './data/recipes/salmone-forno-patate-peperoni.json',
   './data/recipes/spezzatino-manzo-patate.json',
   './data/recipes/spezzatino-pollo-riso.json',
+  './data/recipes/tortilla-frittata-cotto.json',
   './data/recipes/wrap-pollo-speziato.json'
 ];
 
-// Foto: ~5.9 MB. Stanno in una cache a parte che sopravvive
+// Foto: ~6 MB. Stanno in una cache a parte che sopravvive
 // agli aggiornamenti; l'impronta dice quali sono davvero cambiate.
 const MEDIA = {
   './assets/img/recipes/alette-pollo-forno-patate.jpg': '586e1eb542785521',
@@ -94,6 +95,7 @@ const MEDIA = {
   './assets/img/recipes/salmone-forno-patate-peperoni.jpg': 'ea7443abf28a1fc1',
   './assets/img/recipes/spezzatino-manzo-patate.jpg': '15b61173413eb5f4',
   './assets/img/recipes/spezzatino-pollo-riso.jpg': 'b3df629f5a6573ff',
+  './assets/img/recipes/tortilla-frittata-cotto.jpg': 'c0556ca85b23ed2a',
   './assets/img/recipes/wrap-pollo-speziato.jpg': 'b4bf7f68ccb39ae4'
 };
 
