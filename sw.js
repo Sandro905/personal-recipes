@@ -1,9 +1,9 @@
 // GENERATO da scripts/build-sw.mjs — non modificarlo a mano.
 // Sorgente: scripts/sw-runtime.js · rigenera con `npm run build`.
 
-const VERSION = '6b8044ad1a';
+const VERSION = '3d3ef407b1';
 
-// Guscio: HTML, stile, codice, font, icone e dati. ~489 KB,
+// Guscio: HTML, stile, codice, font, icone e dati. ~497 KB,
 // salvato tutto insieme all'installazione. Se manca un pezzo l'installazione
 // fallisce e resta attiva la versione precedente: mai una copia a metà.
 const SHELL = [
@@ -37,6 +37,7 @@ const SHELL = [
   './data/recipes/focaccia-padella-prosciutto.json',
   './data/recipes/frittata-pane-pomodoro.json',
   './data/recipes/fusi-pollo-forno-patate.json',
+  './data/recipes/gnocchi-sorrentina-friggitrice.json',
   './data/recipes/hot-pocket-manzo.json',
   './data/recipes/index.json',
   './data/recipes/involtini-manzo-prosciutto.json',

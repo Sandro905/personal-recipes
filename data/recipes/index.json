@@ -1,6 +1,44 @@
 {
-  "count": 28,
+  "count": 29,
   "recipes": [
+    {
+      "slug": "gnocchi-sorrentina-friggitrice",
+      "added": "2026-08-11",
+      "title": {
+        "it": "Gnocchi alla sorrentina in friggitrice ad aria"
+      },
+      "summary": {
+        "it": "Gnocchi comprati, lessati un attimo e passati subito nel sugo, poi montati a strati con fiordilatte e parmigiano. La gratinatura la fa la friggitrice, otto minuti al posto del grill del forno."
+      },
+      "image": null,
+      "imageFocus": null,
+      "tags": [
+        "salato",
+        "friggitrice-ad-aria",
+        "primi",
+        "pranzo"
+      ],
+      "method": "friggitrice-ad-aria",
+      "difficulty": "facile",
+      "cost": "economico",
+      "time": {
+        "prep": 10,
+        "cook": 25
+      },
+      "yield": {
+        "count": 2,
+        "label": {
+          "it": "persone",
+          "en": "people"
+        }
+      },
+      "kcalPerServing": 761,
+      "coverage": 0.67,
+      "search": {
+        "it": "Gnocchi alla sorrentina in friggitrice ad aria · Gnocchi comprati, lessati un attimo e passati subito nel sugo, poi montati a strati con fiordilatte e parmigiano. La gratinatura la fa la friggitrice, otto minuti al posto del grill del forno. · passata di pomodoro · aglio · olio extravergine d'oliva (2 cucchiaini) olio extravergine d'oliva · basilico · sale fino · pepe nero macinato · gnocchi di patate (confezione da banco frigo) gnocchi di patate · fiordilatte a dadini mozzarella · parmigiano o grana grattugiato grana padano grattugiato · Il sugo · Asciugare la mozzarella · Lessare, in due o tre riprese · Subito nel sugo · Montare a strati · Gratinare",
+        "en": "Gnocchi alla sorrentina in friggitrice ad aria · Gnocchi comprati, lessati un attimo e passati subito nel sugo, poi montati a strati con fiordilatte e parmigiano. La gratinatura la fa la friggitrice, otto minuti al posto del grill del forno. · tomato passata · garlic · olio extravergine d'oliva (2 cucchiaini) extra virgin olive oil · basil · fine salt · ground black pepper · gnocchi di patate (confezione da banco frigo) potato gnocchi · fiordilatte a dadini mozzarella · parmigiano o grana grattugiato grated Grana Padano · Il sugo · Asciugare la mozzarella · Lessare, in due o tre riprese · Subito nel sugo · Montare a strati · Gratinare"
+      }
+    },
     {
       "slug": "pasta-sugo-costine",
       "added": "2026-08-11",

@@ -1,0 +1,186 @@
+{
+  "slug": "gnocchi-sorrentina-friggitrice",
+  "added": "2026-08-11",
+  "title": {
+    "it": "Gnocchi alla sorrentina in friggitrice ad aria"
+  },
+  "summary": {
+    "it": "Gnocchi comprati, lessati un attimo e passati subito nel sugo, poi montati a strati con fiordilatte e parmigiano. La gratinatura la fa la friggitrice, otto minuti al posto del grill del forno."
+  },
+  "yield": {
+    "count": 2,
+    "label": {
+      "it": "persone",
+      "en": "people"
+    }
+  },
+  "time": {
+    "prep": 10,
+    "cook": 25
+  },
+  "difficulty": "facile",
+  "cost": "economico",
+  "method": "friggitrice-ad-aria",
+  "tags": [
+    "salato",
+    "friggitrice-ad-aria",
+    "primi",
+    "pranzo"
+  ],
+  "ingredients": [
+    {
+      "section": {
+        "it": "Per il sugo"
+      },
+      "items": [
+        {
+          "food": "passata-pomodoro",
+          "qty": 400,
+          "unit": "g"
+        },
+        {
+          "food": "aglio",
+          "qty": 1,
+          "unit": "spicchio"
+        },
+        {
+          "food": "olio-oliva-evo",
+          "qty": 10,
+          "unit": "g",
+          "label": {
+            "it": "olio extravergine d'oliva (2 cucchiaini)"
+          }
+        },
+        {
+          "food": "basilico",
+          "unit": "qb"
+        },
+        {
+          "food": "sale",
+          "unit": "qb"
+        },
+        {
+          "food": "pepe-nero",
+          "unit": "qb"
+        }
+      ]
+    },
+    {
+      "section": {
+        "it": "Per gratinare"
+      },
+      "items": [
+        {
+          "food": "gnocchi-patate",
+          "qty": 500,
+          "unit": "g",
+          "label": {
+            "it": "gnocchi di patate (confezione da banco frigo)"
+          }
+        },
+        {
+          "food": "mozzarella",
+          "qty": 150,
+          "unit": "g",
+          "label": {
+            "it": "fiordilatte a dadini"
+          }
+        },
+        {
+          "food": "grana-padano",
+          "qty": 30,
+          "unit": "g",
+          "label": {
+            "it": "parmigiano o grana grattugiato"
+          }
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": {
+        "it": "Il sugo"
+      },
+      "text": {
+        "it": "{{olio-oliva-evo}} e {{aglio}} schiacciato, un minuto, poi la {{passata-pomodoro}} con {{sale}} e {{pepe-nero}}. Venti minuti a fuoco basso: deve **stringere**, perché in otto minuti di gratinatura l'acqua non ha il tempo di andarsene. {{basilico}} a fuoco spento, aglio via."
+      },
+      "timer": 1200
+    },
+    {
+      "title": {
+        "it": "Asciugare la mozzarella"
+      },
+      "text": {
+        "it": "Taglia la {{mozzarella}} a dadini e lasciala scolare su carta da cucina mentre fai il resto. È il passaggio che decide se il piatto esce cremoso o annacquato."
+      }
+    },
+    {
+      "title": {
+        "it": "Lessare, in due o tre riprese"
+      },
+      "text": {
+        "it": "Acqua salata che **freme appena**, mai a bollore pieno, e {{gnocchi-patate}} buttati poco per volta. Tutti insieme si attaccano fra loro e la temperatura crolla. Bastano pochi istanti: appena vengono a galla, tirali su con la schiumarola."
+      }
+    },
+    {
+      "title": {
+        "it": "Subito nel sugo"
+      },
+      "text": {
+        "it": "Ogni ripresa va direttamente in una ciotola larga con la maggior parte del sugo, mescolando piano con un cucchiaio. Non aspettare di averli lessati tutti: fermi nello scolapasta si incollano. Tieni da parte un paio di cucchiai di sugo."
+      }
+    },
+    {
+      "title": {
+        "it": "Montare a strati"
+      },
+      "text": {
+        "it": "In una pirofila che entri nel cestello: il sugo tenuto da parte sul fondo e un filo d'{{olio-oliva-evo}}. Poi metà gnocchi, metà mozzarella, metà {{grana-padano}}. Sopra il resto degli gnocchi e il resto di mozzarella e formaggio."
+      }
+    },
+    {
+      "title": {
+        "it": "Gratinare"
+      },
+      "text": {
+        "it": "200 °C per 7-8 minuti. Guarda dal quinto: la ventola asciuga più in fretta di un grill statico e la superficie passa da dorata a secca senza avvisare. {{basilico}} fresco a piatto fuori dal cestello."
+      },
+      "timer": 450
+    }
+  ],
+  "notes": [
+    {
+      "title": {
+        "it": "Perché 200 °C e non 250"
+      },
+      "text": {
+        "it": "La ricetta classica chiude con cinque minuti di grill a 250 °C, temperatura che una friggitrice ad aria non raggiunge. Il compenso è la ventola, molto più aggressiva di un grill statico: **200 °C per 7-8 minuti** danno la stessa crosticina. Il piatto entra già caldo, quindi si tratta solo di far fondere la superficie. Se hai una modalità grill dedicata, usala e stai sui 6 minuti."
+      }
+    },
+    {
+      "title": {
+        "it": "La pirofila deve entrare"
+      },
+      "text": {
+        "it": "Misura il cestello prima di cominciare. Se non hai niente della misura giusta, monta gli strati in due pirofile monoporzione e gratinale insieme: vengono anche meglio, perché ognuna prende aria da tutti i lati."
+      }
+    },
+    {
+      "title": {
+        "it": "Se lo vuoi più leggero"
+      },
+      "text": {
+        "it": "La leva sono gli gnocchi, non il formaggio: con 400 g invece di 500 si scende di **80 kcal a testa** e di soli 2 g di proteine. Togliere mozzarella invece toglie proprio quello che rende il piatto."
+      }
+    },
+    {
+      "title": {
+        "it": "Niente gnocchi crudi nel cestello"
+      },
+      "text": {
+        "it": "Buttati crudi in friggitrice gli gnocchi vengono croccanti fuori e asciutti: è buono, ma è un'altra cosa. La sorrentina è un piatto morbido, e per esserlo gli gnocchi devono passare dall'acqua."
+      }
+    }
+  ]
+}

@@ -373,6 +373,26 @@
         "db": "manual"
       }
     },
+    "gnocchi-patate": {
+      "name": {
+        "it": "gnocchi di patate",
+        "en": "potato gnocchi"
+      },
+      "category": "cereali",
+      "per100g": {
+        "kcal": 160,
+        "protein": 3.5,
+        "carbs": 33,
+        "fat": 0.5,
+        "fiber": 1.8,
+        "sugars": 0.8,
+        "salt": 0.8
+      },
+      "source": {
+        "db": "manual",
+        "note": "valore medio delle confezioni fresche da banco frigo"
+      }
+    },
     "pane-bianco": {
       "name": {
         "it": "pane bianco",
