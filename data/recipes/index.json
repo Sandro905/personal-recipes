@@ -10,8 +10,8 @@
       "summary": {
         "it": "Gnocchi comprati, lessati un attimo e passati subito nel sugo, poi montati a strati con fiordilatte e parmigiano. La gratinatura la fa la friggitrice, otto minuti al posto del grill del forno."
       },
-      "image": null,
-      "imageFocus": null,
+      "image": "assets/img/recipes/gnocchi-sorrentina-friggitrice.jpg",
+      "imageFocus": "center 50%",
       "tags": [
         "salato",
         "friggitrice-ad-aria",

@@ -1,7 +1,7 @@
 // GENERATO da scripts/build-sw.mjs — non modificarlo a mano.
 // Sorgente: scripts/sw-runtime.js · rigenera con `npm run build`.
 
-const VERSION = '3d3ef407b1';
+const VERSION = '04c8dcb894';
 
 // Guscio: HTML, stile, codice, font, icone e dati. ~497 KB,
 // salvato tutto insieme all'installazione. Se manca un pezzo l'installazione
@@ -74,6 +74,7 @@ const MEDIA = {
   './assets/img/recipes/focaccia-padella-prosciutto.jpg': 'bae95ccd2067706f',
   './assets/img/recipes/frittata-pane-pomodoro.jpg': '96b10453bc9d1451',
   './assets/img/recipes/fusi-pollo-forno-patate.jpg': 'e5933714e11fb092',
+  './assets/img/recipes/gnocchi-sorrentina-friggitrice.jpg': 'b1cd809aaa49e9e8',
   './assets/img/recipes/hot-pocket-manzo.jpg': '459710e4207265df',
   './assets/img/recipes/involtini-manzo-prosciutto.jpg': 'a8b86eb0c4efa10e',
   './assets/img/recipes/lasagna-ragu-manzo.jpg': '97338bc1c8462c64',
