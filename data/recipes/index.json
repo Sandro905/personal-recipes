@@ -1,5 +1,5 @@
 {
-  "count": 29,
+  "count": 30,
   "recipes": [
     {
       "slug": "gnocchi-sorrentina-friggitrice",
@@ -117,6 +117,46 @@
       "search": {
         "it": "Pizza di tortilla al prosciutto cotto · Due tortillas impilate al posto dell'impasto, ognuna con la sua passata all'origano, sottiletta e prosciutto cotto. Dieci minuti in friggitrice ad aria e il bordo viene sottile e croccante come una pizza bassa. · tortilla di frumento (una sopra l'altra) tortilla di frumento · passata di pomodoro (50 g a strato) passata di pomodoro · origano · sottilette light (1 a strato) sottilette light · prosciutto cotto a fette (40 g a strato) prosciutto cotto · insalata · olio extravergine d'oliva · Condire la passata · Asciugare le tortillas · Primo strato · Coprire · Secondo strato · Cuocere · A tavola",
         "en": "Pizza di tortilla al prosciutto cotto · Due tortillas impilate al posto dell'impasto, ognuna con la sua passata all'origano, sottiletta e prosciutto cotto. Dieci minuti in friggitrice ad aria e il bordo viene sottile e croccante come una pizza bassa. · tortilla di frumento (una sopra l'altra) wheat tortilla · passata di pomodoro (50 g a strato) tomato passata · oregano · sottilette light (1 a strato) light cheese slices · prosciutto cotto a fette (40 g a strato) cooked ham · salad leaves · extra virgin olive oil · Condire la passata · Asciugare le tortillas · Primo strato · Coprire · Secondo strato · Cuocere · A tavola"
+      }
+    },
+    {
+      "slug": "pizzette-yogurt-cotto",
+      "added": "2026-08-11",
+      "title": {
+        "it": "Pizzette light allo yogurt greco con prosciutto cotto"
+      },
+      "summary": {
+        "it": "Stesso impasto dei calzoni — farina e yogurt greco — ma profumato ad aglio e origano e steso a dischi. Due dischi per pizzetta, farciti dentro e sopra: quattro pezzi in venti minuti di forno."
+      },
+      "image": null,
+      "imageFocus": null,
+      "tags": [
+        "salato",
+        "forno",
+        "carne",
+        "proteico",
+        "finger-food",
+        "meal-prep"
+      ],
+      "method": "forno",
+      "difficulty": "facile",
+      "cost": "molto-economico",
+      "time": {
+        "prep": 20,
+        "cook": 22
+      },
+      "yield": {
+        "count": 4,
+        "label": {
+          "it": "pizzette",
+          "en": "mini pizzas"
+        }
+      },
+      "kcalPerServing": 340,
+      "coverage": 0.89,
+      "search": {
+        "it": "Pizzette light allo yogurt greco con prosciutto cotto · Stesso impasto dei calzoni — farina e yogurt greco — ma profumato ad aglio e origano e steso a dischi. Due dischi per pizzetta, farciti dentro e sopra: quattro pezzi in venti minuti di forno. · farina 00 · lievito istantaneo per torte salate lievito istantaneo per preparazioni salate · yogurt greco 0% · aglio in polvere · origano · sale fino · passata di pomodoro (25 g a pizzetta) passata di pomodoro · sottilette light (2 a pizzetta) sottilette light · prosciutto cotto a fette (25 g a pizzetta) prosciutto cotto · L'impasto · Otto dischi · Il primo strato · Chiudere · Farcire sopra · In forno",
+        "en": "Pizzette light allo yogurt greco con prosciutto cotto · Stesso impasto dei calzoni — farina e yogurt greco — ma profumato ad aglio e origano e steso a dischi. Due dischi per pizzetta, farciti dentro e sopra: quattro pezzi in venti minuti di forno. · type-00 wheat flour · lievito istantaneo per torte salate instant baking powder (savoury) · fat-free Greek yoghurt · garlic powder · oregano · fine salt · passata di pomodoro (25 g a pizzetta) tomato passata · sottilette light (2 a pizzetta) light cheese slices · prosciutto cotto a fette (25 g a pizzetta) cooked ham · L'impasto · Otto dischi · Il primo strato · Chiudere · Farcire sopra · In forno"
       }
     },
     {

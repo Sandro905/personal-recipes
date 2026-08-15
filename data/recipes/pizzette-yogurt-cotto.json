@@ -1,0 +1,197 @@
+{
+  "slug": "pizzette-yogurt-cotto",
+  "added": "2026-08-11",
+  "title": {
+    "it": "Pizzette light allo yogurt greco con prosciutto cotto"
+  },
+  "summary": {
+    "it": "Stesso impasto dei calzoni — farina e yogurt greco — ma profumato ad aglio e origano e steso a dischi. Due dischi per pizzetta, farciti dentro e sopra: quattro pezzi in venti minuti di forno."
+  },
+  "yield": {
+    "count": 4,
+    "label": {
+      "it": "pizzette",
+      "en": "mini pizzas"
+    }
+  },
+  "time": {
+    "prep": 20,
+    "cook": 22
+  },
+  "difficulty": "facile",
+  "cost": "molto-economico",
+  "method": "forno",
+  "tags": [
+    "salato",
+    "forno",
+    "carne",
+    "proteico",
+    "finger-food",
+    "meal-prep"
+  ],
+  "ingredients": [
+    {
+      "section": {
+        "it": "Per l'impasto"
+      },
+      "items": [
+        {
+          "food": "farina-00",
+          "qty": 180,
+          "unit": "g"
+        },
+        {
+          "food": "lievito-istantaneo-salato",
+          "qty": 0.5,
+          "unit": "bustina",
+          "label": {
+            "it": "lievito istantaneo per torte salate"
+          }
+        },
+        {
+          "food": "yogurt-greco-0",
+          "qty": 270,
+          "unit": "g"
+        },
+        {
+          "food": "aglio-polvere",
+          "qty": 1,
+          "unit": "cucchiaino"
+        },
+        {
+          "food": "origano",
+          "qty": 1,
+          "unit": "cucchiaino"
+        },
+        {
+          "food": "sale",
+          "unit": "qb"
+        }
+      ]
+    },
+    {
+      "section": {
+        "it": "Per farcire"
+      },
+      "items": [
+        {
+          "food": "passata-pomodoro",
+          "qty": 100,
+          "unit": "g",
+          "label": {
+            "it": "passata di pomodoro (25 g a pizzetta)"
+          }
+        },
+        {
+          "food": "sottilette-light",
+          "qty": 8,
+          "unit": "pz",
+          "label": {
+            "it": "sottilette light (2 a pizzetta)"
+          }
+        },
+        {
+          "food": "prosciutto-cotto",
+          "qty": 100,
+          "unit": "g",
+          "label": {
+            "it": "prosciutto cotto a fette (25 g a pizzetta)"
+          }
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": {
+        "it": "L'impasto"
+      },
+      "text": {
+        "it": "Mescola {{farina-00}}, {{lievito-istantaneo-salato}}, {{aglio-polvere}}, {{origano}} e pochissimo {{sale}}. Unisci {{yogurt-greco-0}} in due volte e lavora fino a una palla liscia, un paio di minuti: **più la lavori, più diventa gommosa**."
+      }
+    },
+    {
+      "title": {
+        "it": "Otto dischi"
+      },
+      "text": {
+        "it": "Accendi il forno a 200 °C. Stendi l'impasto a 4-5 mm e ricava **8 dischi** da 9-10 cm, aiutandoti con una ciotolina o un bicchiere largo. Reimpasta e ristendi i ritagli finché non li finisci."
+      }
+    },
+    {
+      "title": {
+        "it": "Il primo strato"
+      },
+      "text": {
+        "it": "Su una teglia con carta forno appoggia 4 dischi. Su ognuno: un cucchiaio di {{passata-pomodoro}}, una {{sottilette-light}} spezzata e metà del {{prosciutto-cotto}} diviso fra i quattro. Lascia un bordo pulito."
+      }
+    },
+    {
+      "title": {
+        "it": "Chiudere"
+      },
+      "text": {
+        "it": "Copri con i 4 dischi rimasti e premi tutt'intorno sul bordo: il formaggio che fonde fa da colla, ma se il bordo è sporco di sugo non tiene."
+      }
+    },
+    {
+      "title": {
+        "it": "Farcire sopra"
+      },
+      "text": {
+        "it": "Sulla superficie: il resto della passata, il resto del prosciutto e **per ultima** la seconda {{sottilette-light}}. L'ordine conta: il formaggio sopra il prosciutto lo protegge, scoperto si arriccia e si secca."
+      }
+    },
+    {
+      "title": {
+        "it": "In forno"
+      },
+      "text": {
+        "it": "200 °C per 20-25 minuti, finché il bordo non è dorato e il formaggio si è macchiato di scuro. Buone tiepide, non bollenti."
+      },
+      "timer": 1320
+    }
+  ],
+  "notes": [
+    {
+      "title": {
+        "it": "Al posto della farina autolievitante"
+      },
+      "text": {
+        "it": "La ricetta di partenza usa self-raising flour, che qui non si trova quasi mai. **Farina 00 più mezza bustina di lievito istantaneo per torte salate** fa la stessa cosa. Se invece hai l'autolievitante, usane 180 g e salta il lievito."
+      }
+    },
+    {
+      "title": {
+        "it": "Vai piano col sale"
+      },
+      "text": {
+        "it": "Il lievito per torte salate è già molto salato, e sottilette e prosciutto portano il resto: fra tutti si arriva a circa 2 g di sale a pizzetta senza aggiungerne quasi. Un pizzico nell'impasto e basta."
+      }
+    },
+    {
+      "title": {
+        "it": "In friggitrice ad aria"
+      },
+      "text": {
+        "it": "180 °C per 12-14 minuti, due o tre per volta. Non ammucchiarle: dove si toccano restano bianche e crude sul bordo."
+      }
+    },
+    {
+      "title": {
+        "it": "Il pasto sono due"
+      },
+      "text": {
+        "it": "Una pizzetta è uno spuntino; due fanno un pasto da circa 680 kcal e 50 g di proteine. Con il selettore delle porzioni qui sopra vedi le quantità per l'intera teglia."
+      }
+    },
+    {
+      "title": {
+        "it": "Si conservano"
+      },
+      "text": {
+        "it": "Tre giorni in frigo avvolte nell'alluminio, oppure congelate già cotte. Si riscaldano meglio in friggitrice ad aria che al microonde: cinque minuti a 160 °C e il bordo torna asciutto invece che gommoso."
+      }
+    }
+  ]
+}
