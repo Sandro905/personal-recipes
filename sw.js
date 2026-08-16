@@ -1,9 +1,9 @@
 // GENERATO da scripts/build-sw.mjs — non modificarlo a mano.
 // Sorgente: scripts/sw-runtime.js · rigenera con `npm run build`.
 
-const VERSION = '9e8d521b9a';
+const VERSION = 'c138f11b28';
 
-// Guscio: HTML, stile, codice, font, icone e dati. ~505 KB,
+// Guscio: HTML, stile, codice, font, icone e dati. ~512 KB,
 // salvato tutto insieme all'installazione. Se manca un pezzo l'installazione
 // fallisce e resta attiva la versione precedente: mai una copia a metà.
 const SHELL = [
@@ -43,6 +43,7 @@ const SHELL = [
   './data/recipes/involtini-manzo-prosciutto.json',
   './data/recipes/lasagna-ragu-manzo.json',
   './data/recipes/merluzzo-forno-patate.json',
+  './data/recipes/mousse-proteica-cioccolato.json',
   './data/recipes/pasta-pesce-spada-pomodorini.json',
   './data/recipes/pasta-ragu-pollo.json',
   './data/recipes/pasta-salmone-affumicato.json',
@@ -80,6 +81,7 @@ const MEDIA = {
   './assets/img/recipes/involtini-manzo-prosciutto.jpg': 'a8b86eb0c4efa10e',
   './assets/img/recipes/lasagna-ragu-manzo.jpg': '97338bc1c8462c64',
   './assets/img/recipes/merluzzo-forno-patate.jpg': 'd7171a2f95c50ca9',
+  './assets/img/recipes/mousse-proteica-cioccolato.jpg': '5bea0a180d48d562',
   './assets/img/recipes/pasta-pesce-spada-pomodorini.jpg': '7340d54a855a3b83',
   './assets/img/recipes/pasta-ragu-pollo.jpg': 'ffe84e11e4f1c49c',
   './assets/img/recipes/pasta-salmone-affumicato.jpg': '517f24c6317e515c',

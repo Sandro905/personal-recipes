@@ -1,6 +1,44 @@
 {
-  "count": 30,
+  "count": 31,
   "recipes": [
+    {
+      "slug": "mousse-proteica-cioccolato",
+      "added": "2026-08-16",
+      "title": {
+        "it": "Mousse proteica al cioccolato, tre ingredienti"
+      },
+      "summary": {
+        "it": "Cioccolato e caseine in una ciotola, latte bollente versato sopra, e il freddo fa il resto. Niente uova, niente gelatina, niente cottura: si rassoda in frigo da sola."
+      },
+      "image": "assets/img/recipes/mousse-proteica-cioccolato.jpg",
+      "imageFocus": "center 40%",
+      "tags": [
+        "dolce",
+        "senza-forno",
+        "proteico",
+        "veloce"
+      ],
+      "method": "senza-cottura",
+      "difficulty": "molto-facile",
+      "cost": "medio",
+      "time": {
+        "prep": 5,
+        "rest": 240
+      },
+      "yield": {
+        "count": 2,
+        "label": {
+          "it": "porzioni",
+          "en": "servings"
+        }
+      },
+      "kcalPerServing": 324,
+      "coverage": 1,
+      "search": {
+        "it": "Mousse proteica al cioccolato, tre ingredienti · Cioccolato e caseine in una ciotola, latte bollente versato sopra, e il freddo fa il resto. Niente uova, niente gelatina, niente cottura: si rassoda in frigo da sola. · latte scremato o vegetale latte scremato · cioccolato fondente a pezzetti cioccolato fondente · caseine in polvere al cioccolato caseine in polvere · Ciotola pronta · Latte bollente · Versare e mescolare · Raffreddare",
+        "en": "Mousse proteica al cioccolato, tre ingredienti · Cioccolato e caseine in una ciotola, latte bollente versato sopra, e il freddo fa il resto. Niente uova, niente gelatina, niente cottura: si rassoda in frigo da sola. · latte scremato o vegetale skimmed milk · cioccolato fondente a pezzetti dark chocolate · caseine in polvere al cioccolato casein protein powder · Ciotola pronta · Latte bollente · Versare e mescolare · Raffreddare"
+      }
+    },
     {
       "slug": "gnocchi-sorrentina-friggitrice",
       "added": "2026-08-11",

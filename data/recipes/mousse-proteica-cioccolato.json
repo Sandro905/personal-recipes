@@ -1,0 +1,140 @@
+{
+  "slug": "mousse-proteica-cioccolato",
+  "added": "2026-08-16",
+  "title": {
+    "it": "Mousse proteica al cioccolato, tre ingredienti"
+  },
+  "image": "assets/img/recipes/mousse-proteica-cioccolato.jpg",
+  "imageFocus": "center 40%",
+  "summary": {
+    "it": "Cioccolato e caseine in una ciotola, latte bollente versato sopra, e il freddo fa il resto. Niente uova, niente gelatina, niente cottura: si rassoda in frigo da sola."
+  },
+  "yield": {
+    "count": 2,
+    "label": {
+      "it": "porzioni",
+      "en": "servings"
+    }
+  },
+  "time": {
+    "prep": 5,
+    "rest": 240
+  },
+  "difficulty": "molto-facile",
+  "cost": "medio",
+  "method": "senza-cottura",
+  "tags": [
+    "dolce",
+    "senza-forno",
+    "proteico",
+    "veloce"
+  ],
+  "ingredients": [
+    {
+      "section": null,
+      "items": [
+        {
+          "food": "latte-scremato",
+          "qty": 250,
+          "unit": "ml",
+          "label": {
+            "it": "latte scremato o vegetale"
+          }
+        },
+        {
+          "food": "cioccolato-fondente",
+          "qty": 70,
+          "unit": "g",
+          "label": {
+            "it": "cioccolato fondente a pezzetti"
+          }
+        },
+        {
+          "food": "caseine",
+          "qty": 50,
+          "unit": "g",
+          "label": {
+            "it": "caseine in polvere al cioccolato"
+          }
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": {
+        "it": "Ciotola pronta"
+      },
+      "text": {
+        "it": "In una ciotola capiente metti il {{cioccolato-fondente}} spezzettato fine e le {{caseine}}. Pezzi piccoli: il latte deve scioglierli col solo calore che si porta dietro."
+      }
+    },
+    {
+      "title": {
+        "it": "Latte bollente"
+      },
+      "text": {
+        "it": "Scalda il {{latte-scremato}} finché non è **molto caldo**, quasi al bollore: al microonde alla massima potenza sono circa un minuto e mezzo. Tienilo d'occhio, perché monta e trabocca in un attimo."
+      }
+    },
+    {
+      "title": {
+        "it": "Versare e mescolare"
+      },
+      "text": {
+        "it": "Versa il latte tutto in una volta sulla ciotola e aspetta mezzo minuto senza toccare, poi mescola con la frusta finché non resta **nessun grumo e nessun granello**. Se ti fermi prima, i grumi restano tali anche da freddo."
+      }
+    },
+    {
+      "title": {
+        "it": "Raffreddare"
+      },
+      "text": {
+        "it": "Lascia arrivare a temperatura ambiente, poi travasa in un barattolo o in due coppette e metti in frigo. Ci vogliono **almeno quattro ore**, meglio tutta la notte: la mousse si addensa raffreddando, non mescolando."
+      },
+      "timer": 14400
+    }
+  ],
+  "notes": [
+    {
+      "title": {
+        "it": "Con le whey non viene"
+      },
+      "text": {
+        "it": "È il punto che fa funzionare la ricetta. Le **caseine** nel latte caldo si legano e poi rassodano col freddo, ed è questo a dare la consistenza da mousse. Le whey nel liquido bollente coagulano e fanno grumi, e da fredde restano liquide: cambiando polvere non ottieni una versione peggiore, ottieni un altro risultato."
+      }
+    },
+    {
+      "title": {
+        "it": "Il latte va caldo davvero"
+      },
+      "text": {
+        "it": "Tiepido non scioglie 70 g di cioccolato e resti con i pezzetti sul fondo. Se dopo un minuto di mescolate vedi ancora dei granelli, rimetti la ciotola dieci secondi al microonde e riprendi."
+      }
+    },
+    {
+      "title": {
+        "it": "Col latte vegetale"
+      },
+      "text": {
+        "it": "Funziona uguale, la consistenza la danno le caseine. Cambiano solo le macro: quelli di soia sono simili allo scremato, quelli di mandorla o riso senza zuccheri aggiunti tolgono qualche caloria ma anche le proteine del latte."
+      }
+    },
+    {
+      "title": {
+        "it": "Il cioccolato è la leva"
+      },
+      "text": {
+        "it": "Da solo porta il **58% delle calorie e il 92% dei grassi**. Scendere a 50 g lascia comunque una mousse di gusto pieno e leva una cinquantina di kcal a porzione; alzare la percentuale di cacao cambia il sapore, non il conto."
+      }
+    },
+    {
+      "title": {
+        "it": "Quanto dura"
+      },
+      "text": {
+        "it": "Tre giorni in frigo coperta. Non si congela: scongelando rilascia acqua e diventa granulosa."
+      }
+    }
+  ]
+}
