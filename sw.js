@@ -121,6 +121,14 @@ const SHELL_URLS = new Set(SHELL.map(abs));
 const FOTO_URLS = new Map(Object.entries(MEDIA).map(([path, hash]) => [abs(path), hash]));
 const MANIFESTO = abs('./__foto-salvate__');
 
+// I dati (elenco ricette, singole ricette, alimenti, testi) hanno una vita
+// diversa dal codice: una ricetta nuova deve comparire appena è pubblicata,
+// senza aspettare che si accetti l'aggiornamento del service worker. Per questi
+// si chiede prima alla rete e si ricade sulla copia salvata, che resta lì per
+// quando la rete non c'è.
+const DATI_URLS = new Set(SHELL.filter((path) => path.startsWith('./data/')).map(abs));
+const ATTESA_RETE = 3000;
+
 const offline = () => new Response('', { status: 504, statusText: 'offline' });
 
 /* --- installazione: si salva il guscio, tutto o niente --------------------- */
@@ -194,9 +202,38 @@ self.addEventListener('fetch', (event) => {
 
   const key = chiave(url);
   if (FOTO_URLS.has(key)) { event.respondWith(dallaCache(richiesta, key, FOTO)); return; }
+  if (DATI_URLS.has(key)) { event.respondWith(datiFreschi(richiesta, key)); return; }
   if (SHELL_URLS.has(key)) { event.respondWith(dallaCache(richiesta, key, GUSCIO)); return; }
   event.respondWith(reteQuindiCache(richiesta));
 });
+
+/**
+ * Dati: prima la rete, con tre secondi di pazienza, poi la copia salvata.
+ * Così una ricetta appena pubblicata si vede subito, mentre senza rete (o con
+ * una rete che non risponde) il sito resta consultabile com'era.
+ * Ogni risposta buona aggiorna la copia salvata.
+ */
+async function datiFreschi(richiesta, key) {
+  const cache = await caches.open(GUSCIO);
+
+  const daRete = (async () => {
+    const risposta = await fetch(richiesta);
+    if (!risposta.ok) throw new Error(String(risposta.status));
+    await cache.put(key, risposta.clone());
+    return risposta;
+  })();
+
+  const scaduta = new Promise((_, ko) => setTimeout(() => ko(new Error('lenta')), ATTESA_RETE));
+
+  try {
+    return await Promise.race([daRete, scaduta]);
+  } catch {
+    // La rete manca o tarda: si serve la copia salvata. Se la richiesta era
+    // solo lenta continua per conto suo e aggiorna la cache per la prossima.
+    daRete.catch(() => { /* offline: niente da aggiornare */ });
+    return (await cache.match(key)) ?? daRete.catch(() => offline());
+  }
+}
 
 /**
  * Le pagine arrivano dalla copia salvata, sempre: è quello che rende

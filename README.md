@@ -270,8 +270,8 @@ capire a colpo d'occhio se quello che si sta guardando è l'ultimo.
 
 | cache | contenuto | vita |
 |---|---|---|
-| `ricette-guscio-<versione>` | HTML, CSS, JS, font, icone, **tutti** i dati (~455 KB) | si rifà a ogni versione |
-| `ricette-foto` | le foto delle ricette (~5,6 MB) | sopravvive agli aggiornamenti |
+| `ricette-guscio-<versione>` | HTML, CSS, JS, font, icone e i dati (~505 KB) | si rifà a ogni versione |
+| `ricette-foto` | le foto delle ricette (~6,2 MB) | sopravvive agli aggiornamenti |
 
 Il guscio si salva tutto insieme all'installazione: se manca un pezzo l'installazione
 fallisce e resta attiva la versione precedente, mai una copia a metà. Le foto pesano
@@ -283,6 +283,23 @@ Le foto non bloccano nulla: si scaricano in sottofondo a pagina caricata, così 
 prima visita anche le ricette mai aperte hanno la loro immagine offline. Su connessione
 a consumo (`saveData`, 2G) il precaricamento si salta e le foto arrivano man mano che le
 ricette vengono aperte.
+
+### I dati non aspettano l'aggiornamento
+
+Codice e dati stanno nella stessa cache ma hanno regole diverse.
+
+- **Guscio** (HTML, CSS, JS, font, icone): sempre dalla copia salvata. È quello che rende
+  l'apertura istantanea, e cambia solo quando si accetta la nuova versione.
+- **Dati** (`data/**`: elenco ricette, singole ricette, alimenti, testi): **prima la rete**,
+  con tre secondi di pazienza, poi la copia salvata. Ogni risposta buona aggiorna la copia.
+
+Serve a questo: una ricetta appena pubblicata si vede al primo ricaricamento, senza dover
+premere "Aggiorna" e senza aspettare che il service worker si sostituisca. Senza rete, o
+con una rete che non risponde entro i tre secondi, si ricade sulla copia salvata e il sito
+resta consultabile esattamente com'era.
+
+Prima non era così: i dati arrivavano dalla cache come tutto il resto, e chi non toccava
+l'avviso di aggiornamento continuava a non vedere le ricette nuove.
 
 ### In sviluppo
 
