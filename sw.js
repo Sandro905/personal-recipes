@@ -1,7 +1,7 @@
 // GENERATO da scripts/build-sw.mjs — non modificarlo a mano.
 // Sorgente: scripts/sw-runtime.js · rigenera con `npm run build`.
 
-const VERSION = '506b8c8d1c';
+const VERSION = '9e8d521b9a';
 
 // Guscio: HTML, stile, codice, font, icone e dati. ~505 KB,
 // salvato tutto insieme all'installazione. Se manca un pezzo l'installazione
@@ -63,7 +63,7 @@ const SHELL = [
   './data/recipes/wrap-pollo-speziato.json'
 ];
 
-// Foto: ~6.2 MB. Stanno in una cache a parte che sopravvive
+// Foto: ~6.4 MB. Stanno in una cache a parte che sopravvive
 // agli aggiornamenti; l'impronta dice quali sono davvero cambiate.
 const MEDIA = {
   './assets/img/recipes/alette-pollo-forno-patate.jpg': '586e1eb542785521',
@@ -87,6 +87,7 @@ const MEDIA = {
   './assets/img/recipes/pasta-sugo-costine.jpg': '14473c482ebe21c4',
   './assets/img/recipes/pasta-tonno-pomodorini.jpg': '8ca36a6a967e123d',
   './assets/img/recipes/pizza-tortilla-cotto.jpg': 'e721b71096de3917',
+  './assets/img/recipes/pizzette-yogurt-cotto.jpg': '9db27ced55396064',
   './assets/img/recipes/pollo-cacciatora-patate.jpg': 'b8894d645cb71205',
   './assets/img/recipes/polpette-pollo-forno.jpg': '64968459a9cf5ca9',
   './assets/img/recipes/polpette-tonno-patate-friggitrice-passaggi-1.jpg': '544294e4054cf294',

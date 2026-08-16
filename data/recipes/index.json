@@ -128,8 +128,8 @@
       "summary": {
         "it": "Stesso impasto dei calzoni — farina e yogurt greco — ma profumato ad aglio e origano e steso a dischi. Due dischi per pizzetta, farciti dentro e sopra: quattro pezzi in venti minuti di forno."
       },
-      "image": null,
-      "imageFocus": null,
+      "image": "assets/img/recipes/pizzette-yogurt-cotto.jpg",
+      "imageFocus": "center 50%",
       "tags": [
         "salato",
         "forno",
