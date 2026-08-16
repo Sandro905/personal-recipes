@@ -128,7 +128,28 @@ occorrenza. La validazione controlla che ogni segnaposto esista.
 
 **Unità ammesse:** `g` `hg` `kg` `mg` · `ml` `cl` `dl` `l` · `cucchiaio` `cucchiaino`
 `bicchiere` `tazza` · `pz` (usa `pieceWeight` dell'alimento) · `qb` (quanto basta, esclusa
-dalle macro) · le unità specifiche dell'alimento (`bustina`, `spicchio`, `cubetto`).
+dalle macro) · le unità specifiche dell'alimento (`bustina`, `spicchio`, `foglia`, `cubetto`).
+
+### Le foto
+
+Vanno in `assets/img/recipes/`, con il nome che **combacia con lo slug**:
+
+```
+assets/img/recipes/<slug>.jpg              copertina
+assets/img/recipes/<slug>-passaggi-1.jpg   foto del procedimento, numerate
+```
+
+Non è un vezzo: chi cerca la foto di una ricetta la trova dal nome del file, e un refuso
+salta all'occhio subito. I percorsi vanno comunque scritti per esteso nel JSON (`image`,
+`gallery[].image`), il sito non li indovina.
+
+**Prima di committarle, ridimensionale.** Lato lungo **max 1600 px**, JPEG qualità 80. Una
+foto da telefono pesa 3-6 MB: messa così com'è finisce nella copia offline e ogni visitatore
+se la scarica. Tutte insieme le foto del sito stanno oggi in ~6 MB, ed è il grosso di quello
+che il telefono salva.
+
+`imageFocus` è un `object-position` CSS (`"center 45%"`) e serve solo quando il ritaglio
+orizzontale della scheda taglia male: se il piatto è centrato, lascialo stare.
 
 ---
 
@@ -149,7 +170,7 @@ dalle macro) · le unità specifiche dell'alimento (`bustina`, `spicchio`, `cube
 }
 ```
 
-I ~58 alimenti di partenza sono valori medi da tabelle di composizione ed etichette:
+I ~113 alimenti sono valori medi da tabelle di composizione ed etichette:
 buoni per farsi un'idea, non certificati. Per un prodotto che usi spesso, sostituiscili
 con i numeri della tua etichetta.
 
@@ -181,6 +202,20 @@ pubblichi il database va citata la fonte (che resta salvata in `source`).
 1. ogni ingrediente viene convertito in grammi (`units.js`);
 2. grammi ÷ 100 × valori dell'alimento, sommati (`nutrition.js`);
 3. per porzione = totale ÷ `yield.count`.
+
+**Carne con l'osso, e in genere tutto ciò che si scarta.** Le macro si contano sulla
+**parte edibile**, non sul peso alla cassa: 350 g di costine con osso sono circa 200 g di
+carne, e contarli tutti gonfierebbe le calorie di oltre metà. La convenzione del sito è
+scrivere in `qty` il peso netto e dire nell'etichetta cosa comprare:
+
+```jsonc
+{ "food": "costine-maiale", "qty": 200, "unit": "g",
+  "label": { "it": "costine di maiale (~350 g con osso)" },
+  "note":  { "it": "il peso indicato è la parte edibile" } }
+```
+
+La resa lordo→netto va registrata anche in `source.note` dell'alimento, così non si
+ricalcola a memoria la volta dopo. Lo stesso vale per alette e fusi di pollo.
 
 Sono stime **sugli ingredienti crudi**: non tengono conto dell'acqua persa in cottura,
 dell'olio assorbito friggendo o degli scarti. Gli ingredienti `qb` e quelli senza dati
