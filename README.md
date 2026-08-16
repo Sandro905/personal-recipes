@@ -254,13 +254,23 @@ Il numero di versione è l'**impronta del contenuto**: `sha256` di tutti i file 
 troncato. Cambia se e solo se cambia davvero qualcosa — non c'è nessun numero da
 incrementare a mano e non ci si può dimenticare di farlo.
 
+`sw.js` porta due impronte, non una. **`VERSION`** copre tutto (codice, dati e foto) e dà
+il nome alla cache. **`CODICE`** copre il solo codice, i dati esclusi. All'installazione il
+service worker confronta il proprio `CODICE` con quello dell'ultima versione attivata,
+tenuto da parte nella cache `ricette-stato`: se combacia, chiama `skipWaiting()` e subentra
+senza avviso. È così che aggiungere una ricetta non fa più comparire un popup che non
+serve a niente.
+
 1. il browser riscarica `sw.js` a ogni visita (`updateViaCache: 'none'`, quindi mai dalla
    cache HTTP);
 2. se i byte sono diversi installa la nuova copia **accanto** a quella vecchia, senza
    toccarla: chi sta leggendo una ricetta non si vede cambiare la pagina sotto le dita;
-3. a installazione finita compare in basso *"Nuova versione disponibile · Aggiorna"*;
-4. premendo **Aggiorna** la nuova copia prende il posto della vecchia, le cache
-   precedenti vengono cancellate e la pagina si ricarica.
+3. se è cambiato **solo il contenuto** (una ricetta nuova, una foto) la nuova copia
+   subentra da sola, in silenzio: il codice del sito è identico, non c'è niente da
+   ricaricare e non si disturba nessuno;
+4. se è cambiato il **codice** (stile, script, pagine) compare in basso *"Nuova versione
+   disponibile · Aggiorna"*, e premendolo la nuova copia prende il posto della vecchia,
+   le cache precedenti vengono cancellate e la pagina si ricarica.
 
 Chi non preme niente resta sulla versione salvata e la trova aggiornata alla riapertura
 successiva. La versione attiva è scritta in fondo a ogni pagina (`v` + 8 cifre): serve a
@@ -270,8 +280,9 @@ capire a colpo d'occhio se quello che si sta guardando è l'ultimo.
 
 | cache | contenuto | vita |
 |---|---|---|
-| `ricette-guscio-<versione>` | HTML, CSS, JS, font, icone e i dati (~505 KB) | si rifà a ogni versione |
-| `ricette-foto` | le foto delle ricette (~6,2 MB) | sopravvive agli aggiornamenti |
+| `ricette-guscio-<versione>` | HTML, CSS, JS, font, icone e i dati (~512 KB) | si rifà a ogni versione |
+| `ricette-foto` | le foto delle ricette (~6,4 MB) | sopravvive agli aggiornamenti |
+| `ricette-stato` | l'impronta del codice attivo, poche decine di byte | sopravvive agli aggiornamenti |
 
 Il guscio si salva tutto insieme all'installazione: se manca un pezzo l'installazione
 fallisce e resta attiva la versione precedente, mai una copia a metà. Le foto pesano

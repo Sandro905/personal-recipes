@@ -6,6 +6,10 @@
 
 const GUSCIO = `ricette-guscio-${VERSION}`;
 const FOTO = 'ricette-foto';
+// Cache minuscola che sopravvive agli aggiornamenti: ci sta solo l'impronta del
+// codice dell'ultima versione attivata, per capire se questa porta davvero
+// qualcosa da ricaricare.
+const STATO = 'ricette-stato';
 
 const abs = (path) => new URL(path, self.location.href).href;
 /** Chiave di ricerca in cache: stesso indirizzo, senza "?..." né "#..." */
@@ -14,6 +18,7 @@ const chiave = (url) => url.origin + url.pathname;
 const SHELL_URLS = new Set(SHELL.map(abs));
 const FOTO_URLS = new Map(Object.entries(MEDIA).map(([path, hash]) => [abs(path), hash]));
 const MANIFESTO = abs('./__foto-salvate__');
+const IMPRONTA_CODICE = abs('./__codice-attivo__');
 
 // I dati (elenco ricette, singole ricette, alimenti, testi) hanno una vita
 // diversa dal codice: una ricetta nuova deve comparire appena è pubblicata,
@@ -28,26 +33,43 @@ const offline = () => new Response('', { status: 504, statusText: 'offline' });
 /* --- installazione: si salva il guscio, tutto o niente --------------------- */
 
 self.addEventListener('install', (event) => {
-  event.waitUntil(
-    caches.open(GUSCIO).then((cache) =>
-      // 'reload' scavalca la cache HTTP: mai installare una versione con
-      // dentro un file vecchio rimasto in circolo.
-      cache.addAll(SHELL.map((path) => new Request(path, { cache: 'reload' })))
-    )
-  );
+  event.waitUntil((async () => {
+    const cache = await caches.open(GUSCIO);
+    // 'reload' scavalca la cache HTTP: mai installare una versione con dentro
+    // un file vecchio rimasto in circolo.
+    await cache.addAll(SHELL.map((path) => new Request(path, { cache: 'reload' })));
+
+    // Se il codice del sito è identico a quello già attivo, questa versione
+    // porta solo dati nuovi: non c'è niente da ricaricare, quindi si subentra
+    // subito e in silenzio invece di disturbare con l'avviso.
+    if (await codiceInvariato()) await self.skipWaiting();
+  })());
 });
+
+/** L'impronta del codice combacia con quella dell'ultima versione attivata? */
+async function codiceInvariato() {
+  try {
+    const risposta = await (await caches.open(STATO)).match(IMPRONTA_CODICE);
+    return risposta ? (await risposta.text()) === CODICE : false;
+  } catch {
+    return false; // al dubbio si chiede, non si decide da soli
+  }
+}
 
 /* --- attivazione: si buttano le versioni vecchie -------------------------- */
 
 self.addEventListener('activate', (event) => {
   event.waitUntil((async () => {
     const nomi = await caches.keys();
+    const tenere = new Set([GUSCIO, FOTO, STATO]);
     await Promise.all(
-      nomi
-        .filter((nome) => nome.startsWith('ricette-') && nome !== GUSCIO && nome !== FOTO)
+      nomi.filter((nome) => nome.startsWith('ricette-') && !tenere.has(nome))
         .map((nome) => caches.delete(nome))
     );
     await allineaFoto();
+    // Da qui in poi il codice attivo è questo: lo si registra per il confronto
+    // alla prossima installazione.
+    await (await caches.open(STATO)).put(IMPRONTA_CODICE, new Response(CODICE));
     await self.clients.claim();
   })());
 });

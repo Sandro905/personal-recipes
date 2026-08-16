@@ -116,8 +116,21 @@ async function registra(t) {
     if (!nuovo) return;
     nuovo.addEventListener('statechange', () => {
       if (nuovo.state !== 'installed') return;
-      if (navigator.serviceWorker.controller) proponiAggiornamento(t, nuovo);
-      else avviso({ text: t('pwa.ready'), timeout: 5000, closeLabel: t('nav.close') });
+
+      if (!navigator.serviceWorker.controller) {
+        avviso({ text: t('pwa.ready'), timeout: 5000, closeLabel: t('nav.close') });
+        return;
+      }
+
+      // Quando cambiano solo i dati il service worker subentra da solo: passa
+      // da "installed" ad "activating" nel giro di un istante e non c'è niente
+      // da ricaricare. Si aspetta quel momento prima di disturbare: se dopo un
+      // secondo è ancora lì in attesa, allora è cambiato il sito davvero.
+      setTimeout(() => {
+        if (nuovo.state === 'installed' && registrazione.waiting === nuovo) {
+          proponiAggiornamento(t, nuovo);
+        }
+      }, 1000);
     });
   });
 

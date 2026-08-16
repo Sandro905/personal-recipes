@@ -62,6 +62,15 @@ const version = createHash('sha256')
   .digest('hex')
   .slice(0, 10);
 
+// Impronta del solo codice: HTML, stile, script, font, icone — i dati no.
+// Serve a distinguere "è cambiato il sito" da "è stata aggiunta una ricetta".
+// Nel primo caso la pagina va ricaricata e si chiede all'utente; nel secondo
+// non c'è niente da ricaricare e il service worker subentra in silenzio.
+const codice = createHash('sha256')
+  .update(shell.filter((f) => !f.path.startsWith('data/')).map((f) => `${f.path}:${f.hash}`).join('\n'))
+  .digest('hex')
+  .slice(0, 10);
+
 const bytes = async (files) =>
   (await Promise.all(files.map(async (f) => (await readFile(join(root, f.path))).length)))
     .reduce((a, b) => a + b, 0);
@@ -76,6 +85,7 @@ const source = `// GENERATO da scripts/build-sw.mjs — non modificarlo a mano.
 // Sorgente: scripts/sw-runtime.js · rigenera con \`npm run build\`.
 
 const VERSION = '${version}';
+const CODICE = '${codice}';
 
 // Guscio: HTML, stile, codice, font, icone e dati. ~${Math.round(shellBytes / 1024)} KB,
 // salvato tutto insieme all'installazione. Se manca un pezzo l'installazione
