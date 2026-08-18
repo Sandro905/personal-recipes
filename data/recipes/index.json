@@ -1,6 +1,47 @@
 {
-  "count": 31,
+  "count": 32,
   "recipes": [
+    {
+      "slug": "crocchette-patate-friggitrice",
+      "added": "2026-08-18",
+      "title": {
+        "it": "Crocchette di patate light in friggitrice ad aria"
+      },
+      "summary": {
+        "it": "Dorate e croccanti fuori, morbide dentro, cotte con pochissimo olio invece che fritte."
+      },
+      "image": "assets/img/recipes/crocchette-patate-friggitrice.jpg",
+      "imageFocus": null,
+      "tags": [
+        "salato",
+        "friggitrice-ad-aria",
+        "antipasti",
+        "secondi",
+        "finger-food",
+        "congelabile"
+      ],
+      "method": "friggitrice-ad-aria",
+      "difficulty": "molto-facile",
+      "cost": "molto-economico",
+      "time": {
+        "prep": 25,
+        "rest": 30,
+        "cook": 17
+      },
+      "yield": {
+        "count": 13,
+        "label": {
+          "it": "crocchette",
+          "en": "croquettes"
+        }
+      },
+      "kcalPerServing": 113,
+      "coverage": 0.89,
+      "search": {
+        "it": "Crocchette di patate light in friggitrice ad aria · Dorate e croccanti fuori, morbide dentro, cotte con pochissimo olio invece che fritte. · patate a pasta gialla patate · tuorlo d'uovo · parmigiano grattugiato grana padano grattugiato · prezzemolo tritato prezzemolo · sale fino · pepe nero macinato · uovo intero uova · pangrattato · olio extravergine d'oliva spray olio extravergine d'oliva · Lessare le patate · Schiacciare · Preparare l'impasto · Riposo in frigo · Formare le crocchette · Impanare · Preparare la cottura · Cuocere a 200 °C",
+        "en": "Crocchette di patate light in friggitrice ad aria · Dorate e croccanti fuori, morbide dentro, cotte con pochissimo olio invece che fritte. · patate a pasta gialla potatoes · egg yolk · parmigiano grattugiato grated Grana Padano · prezzemolo tritato parsley · fine salt · ground black pepper · uovo intero eggs · breadcrumbs · olio extravergine d'oliva spray extra virgin olive oil · Lessare le patate · Schiacciare · Preparare l'impasto · Riposo in frigo · Formare le crocchette · Impanare · Preparare la cottura · Cuocere a 200 °C"
+      }
+    },
     {
       "slug": "mousse-proteica-cioccolato",
       "added": "2026-08-16",
