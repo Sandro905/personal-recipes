@@ -1,0 +1,106 @@
+{
+  "slug": "crocchette-patate-friggitrice",
+  "added": "2026-08-18",
+  "title": {
+    "it": "Crocchette di patate light in friggitrice ad aria"
+  },
+  "summary": {
+    "it": "Dorate e croccanti fuori, morbide dentro, cotte con pochissimo olio invece che fritte."
+  },
+  "image": "assets/img/recipes/crocchette-patate-friggitrice.jpg",
+  "yield": { "count": 13, "label": { "it": "crocchette", "en": "croquettes" } },
+  "time": { "prep": 25, "rest": 30, "cook": 17 },
+  "difficulty": "molto-facile",
+  "cost": "molto-economico",
+  "method": "friggitrice-ad-aria",
+  "tags": ["salato", "friggitrice-ad-aria", "antipasti", "secondi", "finger-food", "congelabile"],
+  "ingredients": [
+    {
+      "section": { "it": "Per l'impasto" },
+      "items": [
+        { "food": "patate", "qty": 800, "unit": "g", "label": { "it": "patate a pasta gialla" } },
+        { "food": "tuorlo", "qty": 1, "unit": "pz" },
+        { "food": "grana-padano", "qty": 60, "unit": "g", "label": { "it": "parmigiano grattugiato" } },
+        { "food": "prezzemolo", "qty": 2, "unit": "cucchiaio", "label": { "it": "prezzemolo tritato" } },
+        { "food": "sale", "qty": 1, "unit": "cucchiaino" },
+        { "food": "pepe-nero", "unit": "qb" }
+      ]
+    },
+    {
+      "section": { "it": "Per la panatura" },
+      "items": [
+        { "food": "uova", "qty": 1, "unit": "pz", "label": { "it": "uovo intero" } },
+        { "food": "pangrattato", "qty": 100, "unit": "g" }
+      ]
+    },
+    {
+      "section": { "it": "Per la cottura" },
+      "items": [
+        { "food": "olio-oliva-evo", "qty": 1, "unit": "cucchiaio", "label": { "it": "olio extravergine d'oliva spray" } }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": { "it": "Lessare le patate" },
+      "text": {
+        "it": "Lessa {{patate}} con la buccia in acqua salata finché risultano morbide."
+      },
+      "timer": 1800
+    },
+    {
+      "title": { "it": "Schiacciare" },
+      "text": { "it": "Scola, sbuccia le patate ancora calde e schiacciale con lo schiacciapatate in una ciotola." }
+    },
+    {
+      "title": { "it": "Preparare l'impasto" },
+      "text": {
+        "it": "Quando l'impasto è tiepido aggiungi {{tuorlo}}, {{grana-padano}}, {{prezzemolo}}, {{sale}} e {{pepe-nero}}. Mescola fino a ottenere un composto omogeneo e compatto."
+      }
+    },
+    {
+      "title": { "it": "Riposo in frigo" },
+      "text": { "it": "Copri e lascia riposare in frigorifero: aiuterà l'impasto a compattarsi e a non aprirsi in cottura." },
+      "timer": 1800
+    },
+    {
+      "title": { "it": "Formare le crocchette" },
+      "text": { "it": "Con le mani leggermente inumidite forma circa 12-14 crocchette allungate." }
+    },
+    {
+      "title": { "it": "Impanare" },
+      "text": {
+        "it": "Sbatti {{uova}} in una ciotola. Passa ogni crocchetta prima nell'uovo, poi in {{pangrattato}}, premendo leggermente per far aderire la panatura."
+      }
+    },
+    {
+      "title": { "it": "Preparare la cottura" },
+      "text": {
+        "it": "Disponi le crocchette nel cestello distanziate tra loro (cuoci in più infornate se necessario) e spruzza con {{olio-oliva-evo}} su entrambi i lati."
+      }
+    },
+    {
+      "title": { "it": "Cuocere a 200 °C" },
+      "text": { "it": "Cuoci a 200 °C per 15-18 minuti, girandole a metà cottura, finché sono dorate e croccanti." },
+      "timer": 1020
+    }
+  ],
+  "notes": [
+    {
+      "title": { "it": "La leggerezza" },
+      "text": { "it": "Sta tutta nella cottura: niente bagno d'olio, solo una spruzzata prima della friggitrice ad aria." }
+    },
+    {
+      "title": { "it": "Varianti" },
+      "text": { "it": "Sostituisci il prezzemolo con la menta, oppure inserisci un cubetto di mozzarella al centro di ogni crocchetta prima di richiuderla." }
+    },
+    {
+      "title": { "it": "Congelate" },
+      "text": { "it": "Si possono congelare **da crude** (non da cotte) e cuocere direttamente surgelate aggiungendo qualche minuto." }
+    },
+    {
+      "title": { "it": "Tempi di cottura" },
+      "text": { "it": "Variano in base al modello di friggitrice: controlla la cottura verso la fine." }
+    }
+  ]
+}

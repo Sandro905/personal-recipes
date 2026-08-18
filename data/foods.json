@@ -1971,6 +1971,27 @@
         "note": "peso medio uovo sgusciato"
       }
     },
+    "tuorlo": {
+      "name": {
+        "it": "tuorlo d'uovo",
+        "en": "egg yolk"
+      },
+      "category": "uova",
+      "per100g": {
+        "kcal": 322,
+        "protein": 15.9,
+        "carbs": 3.6,
+        "fat": 26.5,
+        "fiber": 0,
+        "sugars": 0.6,
+        "salt": 0.12
+      },
+      "pieceWeight": 18,
+      "source": {
+        "db": "manual",
+        "note": "peso medio tuorlo di un uovo medio"
+      }
+    },
     "aglio": {
       "name": {
         "it": "aglio",
