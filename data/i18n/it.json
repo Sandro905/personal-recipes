@@ -97,7 +97,6 @@
     "servingsIncrease": "Una porzione in più",
     "scaled": "Quantità ricalcolate su {n}",
     "print": "Stampa",
-    "uncheckAll": "Azzera i segni",
     "source": "Ricetta ispirata a",
     "notFound": "Ricetta non trovata.",
     "notFoundHint": "Controlla il link, oppure torna all'elenco."
@@ -120,6 +119,7 @@
     "salt": "Sale",
     "split": "Ripartizione energetica",
     "estimate": "Stime calcolate sugli ingredienti crudi, senza perdite di cottura.",
+    "ingredientNote": "Quantità di questo ingrediente per le porzioni scelte, non per 100 g.",
     "breakdown": "Da dove arrivano",
     "breakdownMetric": "Scegli cosa confrontare",
     "breakdownNote": "Ogni ingrediente è convertito in grammi e moltiplicato per i suoi valori per 100 g. La percentuale è sul totale del piatto.",

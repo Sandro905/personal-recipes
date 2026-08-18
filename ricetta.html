@@ -88,7 +88,6 @@
           <p class="footnote" id="scaledNote"></p>
           <div class="panel__actions">
             <button class="btn btn--secondary" id="print" type="button">Stampa</button>
-            <button class="btn btn--secondary" id="reset" type="button">Azzera</button>
           </div>
         </section>
 
@@ -147,6 +146,22 @@
       <p id="contribExcludedList"></p>
     </div>
     <p class="footnote" id="breakdownNote"></p>
+  </div>
+</dialog>
+
+<dialog class="sheet" id="ingredientMacros" aria-labelledby="ingredientMacrosTitle">
+  <div class="sheet__head">
+    <h2 class="sheet__title" id="ingredientMacrosTitle"></h2>
+    <button class="btn btn--icon" id="ingredientMacrosClose" type="button"></button>
+  </div>
+  <div class="sheet__body">
+    <div class="kcal" id="ingredientMacrosKcalBox">
+      <b id="ingredientMacrosKcal">0</b>
+      <span id="ingredientMacrosKcalUnit">kcal</span>
+    </div>
+    <div class="macrobar" id="ingredientMacrosBar"></div>
+    <ul class="macrolist" id="ingredientMacrosList"></ul>
+    <p class="footnote" id="ingredientMacrosNote"></p>
   </div>
 </dialog>
 
