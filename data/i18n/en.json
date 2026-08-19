@@ -97,7 +97,6 @@
     "servingsIncrease": "One serving more",
     "scaled": "Amounts recalculated for {n}",
     "print": "Print",
-    "uncheckAll": "Clear ticks",
     "source": "Adapted from",
     "notFound": "Recipe not found.",
     "notFoundHint": "Check the link, or go back to the list."
@@ -120,6 +119,7 @@
     "salt": "Salt",
     "split": "Energy split",
     "estimate": "Estimated from raw ingredients, cooking losses not included.",
+    "ingredientNote": "This ingredient's amount for the servings you picked, not per 100 g.",
     "breakdown": "Where it comes from",
     "breakdownMetric": "Choose what to compare",
     "breakdownNote": "Each ingredient is converted to grams and multiplied by its per-100 g values. The percentage is of the dish total.",

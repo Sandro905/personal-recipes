@@ -1,5 +1,5 @@
 import { tr, makeT, unitLabel, detectLang } from './lib/i18n.js';
-import { loadFoods, loadRecipe, loadUI, el, num, minutes, clock, inlineMarkdown, initTheme, store } from './lib/data.js';
+import { loadFoods, loadRecipe, loadUI, el, num, minutes, clock, inlineMarkdown, initTheme } from './lib/data.js';
 import { computeNutrition, energySplit, flatIngredients, MACRO_KEYS } from './lib/nutrition.js';
 import { toGrams, roundQty } from './lib/units.js';
 import { initNav, icons } from './lib/nav.js';
@@ -48,13 +48,13 @@ function gramsHint(item, scale) {
 
 /* ---------- ingredienti ---------- */
 
-function checkedKey() { return `ricettario:checked:${slug}`; }
-
 function renderIngredients() {
   const t = state.t;
   const scale = state.servings / state.base;
   const host = document.getElementById('ledger');
-  const checked = new Set(store.get(checkedKey(), []));
+  // stessa fonte del pannello macro e del dettaglio "da dove arrivano":
+  // ogni ingrediente porta già con sé grammi e macro calcolati.
+  const { contributions } = computeNutrition(state.recipe, state.foods, { scale });
   host.replaceChildren();
 
   let index = 0;
@@ -63,28 +63,21 @@ function renderIngredients() {
       host.append(el('li', { class: 'label ledger__section', text: tr(section.section, lang) }));
     }
     for (const item of section.items ?? []) {
-      const id = `ing-${index++}`;
       const hint = gramsHint(item, scale);
       const known = Boolean(state.foods[item.food]);
+      const contribution = contributions[index++];
       host.append(
         el('li', {}, [
-          el('div', { class: 'ing' }, [
-            el('input', {
-              type: 'checkbox', id, checked: checked.has(id),
-              onchange: (event) => {
-                const next = new Set(store.get(checkedKey(), []));
-                event.target.checked ? next.add(id) : next.delete(id);
-                store.set(checkedKey(), [...next]);
-              }
-            }),
-            el('label', { for: id }, [
-              el('span', { class: 'ing__name', text: ingredientName(item) }),
-              el('span', {
-                class: `ing__qty${known ? '' : ' is-estimate'}`,
-                title: hint ?? '',
-                text: qtyText(item, scale)
-              })
-            ])
+          el('button', {
+            class: 'ing', type: 'button',
+            onclick: () => openIngredientMacros(item, contribution)
+          }, [
+            el('span', { class: 'ing__name', text: ingredientName(item) }),
+            el('span', {
+              class: `ing__qty${known ? '' : ' is-estimate'}`,
+              title: hint ?? '',
+              text: qtyText(item, scale)
+            })
           ]),
           item.note && el('span', { class: 'ing__note', text: tr(item.note, lang) })
         ])
@@ -94,6 +87,84 @@ function renderIngredients() {
 
   document.getElementById('scaledNote').textContent =
     t('recipe.scaled', { n: `${state.servings} ${tr(state.recipe.yield?.label, lang)}` });
+}
+
+/** Righe della lista macro: usate sia dal pannello totali che dal popup di un singolo ingrediente. */
+function macroListRows(t, macros) {
+  const rows = [
+    ['protein', 'protein', false],
+    ['carbs', 'carbs', false],
+    ['sugars', null, true],
+    ['fat', 'fat', false],
+    ['fiber', null, false],
+    ['salt', null, false]
+  ];
+  return rows.map(([key, dot, sub]) =>
+    el('li', { class: sub ? 'sub' : '' }, [
+      dot && el('span', { class: `dot is-${dot}` }),
+      el('span', { text: t(`macros.${key}`) }),
+      el('span', { class: 'n', text: `${num(macros[key], macros[key] < 10 ? 1 : 0)} g` })
+    ])
+  );
+}
+
+/** Le tre barre impilate proteine/carboidrati/grassi, dalla ripartizione energetica. */
+function macroBarSpans(split) {
+  return [
+    el('span', { class: 'is-protein', style: `width:${split.protein}%` }),
+    el('span', { class: 'is-carbs', style: `width:${split.carbs}%` }),
+    el('span', { class: 'is-fat', style: `width:${split.fat}%` })
+  ];
+}
+
+function openIngredientMacros(item, contribution) {
+  const t = state.t;
+  const dialog = document.getElementById('ingredientMacros');
+  const kcalBox = document.getElementById('ingredientMacrosKcalBox');
+  const bar = document.getElementById('ingredientMacrosBar');
+  const list = document.getElementById('ingredientMacrosList');
+  const note = document.getElementById('ingredientMacrosNote');
+
+  document.getElementById('ingredientMacrosTitle').textContent = ingredientName(item);
+
+  if (!contribution || contribution.grams == null) {
+    kcalBox.hidden = true;
+    bar.hidden = true;
+    list.replaceChildren();
+    note.textContent = contribution?.issue
+      ? t(`macros.issues.${contribution.issue}`, { food: ingredientName(item) })
+      : t('macros.estimate');
+    dialog.showModal();
+    return;
+  }
+
+  kcalBox.hidden = false;
+  bar.hidden = false;
+  const { macros, grams } = contribution;
+  document.getElementById('ingredientMacrosKcal').textContent = num(macros.kcal);
+  document.getElementById('ingredientMacrosKcalUnit').textContent = `kcal · ${num(grams)} g`;
+  bar.replaceChildren(...macroBarSpans(energySplit(macros)));
+  list.replaceChildren(...macroListRows(t, macros));
+  note.textContent = t('macros.ingredientNote');
+  dialog.showModal();
+}
+
+function wireIngredientMacros() {
+  const t = state.t;
+  const dialog = document.getElementById('ingredientMacros');
+  const close = document.getElementById('ingredientMacrosClose');
+  close.innerHTML = icons.close;
+  close.setAttribute('aria-label', t('nav.close'));
+  close.addEventListener('click', () => dialog.close());
+  // clic sullo sfondo: il target è il dialog stesso solo se si è fuori dal riquadro
+  dialog.addEventListener('click', (event) => {
+    if (event.target !== dialog) return;
+    const box = dialog.getBoundingClientRect();
+    const fuori =
+      event.clientY < box.top || event.clientY > box.bottom ||
+      event.clientX < box.left || event.clientX > box.right;
+    if (fuori) dialog.close();
+  });
 }
 
 /* ---------- macro ---------- */
@@ -127,32 +198,12 @@ function renderMacros() {
   document.getElementById('kcalUnit').textContent = `kcal · ${label.toLowerCase()}`;
 
   const bar = document.getElementById('macrobar');
-  bar.replaceChildren(
-    el('span', { class: 'is-protein', style: `width:${split.protein}%` }),
-    el('span', { class: 'is-carbs', style: `width:${split.carbs}%` }),
-    el('span', { class: 'is-fat', style: `width:${split.fat}%` })
-  );
+  bar.replaceChildren(...macroBarSpans(split));
   bar.setAttribute('role', 'img');
   bar.setAttribute('aria-label',
     `${t('macros.split')}: ${t('macros.protein')} ${Math.round(split.protein)}%, ${t('macros.carbs')} ${Math.round(split.carbs)}%, ${t('macros.fat')} ${Math.round(split.fat)}%`);
 
-  const rows = [
-    ['protein', 'protein', false],
-    ['carbs', 'carbs', false],
-    ['sugars', null, true],
-    ['fat', 'fat', false],
-    ['fiber', null, false],
-    ['salt', null, false]
-  ];
-  document.getElementById('macrolist').replaceChildren(
-    ...rows.map(([key, dot, sub]) =>
-      el('li', { class: sub ? 'sub' : '' }, [
-        dot && el('span', { class: `dot is-${dot}` }),
-        el('span', { text: t(`macros.${key}`) }),
-        el('span', { class: 'n', text: `${num(macros[key], macros[key] < 10 ? 1 : 0)} g` })
-      ])
-    )
-  );
+  document.getElementById('macrolist').replaceChildren(...macroListRows(t, macros));
 
   // il "per 100 g" merita un avvertimento in più: è sul crudo pesato
   document.getElementById('macroNote').textContent =
@@ -500,14 +551,11 @@ function wireControls() {
   );
 
   wireBreakdown();
+  wireIngredientMacros();
 
   const print = document.getElementById('print');
   print.textContent = t('recipe.print');
   print.addEventListener('click', () => window.print());
-
-  const reset = document.getElementById('reset');
-  reset.textContent = t('recipe.uncheckAll');
-  reset.addEventListener('click', () => { store.set(checkedKey(), []); renderIngredients(); });
 
   paint();
 }
