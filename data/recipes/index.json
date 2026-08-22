@@ -1,6 +1,50 @@
 {
-  "count": 32,
+  "count": 33,
   "recipes": [
+    {
+      "slug": "cosce-pollo-croccanti-friggitrice",
+      "added": "2026-08-22",
+      "title": {
+        "it": "Cosce di pollo croccanti in friggitrice ad aria",
+        "en": "Crispy air fryer chicken thighs"
+      },
+      "summary": {
+        "it": "Cosce massaggiate con spezie e lievito in polvere — il trucco per la pelle superscrocchiante — poi doppia panatura e friggitrice ad aria invece dell'olio bollente.",
+        "en": "Thighs rubbed with spices and baking powder — the trick for extra-crispy skin — then double-coated and air-fried instead of deep-fried."
+      },
+      "image": "assets/img/recipes/cosce-pollo-croccanti-friggitrice.jpg",
+      "imageFocus": "center 45%",
+      "tags": [
+        "salato",
+        "secondi",
+        "pollo",
+        "carne",
+        "friggitrice-ad-aria",
+        "proteico",
+        "pranzo",
+        "cena"
+      ],
+      "method": "friggitrice-ad-aria",
+      "difficulty": "facile",
+      "cost": "economico",
+      "time": {
+        "prep": 15,
+        "cook": 23
+      },
+      "yield": {
+        "count": 4,
+        "label": {
+          "it": "cosce di pollo",
+          "en": "chicken thighs"
+        }
+      },
+      "kcalPerServing": 412,
+      "coverage": 1,
+      "search": {
+        "it": "Cosce di pollo croccanti in friggitrice ad aria · Cosce massaggiate con spezie e lievito in polvere — il trucco per la pelle superscrocchiante — poi doppia panatura e friggitrice ad aria invece dell'olio bollente. · cosce di pollo con osso e pelle (~600 g grezze) cosce di pollo · sale all'aglio · paprika dolce · aglio in polvere · pepe di cayenna · pepe nero macinato · lievito in polvere (baking powder) lievito istantaneo per preparazioni salate · farina 00 · amido di mais · sale all'aglio · paprika dolce · aglio in polvere · pepe di cayenna · pepe nero macinato · acqua · olio vegetale spray (o a piacere) olio di semi · Condire · Preparare la panatura · Impanare · Cuocere, pelle verso il basso · Girare e finire",
+        "en": "Crispy air fryer chicken thighs · Thighs rubbed with spices and baking powder — the trick for extra-crispy skin — then double-coated and air-fried instead of deep-fried. · chicken thighs, bone-in skin-on (~600 g raw) chicken thighs · garlic salt · sweet paprika · garlic powder · cayenne pepper · ground black pepper · baking powder instant baking powder (savoury) · type-00 wheat flour · cornstarch · garlic salt · sweet paprika · garlic powder · cayenne pepper · ground black pepper · water · vegetable oil spray (or oil of choice) seed oil · Season · Make the coating · Coat · Cook, skin-side down · Flip and finish"
+      }
+    },
     {
       "slug": "crocchette-patate-friggitrice",
       "added": "2026-08-18",
