@@ -1,10 +1,10 @@
 // GENERATO da scripts/build-sw.mjs — non modificarlo a mano.
 // Sorgente: scripts/sw-runtime.js · rigenera con `npm run build`.
 
-const VERSION = '8b42cc08d6';
+const VERSION = '075eb75782';
 const CODICE = '420ec0ffff';
 
-// Guscio: HTML, stile, codice, font, icone e dati. ~523 KB,
+// Guscio: HTML, stile, codice, font, icone e dati. ~535 KB,
 // salvato tutto insieme all'installazione. Se manca un pezzo l'installazione
 // fallisce e resta attiva la versione precedente: mai una copia a metà.
 const SHELL = [
@@ -35,6 +35,7 @@ const SHELL = [
   './data/recipes/bistecca-patate-forno.json',
   './data/recipes/calzoni-prosciutto-mozzarella.json',
   './data/recipes/carbonara-semplificata.json',
+  './data/recipes/cosce-pollo-croccanti-friggitrice.json',
   './data/recipes/crocchette-patate-friggitrice.json',
   './data/recipes/focaccia-padella-prosciutto.json',
   './data/recipes/frittata-pane-pomodoro.json',
@@ -66,13 +67,14 @@ const SHELL = [
   './data/recipes/wrap-pollo-speziato.json'
 ];
 
-// Foto: ~6.5 MB. Stanno in una cache a parte che sopravvive
+// Foto: ~6.7 MB. Stanno in una cache a parte che sopravvive
 // agli aggiornamenti; l'impronta dice quali sono davvero cambiate.
 const MEDIA = {
   './assets/img/recipes/alette-pollo-forno-patate.jpg': '586e1eb542785521',
   './assets/img/recipes/bistecca-patate-forno.jpg': 'd9df1a2850754899',
   './assets/img/recipes/calzoni-prosciutto-mozzarella.jpg': '6d5468ecb817275a',
   './assets/img/recipes/carbonara-semplificata.jpg': 'e94ffc84c285d9a4',
+  './assets/img/recipes/cosce-pollo-croccanti-friggitrice.jpg': 'b7f121df82e665cf',
   './assets/img/recipes/crocchette-patate-friggitrice.jpg': '9ad36059452dbf2a',
   './assets/img/recipes/focaccia-padella-prosciutto-passaggi-1.jpg': 'f2097e70303ec703',
   './assets/img/recipes/focaccia-padella-prosciutto-passaggi-2.jpg': '0e70e9fbdb8ea23b',

@@ -1,0 +1,155 @@
+{
+  "slug": "cosce-pollo-croccanti-friggitrice",
+  "added": "2026-08-22",
+  "title": {
+    "it": "Cosce di pollo croccanti in friggitrice ad aria",
+    "en": "Crispy air fryer chicken thighs"
+  },
+  "summary": {
+    "it": "Cosce massaggiate con spezie e lievito in polvere — il trucco per la pelle superscrocchiante — poi doppia panatura e friggitrice ad aria invece dell'olio bollente.",
+    "en": "Thighs rubbed with spices and baking powder — the trick for extra-crispy skin — then double-coated and air-fried instead of deep-fried."
+  },
+  "image": "assets/img/recipes/cosce-pollo-croccanti-friggitrice.jpg",
+  "imageFocus": "center 45%",
+  "yield": {
+    "count": 4,
+    "label": { "it": "cosce di pollo", "en": "chicken thighs" }
+  },
+  "time": { "prep": 15, "cook": 23 },
+  "difficulty": "facile",
+  "cost": "economico",
+  "method": "friggitrice-ad-aria",
+  "tags": ["salato", "secondi", "pollo", "carne", "friggitrice-ad-aria", "proteico", "pranzo", "cena"],
+  "source": {
+    "name": "Video (YouTube)",
+    "url": "https://youtube.com/shorts/aKPrCUBua6k?si=Oy8E96mZtEedNd7_"
+  },
+  "ingredients": [
+    {
+      "section": { "it": "Per il pollo", "en": "For the chicken" },
+      "items": [
+        {
+          "food": "cosce-pollo",
+          "qty": 430,
+          "unit": "g",
+          "label": {
+            "it": "cosce di pollo con osso e pelle (~600 g grezze)",
+            "en": "chicken thighs, bone-in skin-on (~600 g raw)"
+          },
+          "note": { "it": "il peso indicato è la parte edibile", "en": "the weight given is the edible part" }
+        },
+        { "food": "sale-aglio", "qty": 1, "unit": "cucchiaino" },
+        { "food": "paprika-dolce", "qty": 1, "unit": "cucchiaino" },
+        { "food": "aglio-polvere", "qty": 1, "unit": "cucchiaino" },
+        { "food": "pepe-cayenna", "qty": 0.5, "unit": "cucchiaino" },
+        { "food": "pepe-nero", "qty": 0.25, "unit": "cucchiaino" },
+        {
+          "food": "lievito-istantaneo-salato",
+          "qty": 1,
+          "unit": "cucchiaio",
+          "label": { "it": "lievito in polvere (baking powder)", "en": "baking powder" }
+        }
+      ]
+    },
+    {
+      "section": { "it": "Per la panatura", "en": "For the coating" },
+      "items": [
+        { "food": "farina-00", "qty": 0.5, "unit": "tazza" },
+        { "food": "amido-mais", "qty": 0.5, "unit": "tazza" },
+        { "food": "sale-aglio", "qty": 1, "unit": "cucchiaio" },
+        { "food": "paprika-dolce", "qty": 1, "unit": "cucchiaino" },
+        { "food": "aglio-polvere", "qty": 1, "unit": "cucchiaino" },
+        { "food": "pepe-cayenna", "qty": 0.5, "unit": "cucchiaino" },
+        { "food": "pepe-nero", "qty": 0.25, "unit": "cucchiaino" },
+        { "food": "acqua", "qty": 2, "unit": "cucchiaio" }
+      ]
+    },
+    {
+      "section": { "it": "Per friggere", "en": "For frying" },
+      "items": [
+        {
+          "food": "olio-semi",
+          "qty": 1,
+          "unit": "cucchiaio",
+          "label": { "it": "olio vegetale spray (o a piacere)", "en": "vegetable oil spray (or oil of choice)" }
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": { "it": "Condire", "en": "Season" },
+      "text": {
+        "it": "Mescola {{sale-aglio}}, {{paprika-dolce}}, {{aglio-polvere}}, {{pepe-cayenna}} e {{pepe-nero}}, poi distribuisci il mix su {{cosce-pollo}}. Cospargi con {{lievito-istantaneo-salato}} e massaggialo bene sulla pelle: è il trucco per la pelle supercroccante.",
+        "en": "Mix {{sale-aglio}}, {{paprika-dolce}}, {{aglio-polvere}}, {{pepe-cayenna}} and {{pepe-nero}}, then rub it all over {{cosce-pollo}}. Sprinkle with {{lievito-istantaneo-salato}} and massage it into the skin: that's the trick for super-crispy skin."
+      }
+    },
+    {
+      "title": { "it": "Preparare la panatura", "en": "Make the coating" },
+      "text": {
+        "it": "In una ciotola capiente mescola {{farina-00}}, {{amido-mais}}, {{sale-aglio#2}}, {{paprika-dolce#2}}, {{aglio-polvere#2}}, {{pepe-cayenna#2}} e {{pepe-nero#2}}. Aggiungi {{acqua}} a goccia mescolando: si formano piccoli grumi, che in cottura diventano la parte più croccante.",
+        "en": "In a big bowl mix {{farina-00}}, {{amido-mais}}, {{sale-aglio#2}}, {{paprika-dolce#2}}, {{aglio-polvere#2}}, {{pepe-cayenna#2}} and {{pepe-nero#2}}. Add {{acqua}} a few drops at a time while mixing: little clumps form, and that's what turns crispiest in the fryer."
+      }
+    },
+    {
+      "title": { "it": "Impanare", "en": "Coat" },
+      "text": {
+        "it": "Passa ogni coscia nella panatura, premendo bene perché aderisca su tutta la superficie, compresi i grumi formati con l'acqua.",
+        "en": "Toss each thigh in the coating, pressing well so it sticks all over, clumps included."
+      }
+    },
+    {
+      "title": { "it": "Cuocere, pelle verso il basso", "en": "Cook, skin-side down" },
+      "text": {
+        "it": "Disponi le cosce nel cestello della friggitrice ad aria con la pelle verso il basso e spruzza con {{olio-semi}}. Cuoci a 195 °C per 12 minuti.",
+        "en": "Place the thighs in the air fryer basket skin-side down and spray with {{olio-semi}}. Cook at 195 °C (385 °F) for 12 minutes."
+      },
+      "timer": 720
+    },
+    {
+      "title": { "it": "Girare e finire", "en": "Flip and finish" },
+      "text": {
+        "it": "Gira le cosce con la pelle verso l'alto, spruzza di nuovo con l'olio e continua per altri 10-12 minuti, finché la pelle è dorata e croccante. Se ti piace piccante, spolvera con altro pepe di cayenna appena sfornate.",
+        "en": "Flip the thighs skin-side up, spray with oil again and cook for another 10-12 minutes, until the skin is golden and crispy. For extra heat, dust with more cayenne pepper right out of the fryer."
+      },
+      "timer": 660
+    }
+  ],
+  "notes": [
+    {
+      "title": { "it": "Senza salsa", "en": "No gravy" },
+      "text": {
+        "it": "La ricetta originale include anche una brown gravy con burro, farina e brodo di pollo: qui è stata tolta apposta, resta solo il pollo croccante.",
+        "en": "The original recipe also includes a brown gravy made with butter, flour and chicken broth: left out here on purpose — just the crispy chicken."
+      }
+    },
+    {
+      "title": { "it": "Sul peso delle cosce", "en": "On the thigh weight" },
+      "text": {
+        "it": "I 430 g contati nelle macro sono la parte edibile (pelle e carne, senza osso) di circa 600 g di cosce intere come le compri: la resa varia con la pezzatura.",
+        "en": "The 430 g counted in the macros are the edible part (skin and meat, no bone) of about 600 g of whole thighs as bought: yield varies with size."
+      }
+    },
+    {
+      "title": { "it": "Perché il lievito", "en": "Why baking powder" },
+      "text": {
+        "it": "Alza il pH della pelle e ne asciuga la superficie, che così si secca meglio in friggitrice invece di restare gommosa. Serve il lievito in polvere (baking powder), non il bicarbonato: in questa dose il bicarbonato lascerebbe un retrogusto metallico.",
+        "en": "It raises the skin's pH and dries its surface, so it crisps in the air fryer instead of staying rubbery. Use baking powder, not baking soda: at this dose baking soda would leave a metallic aftertaste."
+      }
+    },
+    {
+      "title": { "it": "Non sovrapporle", "en": "Don't stack them" },
+      "text": {
+        "it": "Cuoci in un solo strato, anche in due infornate se il cestello è piccolo: sovrapposte cuociono a vapore e la panatura non si asciuga.",
+        "en": "Cook in a single layer, in two batches if the basket is small: stacked, they steam instead of crisping and the coating stays damp."
+      }
+    },
+    {
+      "title": { "it": "Tempi e temperatura", "en": "Times and temperature" },
+      "text": {
+        "it": "195 °C è la conversione arrotondata di 385 °F: se la tua friggitrice segna in Fahrenheit usa quella. I tempi cambiano da un modello all'altro, controlla la cottura verso la fine.",
+        "en": "195 °C is the rounded conversion of 385 °F: use that if your air fryer reads in Fahrenheit. Times vary by model, check doneness near the end."
+      }
+    }
+  ]
+}
