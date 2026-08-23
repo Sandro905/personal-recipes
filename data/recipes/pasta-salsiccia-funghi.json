@@ -1,0 +1,128 @@
+{
+  "slug": "pasta-salsiccia-funghi",
+  "added": "2026-08-23",
+  "title": {
+    "it": "Pasta con salsiccia e funghi"
+  },
+  "summary": {
+    "it": "Salsiccia sbriciolata e funghi champignon, sfumati col vino bianco: un condimento rustico, senza panna, che si lega alla pasta con un po' della sua acqua di cottura."
+  },
+  "image": "assets/img/recipes/pasta-salsiccia-funghi.jpg",
+  "imageFocus": "center 45%",
+  "yield": {
+    "count": 2,
+    "label": { "it": "persone", "en": "people" }
+  },
+  "time": { "prep": 10, "cook": 25 },
+  "difficulty": "facile",
+  "cost": "economico",
+  "method": "padella",
+  "tags": ["salato", "primi", "pasta", "carne", "pranzo", "cena"],
+  "source": {
+    "name": "GialloZafferano",
+    "url": "https://ricette.giallozafferano.it/Trofie-salsiccia-e-funghi.html"
+  },
+  "ingredients": [
+    {
+      "section": null,
+      "items": [
+        {
+          "food": "pasta-secca",
+          "qty": 160,
+          "unit": "g",
+          "label": { "it": "pasta secca corta o lunga, a piacere" }
+        },
+        {
+          "food": "salsiccia",
+          "qty": 150,
+          "unit": "g",
+          "label": { "it": "salsiccia di maiale, spellata" }
+        },
+        {
+          "food": "funghi-champignon",
+          "qty": 200,
+          "unit": "g",
+          "label": { "it": "funghi champignon a fette" }
+        },
+        { "food": "aglio", "qty": 1, "unit": "spicchio" },
+        {
+          "food": "olio-oliva-evo",
+          "qty": 8,
+          "unit": "g",
+          "label": { "it": "olio extravergine d'oliva (2 cucchiaini)" }
+        },
+        { "food": "vino-bianco", "qty": 40, "unit": "ml" },
+        { "food": "prezzemolo", "qty": 1, "unit": "cucchiaio", "label": { "it": "prezzemolo tritato" } },
+        { "food": "grana-padano", "qty": 15, "unit": "g", "label": { "it": "grana padano grattugiato, per mantecare" } },
+        { "food": "sale", "unit": "qb" },
+        { "food": "pepe-nero", "unit": "qb" }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": { "it": "Sbriciolare la salsiccia" },
+      "text": {
+        "it": "Togli il budello e sbriciola grossolanamente {{salsiccia}} con le mani o una forchetta."
+      }
+    },
+    {
+      "title": { "it": "Rosolare" },
+      "text": {
+        "it": "Scalda {{olio-oliva-evo}} in padella con {{aglio}} in camicia leggermente schiacciato. Aggiungi la salsiccia sbriciolata e rosola a fuoco medio finché non è dorata, sgranandola bene."
+      },
+      "timer": 300
+    },
+    {
+      "title": { "it": "I funghi" },
+      "text": {
+        "it": "Unisci {{funghi-champignon}} e cuoci a fuoco vivace finché non rilasciano l'acqua e questa evapora quasi del tutto — se restano bagnati, il condimento viene slavato invece che rosolato."
+      },
+      "timer": 480
+    },
+    {
+      "title": { "it": "Sfumare" },
+      "text": {
+        "it": "Versa {{vino-bianco}} e lascia evaporare finché non senti più l'odore pungente dell'alcol. Togli l'aglio, sala e pepa."
+      }
+    },
+    {
+      "title": { "it": "La pasta" },
+      "text": {
+        "it": "Cuoci la {{pasta-secca}} in acqua salata, scolandola un minuto prima del tempo indicato in confezione. Tieni da parte un mestolo di acqua di cottura."
+      }
+    },
+    {
+      "title": { "it": "Mantecare" },
+      "text": {
+        "it": "Pasta in padella col condimento, un minuto mescolando e allungando con l'acqua di cottura se serve. Fuori dal fuoco aggiungi {{prezzemolo}} e {{grana-padano}}, mescola e servi con altro pepe."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "title": { "it": "Sulle dosi" },
+      "text": {
+        "it": "Adattata dalla ricetta originale (link sopra): meno salsiccia e niente panna, per restare un primo equilibrato invece che un piatto molto grasso. Se la vuoi più sostanziosa, sali fino a 200 g di salsiccia."
+      }
+    },
+    {
+      "title": { "it": "Il formato di pasta" },
+      "text": {
+        "it": "L'originale usa le trofie: qui va bene una pasta secca qualsiasi, corta o lunga. Un formato ruvido (come le trofie o le penne rigate) trattiene meglio il sugo."
+      }
+    },
+    {
+      "title": { "it": "I funghi" },
+      "text": {
+        "it": "Puliscili con un panno umido o una spazzola invece di lavarli sotto l'acqua: assorbono liquido e poi in padella lo rilasciano tutto insieme, allungando la cottura."
+      }
+    },
+    {
+      "title": { "it": "Occhio al sale" },
+      "text": {
+        "it": "La salsiccia e il grana sono già sapidi: assaggia prima di aggiungere altro sale, soprattutto nell'acqua della pasta."
+      }
+    }
+  ]
+}
