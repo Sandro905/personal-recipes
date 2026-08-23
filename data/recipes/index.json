@@ -8,7 +8,7 @@
         "it": "Pasta con salsiccia e funghi"
       },
       "summary": {
-        "it": "Salsiccia sbriciolata e funghi champignon, sfumati col vino bianco: un condimento rustico, senza panna, che si lega alla pasta con un po' della sua acqua di cottura."
+        "it": "Salsiccia sbriciolata e funghi champignon, sfumati col vino bianco e legati con un po' di panna: un condimento rustico, non troppo carico grazie alle dosi riviste."
       },
       "image": "assets/img/recipes/pasta-salsiccia-funghi.jpg",
       "imageFocus": "center 45%",
@@ -25,7 +25,7 @@
       "cost": "economico",
       "time": {
         "prep": 10,
-        "cook": 25
+        "cook": 27
       },
       "yield": {
         "count": 2,
@@ -34,11 +34,11 @@
           "en": "people"
         }
       },
-      "kcalPerServing": 618,
-      "coverage": 0.8,
+      "kcalPerServing": 787,
+      "coverage": 0.82,
       "search": {
-        "it": "Pasta con salsiccia e funghi · Salsiccia sbriciolata e funghi champignon, sfumati col vino bianco: un condimento rustico, senza panna, che si lega alla pasta con un po' della sua acqua di cottura. · pasta secca corta o lunga, a piacere pasta di semola secca · salsiccia di maiale, spellata salsiccia di maiale · funghi champignon a fette funghi champignon · aglio · olio extravergine d'oliva (2 cucchiaini) olio extravergine d'oliva · vino bianco · prezzemolo tritato prezzemolo · grana padano grattugiato, per mantecare grana padano grattugiato · sale fino · pepe nero macinato · Sbriciolare la salsiccia · Rosolare · I funghi · Sfumare · La pasta · Mantecare",
-        "en": "Pasta con salsiccia e funghi · Salsiccia sbriciolata e funghi champignon, sfumati col vino bianco: un condimento rustico, senza panna, che si lega alla pasta con un po' della sua acqua di cottura. · pasta secca corta o lunga, a piacere dried semolina pasta · salsiccia di maiale, spellata pork sausage · funghi champignon a fette button mushrooms · garlic · olio extravergine d'oliva (2 cucchiaini) extra virgin olive oil · white wine · prezzemolo tritato parsley · grana padano grattugiato, per mantecare grated Grana Padano · fine salt · ground black pepper · Sbriciolare la salsiccia · Rosolare · I funghi · Sfumare · La pasta · Mantecare"
+        "it": "Pasta con salsiccia e funghi · Salsiccia sbriciolata e funghi champignon, sfumati col vino bianco e legati con un po' di panna: un condimento rustico, non troppo carico grazie alle dosi riviste. · pasta secca corta o lunga, a piacere pasta di semola secca · salsiccia di maiale, spellata salsiccia di maiale · funghi champignon a fette funghi champignon · aglio · olio extravergine d'oliva (2 cucchiaini) olio extravergine d'oliva · vino bianco · panna fresca · prezzemolo tritato prezzemolo · grana padano grattugiato, per mantecare grana padano grattugiato · sale fino · pepe nero macinato · Sbriciolare la salsiccia · Rosolare · I funghi · Sfumare · La panna · La pasta · Mantecare",
+        "en": "Pasta con salsiccia e funghi · Salsiccia sbriciolata e funghi champignon, sfumati col vino bianco e legati con un po' di panna: un condimento rustico, non troppo carico grazie alle dosi riviste. · pasta secca corta o lunga, a piacere dried semolina pasta · salsiccia di maiale, spellata pork sausage · funghi champignon a fette button mushrooms · garlic · olio extravergine d'oliva (2 cucchiaini) extra virgin olive oil · white wine · heavy cream · prezzemolo tritato parsley · grana padano grattugiato, per mantecare grated Grana Padano · fine salt · ground black pepper · Sbriciolare la salsiccia · Rosolare · I funghi · Sfumare · La panna · La pasta · Mantecare"
       }
     },
     {
