@@ -5,7 +5,7 @@
     "it": "Pasta con salsiccia e funghi"
   },
   "summary": {
-    "it": "Salsiccia sbriciolata e funghi champignon, sfumati col vino bianco e legati con un po' di panna: un condimento rustico, non troppo carico grazie alle dosi riviste."
+    "it": "Salsiccia sbriciolata e funghi champignon, sfumati col vino bianco e legati con un po' di panna: un condimento rustico, senza esagerare con le dosi."
   },
   "image": "assets/img/recipes/pasta-salsiccia-funghi.jpg",
   "imageFocus": "center 45%",
@@ -111,13 +111,13 @@
     {
       "title": { "it": "Sulle dosi" },
       "text": {
-        "it": "Adattata dalla ricetta originale (link sopra): meno salsiccia e meno panna, per restare un primo equilibrato invece che un piatto molto grasso. Se la vuoi più sostanziosa, sali fino a 200 g di salsiccia."
+        "it": "Rispetto alla ricetta originale (link sopra) la salsiccia è ridotta e la panna è dosata con misura, per restare su un primo equilibrato invece che un piatto molto grasso. Se la vuoi più sostanziosa, sali fino a 200 g di salsiccia."
       }
     },
     {
       "title": { "it": "Più leggero" },
       "text": {
-        "it": "**Senza panna**: si lega solo con l'acqua di cottura della pasta, come nella prima versione di questa ricetta — risparmi circa **170 kcal e 17 g di grassi a porzione**. **Con la Philadelphia light al posto della panna** (stessa quantità, 100 g): il condimento resta cremoso e risparmi comunque circa **95 kcal e 12 g di grassi a porzione**; aggiungila a fuoco spento, mescolando finché non si scioglie, perché scalda meno bene della panna."
+        "it": "**Senza panna**: il condimento si lega solo con l'acqua di cottura della pasta — risparmi circa **170 kcal e 17 g di grassi a porzione**. **Con la Philadelphia light al posto della panna** (stessa quantità, 100 g): il condimento resta cremoso e risparmi comunque circa **95 kcal e 12 g di grassi a porzione**; aggiungila a fuoco spento, mescolando finché non si scioglie, perché scalda meno bene della panna."
       }
     },
     {

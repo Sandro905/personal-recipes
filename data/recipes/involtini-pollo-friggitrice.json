@@ -1,0 +1,134 @@
+{
+  "slug": "involtini-pollo-friggitrice",
+  "added": "2026-08-25",
+  "title": {
+    "it": "Involtini di pollo in friggitrice ad aria"
+  },
+  "summary": {
+    "it": "Prosciutto cotto e mozzarella arrotolati per primi, così il ripieno non esce in cottura, poi avvolti nel pollo e infilati su spiedini con foglie di alloro. Impanatura senza uovo: solo olio e pangrattato aromatizzato, poi friggitrice ad aria."
+  },
+  "image": "assets/img/recipes/involtini-pollo-friggitrice.jpg",
+  "imageFocus": "center 55%",
+  "yield": {
+    "count": 16,
+    "label": { "it": "involtini", "en": "chicken rolls" }
+  },
+  "time": { "prep": 15, "cook": 20 },
+  "difficulty": "molto-facile",
+  "cost": "economico",
+  "method": "friggitrice-ad-aria",
+  "tags": ["salato", "secondi", "pollo", "carne", "friggitrice-ad-aria", "finger-food", "proteico", "pranzo", "cena"],
+  "source": {
+    "name": "Tuorlo Rosso",
+    "url": "https://www.tuorlorosso.it/involtini-di-pollo-in-friggitrice-ad-aria/"
+  },
+  "ingredients": [
+    {
+      "section": { "it": "Per gli involtini" },
+      "items": [
+        {
+          "food": "petto-pollo",
+          "qty": 500,
+          "unit": "g",
+          "label": { "it": "petto di pollo a fettine sottili (16 fette, circa 500 g totali)" }
+        },
+        {
+          "food": "prosciutto-cotto",
+          "qty": 150,
+          "unit": "g",
+          "label": { "it": "prosciutto cotto a fette" }
+        },
+        {
+          "food": "mozzarella",
+          "qty": 150,
+          "unit": "g",
+          "label": { "it": "mozzarella, ben sgocciolata" }
+        },
+        { "food": "alloro", "qty": 8, "unit": "foglia" }
+      ]
+    },
+    {
+      "section": { "it": "Per la panatura" },
+      "items": [
+        {
+          "food": "pangrattato",
+          "qty": 120,
+          "unit": "g"
+        },
+        { "food": "sale", "unit": "qb" },
+        { "food": "origano", "unit": "qb" }
+      ]
+    },
+    {
+      "section": { "it": "Per la cottura" },
+      "items": [
+        { "food": "olio-oliva-evo", "unit": "qb" }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": { "it": "Il ripieno" },
+      "text": {
+        "it": "Prendi una fetta di {{prosciutto-cotto}}, metti al centro un po' di {{mozzarella}} e avvolgila: si forma un piccolo rotolo. Fatto così, la mozzarella non esce fondendo in cottura."
+      }
+    },
+    {
+      "title": { "it": "Formare gli involtini" },
+      "text": {
+        "it": "Posiziona il rotolino di prosciutto e mozzarella al centro di una fettina sottile di {{petto-pollo}} e avvolgi il pollo tutt'intorno, racchiudendo bene il ripieno."
+      }
+    },
+    {
+      "title": { "it": "Infilare sugli spiedini" },
+      "text": {
+        "it": "Man mano che li formi, infila gli involtini su spiedini di legno alternandoli con foglie di {{alloro}}. Continua finché non hai finito pollo e ripieno."
+      }
+    },
+    {
+      "title": { "it": "Aromatizzare il pangrattato" },
+      "text": {
+        "it": "Mescola {{pangrattato}} con {{sale}} e {{origano}} in un piatto."
+      }
+    },
+    {
+      "title": { "it": "Impanare" },
+      "text": {
+        "it": "Passa gli involtini prima in {{olio-oliva-evo}}, facendo colare l'eccesso, poi nel pangrattato aromatizzato: gira e premi con le mani finché non aderisce su tutta la superficie."
+      }
+    },
+    {
+      "title": { "it": "Cuocere" },
+      "text": {
+        "it": "Disponi gli spiedini nel cestello della friggitrice ad aria e cospargi con altro {{olio-oliva-evo}} spray. Cuoci a 180 °C per 20 minuti, finché sono dorati, gratinati e con l'anima filante."
+      },
+      "timer": 1200
+    }
+  ],
+  "notes": [
+    {
+      "title": { "it": "Non esagerare col ripieno" },
+      "text": {
+        "it": "Se ne metti troppo, fai fatica a chiudere l'involtino attorno al ripieno."
+      }
+    },
+    {
+      "title": { "it": "Altri ripieni" },
+      "text": {
+        "it": "Prosciutto e mozzarella è il ripieno più semplice, ma puoi farcire come preferisci."
+      }
+    },
+    {
+      "title": { "it": "Sul pangrattato" },
+      "text": {
+        "it": "La quantità non è indicata nella ricetta originale: 120 g bastano per impanare bene tutti gli involtini, con un po' di scarto normale nel passaggio."
+      }
+    },
+    {
+      "title": { "it": "Conservazione" },
+      "text": {
+        "it": "2-3 giorni in frigorifero, in un contenitore ermetico."
+      }
+    }
+  ]
+}

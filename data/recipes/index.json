@@ -1,6 +1,49 @@
 {
-  "count": 34,
+  "count": 35,
   "recipes": [
+    {
+      "slug": "involtini-pollo-friggitrice",
+      "added": "2026-08-25",
+      "title": {
+        "it": "Involtini di pollo in friggitrice ad aria"
+      },
+      "summary": {
+        "it": "Prosciutto cotto e mozzarella arrotolati per primi, così il ripieno non esce in cottura, poi avvolti nel pollo e infilati su spiedini con foglie di alloro. Impanatura senza uovo: solo olio e pangrattato aromatizzato, poi friggitrice ad aria."
+      },
+      "image": "assets/img/recipes/involtini-pollo-friggitrice.jpg",
+      "imageFocus": "center 55%",
+      "tags": [
+        "salato",
+        "secondi",
+        "pollo",
+        "carne",
+        "friggitrice-ad-aria",
+        "finger-food",
+        "proteico",
+        "pranzo",
+        "cena"
+      ],
+      "method": "friggitrice-ad-aria",
+      "difficulty": "molto-facile",
+      "cost": "economico",
+      "time": {
+        "prep": 15,
+        "cook": 20
+      },
+      "yield": {
+        "count": 16,
+        "label": {
+          "it": "involtini",
+          "en": "chicken rolls"
+        }
+      },
+      "kcalPerServing": 105,
+      "coverage": 0.63,
+      "search": {
+        "it": "Involtini di pollo in friggitrice ad aria · Prosciutto cotto e mozzarella arrotolati per primi, così il ripieno non esce in cottura, poi avvolti nel pollo e infilati su spiedini con foglie di alloro. Impanatura senza uovo: solo olio e pangrattato aromatizzato, poi friggitrice ad aria. · petto di pollo a fettine sottili (16 fette, circa 500 g totali) petto di pollo · prosciutto cotto a fette prosciutto cotto · mozzarella, ben sgocciolata mozzarella · alloro · pangrattato · sale fino · origano · olio extravergine d'oliva · Il ripieno · Formare gli involtini · Infilare sugli spiedini · Aromatizzare il pangrattato · Impanare · Cuocere",
+        "en": "Involtini di pollo in friggitrice ad aria · Prosciutto cotto e mozzarella arrotolati per primi, così il ripieno non esce in cottura, poi avvolti nel pollo e infilati su spiedini con foglie di alloro. Impanatura senza uovo: solo olio e pangrattato aromatizzato, poi friggitrice ad aria. · petto di pollo a fettine sottili (16 fette, circa 500 g totali) chicken breast · prosciutto cotto a fette cooked ham · mozzarella, ben sgocciolata mozzarella · bay leaf · breadcrumbs · fine salt · oregano · extra virgin olive oil · Il ripieno · Formare gli involtini · Infilare sugli spiedini · Aromatizzare il pangrattato · Impanare · Cuocere"
+      }
+    },
     {
       "slug": "pasta-salsiccia-funghi",
       "added": "2026-08-23",
@@ -8,7 +51,7 @@
         "it": "Pasta con salsiccia e funghi"
       },
       "summary": {
-        "it": "Salsiccia sbriciolata e funghi champignon, sfumati col vino bianco e legati con un po' di panna: un condimento rustico, non troppo carico grazie alle dosi riviste."
+        "it": "Salsiccia sbriciolata e funghi champignon, sfumati col vino bianco e legati con un po' di panna: un condimento rustico, senza esagerare con le dosi."
       },
       "image": "assets/img/recipes/pasta-salsiccia-funghi.jpg",
       "imageFocus": "center 45%",
@@ -37,8 +80,8 @@
       "kcalPerServing": 787,
       "coverage": 0.82,
       "search": {
-        "it": "Pasta con salsiccia e funghi · Salsiccia sbriciolata e funghi champignon, sfumati col vino bianco e legati con un po' di panna: un condimento rustico, non troppo carico grazie alle dosi riviste. · pasta secca corta o lunga, a piacere pasta di semola secca · salsiccia di maiale, spellata salsiccia di maiale · funghi champignon a fette funghi champignon · aglio · olio extravergine d'oliva (2 cucchiaini) olio extravergine d'oliva · vino bianco · panna fresca · prezzemolo tritato prezzemolo · grana padano grattugiato, per mantecare grana padano grattugiato · sale fino · pepe nero macinato · Sbriciolare la salsiccia · Rosolare · I funghi · Sfumare · La panna · La pasta · Mantecare",
-        "en": "Pasta con salsiccia e funghi · Salsiccia sbriciolata e funghi champignon, sfumati col vino bianco e legati con un po' di panna: un condimento rustico, non troppo carico grazie alle dosi riviste. · pasta secca corta o lunga, a piacere dried semolina pasta · salsiccia di maiale, spellata pork sausage · funghi champignon a fette button mushrooms · garlic · olio extravergine d'oliva (2 cucchiaini) extra virgin olive oil · white wine · heavy cream · prezzemolo tritato parsley · grana padano grattugiato, per mantecare grated Grana Padano · fine salt · ground black pepper · Sbriciolare la salsiccia · Rosolare · I funghi · Sfumare · La panna · La pasta · Mantecare"
+        "it": "Pasta con salsiccia e funghi · Salsiccia sbriciolata e funghi champignon, sfumati col vino bianco e legati con un po' di panna: un condimento rustico, senza esagerare con le dosi. · pasta secca corta o lunga, a piacere pasta di semola secca · salsiccia di maiale, spellata salsiccia di maiale · funghi champignon a fette funghi champignon · aglio · olio extravergine d'oliva (2 cucchiaini) olio extravergine d'oliva · vino bianco · panna fresca · prezzemolo tritato prezzemolo · grana padano grattugiato, per mantecare grana padano grattugiato · sale fino · pepe nero macinato · Sbriciolare la salsiccia · Rosolare · I funghi · Sfumare · La panna · La pasta · Mantecare",
+        "en": "Pasta con salsiccia e funghi · Salsiccia sbriciolata e funghi champignon, sfumati col vino bianco e legati con un po' di panna: un condimento rustico, senza esagerare con le dosi. · pasta secca corta o lunga, a piacere dried semolina pasta · salsiccia di maiale, spellata pork sausage · funghi champignon a fette button mushrooms · garlic · olio extravergine d'oliva (2 cucchiaini) extra virgin olive oil · white wine · heavy cream · prezzemolo tritato parsley · grana padano grattugiato, per mantecare grated Grana Padano · fine salt · ground black pepper · Sbriciolare la salsiccia · Rosolare · I funghi · Sfumare · La panna · La pasta · Mantecare"
       }
     },
     {
