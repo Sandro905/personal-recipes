@@ -8,7 +8,7 @@
         "it": "Involtini di pollo in friggitrice ad aria"
       },
       "summary": {
-        "it": "Fesine di petto di pollo arrotolate su prosciutto cotto e scamorza, impanate e cotte in friggitrice ad aria: fuori croccanti, dentro il cuore filante."
+        "it": "Prosciutto cotto e mozzarella arrotolati per primi, così il ripieno non esce in cottura, poi avvolti nel pollo e infilati su spiedini con foglie di alloro. Impanatura senza uovo: solo olio e pangrattato aromatizzato, poi friggitrice ad aria."
       },
       "image": "assets/img/recipes/involtini-pollo-friggitrice.jpg",
       "imageFocus": "center 55%",
@@ -24,24 +24,24 @@
         "cena"
       ],
       "method": "friggitrice-ad-aria",
-      "difficulty": "facile",
+      "difficulty": "molto-facile",
       "cost": "economico",
       "time": {
-        "prep": 20,
-        "cook": 17
+        "prep": 15,
+        "cook": 20
       },
       "yield": {
-        "count": 4,
+        "count": 16,
         "label": {
           "it": "involtini",
           "en": "chicken rolls"
         }
       },
-      "kcalPerServing": 493,
-      "coverage": 0.73,
+      "kcalPerServing": 105,
+      "coverage": 0.63,
       "search": {
-        "it": "Involtini di pollo in friggitrice ad aria · Fesine di petto di pollo arrotolate su prosciutto cotto e scamorza, impanate e cotte in friggitrice ad aria: fuori croccanti, dentro il cuore filante. · petto di pollo a fettine sottili (4 fesine) petto di pollo · prosciutto cotto a fette (4 fette) prosciutto cotto · scamorza a listarelle, per il cuore filante scamorza · sale fino · pepe nero macinato · farina 00, per infarinare farina 00 · uova · pangrattato · grana padano grattugiato, nella panatura grana padano grattugiato · timo, fresco o secco timo · olio extravergine d'oliva spray olio extravergine d'oliva · Battere le fesine · Farcire e arrotolare · Preparare la panatura · Impanare · Cuocere",
-        "en": "Involtini di pollo in friggitrice ad aria · Fesine di petto di pollo arrotolate su prosciutto cotto e scamorza, impanate e cotte in friggitrice ad aria: fuori croccanti, dentro il cuore filante. · petto di pollo a fettine sottili (4 fesine) chicken breast · prosciutto cotto a fette (4 fette) cooked ham · scamorza a listarelle, per il cuore filante scamorza cheese · fine salt · ground black pepper · farina 00, per infarinare type-00 wheat flour · eggs · breadcrumbs · grana padano grattugiato, nella panatura grated Grana Padano · timo, fresco o secco thyme · olio extravergine d'oliva spray extra virgin olive oil · Battere le fesine · Farcire e arrotolare · Preparare la panatura · Impanare · Cuocere"
+        "it": "Involtini di pollo in friggitrice ad aria · Prosciutto cotto e mozzarella arrotolati per primi, così il ripieno non esce in cottura, poi avvolti nel pollo e infilati su spiedini con foglie di alloro. Impanatura senza uovo: solo olio e pangrattato aromatizzato, poi friggitrice ad aria. · petto di pollo a fettine sottili (16 fette, circa 500 g totali) petto di pollo · prosciutto cotto a fette prosciutto cotto · mozzarella, ben sgocciolata mozzarella · alloro · pangrattato · sale fino · origano · olio extravergine d'oliva · Il ripieno · Formare gli involtini · Infilare sugli spiedini · Aromatizzare il pangrattato · Impanare · Cuocere",
+        "en": "Involtini di pollo in friggitrice ad aria · Prosciutto cotto e mozzarella arrotolati per primi, così il ripieno non esce in cottura, poi avvolti nel pollo e infilati su spiedini con foglie di alloro. Impanatura senza uovo: solo olio e pangrattato aromatizzato, poi friggitrice ad aria. · petto di pollo a fettine sottili (16 fette, circa 500 g totali) chicken breast · prosciutto cotto a fette cooked ham · mozzarella, ben sgocciolata mozzarella · bay leaf · breadcrumbs · fine salt · oregano · extra virgin olive oil · Il ripieno · Formare gli involtini · Infilare sugli spiedini · Aromatizzare il pangrattato · Impanare · Cuocere"
       }
     },
     {

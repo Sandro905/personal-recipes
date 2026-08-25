@@ -5,16 +5,16 @@
     "it": "Involtini di pollo in friggitrice ad aria"
   },
   "summary": {
-    "it": "Fesine di petto di pollo arrotolate su prosciutto cotto e scamorza, impanate e cotte in friggitrice ad aria: fuori croccanti, dentro il cuore filante."
+    "it": "Prosciutto cotto e mozzarella arrotolati per primi, così il ripieno non esce in cottura, poi avvolti nel pollo e infilati su spiedini con foglie di alloro. Impanatura senza uovo: solo olio e pangrattato aromatizzato, poi friggitrice ad aria."
   },
   "image": "assets/img/recipes/involtini-pollo-friggitrice.jpg",
   "imageFocus": "center 55%",
   "yield": {
-    "count": 4,
+    "count": 16,
     "label": { "it": "involtini", "en": "chicken rolls" }
   },
-  "time": { "prep": 20, "cook": 17 },
-  "difficulty": "facile",
+  "time": { "prep": 15, "cook": 20 },
+  "difficulty": "molto-facile",
   "cost": "economico",
   "method": "friggitrice-ad-aria",
   "tags": ["salato", "secondi", "pollo", "carne", "friggitrice-ad-aria", "finger-food", "proteico", "pranzo", "cena"],
@@ -30,118 +30,104 @@
           "food": "petto-pollo",
           "qty": 500,
           "unit": "g",
-          "label": { "it": "petto di pollo a fettine sottili (4 fesine)" }
+          "label": { "it": "petto di pollo a fettine sottili (16 fette, circa 500 g totali)" }
         },
         {
           "food": "prosciutto-cotto",
-          "qty": 80,
+          "qty": 150,
           "unit": "g",
-          "label": { "it": "prosciutto cotto a fette (4 fette)" }
+          "label": { "it": "prosciutto cotto a fette" }
         },
         {
-          "food": "scamorza",
-          "qty": 120,
+          "food": "mozzarella",
+          "qty": 150,
           "unit": "g",
-          "label": { "it": "scamorza a listarelle, per il cuore filante" }
+          "label": { "it": "mozzarella, ben sgocciolata" }
         },
-        { "food": "sale", "unit": "qb" },
-        { "food": "pepe-nero", "unit": "qb" }
+        { "food": "alloro", "qty": 8, "unit": "foglia" }
       ]
     },
     {
       "section": { "it": "Per la panatura" },
       "items": [
         {
-          "food": "farina-00",
-          "qty": 30,
-          "unit": "g",
-          "label": { "it": "farina 00, per infarinare" }
+          "food": "pangrattato",
+          "qty": 120,
+          "unit": "g"
         },
-        { "food": "uova", "qty": 2, "unit": "pz" },
-        { "food": "pangrattato", "qty": 100, "unit": "g" },
-        {
-          "food": "grana-padano",
-          "qty": 30,
-          "unit": "g",
-          "label": { "it": "grana padano grattugiato, nella panatura" }
-        },
-        { "food": "timo", "unit": "qb", "label": { "it": "timo, fresco o secco" } }
+        { "food": "sale", "unit": "qb" },
+        { "food": "origano", "unit": "qb" }
       ]
     },
     {
       "section": { "it": "Per la cottura" },
       "items": [
-        {
-          "food": "olio-oliva-evo",
-          "qty": 1,
-          "unit": "cucchiaio",
-          "label": { "it": "olio extravergine d'oliva spray" }
-        }
+        { "food": "olio-oliva-evo", "unit": "qb" }
       ]
     }
   ],
   "steps": [
     {
-      "title": { "it": "Battere le fesine" },
+      "title": { "it": "Il ripieno" },
       "text": {
-        "it": "Metti {{petto-pollo}} tra due fogli di pellicola e battile con il batticarne fino a uno spessore uniforme di mezzo centimetro. Sala e pepa da entrambi i lati."
+        "it": "Prendi una fetta di {{prosciutto-cotto}}, metti al centro un po' di {{mozzarella}} e avvolgila: si forma un piccolo rotolo. Fatto così, la mozzarella non esce fondendo in cottura."
       }
     },
     {
-      "title": { "it": "Farcire e arrotolare" },
+      "title": { "it": "Formare gli involtini" },
       "text": {
-        "it": "Su ogni fesina appoggia una fetta di {{prosciutto-cotto}} e un po' di {{scamorza}} a listarelle. Arrotola stretto partendo da un lato corto e ferma con uno stecchino, oppure chiudi la giuntura premendo bene: deve restare sotto quando adagi l'involtino."
+        "it": "Posiziona il rotolino di prosciutto e mozzarella al centro di una fettina sottile di {{petto-pollo}} e avvolgi il pollo tutt'intorno, racchiudendo bene il ripieno."
       }
     },
     {
-      "title": { "it": "Preparare la panatura" },
+      "title": { "it": "Infilare sugli spiedini" },
       "text": {
-        "it": "Mescola {{pangrattato}}, {{grana-padano}} e {{timo}} sbriciolato in un piatto."
+        "it": "Man mano che li formi, infila gli involtini su spiedini di legno alternandoli con foglie di {{alloro}}. Continua finché non hai finito pollo e ripieno."
+      }
+    },
+    {
+      "title": { "it": "Aromatizzare il pangrattato" },
+      "text": {
+        "it": "Mescola {{pangrattato}} con {{sale}} e {{origano}} in un piatto."
       }
     },
     {
       "title": { "it": "Impanare" },
       "text": {
-        "it": "Passa ogni involtino prima in {{farina-00}} scuotendo l'eccesso, poi in {{uova}} sbattute, infine nella panatura, premendo bene perché aderisca su tutta la superficie."
+        "it": "Passa gli involtini prima in {{olio-oliva-evo}}, facendo colare l'eccesso, poi nel pangrattato aromatizzato: gira e premi con le mani finché non aderisce su tutta la superficie."
       }
     },
     {
       "title": { "it": "Cuocere" },
       "text": {
-        "it": "Disponi gli involtini nel cestello con la giuntura verso il basso, distanziati, e spruzza con {{olio-oliva-evo}}. Cuoci a 190 °C per 15-18 minuti, girandoli e spruzzando di nuovo a metà cottura, finché sono dorati e croccanti."
+        "it": "Disponi gli spiedini nel cestello della friggitrice ad aria e cospargi con altro {{olio-oliva-evo}} spray. Cuoci a 180 °C per 20 minuti, finché sono dorati, gratinati e con l'anima filante."
       },
-      "timer": 1020
+      "timer": 1200
     }
   ],
   "notes": [
     {
-      "title": { "it": "Sigillare bene" },
+      "title": { "it": "Non esagerare col ripieno" },
       "text": {
-        "it": "Se la giuntura non tiene, la scamorza esce in cottura e si brucia sul fondo del cestello. Arrotola stretto e, se non usi lo stecchino, premi bene il lembo finale prima di infarinare."
+        "it": "Se ne metti troppo, fai fatica a chiudere l'involtino attorno al ripieno."
       }
     },
     {
-      "title": { "it": "Verificare la cottura" },
+      "title": { "it": "Altri ripieni" },
       "text": {
-        "it": "Essendo arrotolato, il pollo è più spesso al centro: se hai un termometro, punta ai 74 °C nel punto più carnoso. In alternativa, taglia a metà l'involtino più grande e controlla che non sia più rosa."
+        "it": "Prosciutto e mozzarella è il ripieno più semplice, ma puoi farcire come preferisci."
       }
     },
     {
-      "title": { "it": "Stecchini" },
+      "title": { "it": "Sul pangrattato" },
       "text": {
-        "it": "Contali quando li metti e quando li togli prima di servire: è facile lasciarne uno dentro."
+        "it": "La quantità non è indicata nella ricetta originale: 120 g bastano per impanare bene tutti gli involtini, con un po' di scarto normale nel passaggio."
       }
     },
     {
-      "title": { "it": "Altri formaggi" },
+      "title": { "it": "Conservazione" },
       "text": {
-        "it": "Al posto della scamorza vanno bene fontina o provola, per un risultato più leggero due sottilette a involtino."
-      }
-    },
-    {
-      "title": { "it": "Congelare" },
-      "text": {
-        "it": "Si possono congelare **impanati e crudi**, non cotti. Si cuociono direttamente da surgelati in friggitrice, allungando la cottura di qualche minuto."
+        "it": "2-3 giorni in frigorifero, in un contenitore ermetico."
       }
     }
   ]
