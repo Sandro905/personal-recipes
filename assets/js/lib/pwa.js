@@ -108,7 +108,7 @@ async function registra(t) {
 
   // Una copia nuova può essere già pronta da una visita precedente.
   if (registrazione.waiting && navigator.serviceWorker.controller) {
-    proponiAggiornamento(t, registrazione.waiting);
+    proponiAggiornamento(t, registrazione);
   }
 
   registrazione.addEventListener('updatefound', () => {
@@ -128,7 +128,7 @@ async function registra(t) {
       // secondo è ancora lì in attesa, allora è cambiato il sito davvero.
       setTimeout(() => {
         if (nuovo.state === 'installed' && registrazione.waiting === nuovo) {
-          proponiAggiornamento(t, nuovo);
+          proponiAggiornamento(t, registrazione);
         }
       }, 1000);
     });
@@ -145,14 +145,31 @@ async function registra(t) {
   });
 }
 
-function proponiAggiornamento(t, worker) {
-  avviso({
+// Solo un avviso di aggiornamento alla volta: se un secondo aggiornamento
+// arriva mentre il primo è ancora lì (capita con più commit ravvicinati), il
+// vecchio va chiuso invece di restare appeso a un worker ormai superato.
+let chiudiAvvisoAggiornamento = null;
+
+function proponiAggiornamento(t, registrazione) {
+  chiudiAvvisoAggiornamento?.();
+  chiudiAvvisoAggiornamento = avviso({
     text: t('pwa.updateReady'),
     action: t('pwa.updateAction'),
     closeLabel: t('nav.close'),
     onAction: () => {
+      // Non il worker catturato al momento della creazione dell'avviso: nel
+      // frattempo può essere diventato "redundant" (sostituito da un
+      // aggiornamento successivo), e mandargli un messaggio non farebbe
+      // niente. Quello davvero in attesa ora è sempre registrazione.waiting.
+      const inAttesa = registrazione.waiting;
+      if (!inAttesa) {
+        // Già subentrato da solo nel frattempo: non c'è nessuno a cui
+        // chiedere lo scambio, si ricarica e basta.
+        location.reload();
+        return;
+      }
       ricaricaAttesa = true;
-      worker.postMessage({ type: 'SKIP_WAITING' });
+      inAttesa.postMessage({ type: 'SKIP_WAITING' });
     }
   });
 }
