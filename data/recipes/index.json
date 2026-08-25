@@ -1,6 +1,49 @@
 {
-  "count": 34,
+  "count": 35,
   "recipes": [
+    {
+      "slug": "involtini-pollo-friggitrice",
+      "added": "2026-08-25",
+      "title": {
+        "it": "Involtini di pollo in friggitrice ad aria"
+      },
+      "summary": {
+        "it": "Fesine di petto di pollo arrotolate su prosciutto cotto e scamorza, impanate e cotte in friggitrice ad aria: fuori croccanti, dentro il cuore filante."
+      },
+      "image": "assets/img/recipes/involtini-pollo-friggitrice.jpg",
+      "imageFocus": "center 55%",
+      "tags": [
+        "salato",
+        "secondi",
+        "pollo",
+        "carne",
+        "friggitrice-ad-aria",
+        "finger-food",
+        "proteico",
+        "pranzo",
+        "cena"
+      ],
+      "method": "friggitrice-ad-aria",
+      "difficulty": "facile",
+      "cost": "economico",
+      "time": {
+        "prep": 20,
+        "cook": 17
+      },
+      "yield": {
+        "count": 4,
+        "label": {
+          "it": "involtini",
+          "en": "chicken rolls"
+        }
+      },
+      "kcalPerServing": 493,
+      "coverage": 0.73,
+      "search": {
+        "it": "Involtini di pollo in friggitrice ad aria · Fesine di petto di pollo arrotolate su prosciutto cotto e scamorza, impanate e cotte in friggitrice ad aria: fuori croccanti, dentro il cuore filante. · petto di pollo a fettine sottili (4 fesine) petto di pollo · prosciutto cotto a fette (4 fette) prosciutto cotto · scamorza a listarelle, per il cuore filante scamorza · sale fino · pepe nero macinato · farina 00, per infarinare farina 00 · uova · pangrattato · grana padano grattugiato, nella panatura grana padano grattugiato · timo, fresco o secco timo · olio extravergine d'oliva spray olio extravergine d'oliva · Battere le fesine · Farcire e arrotolare · Preparare la panatura · Impanare · Cuocere",
+        "en": "Involtini di pollo in friggitrice ad aria · Fesine di petto di pollo arrotolate su prosciutto cotto e scamorza, impanate e cotte in friggitrice ad aria: fuori croccanti, dentro il cuore filante. · petto di pollo a fettine sottili (4 fesine) chicken breast · prosciutto cotto a fette (4 fette) cooked ham · scamorza a listarelle, per il cuore filante scamorza cheese · fine salt · ground black pepper · farina 00, per infarinare type-00 wheat flour · eggs · breadcrumbs · grana padano grattugiato, nella panatura grated Grana Padano · timo, fresco o secco thyme · olio extravergine d'oliva spray extra virgin olive oil · Battere le fesine · Farcire e arrotolare · Preparare la panatura · Impanare · Cuocere"
+      }
+    },
     {
       "slug": "pasta-salsiccia-funghi",
       "added": "2026-08-23",

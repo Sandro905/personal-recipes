@@ -1,0 +1,148 @@
+{
+  "slug": "involtini-pollo-friggitrice",
+  "added": "2026-08-25",
+  "title": {
+    "it": "Involtini di pollo in friggitrice ad aria"
+  },
+  "summary": {
+    "it": "Fesine di petto di pollo arrotolate su prosciutto cotto e scamorza, impanate e cotte in friggitrice ad aria: fuori croccanti, dentro il cuore filante."
+  },
+  "image": "assets/img/recipes/involtini-pollo-friggitrice.jpg",
+  "imageFocus": "center 55%",
+  "yield": {
+    "count": 4,
+    "label": { "it": "involtini", "en": "chicken rolls" }
+  },
+  "time": { "prep": 20, "cook": 17 },
+  "difficulty": "facile",
+  "cost": "economico",
+  "method": "friggitrice-ad-aria",
+  "tags": ["salato", "secondi", "pollo", "carne", "friggitrice-ad-aria", "finger-food", "proteico", "pranzo", "cena"],
+  "source": {
+    "name": "Tuorlo Rosso",
+    "url": "https://www.tuorlorosso.it/involtini-di-pollo-in-friggitrice-ad-aria/"
+  },
+  "ingredients": [
+    {
+      "section": { "it": "Per gli involtini" },
+      "items": [
+        {
+          "food": "petto-pollo",
+          "qty": 500,
+          "unit": "g",
+          "label": { "it": "petto di pollo a fettine sottili (4 fesine)" }
+        },
+        {
+          "food": "prosciutto-cotto",
+          "qty": 80,
+          "unit": "g",
+          "label": { "it": "prosciutto cotto a fette (4 fette)" }
+        },
+        {
+          "food": "scamorza",
+          "qty": 120,
+          "unit": "g",
+          "label": { "it": "scamorza a listarelle, per il cuore filante" }
+        },
+        { "food": "sale", "unit": "qb" },
+        { "food": "pepe-nero", "unit": "qb" }
+      ]
+    },
+    {
+      "section": { "it": "Per la panatura" },
+      "items": [
+        {
+          "food": "farina-00",
+          "qty": 30,
+          "unit": "g",
+          "label": { "it": "farina 00, per infarinare" }
+        },
+        { "food": "uova", "qty": 2, "unit": "pz" },
+        { "food": "pangrattato", "qty": 100, "unit": "g" },
+        {
+          "food": "grana-padano",
+          "qty": 30,
+          "unit": "g",
+          "label": { "it": "grana padano grattugiato, nella panatura" }
+        },
+        { "food": "timo", "unit": "qb", "label": { "it": "timo, fresco o secco" } }
+      ]
+    },
+    {
+      "section": { "it": "Per la cottura" },
+      "items": [
+        {
+          "food": "olio-oliva-evo",
+          "qty": 1,
+          "unit": "cucchiaio",
+          "label": { "it": "olio extravergine d'oliva spray" }
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": { "it": "Battere le fesine" },
+      "text": {
+        "it": "Metti {{petto-pollo}} tra due fogli di pellicola e battile con il batticarne fino a uno spessore uniforme di mezzo centimetro. Sala e pepa da entrambi i lati."
+      }
+    },
+    {
+      "title": { "it": "Farcire e arrotolare" },
+      "text": {
+        "it": "Su ogni fesina appoggia una fetta di {{prosciutto-cotto}} e un po' di {{scamorza}} a listarelle. Arrotola stretto partendo da un lato corto e ferma con uno stecchino, oppure chiudi la giuntura premendo bene: deve restare sotto quando adagi l'involtino."
+      }
+    },
+    {
+      "title": { "it": "Preparare la panatura" },
+      "text": {
+        "it": "Mescola {{pangrattato}}, {{grana-padano}} e {{timo}} sbriciolato in un piatto."
+      }
+    },
+    {
+      "title": { "it": "Impanare" },
+      "text": {
+        "it": "Passa ogni involtino prima in {{farina-00}} scuotendo l'eccesso, poi in {{uova}} sbattute, infine nella panatura, premendo bene perché aderisca su tutta la superficie."
+      }
+    },
+    {
+      "title": { "it": "Cuocere" },
+      "text": {
+        "it": "Disponi gli involtini nel cestello con la giuntura verso il basso, distanziati, e spruzza con {{olio-oliva-evo}}. Cuoci a 190 °C per 15-18 minuti, girandoli e spruzzando di nuovo a metà cottura, finché sono dorati e croccanti."
+      },
+      "timer": 1020
+    }
+  ],
+  "notes": [
+    {
+      "title": { "it": "Sigillare bene" },
+      "text": {
+        "it": "Se la giuntura non tiene, la scamorza esce in cottura e si brucia sul fondo del cestello. Arrotola stretto e, se non usi lo stecchino, premi bene il lembo finale prima di infarinare."
+      }
+    },
+    {
+      "title": { "it": "Verificare la cottura" },
+      "text": {
+        "it": "Essendo arrotolato, il pollo è più spesso al centro: se hai un termometro, punta ai 74 °C nel punto più carnoso. In alternativa, taglia a metà l'involtino più grande e controlla che non sia più rosa."
+      }
+    },
+    {
+      "title": { "it": "Stecchini" },
+      "text": {
+        "it": "Contali quando li metti e quando li togli prima di servire: è facile lasciarne uno dentro."
+      }
+    },
+    {
+      "title": { "it": "Altri formaggi" },
+      "text": {
+        "it": "Al posto della scamorza vanno bene fontina o provola, per un risultato più leggero due sottilette a involtino."
+      }
+    },
+    {
+      "title": { "it": "Congelare" },
+      "text": {
+        "it": "Si possono congelare **impanati e crudi**, non cotti. Si cuociono direttamente da surgelati in friggitrice, allungando la cottura di qualche minuto."
+      }
+    }
+  ]
+}

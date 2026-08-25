@@ -1,10 +1,10 @@
 // GENERATO da scripts/build-sw.mjs — non modificarlo a mano.
 // Sorgente: scripts/sw-runtime.js · rigenera con `npm run build`.
 
-const VERSION = 'a1d110aa75';
+const VERSION = 'e77fc6ed18';
 const CODICE = '420ec0ffff';
 
-// Guscio: HTML, stile, codice, font, icone e dati. ~543 KB,
+// Guscio: HTML, stile, codice, font, icone e dati. ~550 KB,
 // salvato tutto insieme all'installazione. Se manca un pezzo l'installazione
 // fallisce e resta attiva la versione precedente: mai una copia a metà.
 const SHELL = [
@@ -44,6 +44,7 @@ const SHELL = [
   './data/recipes/hot-pocket-manzo.json',
   './data/recipes/index.json',
   './data/recipes/involtini-manzo-prosciutto.json',
+  './data/recipes/involtini-pollo-friggitrice.json',
   './data/recipes/lasagna-ragu-manzo.json',
   './data/recipes/merluzzo-forno-patate.json',
   './data/recipes/mousse-proteica-cioccolato.json',
@@ -68,7 +69,7 @@ const SHELL = [
   './data/recipes/wrap-pollo-speziato.json'
 ];
 
-// Foto: ~6.9 MB. Stanno in una cache a parte che sopravvive
+// Foto: ~7 MB. Stanno in una cache a parte che sopravvive
 // agli aggiornamenti; l'impronta dice quali sono davvero cambiate.
 const MEDIA = {
   './assets/img/recipes/alette-pollo-forno-patate.jpg': '586e1eb542785521',
@@ -85,6 +86,7 @@ const MEDIA = {
   './assets/img/recipes/gnocchi-sorrentina-friggitrice.jpg': 'b1cd809aaa49e9e8',
   './assets/img/recipes/hot-pocket-manzo.jpg': '459710e4207265df',
   './assets/img/recipes/involtini-manzo-prosciutto.jpg': 'a8b86eb0c4efa10e',
+  './assets/img/recipes/involtini-pollo-friggitrice.jpg': '902255353e08e75e',
   './assets/img/recipes/lasagna-ragu-manzo.jpg': '97338bc1c8462c64',
   './assets/img/recipes/merluzzo-forno-patate.jpg': 'd7171a2f95c50ca9',
   './assets/img/recipes/mousse-proteica-cioccolato.jpg': '5bea0a180d48d562',
