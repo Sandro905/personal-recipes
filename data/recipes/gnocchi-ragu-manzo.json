@@ -1,0 +1,215 @@
+{
+  "slug": "gnocchi-ragu-manzo",
+  "added": "2026-08-26",
+  "title": {
+    "it": "Gnocchi al ragù di manzo"
+  },
+  "summary": {
+    "it": "Gnocchi di patate comprati, lessati appena e conditi con un ragù classico: soffritto di cipolla, carota e sedano, macinato di manzo rosolato, sfumato al vino rosso e ristretto lentamente nel pomodoro."
+  },
+  "image": "assets/img/recipes/gnocchi-ragu-manzo.jpg",
+  "imageFocus": "center 55%",
+  "yield": {
+    "count": 1,
+    "label": {
+      "it": "porzione",
+      "en": "serving"
+    }
+  },
+  "time": {
+    "prep": 15,
+    "cook": 50
+  },
+  "difficulty": "facile",
+  "cost": "economico",
+  "method": "padella",
+  "tags": [
+    "salato",
+    "primi",
+    "pasta",
+    "manzo",
+    "carne",
+    "padella",
+    "pranzo",
+    "cena",
+    "congelabile"
+  ],
+  "ingredients": [
+    {
+      "section": {
+        "it": "Per il ragù"
+      },
+      "items": [
+        {
+          "food": "macinato-manzo-magro",
+          "qty": 100,
+          "unit": "g"
+        },
+        {
+          "food": "cipolla",
+          "qty": 50,
+          "unit": "g",
+          "label": {
+            "it": "cipolla piccola (½)"
+          }
+        },
+        {
+          "food": "carota",
+          "qty": 35,
+          "unit": "g",
+          "label": {
+            "it": "carota (½)"
+          }
+        },
+        {
+          "food": "sedano",
+          "qty": 30,
+          "unit": "g",
+          "label": {
+            "it": "gambo di sedano (½)"
+          }
+        },
+        {
+          "food": "olio-oliva-evo",
+          "qty": 10,
+          "unit": "g",
+          "label": {
+            "it": "olio extravergine d'oliva (1 cucchiaio)"
+          }
+        },
+        {
+          "food": "vino-rosso",
+          "qty": 30,
+          "unit": "ml"
+        },
+        {
+          "food": "pomodori-pelati",
+          "qty": 200,
+          "unit": "g",
+          "label": {
+            "it": "pomodori pelati, schiacciati"
+          }
+        },
+        {
+          "food": "concentrato-pomodoro",
+          "qty": 10,
+          "unit": "g"
+        },
+        {
+          "food": "alloro",
+          "qty": 1,
+          "unit": "foglia"
+        },
+        {
+          "food": "sale",
+          "unit": "qb"
+        },
+        {
+          "food": "pepe-nero",
+          "unit": "qb"
+        }
+      ]
+    },
+    {
+      "section": {
+        "it": "Per gli gnocchi"
+      },
+      "items": [
+        {
+          "food": "gnocchi-patate",
+          "qty": 200,
+          "unit": "g",
+          "label": {
+            "it": "gnocchi di patate (confezione da banco frigo)"
+          }
+        },
+        {
+          "food": "grana-padano",
+          "qty": 15,
+          "unit": "g",
+          "label": {
+            "it": "grana padano o parmigiano, per servire"
+          }
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": {
+        "it": "Soffritto"
+      },
+      "text": {
+        "it": "Trita finemente {{cipolla}}, {{carota}} e {{sedano}}. Falli appassire in {{olio-oliva-evo}} a fuoco dolce per 5 minuti, senza colorirli."
+      },
+      "timer": 300
+    },
+    {
+      "title": {
+        "it": "Rosolare la carne"
+      },
+      "text": {
+        "it": "Alza la fiamma e aggiungi {{macinato-manzo-magro}}. Sgranalo bene con il cucchiaio e rosolalo finché non è più rosa."
+      }
+    },
+    {
+      "title": {
+        "it": "Sfumare"
+      },
+      "text": {
+        "it": "Versa il {{vino-rosso}} e lascia evaporare finché non senti più l'odore pungente dell'alcol."
+      }
+    },
+    {
+      "title": {
+        "it": "Il pomodoro"
+      },
+      "text": {
+        "it": "Aggiungi {{pomodori-pelati}} schiacciati, {{concentrato-pomodoro}}, {{alloro}}, sale e pepe. Copri e cuoci a fuoco basso **35-40 minuti**, mescolando ogni tanto e aggiungendo un goccio d'acqua se si asciuga troppo: deve restare denso, non liquido."
+      },
+      "timer": 2100
+    },
+    {
+      "title": {
+        "it": "Gli gnocchi"
+      },
+      "text": {
+        "it": "Togli l'alloro. Porta a bollore l'acqua salata e versa {{gnocchi-patate}}: sono pronti appena vengono a galla, bastano pochi istanti. Tirali su con la schiumarola direttamente nel ragù, senza scolarli nello scolapasta."
+      }
+    },
+    {
+      "title": {
+        "it": "Mantecare e servire"
+      },
+      "text": {
+        "it": "Mescola piano un attimo perché il condimento avvolga ogni gnocco senza romperli. Impiatta e finisci con {{grana-padano}} e una macinata di pepe."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "title": {
+        "it": "Gnocchi comprati, non fatti in casa"
+      },
+      "text": {
+        "it": "Quelli freschi da banco frigo vanno lessati pochissimo: appena affiorano sono cotti. Più stanno in acqua, più si sfaldano — meglio toglierli un attimo prima che dopo."
+      }
+    },
+    {
+      "title": {
+        "it": "Fai il triplo"
+      },
+      "text": {
+        "it": "Il ragù si moltiplica bene: cambia solo il tempo del soffritto, non quello di cottura. Porta le porzioni a più persone con il selettore qui sopra."
+      }
+    },
+    {
+      "title": {
+        "it": "Il ragù si congela"
+      },
+      "text": {
+        "it": "Da solo, senza gnocchi, regge il freezer in porzioni da ~200 g fino a **2-3 mesi**. Scongelalo in frigo la notte prima e scaldalo piano mentre lessi gli gnocchi."
+      }
+    }
+  ]
+}

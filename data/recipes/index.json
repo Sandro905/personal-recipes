@@ -1,6 +1,49 @@
 {
-  "count": 35,
+  "count": 36,
   "recipes": [
+    {
+      "slug": "gnocchi-ragu-manzo",
+      "added": "2026-08-26",
+      "title": {
+        "it": "Gnocchi al ragù di manzo"
+      },
+      "summary": {
+        "it": "Gnocchi di patate comprati, lessati appena e conditi con un ragù classico: soffritto di cipolla, carota e sedano, macinato di manzo rosolato, sfumato al vino rosso e ristretto lentamente nel pomodoro."
+      },
+      "image": "assets/img/recipes/gnocchi-ragu-manzo.jpg",
+      "imageFocus": "center 55%",
+      "tags": [
+        "salato",
+        "primi",
+        "pasta",
+        "manzo",
+        "carne",
+        "padella",
+        "pranzo",
+        "cena",
+        "congelabile"
+      ],
+      "method": "padella",
+      "difficulty": "facile",
+      "cost": "economico",
+      "time": {
+        "prep": 15,
+        "cook": 50
+      },
+      "yield": {
+        "count": 1,
+        "label": {
+          "it": "porzione",
+          "en": "serving"
+        }
+      },
+      "kcalPerServing": 716,
+      "coverage": 0.85,
+      "search": {
+        "it": "Gnocchi al ragù di manzo · Gnocchi di patate comprati, lessati appena e conditi con un ragù classico: soffritto di cipolla, carota e sedano, macinato di manzo rosolato, sfumato al vino rosso e ristretto lentamente nel pomodoro. · macinato di manzo magro · cipolla piccola (½) cipolla · carota (½) carote · gambo di sedano (½) sedano · olio extravergine d'oliva (1 cucchiaio) olio extravergine d'oliva · vino rosso · pomodori pelati, schiacciati pomodori pelati · concentrato di pomodoro · alloro · sale fino · pepe nero macinato · gnocchi di patate (confezione da banco frigo) gnocchi di patate · grana padano o parmigiano, per servire grana padano grattugiato · Soffritto · Rosolare la carne · Sfumare · Il pomodoro · Gli gnocchi · Mantecare e servire",
+        "en": "Gnocchi al ragù di manzo · Gnocchi di patate comprati, lessati appena e conditi con un ragù classico: soffritto di cipolla, carota e sedano, macinato di manzo rosolato, sfumato al vino rosso e ristretto lentamente nel pomodoro. · lean ground beef · cipolla piccola (½) onion · carota (½) carrots · gambo di sedano (½) celery · olio extravergine d'oliva (1 cucchiaio) extra virgin olive oil · red wine · pomodori pelati, schiacciati peeled tomatoes · tomato purée · bay leaf · fine salt · ground black pepper · gnocchi di patate (confezione da banco frigo) potato gnocchi · grana padano o parmigiano, per servire grated Grana Padano · Soffritto · Rosolare la carne · Sfumare · Il pomodoro · Gli gnocchi · Mantecare e servire"
+      }
+    },
     {
       "slug": "involtini-pollo-friggitrice",
       "added": "2026-08-25",
