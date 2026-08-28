@@ -1,10 +1,10 @@
 // GENERATO da scripts/build-sw.mjs — non modificarlo a mano.
 // Sorgente: scripts/sw-runtime.js · rigenera con `npm run build`.
 
-const VERSION = '54e2901bfc';
+const VERSION = 'bb2d54d65d';
 const CODICE = '0256a5583c';
 
-// Guscio: HTML, stile, codice, font, icone e dati. ~558 KB,
+// Guscio: HTML, stile, codice, font, icone e dati. ~566 KB,
 // salvato tutto insieme all'installazione. Se manca un pezzo l'installazione
 // fallisce e resta attiva la versione precedente: mai una copia a metà.
 const SHELL = [
@@ -41,6 +41,7 @@ const SHELL = [
   './data/recipes/frittata-pane-pomodoro.json',
   './data/recipes/fusi-pollo-forno-patate.json',
   './data/recipes/gnocchi-ragu-manzo.json',
+  './data/recipes/gnocchi-salsiccia-funghi.json',
   './data/recipes/gnocchi-sorrentina-friggitrice.json',
   './data/recipes/hot-pocket-manzo.json',
   './data/recipes/index.json',
@@ -70,7 +71,7 @@ const SHELL = [
   './data/recipes/wrap-pollo-speziato.json'
 ];
 
-// Foto: ~7 MB. Stanno in una cache a parte che sopravvive
+// Foto: ~7.2 MB. Stanno in una cache a parte che sopravvive
 // agli aggiornamenti; l'impronta dice quali sono davvero cambiate.
 const MEDIA = {
   './assets/img/recipes/alette-pollo-forno-patate.jpg': '586e1eb542785521',
@@ -85,6 +86,7 @@ const MEDIA = {
   './assets/img/recipes/frittata-pane-pomodoro.jpg': '96b10453bc9d1451',
   './assets/img/recipes/fusi-pollo-forno-patate.jpg': 'e5933714e11fb092',
   './assets/img/recipes/gnocchi-ragu-manzo.jpg': '3fabdbae78c358f9',
+  './assets/img/recipes/gnocchi-salsiccia-funghi.jpg': 'e454ead686a41d0b',
   './assets/img/recipes/gnocchi-sorrentina-friggitrice.jpg': 'b1cd809aaa49e9e8',
   './assets/img/recipes/hot-pocket-manzo.jpg': '459710e4207265df',
   './assets/img/recipes/involtini-manzo-prosciutto.jpg': 'a8b86eb0c4efa10e',

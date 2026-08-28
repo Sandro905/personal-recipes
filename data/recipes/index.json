@@ -1,5 +1,5 @@
 {
-  "count": 36,
+  "count": 37,
   "recipes": [
     {
       "slug": "gnocchi-ragu-manzo",
@@ -42,6 +42,47 @@
       "search": {
         "it": "Gnocchi al ragù di manzo · Gnocchi di patate comprati, lessati appena e conditi con un ragù classico: soffritto di cipolla, carota e sedano, macinato di manzo rosolato, sfumato al vino rosso e ristretto lentamente nel pomodoro. · macinato di manzo magro · cipolla piccola (½) cipolla · carota (½) carote · gambo di sedano (½) sedano · olio extravergine d'oliva (1 cucchiaio) olio extravergine d'oliva · vino rosso · pomodori pelati, schiacciati pomodori pelati · concentrato di pomodoro · alloro · sale fino · pepe nero macinato · gnocchi di patate (confezione da banco frigo) gnocchi di patate · grana padano o parmigiano, per servire grana padano grattugiato · Soffritto · Rosolare la carne · Sfumare · Il pomodoro · Gli gnocchi · Mantecare e servire",
         "en": "Gnocchi al ragù di manzo · Gnocchi di patate comprati, lessati appena e conditi con un ragù classico: soffritto di cipolla, carota e sedano, macinato di manzo rosolato, sfumato al vino rosso e ristretto lentamente nel pomodoro. · lean ground beef · cipolla piccola (½) onion · carota (½) carrots · gambo di sedano (½) celery · olio extravergine d'oliva (1 cucchiaio) extra virgin olive oil · red wine · pomodori pelati, schiacciati peeled tomatoes · tomato purée · bay leaf · fine salt · ground black pepper · gnocchi di patate (confezione da banco frigo) potato gnocchi · grana padano o parmigiano, per servire grated Grana Padano · Soffritto · Rosolare la carne · Sfumare · Il pomodoro · Gli gnocchi · Mantecare e servire"
+      }
+    },
+    {
+      "slug": "gnocchi-salsiccia-funghi",
+      "added": "2026-08-26",
+      "title": {
+        "it": "Gnocchi con salsiccia e funghi"
+      },
+      "summary": {
+        "it": "Gnocchi di patate comprati, conditi con un sugo rustico di salsiccia sbriciolata e funghi, sfumato al vino bianco e legato con concentrato di pomodoro e alloro."
+      },
+      "image": "assets/img/recipes/gnocchi-salsiccia-funghi.jpg",
+      "imageFocus": "center 50%",
+      "tags": [
+        "salato",
+        "primi",
+        "pasta",
+        "carne",
+        "padella",
+        "pranzo",
+        "cena"
+      ],
+      "method": "padella",
+      "difficulty": "facile",
+      "cost": "economico",
+      "time": {
+        "prep": 10,
+        "cook": 25
+      },
+      "yield": {
+        "count": 2,
+        "label": {
+          "it": "persone",
+          "en": "people"
+        }
+      },
+      "kcalPerServing": 724,
+      "coverage": 0.73,
+      "search": {
+        "it": "Gnocchi con salsiccia e funghi · Gnocchi di patate comprati, conditi con un sugo rustico di salsiccia sbriciolata e funghi, sfumato al vino bianco e legato con concentrato di pomodoro e alloro. · salsiccia di maiale, spellata salsiccia di maiale · funghi champignon a pezzetti funghi champignon · scalogno (1 piccolo) scalogno · olio extravergine d'oliva (1 cucchiaio) olio extravergine d'oliva · vino bianco · concentrato di pomodoro · alloro · prezzemolo tritato prezzemolo · sale fino · pepe nero macinato · gnocchi di patate (confezione da banco frigo) gnocchi di patate · Rosolare lo scalogno · La salsiccia · I funghi · Sfumare · Il concentrato · Gli gnocchi · Mantecare e servire",
+        "en": "Gnocchi con salsiccia e funghi · Gnocchi di patate comprati, conditi con un sugo rustico di salsiccia sbriciolata e funghi, sfumato al vino bianco e legato con concentrato di pomodoro e alloro. · salsiccia di maiale, spellata pork sausage · funghi champignon a pezzetti button mushrooms · scalogno (1 piccolo) shallot · olio extravergine d'oliva (1 cucchiaio) extra virgin olive oil · white wine · tomato purée · bay leaf · prezzemolo tritato parsley · fine salt · ground black pepper · gnocchi di patate (confezione da banco frigo) potato gnocchi · Rosolare lo scalogno · La salsiccia · I funghi · Sfumare · Il concentrato · Gli gnocchi · Mantecare e servire"
       }
     },
     {
