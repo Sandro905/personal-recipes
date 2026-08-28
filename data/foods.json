@@ -2138,6 +2138,26 @@
         "db": "manual"
       }
     },
+    "scalogno": {
+      "name": {
+        "it": "scalogno",
+        "en": "shallot"
+      },
+      "category": "verdure",
+      "per100g": {
+        "kcal": 72,
+        "protein": 2.5,
+        "carbs": 16.8,
+        "fat": 0.1,
+        "fiber": 3.2,
+        "sugars": 7.9,
+        "salt": 0.03
+      },
+      "pieceWeight": 25,
+      "source": {
+        "db": "manual"
+      }
+    },
     "concentrato-pomodoro": {
       "name": {
         "it": "concentrato di pomodoro",

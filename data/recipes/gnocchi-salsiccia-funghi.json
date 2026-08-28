@@ -1,0 +1,223 @@
+{
+  "slug": "gnocchi-salsiccia-funghi",
+  "added": "2026-08-26",
+  "title": {
+    "it": "Gnocchi con salsiccia e funghi"
+  },
+  "summary": {
+    "it": "Gnocchi di patate comprati, conditi con un sugo rustico di salsiccia sbriciolata e funghi, sfumato al vino bianco e legato con concentrato di pomodoro e alloro."
+  },
+  "image": "assets/img/recipes/gnocchi-salsiccia-funghi.jpg",
+  "imageFocus": "center 50%",
+  "yield": {
+    "count": 2,
+    "label": {
+      "it": "persone",
+      "en": "people"
+    }
+  },
+  "time": {
+    "prep": 10,
+    "cook": 25
+  },
+  "difficulty": "facile",
+  "cost": "economico",
+  "method": "padella",
+  "tags": [
+    "salato",
+    "primi",
+    "pasta",
+    "carne",
+    "padella",
+    "pranzo",
+    "cena"
+  ],
+  "source": {
+    "name": "Ricetta.it",
+    "url": "https://www.ricetta.it"
+  },
+  "ingredients": [
+    {
+      "section": {
+        "it": "Per il sugo"
+      },
+      "items": [
+        {
+          "food": "salsiccia",
+          "qty": 200,
+          "unit": "g",
+          "label": {
+            "it": "salsiccia di maiale, spellata"
+          }
+        },
+        {
+          "food": "funghi-champignon",
+          "qty": 160,
+          "unit": "g",
+          "label": {
+            "it": "funghi champignon a pezzetti"
+          },
+          "note": {
+            "it": "al posto dei 40 g di funghi secchi ammollati della ricetta originale"
+          }
+        },
+        {
+          "food": "scalogno",
+          "qty": 20,
+          "unit": "g",
+          "label": {
+            "it": "scalogno (1 piccolo)"
+          }
+        },
+        {
+          "food": "olio-oliva-evo",
+          "qty": 10,
+          "unit": "g",
+          "label": {
+            "it": "olio extravergine d'oliva (1 cucchiaio)"
+          }
+        },
+        {
+          "food": "vino-bianco",
+          "qty": 30,
+          "unit": "ml"
+        },
+        {
+          "food": "concentrato-pomodoro",
+          "qty": 40,
+          "unit": "g"
+        },
+        {
+          "food": "alloro",
+          "qty": 1,
+          "unit": "foglia"
+        },
+        {
+          "food": "prezzemolo",
+          "unit": "qb",
+          "label": {
+            "it": "prezzemolo tritato"
+          }
+        },
+        {
+          "food": "sale",
+          "unit": "qb"
+        },
+        {
+          "food": "pepe-nero",
+          "unit": "qb"
+        }
+      ]
+    },
+    {
+      "section": {
+        "it": "Per gli gnocchi"
+      },
+      "items": [
+        {
+          "food": "gnocchi-patate",
+          "qty": 400,
+          "unit": "g",
+          "label": {
+            "it": "gnocchi di patate (confezione da banco frigo)"
+          }
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": {
+        "it": "Rosolare lo scalogno"
+      },
+      "text": {
+        "it": "Scalda {{olio-oliva-evo}} in padella e fai appassire {{scalogno}} tritato finemente, finché non è morbido."
+      }
+    },
+    {
+      "title": {
+        "it": "La salsiccia"
+      },
+      "text": {
+        "it": "Togli il budello e aggiungi {{salsiccia}} sbriciolandola con il cucchiaio. Rosola a fuoco medio finché non è dorata, sgranandola bene."
+      },
+      "timer": 300
+    },
+    {
+      "title": {
+        "it": "I funghi"
+      },
+      "text": {
+        "it": "Taglia a pezzetti {{funghi-champignon}} e uniscili alla salsiccia. Cuoci a fuoco vivace finché non rilasciano l'acqua e questa evapora quasi del tutto."
+      },
+      "timer": 480
+    },
+    {
+      "title": {
+        "it": "Sfumare"
+      },
+      "text": {
+        "it": "Versa il {{vino-bianco}} e lascia evaporare finché non senti più l'odore pungente dell'alcol."
+      }
+    },
+    {
+      "title": {
+        "it": "Il concentrato"
+      },
+      "text": {
+        "it": "Aggiungi {{concentrato-pomodoro}}, {{alloro}}, sale e pepe, allungando con un mestolino d'acqua perché il concentrato si sciolga. Copri e cuoci a fuoco basso **10-15 minuti**, mescolando ogni tanto."
+      },
+      "timer": 900
+    },
+    {
+      "title": {
+        "it": "Gli gnocchi"
+      },
+      "text": {
+        "it": "Togli l'alloro. Porta a bollore l'acqua salata e versa {{gnocchi-patate}}: sono pronti appena vengono a galla, bastano pochi istanti. Tirali su con la schiumarola direttamente nel sugo."
+      }
+    },
+    {
+      "title": {
+        "it": "Mantecare e servire"
+      },
+      "text": {
+        "it": "Mescola piano perché il sugo avvolga ogni gnocco senza romperli. Aggiungi {{prezzemolo}} fresco e servi, a piacere con altro prezzemolo."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "title": {
+        "it": "Gnocchi comprati, non fatti in casa"
+      },
+      "text": {
+        "it": "La ricetta originale prevede l'impasto di patate, farina e uovo: qui si usano gnocchi già pronti da banco frigo, lessati pochissimo — appena affiorano sono cotti."
+      }
+    },
+    {
+      "title": {
+        "it": "Funghi freschi al posto dei secchi"
+      },
+      "text": {
+        "it": "160 g di champignon freschi sostituiscono i 40 g di funghi secchi ammollati dell'originale: stessa resa in padella, senza tempi di ammollo. Se preferisci i secchi, ammollali in acqua tiepida 20-30 minuti e usa un po' della loro acqua di ammollo al posto del mestolino aggiunto al concentrato."
+      }
+    },
+    {
+      "title": {
+        "it": "Sullo scalogno"
+      },
+      "text": {
+        "it": "Ha un sapore più delicato e dolce della cipolla: se non lo trovi, sostituiscilo con mezza cipolla piccola."
+      }
+    },
+    {
+      "title": {
+        "it": "Il sugo si congela"
+      },
+      "text": {
+        "it": "Senza gnocchi, regge il freezer fino a **2-3 mesi**. Scongelalo in frigo la notte prima e scaldalo piano mentre lessi gli gnocchi."
+      }
+    }
+  ]
+}
