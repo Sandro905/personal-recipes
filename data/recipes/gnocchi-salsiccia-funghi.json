@@ -34,7 +34,7 @@
   ],
   "source": {
     "name": "Ricetta.it",
-    "url": "https://www.ricetta.it"
+    "url": "https://ricetta.it/gnocchi-salsiccia-e-funghi"
   },
   "ingredients": [
     {
@@ -56,9 +56,6 @@
           "unit": "g",
           "label": {
             "it": "funghi champignon a pezzetti"
-          },
-          "note": {
-            "it": "al posto dei 40 g di funghi secchi ammollati della ricetta originale"
           }
         },
         {
@@ -192,15 +189,15 @@
         "it": "Gnocchi comprati, non fatti in casa"
       },
       "text": {
-        "it": "La ricetta originale prevede l'impasto di patate, farina e uovo: qui si usano gnocchi già pronti da banco frigo, lessati pochissimo — appena affiorano sono cotti."
+        "it": "Quelli freschi da banco frigo vanno lessati pochissimo: appena affiorano sono cotti. Più stanno in acqua, più si sfaldano — meglio toglierli un attimo prima che dopo."
       }
     },
     {
       "title": {
-        "it": "Funghi freschi al posto dei secchi"
+        "it": "Funghi secchi, se preferisci"
       },
       "text": {
-        "it": "160 g di champignon freschi sostituiscono i 40 g di funghi secchi ammollati dell'originale: stessa resa in padella, senza tempi di ammollo. Se preferisci i secchi, ammollali in acqua tiepida 20-30 minuti e usa un po' della loro acqua di ammollo al posto del mestolino aggiunto al concentrato."
+        "it": "Al posto dei champignon freschi puoi usare circa 40 g di funghi secchi: ammollali in acqua tiepida 20-30 minuti, tritali e usa un po' della loro acqua di ammollo per sciogliere il concentrato di pomodoro."
       }
     },
     {

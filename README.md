@@ -130,6 +130,11 @@ occorrenza. La validazione controlla che ogni segnaposto esista.
 `bicchiere` `tazza` · `pz` (usa `pieceWeight` dell'alimento) · `qb` (quanto basta, esclusa
 dalle macro) · le unità specifiche dell'alimento (`bustina`, `spicchio`, `foglia`, `cubetto`).
 
+**Il tono delle note.** Scrivile come consigli per chi cucina, non come changelog di
+un adattamento: niente «rispetto alla ricetta originale…», «qui è stato ridotto/sostituito…»
+o confronti con la fonte da cui la ricetta è presa. Se la ricetta è adattata da un'altra
+fonte, questa va citata in `source` — non ripetuta o commentata nelle note.
+
 ### Le foto
 
 Vanno in `assets/img/recipes/`, con il nome che **combacia con lo slug**:
