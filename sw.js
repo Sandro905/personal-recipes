@@ -1,7 +1,7 @@
 // GENERATO da scripts/build-sw.mjs — non modificarlo a mano.
 // Sorgente: scripts/sw-runtime.js · rigenera con `npm run build`.
 
-const VERSION = 'bb2d54d65d';
+const VERSION = '796338bb72';
 const CODICE = '0256a5583c';
 
 // Guscio: HTML, stile, codice, font, icone e dati. ~566 KB,
