@@ -63,7 +63,9 @@
     <a class="backlink" id="back" href="index.html">Tutte le ricette</a>
 
     <figure class="recipe-photo" id="photo" hidden>
-      <img id="photoImg" alt="">
+      <button class="recipe-photo__btn" id="photoBtn" type="button">
+        <img id="photoImg" alt="">
+      </button>
     </figure>
 
     <div class="recipe-head">
@@ -163,6 +165,16 @@
     <ul class="macrolist" id="ingredientMacrosList"></ul>
     <p class="footnote" id="ingredientMacrosNote"></p>
   </div>
+</dialog>
+
+<dialog class="lightbox" id="lightbox">
+  <div class="lightbox__bar">
+    <span class="lightbox__count" id="lightboxCount"></span>
+    <button class="btn btn--icon lightbox__close" id="lightboxClose" type="button"></button>
+  </div>
+  <div class="lightbox__track" id="lightboxTrack"></div>
+  <button class="lightbox__nav lightbox__nav--prev" id="lightboxPrev" type="button"></button>
+  <button class="lightbox__nav lightbox__nav--next" id="lightboxNext" type="button"></button>
 </dialog>
 
 <script type="module" src="assets/js/recipe.js"></script>

@@ -419,6 +419,93 @@ function timerWidget(seconds, i, t) {
   return box;
 }
 
+/* ---------- carosello foto ---------- */
+
+// tutte le foto della ricetta (principale + procedimento), in un unico ordine:
+// riempito da renderHead, letto dal carosello a schermo intero
+let lightboxSlides = [];
+let lightboxIndex = 0;
+
+function renderLightboxSlides() {
+  document.getElementById('lightboxTrack').replaceChildren(
+    ...lightboxSlides.map((slide, i) =>
+      el('figure', { class: 'lightbox__slide' }, [
+        el('img', { src: slide.image, alt: slide.caption ?? '', loading: i === 0 ? 'eager' : 'lazy' }),
+        slide.caption && el('figcaption', { text: slide.caption })
+      ])
+    )
+  );
+}
+
+function updateLightboxChrome() {
+  const t = state.t;
+  document.getElementById('lightboxCount').textContent =
+    lightboxSlides.length > 1 ? t('recipe.lightboxCount', { n: lightboxIndex + 1, total: lightboxSlides.length }) : '';
+  document.getElementById('lightboxPrev').hidden = lightboxSlides.length <= 1;
+  document.getElementById('lightboxNext').hidden = lightboxSlides.length <= 1;
+  document.getElementById('lightboxPrev').disabled = lightboxIndex <= 0;
+  document.getElementById('lightboxNext').disabled = lightboxIndex >= lightboxSlides.length - 1;
+}
+
+function goToSlide(index, behavior = 'smooth') {
+  const track = document.getElementById('lightboxTrack');
+  const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  lightboxIndex = Math.max(0, Math.min(lightboxSlides.length - 1, index));
+  track.scrollTo({ left: lightboxIndex * track.clientWidth, behavior: reduceMotion ? 'instant' : behavior });
+  updateLightboxChrome();
+}
+
+function openLightbox(index) {
+  if (!lightboxSlides.length) return;
+  renderLightboxSlides();
+  document.getElementById('lightbox').showModal();
+  // il track ha larghezza 0 finché il dialog non è nel layout: si aspetta
+  // il frame successivo, senza animazione, per non far vedere lo scorrimento
+  requestAnimationFrame(() => goToSlide(index, 'instant'));
+}
+
+function wireLightbox() {
+  const t = state.t;
+  const dialog = document.getElementById('lightbox');
+  const track = document.getElementById('lightboxTrack');
+  const close = document.getElementById('lightboxClose');
+  const prev = document.getElementById('lightboxPrev');
+  const next = document.getElementById('lightboxNext');
+
+  close.innerHTML = icons.close;
+  close.setAttribute('aria-label', t('nav.close'));
+  prev.innerHTML = icons.back;
+  prev.setAttribute('aria-label', t('recipe.lightboxPrev'));
+  next.innerHTML = icons.back;
+  next.setAttribute('aria-label', t('recipe.lightboxNext'));
+
+  close.addEventListener('click', () => dialog.close());
+  prev.addEventListener('click', () => goToSlide(lightboxIndex - 1));
+  next.addEventListener('click', () => goToSlide(lightboxIndex + 1));
+
+  // clic sullo sfondo: chiude, come gli altri dialog della pagina
+  dialog.addEventListener('click', (event) => {
+    if (event.target === dialog) dialog.close();
+  });
+
+  dialog.addEventListener('keydown', (event) => {
+    if (event.key === 'ArrowLeft') goToSlide(lightboxIndex - 1);
+    else if (event.key === 'ArrowRight') goToSlide(lightboxIndex + 1);
+  });
+
+  // lo swipe è la via principale sul telefono: si segue lo scorrimento
+  // per tenere allineati contatore e frecce, invece di intercettare il tocco
+  let raf = null;
+  track.addEventListener('scroll', () => {
+    cancelAnimationFrame(raf);
+    raf = requestAnimationFrame(() => {
+      const width = track.clientWidth || 1;
+      lightboxIndex = Math.round(track.scrollLeft / width);
+      updateLightboxChrome();
+    });
+  }, { passive: true });
+}
+
 /* ---------- testata e note ---------- */
 
 function renderHead() {
@@ -438,6 +525,7 @@ function renderHead() {
     photoImg.alt = tr(recipe.title, lang);
     photoImg.style.objectPosition = recipe.imageFocus ?? '';
     photo.hidden = false;
+    document.getElementById('photoBtn').onclick = () => openLightbox(0);
   } else {
     photo.hidden = true;
   }
@@ -464,13 +552,25 @@ function renderHead() {
   } else source.hidden = true;
 
   const gallery = recipe.gallery ?? [];
+
+  // il carosello a schermo intero riunisce foto principale e procedimento,
+  // in ordine: cliccando una foto si scorrono tutte, non solo la sua galleria
+  const mainOffset = recipe.image ? 1 : 0;
+  lightboxSlides = [
+    recipe.image && { image: recipe.image, caption: tr(recipe.title, lang) },
+    ...gallery.map((shot) => ({ image: shot.image, caption: tr(shot.caption, lang) }))
+  ].filter(Boolean);
+
   const gallerySection = document.getElementById('gallerySection');
   if (gallery.length) {
     document.getElementById('galleryTitle').textContent = t('recipe.gallery');
     document.getElementById('photogrid').replaceChildren(
-      ...gallery.map((shot) =>
+      ...gallery.map((shot, i) =>
         el('li', {}, [
-          el('a', { href: shot.image, target: '_blank', rel: 'noreferrer noopener' }, [
+          el('button', {
+            class: 'photogrid__btn', type: 'button',
+            onclick: () => openLightbox(mainOffset + i)
+          }, [
             el('img', { src: shot.image, alt: tr(shot.caption, lang) ?? '', loading: 'lazy' })
           ]),
           tr(shot.caption, lang) && el('p', { text: tr(shot.caption, lang) })
@@ -573,6 +673,7 @@ async function main() {
   initPWA({ t: state.t });
   renderHead();
   wireControls();
+  wireLightbox();
 }
 
 main().catch((error) => {
