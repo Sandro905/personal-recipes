@@ -1,6 +1,47 @@
 {
-  "count": 37,
+  "count": 38,
   "recipes": [
+    {
+      "slug": "pizzette-padella-veloci",
+      "added": "2026-09-10",
+      "title": {
+        "it": "Pizzette in padella veloci"
+      },
+      "summary": {
+        "it": "Impasto morbido senza lievitazione lunga, steso in dischi e cotto in padella col coperchio: pomodoro, mozzarella e origano, pronte in poco più di venti minuti senza accendere il forno."
+      },
+      "image": "assets/img/recipes/pizzette-padella-veloci.jpg",
+      "imageFocus": null,
+      "tags": [
+        "salato",
+        "padella",
+        "lievitati",
+        "senza-forno",
+        "veloce",
+        "finger-food"
+      ],
+      "method": "padella",
+      "difficulty": "molto-facile",
+      "cost": "economico",
+      "time": {
+        "prep": 15,
+        "rest": 20,
+        "cook": 7
+      },
+      "yield": {
+        "count": 6,
+        "label": {
+          "it": "pizzette",
+          "en": "mini pizzas"
+        }
+      },
+      "kcalPerServing": 297,
+      "coverage": 0.67,
+      "search": {
+        "it": "Pizzette in padella veloci · Impasto morbido senza lievitazione lunga, steso in dischi e cotto in padella col coperchio: pomodoro, mozzarella e origano, pronte in poco più di venti minuti senza accendere il forno. · farina 00 · acqua · olio extravergine d'oliva · lievito istantaneo per preparazioni salate lievito istantaneo per preparazioni salate · 2 pizzichi sale fino · passata di pomodoro · mozzarella · origano secco origano · un filo, a crudo olio extravergine d'oliva · L'impasto · Riposo e dischi · In padella · Mozzarella e coperchio · Fuori dal fuoco",
+        "en": "Pizzette in padella veloci · Impasto morbido senza lievitazione lunga, steso in dischi e cotto in padella col coperchio: pomodoro, mozzarella e origano, pronte in poco più di venti minuti senza accendere il forno. · type-00 wheat flour · water · extra virgin olive oil · lievito istantaneo per preparazioni salate instant baking powder (savoury) · 2 pizzichi fine salt · tomato passata · mozzarella · origano secco oregano · un filo, a crudo extra virgin olive oil · L'impasto · Riposo e dischi · In padella · Mozzarella e coperchio · Fuori dal fuoco"
+      }
+    },
     {
       "slug": "gnocchi-ragu-manzo",
       "added": "2026-08-26",
