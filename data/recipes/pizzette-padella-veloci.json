@@ -1,0 +1,118 @@
+{
+  "slug": "pizzette-padella-veloci",
+  "added": "2026-09-10",
+  "title": {
+    "it": "Pizzette in padella veloci"
+  },
+  "summary": {
+    "it": "Impasto morbido senza lievitazione lunga, steso in dischi e cotto in padella col coperchio: pomodoro, mozzarella e origano, pronte in poco più di venti minuti senza accendere il forno."
+  },
+  "image": "assets/img/recipes/pizzette-padella-veloci.jpg",
+  "gallery": [
+    {
+      "image": "assets/img/recipes/pizzette-padella-veloci-passaggi-1.jpg",
+      "caption": { "it": "Farina e lievito nella ciotola, poi acqua e olio al centro." }
+    },
+    {
+      "image": "assets/img/recipes/pizzette-padella-veloci-passaggi-2.jpg",
+      "caption": { "it": "Si impasta fino a ottenere un panetto liscio che non si attacca più alle mani." }
+    },
+    {
+      "image": "assets/img/recipes/pizzette-padella-veloci-passaggi-3.jpg",
+      "caption": { "it": "Dopo il riposo, si divide in 6 palline e si stende ognuna col mattarello." }
+    },
+    {
+      "image": "assets/img/recipes/pizzette-padella-veloci-passaggi-4.jpg",
+      "caption": { "it": "Cotte 2-3 minuti per lato col coperchio, si girano e si condiscono con la passata." }
+    },
+    {
+      "image": "assets/img/recipes/pizzette-padella-veloci-passaggi-5.jpg",
+      "caption": { "it": "Mozzarella a dadini sopra, poi di nuovo il coperchio finché non fila." }
+    }
+  ],
+  "yield": { "count": 6, "label": { "it": "pizzette", "en": "mini pizzas" } },
+  "time": { "prep": 15, "rest": 20, "cook": 7 },
+  "difficulty": "molto-facile",
+  "cost": "economico",
+  "method": "padella",
+  "tags": ["salato", "padella", "lievitati", "senza-forno", "veloce", "finger-food"],
+  "source": {
+    "name": "CuciniAmo con Chicca",
+    "url": "https://blog.giallozafferano.it/cucinadichicca/pizzette-in-padella-veloci/"
+  },
+  "ingredients": [
+    {
+      "section": { "it": "Per l'impasto" },
+      "items": [
+        { "food": "farina-00", "qty": 300, "unit": "g" },
+        { "food": "acqua", "qty": 150, "unit": "ml" },
+        { "food": "olio-oliva-evo", "qty": 20, "unit": "g" },
+        {
+          "food": "lievito-istantaneo-salato",
+          "qty": 0.5,
+          "unit": "cucchiaino",
+          "label": { "it": "lievito istantaneo per preparazioni salate" }
+        },
+        { "food": "sale", "unit": "qb", "label": { "it": "2 pizzichi" } }
+      ]
+    },
+    {
+      "section": { "it": "Per farcire" },
+      "items": [
+        { "food": "passata-pomodoro", "qty": 200, "unit": "ml" },
+        { "food": "mozzarella", "qty": 200, "unit": "g" },
+        { "food": "origano", "unit": "qb", "label": { "it": "origano secco" } },
+        { "food": "olio-oliva-evo", "unit": "qb", "label": { "it": "un filo, a crudo" } }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": { "it": "L'impasto" },
+      "text": {
+        "it": "In una ciotola capiente versa {{farina-00}} e {{lievito-istantaneo-salato}}, con la forchetta fai una buchetta al centro e versaci {{acqua}} e {{olio-oliva-evo}}. Aggiungi {{sale}} e impasta fino a ottenere un panetto liscio e omogeneo, che non si attacca più alle mani."
+      }
+    },
+    {
+      "title": { "it": "Riposo e dischi" },
+      "text": {
+        "it": "Trasferisci l'impasto sulla spianatoia e forma un panetto. Fai riposare **20 minuti**, poi dividi in 6 palline e stendi ciascuna col mattarello in un disco sottile."
+      },
+      "timer": 1200
+    },
+    {
+      "title": { "it": "In padella" },
+      "text": {
+        "it": "Scalda una padella antiaderente e cuoci le pizzette 2-3 minuti per lato con il coperchio, finché la base non è dorata. Giratele, poi distribuisci su ognuna un cucchiaio di {{passata-pomodoro}}."
+      },
+      "timer": 180
+    },
+    {
+      "title": { "it": "Mozzarella e coperchio" },
+      "text": {
+        "it": "Copri con {{mozzarella}} a dadini e rimetti il coperchio finché non si scioglie, un paio di minuti a fuoco basso."
+      },
+      "timer": 120
+    },
+    {
+      "title": { "it": "Fuori dal fuoco" },
+      "text": {
+        "it": "Togli dal fuoco e condisci con {{origano}}, un filo di {{olio-oliva-evo#2}} e, se vuoi, foglie di basilico fresco."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "title": { "it": "Personalizzale" },
+      "text": { "it": "Oltre a pomodoro e mozzarella stanno bene prosciutto cotto e formaggio, salamino piccante e provola, tonno e cipolla, verdure grigliate, funghi e scamorza, oppure mortadella e stracciatella." }
+    },
+    {
+      "title": { "it": "Conservazione" },
+      "text": { "it": "Sono migliori appena fatte, quando la mozzarella è ancora filante. Se avanzano, si conservano in frigorifero **1-2 giorni** in un contenitore ermetico." }
+    },
+    {
+      "title": { "it": "Come riscaldarle" },
+      "text": { "it": "Qualche minuto in friggitrice ad aria: tornano morbide e fragranti, molto meglio che nel microonde." }
+    }
+  ]
+}

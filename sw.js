@@ -1,10 +1,10 @@
 // GENERATO da scripts/build-sw.mjs — non modificarlo a mano.
 // Sorgente: scripts/sw-runtime.js · rigenera con `npm run build`.
 
-const VERSION = '91eefad271';
+const VERSION = '1dd9470c09';
 const CODICE = 'dfa0223768';
 
-// Guscio: HTML, stile, codice, font, icone e dati. ~574 KB,
+// Guscio: HTML, stile, codice, font, icone e dati. ~581 KB,
 // salvato tutto insieme all'installazione. Se manca un pezzo l'installazione
 // fallisce e resta attiva la versione precedente: mai una copia a metà.
 const SHELL = [
@@ -58,6 +58,7 @@ const SHELL = [
   './data/recipes/pasta-sugo-costine.json',
   './data/recipes/pasta-tonno-pomodorini.json',
   './data/recipes/pizza-tortilla-cotto.json',
+  './data/recipes/pizzette-padella-veloci.json',
   './data/recipes/pizzette-yogurt-cotto.json',
   './data/recipes/pollo-cacciatora-patate.json',
   './data/recipes/polpette-pollo-forno.json',
@@ -71,7 +72,7 @@ const SHELL = [
   './data/recipes/wrap-pollo-speziato.json'
 ];
 
-// Foto: ~7.2 MB. Stanno in una cache a parte che sopravvive
+// Foto: ~7.5 MB. Stanno in una cache a parte che sopravvive
 // agli aggiornamenti; l'impronta dice quali sono davvero cambiate.
 const MEDIA = {
   './assets/img/recipes/alette-pollo-forno-patate.jpg': '586e1eb542785521',
@@ -102,6 +103,12 @@ const MEDIA = {
   './assets/img/recipes/pasta-sugo-costine.jpg': '14473c482ebe21c4',
   './assets/img/recipes/pasta-tonno-pomodorini.jpg': '8ca36a6a967e123d',
   './assets/img/recipes/pizza-tortilla-cotto.jpg': 'e721b71096de3917',
+  './assets/img/recipes/pizzette-padella-veloci-passaggi-1.jpg': '231435aa818d6b5a',
+  './assets/img/recipes/pizzette-padella-veloci-passaggi-2.jpg': '3dc1c5dd21416251',
+  './assets/img/recipes/pizzette-padella-veloci-passaggi-3.jpg': '350c088ee4dbd7b5',
+  './assets/img/recipes/pizzette-padella-veloci-passaggi-4.jpg': '1ca3609a7d2a91ad',
+  './assets/img/recipes/pizzette-padella-veloci-passaggi-5.jpg': '3938bcf98af7bc4d',
+  './assets/img/recipes/pizzette-padella-veloci.jpg': '90e8bc66045dd431',
   './assets/img/recipes/pizzette-yogurt-cotto.jpg': '9db27ced55396064',
   './assets/img/recipes/pollo-cacciatora-patate.jpg': 'b8894d645cb71205',
   './assets/img/recipes/polpette-pollo-forno.jpg': '64968459a9cf5ca9',
