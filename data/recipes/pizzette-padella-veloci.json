@@ -62,7 +62,7 @@
         { "food": "passata-pomodoro", "qty": 200, "unit": "ml" },
         { "food": "mozzarella", "qty": 200, "unit": "g" },
         { "food": "origano", "unit": "qb", "label": { "it": "origano secco" } },
-        { "food": "olio-oliva-evo", "unit": "qb", "label": { "it": "un filo, a crudo" } }
+        { "food": "olio-oliva-evo", "unit": "qb", "label": { "it": "olio extravergine d'oliva, un filo a crudo" } }
       ]
     }
   ],
