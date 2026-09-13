@@ -53,7 +53,7 @@
           "unit": "cucchiaino",
           "label": { "it": "lievito istantaneo per preparazioni salate" }
         },
-        { "food": "sale", "unit": "qb", "label": { "it": "2 pizzichi" } }
+        { "food": "sale", "unit": "qb", "label": { "it": "sale, 2 pizzichi" } }
       ]
     },
     {
