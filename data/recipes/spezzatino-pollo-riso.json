@@ -5,7 +5,7 @@
     "it": "Spezzatino di pollo al pomodoro con riso"
   },
   "summary": {
-    "it": "Bocconcini di pollo e ceci con peperoni e pelati, insaporiti alle due paprike e serviti sul riso. In vaschetta si compone a strati senza mescolare, e il riso va cotto due minuti in meno perché finirà al microonde."
+    "it": "Bocconcini di pollo con peperoni e pelati, insaporiti alle due paprike e serviti sul riso. In vaschetta si compone a strati senza mescolare, e il riso va cotto due minuti in meno perché finirà al microonde."
   },
   "image": "assets/img/recipes/spezzatino-pollo-riso.jpg",
   "imageFocus": "center 55%",
@@ -53,27 +53,19 @@
           "unit": "g"
         },
         {
-          "food": "ceci-lessati",
-          "qty": 400,
-          "unit": "g",
-          "label": {
-            "it": "ceci lessati, sgocciolati (2 barattoli)"
-          }
-        },
-        {
           "food": "peperone",
-          "qty": 360,
-          "unit": "g",
+          "qty": 2,
+          "unit": "pz",
           "label": {
-            "it": "peperoni (2)"
+            "it": "peperoni"
           }
         },
         {
           "food": "cipolla",
-          "qty": 240,
-          "unit": "g",
+          "qty": 2,
+          "unit": "pz",
           "label": {
-            "it": "cipolle (2)"
+            "it": "cipolle"
           }
         },
         {
@@ -102,10 +94,7 @@
         {
           "food": "olio-oliva-evo",
           "qty": 40,
-          "unit": "g",
-          "label": {
-            "it": "olio extravergine d'oliva (4 cucchiai)"
-          }
+          "unit": "g"
         },
         {
           "food": "sale",
@@ -124,10 +113,25 @@
       "items": [
         {
           "food": "riso-bianco",
-          "qty": 600,
+          "qty": 660,
           "unit": "g",
           "label": {
             "it": "riso (peso da crudo)"
+          }
+        }
+      ]
+    },
+    {
+      "section": {
+        "it": "Per servire"
+      },
+      "items": [
+        {
+          "food": "grana-padano",
+          "qty": 60,
+          "unit": "g",
+          "label": {
+            "it": "grana padano grattugiato (10 g a porzione)"
           }
         }
       ]
@@ -156,7 +160,7 @@
         "it": "Cottura"
       },
       "text": {
-        "it": "Rimetti il pollo, aggiungi {{pomodori-pelati}} e {{brodo-vegetale}}, sale e pepe. Copri e cuoci 25-30 minuti; negli ultimi 10 unisci {{ceci-lessati}}, così si insaporiscono senza sfaldarsi."
+        "it": "Rimetti il pollo, aggiungi {{pomodori-pelati}} e {{brodo-vegetale}}, sale e pepe. Copri e cuoci 25-30 minuti."
       },
       "timer": 1800
     },
@@ -183,7 +187,7 @@
         "it": "Riscaldare"
       },
       "text": {
-        "it": "Microonde 4-5 minuti a potenza media con un cucchiaio d'acqua, mescolando a metà."
+        "it": "Microonde 4-5 minuti a potenza media con un cucchiaio d'acqua, mescolando a metà. Il grana mettilo sopra dopo, sul piatto caldo."
       }
     },
     {
