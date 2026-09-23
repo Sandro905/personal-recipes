@@ -5,7 +5,7 @@
     "it": "Spezzatino di pollo al pomodoro con riso"
   },
   "summary": {
-    "it": "Bocconcini di pollo con peperoni e pelati, insaporiti alle due paprike e serviti sul riso. In vaschetta si compone a strati senza mescolare, e il riso va cotto due minuti in meno perché finirà al microonde."
+    "it": "Bocconcini di pollo e ceci con peperoni e pelati, insaporiti alle due paprike e serviti sul riso. In vaschetta si compone a strati senza mescolare, e il riso va cotto due minuti in meno perché finirà al microonde."
   },
   "image": "assets/img/recipes/spezzatino-pollo-riso.jpg",
   "imageFocus": "center 55%",
@@ -53,6 +53,14 @@
           "unit": "g"
         },
         {
+          "food": "ceci-lessati",
+          "qty": 400,
+          "unit": "g",
+          "label": {
+            "it": "ceci lessati, sgocciolati (2 barattoli)"
+          }
+        },
+        {
           "food": "peperone",
           "qty": 360,
           "unit": "g",
@@ -93,10 +101,10 @@
         },
         {
           "food": "olio-oliva-evo",
-          "qty": 20,
+          "qty": 40,
           "unit": "g",
           "label": {
-            "it": "olio extravergine d'oliva (2 cucchiai)"
+            "it": "olio extravergine d'oliva (4 cucchiai)"
           }
         },
         {
@@ -116,7 +124,7 @@
       "items": [
         {
           "food": "riso-bianco",
-          "qty": 480,
+          "qty": 600,
           "unit": "g",
           "label": {
             "it": "riso (peso da crudo)"
@@ -148,7 +156,7 @@
         "it": "Cottura"
       },
       "text": {
-        "it": "Rimetti il pollo, aggiungi {{pomodori-pelati}} e {{brodo-vegetale}}, sale e pepe. Copri e cuoci 25-30 minuti."
+        "it": "Rimetti il pollo, aggiungi {{pomodori-pelati}} e {{brodo-vegetale}}, sale e pepe. Copri e cuoci 25-30 minuti; negli ultimi 10 unisci {{ceci-lessati}}, così si insaporiscono senza sfaldarsi."
       },
       "timer": 1800
     },
