@@ -54,18 +54,18 @@
         },
         {
           "food": "peperone",
-          "qty": 360,
-          "unit": "g",
+          "qty": 2,
+          "unit": "pz",
           "label": {
-            "it": "peperoni (2)"
+            "it": "peperoni"
           }
         },
         {
           "food": "cipolla",
-          "qty": 240,
-          "unit": "g",
+          "qty": 2,
+          "unit": "pz",
           "label": {
-            "it": "cipolle (2)"
+            "it": "cipolle"
           }
         },
         {
@@ -93,11 +93,8 @@
         },
         {
           "food": "olio-oliva-evo",
-          "qty": 20,
-          "unit": "g",
-          "label": {
-            "it": "olio extravergine d'oliva (2 cucchiai)"
-          }
+          "qty": 40,
+          "unit": "g"
         },
         {
           "food": "sale",
@@ -116,10 +113,25 @@
       "items": [
         {
           "food": "riso-bianco",
-          "qty": 480,
+          "qty": 660,
           "unit": "g",
           "label": {
             "it": "riso (peso da crudo)"
+          }
+        }
+      ]
+    },
+    {
+      "section": {
+        "it": "Per servire"
+      },
+      "items": [
+        {
+          "food": "grana-padano",
+          "qty": 60,
+          "unit": "g",
+          "label": {
+            "it": "grana padano grattugiato (10 g a porzione)"
           }
         }
       ]
@@ -175,7 +187,7 @@
         "it": "Riscaldare"
       },
       "text": {
-        "it": "Microonde 4-5 minuti a potenza media con un cucchiaio d'acqua, mescolando a metà."
+        "it": "Microonde 4-5 minuti a potenza media con un cucchiaio d'acqua, mescolando a metà. Il grana mettilo sopra dopo, sul piatto caldo."
       }
     },
     {
