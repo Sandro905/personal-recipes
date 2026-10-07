@@ -1,0 +1,211 @@
+{
+  "slug": "quesadillas-pizza-pollo-cotto",
+  "added": "2026-10-07",
+  "title": {
+    "it": "Quesadillas pizza con pollo e cotto"
+  },
+  "summary": {
+    "it": "Pollo sfilacciato in una salsa cremosa di passata, formaggio spalmabile e grana, con cotto croccante e scamorza filante, il tutto in una tortilla tostata in padella. Sa di pizza, pesa come un pasto da meal prep."
+  },
+  "image": "assets/img/recipes/quesadillas-pizza-pollo-cotto.jpg",
+  "imageFocus": "center 50%",
+  "yield": {
+    "count": 6,
+    "label": {
+      "it": "quesadillas",
+      "en": "quesadillas"
+    }
+  },
+  "time": {
+    "prep": 15,
+    "cook": 45
+  },
+  "difficulty": "facile",
+  "cost": "medio",
+  "method": "padella",
+  "tags": [
+    "salato",
+    "pollo",
+    "carne",
+    "pranzo",
+    "cena",
+    "proteico",
+    "meal-prep",
+    "congelabile"
+  ],
+  "source": {
+    "name": "Video su YouTube",
+    "url": "https://youtube.com/shorts/2hfUXtRP3Gw?is=vGKbPOdAZvEoH387"
+  },
+  "ingredients": [
+    {
+      "section": {
+        "it": "Per il pollo"
+      },
+      "items": [
+        {
+          "food": "petto-pollo",
+          "qty": 1000,
+          "unit": "g",
+          "label": {
+            "it": "petto di pollo"
+          }
+        },
+        {
+          "food": "sale",
+          "qty": 0.5,
+          "unit": "cucchiaino"
+        },
+        {
+          "food": "paprika-affumicata",
+          "qty": 1,
+          "unit": "cucchiaino"
+        },
+        {
+          "food": "olio-oliva-evo",
+          "qty": 5,
+          "unit": "g",
+          "label": {
+            "it": "olio extravergine d'oliva (1 cucchiaino)"
+          }
+        }
+      ]
+    },
+    {
+      "section": {
+        "it": "Per la salsa"
+      },
+      "items": [
+        {
+          "food": "passata-pomodoro",
+          "qty": 250,
+          "unit": "g",
+          "label": {
+            "it": "passata di pomodoro"
+          }
+        },
+        {
+          "food": "philadelphia-light",
+          "qty": 90,
+          "unit": "g",
+          "label": {
+            "it": "formaggio spalmabile light"
+          }
+        },
+        {
+          "food": "grana-padano",
+          "qty": 25,
+          "unit": "g",
+          "label": {
+            "it": "grana padano grattugiato"
+          }
+        },
+        {
+          "food": "origano",
+          "qty": 1,
+          "unit": "cucchiaino"
+        },
+        {
+          "food": "basilico",
+          "unit": "qb",
+          "label": {
+            "it": "basilico secco"
+          }
+        }
+      ]
+    },
+    {
+      "section": {
+        "it": "Per farcire"
+      },
+      "items": [
+        {
+          "food": "tortilla",
+          "qty": 6,
+          "unit": "pz",
+          "label": {
+            "it": "tortillas grandi (25-30 cm)"
+          }
+        },
+        {
+          "food": "prosciutto-cotto",
+          "qty": 100,
+          "unit": "g",
+          "label": {
+            "it": "prosciutto cotto a fette"
+          }
+        },
+        {
+          "food": "scamorza",
+          "qty": 240,
+          "unit": "g",
+          "label": {
+            "it": "scamorza a cubetti o grattugiata (40 g a quesadilla)"
+          }
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": {
+        "it": "Cuocere il pollo"
+      },
+      "text": {
+        "it": "Condisci {{petto-pollo}} con ½ cucchiaino di sale, {{paprika-affumicata}} e {{olio-oliva-evo}}, mescolando bene. In una padella ampia a fuoco medio, con il coperchio, cuocilo circa 8 minuti per lato, finché non è cotto dentro. Sfilaccialo con due forchette."
+      },
+      "timer": 960
+    },
+    {
+      "title": {
+        "it": "La salsa"
+      },
+      "text": {
+        "it": "Rimetti il pollo in padella con {{passata-pomodoro}}, {{philadelphia-light}}, {{grana-padano}} e {{origano}}. Mescola a fuoco basso finché è cremoso e ben ristretto: deve restare un ripieno asciutto, non un sugo, altrimenti ammorbidisce la tortilla. Profuma con {{basilico}} e metti da parte."
+      }
+    },
+    {
+      "title": {
+        "it": "Il cotto croccante"
+      },
+      "text": {
+        "it": "Taglia {{prosciutto-cotto}} a striscioline e rosolalo in una padella asciutta a fuoco medio finché è dorato e un po' croccante."
+      }
+    },
+    {
+      "title": {
+        "it": "Farcire"
+      },
+      "text": {
+        "it": "Su metà di ogni {{tortilla}} scaldata distribuisci un po' di {{scamorza}}, un sesto del ripieno, il cotto croccante e altra scamorza. Ripiega a mezzaluna."
+      }
+    },
+    {
+      "title": {
+        "it": "Tostare"
+      },
+      "text": {
+        "it": "In padella a fuoco medio-basso, 2-3 minuti per lato, finché la tortilla è dorata e la scamorza è fusa. Ripeti per tutte le quesadillas."
+      },
+      "timer": 150
+    }
+  ],
+  "notes": [
+    {
+      "title": {
+        "it": "Il ripieno asciutto"
+      },
+      "text": {
+        "it": "Più il ripieno è ristretto, più la tortilla resta croccante. Se la salsa sembra liquida, lasciala sul fuoco qualche minuto in più prima di farcire."
+      }
+    },
+    {
+      "title": {
+        "it": "Meal prep e congelatore"
+      },
+      "text": {
+        "it": "Si conservano 3 giorni in frigo. Per congelarle, falle raffreddare del tutto e avvolgi ognuna a parte. Scongelale in frigo e riscaldale in padella o in friggitrice ad aria, così tornano croccanti: il microonde le ammorbidisce."
+      }
+    }
+  ]
+}
