@@ -1,6 +1,48 @@
 {
-  "count": 39,
+  "count": 40,
   "recipes": [
+    {
+      "slug": "quesadillas-pizza-pollo-cotto",
+      "added": "2026-10-07",
+      "title": {
+        "it": "Quesadillas pizza con pollo e cotto"
+      },
+      "summary": {
+        "it": "Pollo sfilacciato in una salsa cremosa di passata, formaggio spalmabile e grana, con cotto croccante e scamorza filante, il tutto in una tortilla tostata in padella. Sa di pizza, pesa come un pasto da meal prep."
+      },
+      "image": "assets/img/recipes/quesadillas-pizza-pollo-cotto.jpg",
+      "imageFocus": "center 50%",
+      "tags": [
+        "salato",
+        "pollo",
+        "carne",
+        "pranzo",
+        "cena",
+        "proteico",
+        "meal-prep",
+        "congelabile"
+      ],
+      "method": "padella",
+      "difficulty": "facile",
+      "cost": "medio",
+      "time": {
+        "prep": 15,
+        "cook": 45
+      },
+      "yield": {
+        "count": 6,
+        "label": {
+          "it": "quesadillas",
+          "en": "quesadillas"
+        }
+      },
+      "kcalPerServing": 598,
+      "coverage": 0.92,
+      "search": {
+        "it": "Quesadillas pizza con pollo e cotto · Pollo sfilacciato in una salsa cremosa di passata, formaggio spalmabile e grana, con cotto croccante e scamorza filante, il tutto in una tortilla tostata in padella. Sa di pizza, pesa come un pasto da meal prep. · petto di pollo petto di pollo · sale fino · paprika affumicata · olio extravergine d'oliva (1 cucchiaino) olio extravergine d'oliva · passata di pomodoro passata di pomodoro · formaggio spalmabile light formaggio spalmabile light · grana padano grattugiato grana padano grattugiato · origano · basilico secco basilico · tortillas grandi (25-30 cm) tortilla di frumento · prosciutto cotto a fette prosciutto cotto · scamorza a cubetti o grattugiata (40 g a quesadilla) scamorza · Cuocere il pollo · La salsa · Il cotto croccante · Farcire · Tostare",
+        "en": "Quesadillas pizza con pollo e cotto · Pollo sfilacciato in una salsa cremosa di passata, formaggio spalmabile e grana, con cotto croccante e scamorza filante, il tutto in una tortilla tostata in padella. Sa di pizza, pesa come un pasto da meal prep. · petto di pollo chicken breast · fine salt · smoked paprika · olio extravergine d'oliva (1 cucchiaino) extra virgin olive oil · passata di pomodoro tomato passata · formaggio spalmabile light light cream cheese · grana padano grattugiato grated Grana Padano · oregano · basilico secco basil · tortillas grandi (25-30 cm) wheat tortilla · prosciutto cotto a fette cooked ham · scamorza a cubetti o grattugiata (40 g a quesadilla) scamorza cheese · Cuocere il pollo · La salsa · Il cotto croccante · Farcire · Tostare"
+      }
+    },
     {
       "slug": "riso-macinato-spinaci-una-pentola",
       "added": "2026-10-07",
