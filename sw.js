@@ -1,10 +1,10 @@
 // GENERATO da scripts/build-sw.mjs — non modificarlo a mano.
 // Sorgente: scripts/sw-runtime.js · rigenera con `npm run build`.
 
-const VERSION = '8bdf1740c9';
+const VERSION = '37f428b835';
 const CODICE = 'dfa0223768';
 
-// Guscio: HTML, stile, codice, font, icone e dati. ~581 KB,
+// Guscio: HTML, stile, codice, font, icone e dati. ~590 KB,
 // salvato tutto insieme all'installazione. Se manca un pezzo l'installazione
 // fallisce e resta attiva la versione precedente: mai una copia a metà.
 const SHELL = [
@@ -63,6 +63,7 @@ const SHELL = [
   './data/recipes/pollo-cacciatora-patate.json',
   './data/recipes/polpette-pollo-forno.json',
   './data/recipes/polpette-tonno-patate-friggitrice.json',
+  './data/recipes/riso-macinato-spinaci-una-pentola.json',
   './data/recipes/risotto-gamberetti-limone.json',
   './data/recipes/salmone-cartoccio-insalata.json',
   './data/recipes/salmone-forno-patate-peperoni.json',
@@ -72,7 +73,7 @@ const SHELL = [
   './data/recipes/wrap-pollo-speziato.json'
 ];
 
-// Foto: ~7.5 MB. Stanno in una cache a parte che sopravvive
+// Foto: ~7.8 MB. Stanno in una cache a parte che sopravvive
 // agli aggiornamenti; l'impronta dice quali sono davvero cambiate.
 const MEDIA = {
   './assets/img/recipes/alette-pollo-forno-patate.jpg': '586e1eb542785521',
@@ -116,6 +117,7 @@ const MEDIA = {
   './assets/img/recipes/polpette-tonno-patate-friggitrice-passaggi-2.jpg': 'e913469a1887eda1',
   './assets/img/recipes/polpette-tonno-patate-friggitrice-passaggi-3.jpg': '1aeada42cf3dda73',
   './assets/img/recipes/polpette-tonno-patate-friggitrice.jpg': '0a64bba7e95b4681',
+  './assets/img/recipes/riso-macinato-spinaci-una-pentola.jpg': '529851095618e779',
   './assets/img/recipes/risotto-gamberetti-limone.jpg': '66e5951b40300680',
   './assets/img/recipes/salmone-cartoccio-insalata.jpg': '04c744ac27efebaf',
   './assets/img/recipes/salmone-forno-patate-peperoni-passaggi-1.jpg': '31d45278048a2054',

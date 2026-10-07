@@ -1,0 +1,211 @@
+{
+  "slug": "riso-macinato-spinaci-una-pentola",
+  "added": "2026-10-07",
+  "title": {
+    "it": "Riso al macinato e spinaci in una pentola"
+  },
+  "summary": {
+    "it": "Soffritto, macinato di manzo magro e paprika affumicata, poi il riso tostato e cotto direttamente nel brodo con il coperchio. Gli spinaci entrano solo alla fine, a fuoco alto. Una pentola sola, niente scolatura."
+  },
+  "image": "assets/img/recipes/riso-macinato-spinaci-una-pentola.jpg",
+  "imageFocus": "center 55%",
+  "yield": {
+    "count": 2,
+    "label": {
+      "it": "porzioni",
+      "en": "servings"
+    }
+  },
+  "time": {
+    "prep": 15,
+    "cook": 28
+  },
+  "difficulty": "facile",
+  "cost": "economico",
+  "method": "padella",
+  "tags": [
+    "salato",
+    "primi",
+    "riso",
+    "manzo",
+    "carne",
+    "pranzo",
+    "cena",
+    "proteico"
+  ],
+  "ingredients": [
+    {
+      "section": null,
+      "items": [
+        {
+          "food": "cipolla",
+          "qty": 1,
+          "unit": "pz"
+        },
+        {
+          "food": "carota",
+          "qty": 1,
+          "unit": "pz"
+        },
+        {
+          "food": "sedano",
+          "qty": 40,
+          "unit": "g",
+          "label": {
+            "it": "sedano (1 costa)"
+          }
+        },
+        {
+          "food": "aglio",
+          "qty": 2,
+          "unit": "spicchio"
+        },
+        {
+          "food": "macinato-manzo-magro",
+          "qty": 200,
+          "unit": "g",
+          "label": {
+            "it": "macinato di manzo magro"
+          }
+        },
+        {
+          "food": "olio-oliva-evo",
+          "qty": 20,
+          "unit": "g",
+          "label": {
+            "it": "olio extravergine d'oliva (2 cucchiai)"
+          }
+        },
+        {
+          "food": "paprika-affumicata",
+          "qty": 0.5,
+          "unit": "cucchiaino"
+        },
+        {
+          "food": "riso-carnaroli",
+          "qty": 120,
+          "unit": "g",
+          "label": {
+            "it": "riso Arborio"
+          },
+          "note": {
+            "it": "non serve sciacquarlo"
+          }
+        },
+        {
+          "food": "brodo-pollo",
+          "qty": 500,
+          "unit": "ml",
+          "label": {
+            "it": "brodo di pollo caldo"
+          }
+        },
+        {
+          "food": "spinaci",
+          "qty": 60,
+          "unit": "g",
+          "label": {
+            "it": "spinacino fresco (baby spinach)"
+          }
+        },
+        {
+          "food": "sale",
+          "unit": "qb"
+        },
+        {
+          "food": "pepe-nero",
+          "unit": "qb"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": {
+        "it": "Preparare le verdure"
+      },
+      "text": {
+        "it": "Pela e trita finemente {{cipolla}} e {{carota}}, trita finemente anche {{sedano}}. Schiaccia e trita grossolanamente {{aglio}}."
+      }
+    },
+    {
+      "title": {
+        "it": "Il soffritto"
+      },
+      "text": {
+        "it": "Scalda {{olio-oliva-evo}} in una casseruola dal fondo spesso, con coperchio, a fuoco alto per 30 secondi. Unisci cipolla, carota e sedano con ½ cucchiaino di sale e fai appassire 2-3 minuti: quando la cipolla diventa traslucida aggiungi l'aglio e mescola."
+      },
+      "timer": 180
+    },
+    {
+      "title": {
+        "it": "Rosolare la carne"
+      },
+      "text": {
+        "it": "Aggiungi {{macinato-manzo-magro}}, sgranalo bene con il cucchiaio e cuocilo per 2-3 minuti, finché non è più rosa."
+      },
+      "timer": 150
+    },
+    {
+      "title": {
+        "it": "Tostare il riso"
+      },
+      "text": {
+        "it": "Unisci {{paprika-affumicata}}, ¼ di cucchiaino di sale, una dozzina di macinate di pepe e {{riso-carnaroli}}. Lascialo sul fuoco un minuto, mescolando, per tostarlo leggermente."
+      },
+      "timer": 60
+    },
+    {
+      "title": {
+        "it": "Cuocere con il coperchio"
+      },
+      "text": {
+        "it": "Versa {{brodo-pollo}} e mescola, staccando dal fondo i chicchi di riso che si fossero attaccati. Porta a bollore, abbassa la fiamma al minimo, metti il coperchio e lascia 15 minuti."
+      },
+      "timer": 900
+    },
+    {
+      "title": {
+        "it": "Controllare il riso"
+      },
+      "text": {
+        "it": "Togli il coperchio e assaggia: se il riso è ancora duro, rimettilo e prolunga di 5 minuti a fuoco basso."
+      }
+    },
+    {
+      "title": {
+        "it": "Gli spinaci"
+      },
+      "text": {
+        "it": "Alza la fiamma al massimo, unisci {{spinaci}} e richiudi con il coperchio per 60 secondi. Scoperchia, mescola e cuoci ancora 60 secondi."
+      },
+      "timer": 120
+    },
+    {
+      "title": {
+        "it": "Assaggiare e servire"
+      },
+      "text": {
+        "it": "Assaggia, correggi di sale e pepe, impiatta e servi subito."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "title": {
+        "it": "Il coperchio"
+      },
+      "text": {
+        "it": "Una volta chiuso, non sollevarlo prima dei 15 minuti: il vapore è ciò che cuoce il riso. Se alla fine resta troppo brodo, lascia scoperto a fuoco vivo un minuto."
+      }
+    },
+    {
+      "title": {
+        "it": "Conservazione"
+      },
+      "text": {
+        "it": "Si conserva 2-3 giorni in frigo in un contenitore chiuso. Per scaldarlo aggiungi un cucchiaio d'acqua e copri, così il riso non si asciuga."
+      }
+    }
+  ]
+}
