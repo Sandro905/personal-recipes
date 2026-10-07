@@ -1,6 +1,48 @@
 {
-  "count": 38,
+  "count": 39,
   "recipes": [
+    {
+      "slug": "riso-macinato-spinaci-una-pentola",
+      "added": "2026-10-07",
+      "title": {
+        "it": "Riso al macinato e spinaci in una pentola"
+      },
+      "summary": {
+        "it": "Soffritto, macinato di manzo magro e paprika affumicata, poi il riso tostato e cotto direttamente nel brodo con il coperchio. Gli spinaci entrano solo alla fine, a fuoco alto. Una pentola sola, niente scolatura."
+      },
+      "image": "assets/img/recipes/riso-macinato-spinaci-una-pentola.jpg",
+      "imageFocus": "center 55%",
+      "tags": [
+        "salato",
+        "primi",
+        "riso",
+        "manzo",
+        "carne",
+        "pranzo",
+        "cena",
+        "proteico"
+      ],
+      "method": "padella",
+      "difficulty": "facile",
+      "cost": "economico",
+      "time": {
+        "prep": 15,
+        "cook": 28
+      },
+      "yield": {
+        "count": 2,
+        "label": {
+          "it": "porzioni",
+          "en": "servings"
+        }
+      },
+      "kcalPerServing": 496,
+      "coverage": 0.83,
+      "search": {
+        "it": "Riso al macinato e spinaci in una pentola · Soffritto, macinato di manzo magro e paprika affumicata, poi il riso tostato e cotto direttamente nel brodo con il coperchio. Gli spinaci entrano solo alla fine, a fuoco alto. Una pentola sola, niente scolatura. · cipolla · carote · sedano (1 costa) sedano · aglio · macinato di manzo magro macinato di manzo magro · olio extravergine d'oliva (2 cucchiai) olio extravergine d'oliva · paprika affumicata · riso Arborio riso Carnaroli · brodo di pollo caldo brodo di pollo · spinacino fresco (baby spinach) spinaci · sale fino · pepe nero macinato · Preparare le verdure · Il soffritto · Rosolare la carne · Tostare il riso · Cuocere con il coperchio · Controllare il riso · Gli spinaci · Assaggiare e servire",
+        "en": "Riso al macinato e spinaci in una pentola · Soffritto, macinato di manzo magro e paprika affumicata, poi il riso tostato e cotto direttamente nel brodo con il coperchio. Gli spinaci entrano solo alla fine, a fuoco alto. Una pentola sola, niente scolatura. · onion · carrots · sedano (1 costa) celery · garlic · macinato di manzo magro lean ground beef · olio extravergine d'oliva (2 cucchiai) extra virgin olive oil · smoked paprika · riso Arborio Carnaroli rice · brodo di pollo caldo chicken stock · spinacino fresco (baby spinach) spinach · fine salt · ground black pepper · Preparare le verdure · Il soffritto · Rosolare la carne · Tostare il riso · Cuocere con il coperchio · Controllare il riso · Gli spinaci · Assaggiare e servire"
+      }
+    },
     {
       "slug": "pizzette-padella-veloci",
       "added": "2026-09-10",

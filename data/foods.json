@@ -2419,6 +2419,47 @@
       "source": {
         "db": "manual"
       }
+    },
+    "spinaci": {
+      "name": {
+        "it": "spinaci",
+        "en": "spinach"
+      },
+      "category": "verdure",
+      "per100g": {
+        "kcal": 23,
+        "protein": 2.9,
+        "carbs": 3.6,
+        "fat": 0.4,
+        "fiber": 2.2,
+        "sugars": 0.4,
+        "salt": 0.2
+      },
+      "source": {
+        "db": "manual",
+        "note": "valore medio da tabelle di composizione"
+      }
+    },
+    "brodo-pollo": {
+      "name": {
+        "it": "brodo di pollo",
+        "en": "chicken stock"
+      },
+      "category": "bevande",
+      "per100g": {
+        "kcal": 6,
+        "protein": 0.6,
+        "carbs": 0.4,
+        "fat": 0.2,
+        "fiber": 0,
+        "sugars": 0.2,
+        "salt": 0.6
+      },
+      "density": 1,
+      "source": {
+        "db": "manual",
+        "note": "valore medio da tabelle di composizione; brodo di dado o fatto in casa"
+      }
     }
   }
 }
