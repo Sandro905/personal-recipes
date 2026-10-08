@@ -1,0 +1,91 @@
+{
+  "slug": "pancakes-patate-formaggio",
+  "added": "2026-10-08",
+  "title": {
+    "it": "Pancakes di patate e formaggio"
+  },
+  "summary": {
+    "it": "Dischetti morbidi di patate e farina con un cuore di mozzarella filante, dorati in padella con un filo d'olio: circa 150 kcal l'uno."
+  },
+  "image": "assets/img/recipes/pancakes-patate-formaggio.jpg",
+  "yield": { "count": 8, "label": { "it": "pancakes", "en": "pancakes" } },
+  "time": { "prep": 20, "cook": 15 },
+  "difficulty": "facile",
+  "cost": "economico",
+  "method": "padella",
+  "tags": ["salato", "padella", "senza-forno", "finger-food", "proteico", "contorni"],
+  "source": {
+    "name": "YouTube Shorts",
+    "url": "https://youtube.com/shorts/ThH0uhuj3uI?is=s4Oe85S9VuRjPDHI"
+  },
+  "ingredients": [
+    {
+      "section": { "it": "Per l'impasto" },
+      "items": [
+        { "food": "patate", "qty": 500, "unit": "g" },
+        { "food": "sale", "qty": 3, "unit": "g" },
+        {
+          "food": "farina-00",
+          "qty": 100,
+          "unit": "g",
+          "note": { "it": "si può sostituire con farina di riso" }
+        },
+        { "food": "fecola-patate", "qty": 70, "unit": "g" }
+      ]
+    },
+    {
+      "section": { "it": "Per farcire e cuocere" },
+      "items": [
+        {
+          "food": "mozzarella-proteica",
+          "qty": 160,
+          "unit": "g",
+          "note": { "it": "o un altro formaggio proteico che fili" }
+        },
+        { "food": "olio-oliva-evo", "unit": "qb", "label": { "it": "olio extravergine d'oliva, un filo per la cottura" } }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": { "it": "Cuocere le patate" },
+      "text": {
+        "it": "Sbuccia {{patate}} e lessale in acqua con {{sale}}, oppure cuocile nel microonde per **7-8 minuti** finché non sono tenere."
+      },
+      "timer": 480
+    },
+    {
+      "title": { "it": "L'impasto" },
+      "text": {
+        "it": "Schiaccia le patate ancora calde e aggiungi {{farina-00}} e {{fecola-patate}}, impastando bene finché non ottieni un impasto liscio."
+      }
+    },
+    {
+      "title": { "it": "Farcire" },
+      "text": {
+        "it": "Dividi l'impasto in 8 parti e forma altrettanti cerchi schiacciati. Metti al centro un po' di {{mozzarella-proteica}} e chiudi dai lati, poi appiattisci di nuovo."
+      }
+    },
+    {
+      "title": { "it": "In padella" },
+      "text": {
+        "it": "Scalda bene una padella con un filo di {{olio-oliva-evo}}. A fiamma media cuoci i pancakes qualche minuto per lato: devono essere ben cotti dentro e dorati fuori."
+      },
+      "timer": 360
+    }
+  ],
+  "notes": [
+    {
+      "title": { "it": "Per un impasto facile da lavorare" },
+      "text": { "it": "Schiaccia le patate quando sono ancora tiepide e lavora l'impasto con le mani leggermente infarinate. Se resta troppo appiccicoso, aggiungi un cucchiaio di farina alla volta." }
+    },
+    {
+      "title": { "it": "Il formaggio" },
+      "text": { "it": "Scola bene la mozzarella e tagliala a dadini: meno acqua ha, meno rischi che esca dai bordi mentre cuoce." }
+    },
+    {
+      "title": { "it": "Conservazione" },
+      "text": { "it": "Si conservano in frigorifero **2 giorni** in un contenitore chiuso e si riscaldano in padella o in friggitrice ad aria per qualche minuto." }
+    }
+  ]
+}

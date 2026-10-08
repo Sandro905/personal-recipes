@@ -1,10 +1,10 @@
 // GENERATO da scripts/build-sw.mjs — non modificarlo a mano.
 // Sorgente: scripts/sw-runtime.js · rigenera con `npm run build`.
 
-const VERSION = 'df137036b0';
+const VERSION = 'aac6f76e2f';
 const CODICE = 'dfa0223768';
 
-// Guscio: HTML, stile, codice, font, icone e dati. ~598 KB,
+// Guscio: HTML, stile, codice, font, icone e dati. ~603 KB,
 // salvato tutto insieme all'installazione. Se manca un pezzo l'installazione
 // fallisce e resta attiva la versione precedente: mai una copia a metà.
 const SHELL = [
@@ -50,6 +50,7 @@ const SHELL = [
   './data/recipes/lasagna-ragu-manzo.json',
   './data/recipes/merluzzo-forno-patate.json',
   './data/recipes/mousse-proteica-cioccolato.json',
+  './data/recipes/pancakes-patate-formaggio.json',
   './data/recipes/pasta-pesce-spada-pomodorini.json',
   './data/recipes/pasta-ragu-pollo.json',
   './data/recipes/pasta-salmone-affumicato.json',
@@ -74,7 +75,7 @@ const SHELL = [
   './data/recipes/wrap-pollo-speziato.json'
 ];
 
-// Foto: ~7.9 MB. Stanno in una cache a parte che sopravvive
+// Foto: ~8 MB. Stanno in una cache a parte che sopravvive
 // agli aggiornamenti; l'impronta dice quali sono davvero cambiate.
 const MEDIA = {
   './assets/img/recipes/alette-pollo-forno-patate.jpg': '586e1eb542785521',
@@ -97,6 +98,7 @@ const MEDIA = {
   './assets/img/recipes/lasagna-ragu-manzo.jpg': '97338bc1c8462c64',
   './assets/img/recipes/merluzzo-forno-patate.jpg': 'd7171a2f95c50ca9',
   './assets/img/recipes/mousse-proteica-cioccolato.jpg': '5bea0a180d48d562',
+  './assets/img/recipes/pancakes-patate-formaggio.jpg': 'eb02ec20da47adc8',
   './assets/img/recipes/pasta-pesce-spada-pomodorini.jpg': '7340d54a855a3b83',
   './assets/img/recipes/pasta-ragu-pollo.jpg': 'ffe84e11e4f1c49c',
   './assets/img/recipes/pasta-salmone-affumicato.jpg': '517f24c6317e515c',
