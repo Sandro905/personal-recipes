@@ -1,6 +1,46 @@
 {
-  "count": 40,
+  "count": 41,
   "recipes": [
+    {
+      "slug": "pancakes-patate-formaggio",
+      "added": "2026-10-08",
+      "title": {
+        "it": "Pancakes di patate e formaggio"
+      },
+      "summary": {
+        "it": "Dischetti morbidi di patate e farina con un cuore di mozzarella filante, dorati in padella con un filo d'olio: circa 150 kcal l'uno."
+      },
+      "image": "assets/img/recipes/pancakes-patate-formaggio.jpg",
+      "imageFocus": null,
+      "tags": [
+        "salato",
+        "padella",
+        "senza-forno",
+        "finger-food",
+        "proteico",
+        "contorni"
+      ],
+      "method": "padella",
+      "difficulty": "facile",
+      "cost": "economico",
+      "time": {
+        "prep": 20,
+        "cook": 15
+      },
+      "yield": {
+        "count": 8,
+        "label": {
+          "it": "pancakes",
+          "en": "pancakes"
+        }
+      },
+      "kcalPerServing": 152,
+      "coverage": 0.83,
+      "search": {
+        "it": "Pancakes di patate e formaggio · Dischetti morbidi di patate e farina con un cuore di mozzarella filante, dorati in padella con un filo d'olio: circa 150 kcal l'uno. · patate · sale fino · farina 00 · fecola di patate · mozzarella proteica · olio extravergine d'oliva, un filo per la cottura olio extravergine d'oliva · Cuocere le patate · L'impasto · Farcire · In padella",
+        "en": "Pancakes di patate e formaggio · Dischetti morbidi di patate e farina con un cuore di mozzarella filante, dorati in padella con un filo d'olio: circa 150 kcal l'uno. · potatoes · fine salt · type-00 wheat flour · potato starch · high-protein mozzarella · olio extravergine d'oliva, un filo per la cottura extra virgin olive oil · Cuocere le patate · L'impasto · Farcire · In padella"
+      }
+    },
     {
       "slug": "quesadillas-pizza-pollo-cotto",
       "added": "2026-10-07",

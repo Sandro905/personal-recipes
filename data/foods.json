@@ -2460,6 +2460,46 @@
         "db": "manual",
         "note": "valore medio da tabelle di composizione; brodo di dado o fatto in casa"
       }
+    },
+    "fecola-patate": {
+      "name": {
+        "it": "fecola di patate",
+        "en": "potato starch"
+      },
+      "category": "cereali",
+      "per100g": {
+        "kcal": 333,
+        "protein": 0.1,
+        "carbs": 83,
+        "fat": 0.1,
+        "fiber": 0,
+        "sugars": 0,
+        "salt": 0.01
+      },
+      "source": {
+        "db": "manual",
+        "note": "valore medio da tabelle di composizione"
+      }
+    },
+    "mozzarella-proteica": {
+      "name": {
+        "it": "mozzarella proteica",
+        "en": "high-protein mozzarella"
+      },
+      "category": "latticini",
+      "per100g": {
+        "kcal": 160,
+        "protein": 28,
+        "carbs": 1.5,
+        "fat": 5,
+        "fiber": 0,
+        "sugars": 1,
+        "salt": 1
+      },
+      "source": {
+        "db": "manual",
+        "note": "stima media dei prodotti ad alto contenuto proteico (mozzarella light proteica): controlla l'etichetta della tua"
+      }
     }
   }
 }
