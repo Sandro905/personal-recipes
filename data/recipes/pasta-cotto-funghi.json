@@ -1,0 +1,142 @@
+{
+  "slug": "pasta-cotto-funghi",
+  "added": "2026-10-10",
+  "title": {
+    "it": "Pasta cremosa con cotto e funghi"
+  },
+  "summary": {
+    "it": "Penne con champignon e prosciutto cotto a cubetti, mantecate con grana e acqua di cottura: cremosa senza panna e pronta in 20 minuti."
+  },
+  "image": "assets/img/recipes/pasta-cotto-funghi.jpg",
+  "imageFocus": "center 60%",
+  "yield": {
+    "count": 1,
+    "label": {
+      "it": "porzione",
+      "en": "serving"
+    }
+  },
+  "time": {
+    "prep": 5,
+    "cook": 15
+  },
+  "difficulty": "molto-facile",
+  "cost": "economico",
+  "method": "padella",
+  "tags": [
+    "salato",
+    "primi",
+    "pasta",
+    "padella",
+    "veloce",
+    "svuota-frigo",
+    "cena",
+    "proteico"
+  ],
+  "ingredients": [
+    {
+      "section": null,
+      "items": [
+        {
+          "food": "pasta-secca",
+          "qty": 100,
+          "unit": "g",
+          "label": {
+            "it": "pasta secca (penne)"
+          }
+        },
+        {
+          "food": "prosciutto-cotto",
+          "qty": 100,
+          "unit": "g",
+          "label": {
+            "it": "prosciutto cotto a cubetti"
+          }
+        },
+        {
+          "food": "funghi-champignon",
+          "qty": 200,
+          "unit": "g"
+        },
+        {
+          "food": "olio-oliva-evo",
+          "qty": 10,
+          "unit": "g",
+          "label": {
+            "it": "olio extravergine d'oliva (1 cucchiaio)"
+          }
+        },
+        {
+          "food": "grana-padano",
+          "qty": 10,
+          "unit": "g",
+          "label": {
+            "it": "grana padano o parmigiano grattugiato"
+          }
+        },
+        {
+          "food": "pepe-nero",
+          "unit": "qb"
+        },
+        {
+          "food": "sale",
+          "unit": "qb"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": {
+        "it": "I funghi"
+      },
+      "text": {
+        "it": "Affetta {{funghi-champignon}} e mettili in padella con un goccio d'acqua. Cuoci finché hanno perso gran parte della loro acqua."
+      },
+      "timer": 300
+    },
+    {
+      "title": {
+        "it": "Il prosciutto"
+      },
+      "text": {
+        "it": "Unisci {{prosciutto-cotto}} a cubetti e fallo rosolare leggermente."
+      },
+      "timer": 120
+    },
+    {
+      "title": {
+        "it": "La pasta"
+      },
+      "text": {
+        "it": "Cuoci {{pasta-secca}} in acqua salata e scolala al dente, tenendo da parte un mestolo di acqua di cottura."
+      }
+    },
+    {
+      "title": {
+        "it": "La cremina"
+      },
+      "text": {
+        "it": "Versa la pasta in padella, aggiungi {{olio-oliva-evo}}, {{grana-padano}} e poca acqua di cottura. Mescola a fuoco vivo finché diventa cremosa, poi completa con {{pepe-nero}}."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "title": {
+        "it": "Senza panna"
+      },
+      "text": {
+        "it": "L'amido dell'acqua di cottura insieme al grana basta per la cremosità: aggiungila poca alla volta, finché la pasta si lega."
+      }
+    },
+    {
+      "title": {
+        "it": "Sale"
+      },
+      "text": {
+        "it": "Il prosciutto cotto e il grana sono già sapidi: assaggia prima di aggiungere altro sale."
+      }
+    }
+  ]
+}
