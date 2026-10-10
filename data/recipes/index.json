@@ -1,6 +1,48 @@
 {
-  "count": 41,
+  "count": 42,
   "recipes": [
+    {
+      "slug": "pasta-cotto-funghi",
+      "added": "2026-10-10",
+      "title": {
+        "it": "Pasta cremosa con cotto e funghi"
+      },
+      "summary": {
+        "it": "Penne con champignon e prosciutto cotto a cubetti, mantecate con grana e acqua di cottura: cremosa senza panna e pronta in 20 minuti."
+      },
+      "image": "assets/img/recipes/pasta-cotto-funghi.jpg",
+      "imageFocus": "center 60%",
+      "tags": [
+        "salato",
+        "primi",
+        "pasta",
+        "padella",
+        "veloce",
+        "svuota-frigo",
+        "cena",
+        "proteico"
+      ],
+      "method": "padella",
+      "difficulty": "molto-facile",
+      "cost": "economico",
+      "time": {
+        "prep": 5,
+        "cook": 15
+      },
+      "yield": {
+        "count": 1,
+        "label": {
+          "it": "porzione",
+          "en": "serving"
+        }
+      },
+      "kcalPerServing": 741,
+      "coverage": 0.71,
+      "search": {
+        "it": "Pasta cremosa con cotto e funghi · Penne con champignon e prosciutto cotto a cubetti, mantecate con grana e acqua di cottura: cremosa senza panna e pronta in 20 minuti. · pasta secca (penne) pasta di semola secca · prosciutto cotto a cubetti prosciutto cotto · funghi champignon · olio extravergine d'oliva (1 cucchiaio) olio extravergine d'oliva · grana padano o parmigiano grattugiato grana padano grattugiato · pepe nero macinato · sale fino · I funghi · Il prosciutto · La pasta · La cremina",
+        "en": "Pasta cremosa con cotto e funghi · Penne con champignon e prosciutto cotto a cubetti, mantecate con grana e acqua di cottura: cremosa senza panna e pronta in 20 minuti. · pasta secca (penne) dried semolina pasta · prosciutto cotto a cubetti cooked ham · button mushrooms · olio extravergine d'oliva (1 cucchiaio) extra virgin olive oil · grana padano o parmigiano grattugiato grated Grana Padano · ground black pepper · fine salt · I funghi · Il prosciutto · La pasta · La cremina"
+      }
+    },
     {
       "slug": "pancakes-patate-formaggio",
       "added": "2026-10-08",
