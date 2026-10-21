@@ -7,7 +7,7 @@
   "image": "assets/img/recipes/calzoni-proteici-yogurt-cotto.jpg",
   "imageFocus": "center 50%",
   "summary": {
-    "it": "Impasto di farina e yogurt greco 0% profumato ad aglio e erbe italiane, senza lievito e senza attesa, richiuso su salsa di pomodoro, prosciutto cotto e formaggio light. Sette calzoni da fare in anticipo e riscaldare per tutta la settimana."
+    "it": "Impasto di farina e yogurt greco 0% profumato ad aglio e erbe italiane, senza lievito e senza attesa, richiuso su salsa di pomodoro fatta in casa, prosciutto cotto e formaggio light. Sette calzoni, in forno o in friggitrice ad aria, da fare in anticipo e riscaldare per tutta la settimana."
   },
   "yield": {
     "count": 7,
@@ -17,7 +17,7 @@
     }
   },
   "time": {
-    "prep": 30,
+    "prep": 35,
     "cook": 25
   },
   "difficulty": "facile",
@@ -26,6 +26,7 @@
   "tags": [
     "salato",
     "forno",
+    "friggitrice-ad-aria",
     "carne",
     "proteico",
     "meal-prep",
@@ -75,23 +76,41 @@
     },
     {
       "section": {
+        "it": "Per la salsa"
+      },
+      "items": [
+        {
+          "food": "pomodori-pelati",
+          "qty": 120,
+          "unit": "g"
+        },
+        {
+          "food": "sale",
+          "unit": "qb"
+        },
+        {
+          "food": "origano",
+          "qty": 1,
+          "unit": "cucchiaino"
+        },
+        {
+          "food": "aglio-polvere",
+          "qty": 0.5,
+          "unit": "cucchiaino"
+        }
+      ]
+    },
+    {
+      "section": {
         "it": "Per il ripieno"
       },
       "items": [
         {
-          "food": "passata-pomodoro",
-          "qty": 65,
-          "unit": "g",
-          "label": {
-            "it": "salsa per pizza o passata di pomodoro"
-          }
-        },
-        {
           "food": "prosciutto-cotto",
-          "qty": 40,
+          "qty": 70,
           "unit": "g",
           "label": {
-            "it": "prosciutto cotto a dadini o a listarelle"
+            "it": "prosciutto cotto a dadini o a listarelle (10 g a calzone)"
           }
         },
         {
@@ -110,14 +129,11 @@
       },
       "items": [
         {
-          "food": "uova",
-          "qty": 2,
-          "unit": "pz",
+          "food": "olio-oliva-evo",
+          "qty": 5,
+          "unit": "g",
           "label": {
-            "it": "uova sbattute"
-          },
-          "note": {
-            "it": "oppure olio spray da cucina"
+            "it": "olio d'oliva in spray"
           }
         },
         {
@@ -138,10 +154,18 @@
     },
     {
       "title": {
+        "it": "La salsa"
+      },
+      "text": {
+        "it": "Schiaccia {{pomodori-pelati}} con una forchetta, poi condisci con {{sale#2}}, {{origano#2}} e {{aglio-polvere#2}}. Non serve cuocerla: cuoce dentro al calzone. Tienine da parte un po' per spennellare."
+      }
+    },
+    {
+      "title": {
         "it": "Stendere"
       },
       "text": {
-        "it": "Dividi l'impasto in 7 parti uguali (circa 130 g l'una) e stendi ogni parte in un disco di 18-20 cm. Accendi il forno a 200 °C."
+        "it": "Dividi l'impasto in 7 parti uguali (circa 130 g l'una) e stendi ogni parte in un disco di 18-20 cm. Accendi il forno o la friggitrice a 180 °C."
       }
     },
     {
@@ -149,7 +173,7 @@
         "it": "Farcire"
       },
       "text": {
-        "it": "Su metà di ogni disco distribuisci circa 9 g di {{passata-pomodoro}}, 6 g di {{prosciutto-cotto}} e 6 g di {{mozzarella-proteica}}. **Lascia un piccolo bordo libero** e non esagerare col ripieno: troppo pieno e il calzone si spacca in cottura."
+        "it": "Su metà di ogni disco distribuisci circa 9 g di salsa, 10 g di {{prosciutto-cotto}} e 6 g di {{mozzarella-proteica}}. **Lascia un piccolo bordo libero** e non esagerare col ripieno: troppo pieno e il calzone si spacca in cottura."
       }
     },
     {
@@ -157,7 +181,7 @@
         "it": "Chiudere"
       },
       "text": {
-        "it": "Ripiega a mezzaluna e **premi bene il bordo** per sigillarlo, poi rifinisci con i rebbi di una forchetta. Spennella la superficie con {{uova}} sbattute (o spruzza un velo di olio) e spolvera con {{origano#2}}."
+        "it": "Ripiega a mezzaluna e **premi bene il bordo** per sigillarlo, poi rifinisci con i rebbi di una forchetta. Spruzza un velo di {{olio-oliva-evo}}, spennella con un po' di salsa e spolvera con {{origano#3}}."
       }
     },
     {
@@ -165,7 +189,7 @@
         "it": "Cuocere"
       },
       "text": {
-        "it": "Disponili su una teglia con carta forno e cuoci a 200 °C per 20-25 minuti, finché sono dorati e ben gonfi."
+        "it": "**Forno:** 180 °C per 20-25 minuti su una teglia con carta forno. **Friggitrice ad aria:** 180 °C per 15-20 minuti, due o tre per volta perché non si tocchino. Sono pronti quando sono dorati e ben gonfi."
       },
       "timer": 1320
     }
@@ -201,14 +225,6 @@
       },
       "text": {
         "it": "Friggitrice ad aria: 170 °C per 10-14 minuti. Forno: 180 °C per 20-25 minuti."
-      }
-    },
-    {
-      "title": {
-        "it": "Uova"
-      },
-      "text": {
-        "it": "Per spennellare ne usi solo una parte: le macro le contano tutte, quindi nella realtà sono leggermente più basse. Con l'olio spray invece delle uova scendono ancora un po'."
       }
     }
   ]
