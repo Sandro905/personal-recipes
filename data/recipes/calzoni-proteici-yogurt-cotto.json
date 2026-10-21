@@ -114,6 +114,17 @@
           }
         },
         {
+          "food": "olive-nere",
+          "qty": 28,
+          "unit": "g",
+          "label": {
+            "it": "olive snocciolate (1 a calzone)"
+          },
+          "note": {
+            "it": "circa 4 g l'una"
+          }
+        },
+        {
           "food": "mozzarella-proteica",
           "qty": 40,
           "unit": "g",
@@ -173,7 +184,7 @@
         "it": "Farcire"
       },
       "text": {
-        "it": "Su metà di ogni disco distribuisci circa 9 g di salsa, 10 g di {{prosciutto-cotto}} e 6 g di {{mozzarella-proteica}}. **Lascia un piccolo bordo libero** e non esagerare col ripieno: troppo pieno e il calzone si spacca in cottura."
+        "it": "Su metà di ogni disco distribuisci circa 9 g di salsa, 10 g di {{prosciutto-cotto}}, 6 g di {{mozzarella-proteica}} e un'oliva snocciolata (tagliala a metà se è grossa). **Lascia un piccolo bordo libero** e non esagerare col ripieno: troppo pieno e il calzone si spacca in cottura."
       }
     },
     {
