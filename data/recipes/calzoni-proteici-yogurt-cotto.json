@@ -1,0 +1,215 @@
+{
+  "slug": "calzoni-proteici-yogurt-cotto",
+  "added": "2026-10-21",
+  "title": {
+    "it": "Calzoni proteici allo yogurt greco con prosciutto cotto"
+  },
+  "image": "assets/img/recipes/calzoni-proteici-yogurt-cotto.jpg",
+  "imageFocus": "center 50%",
+  "summary": {
+    "it": "Impasto di farina e yogurt greco 0% profumato ad aglio e erbe italiane, senza lievito e senza attesa, richiuso su salsa di pomodoro, prosciutto cotto e formaggio light. Sette calzoni da fare in anticipo e riscaldare per tutta la settimana."
+  },
+  "yield": {
+    "count": 7,
+    "label": {
+      "it": "calzoni",
+      "en": "calzones"
+    }
+  },
+  "time": {
+    "prep": 30,
+    "cook": 25
+  },
+  "difficulty": "facile",
+  "cost": "economico",
+  "method": "forno",
+  "tags": [
+    "salato",
+    "forno",
+    "carne",
+    "proteico",
+    "meal-prep",
+    "congelabile",
+    "finger-food",
+    "cena"
+  ],
+  "source": {
+    "name": "YouTube Shorts",
+    "url": "https://www.youtube.com/shorts/JwJZXiFs-vY"
+  },
+  "ingredients": [
+    {
+      "section": {
+        "it": "Per l'impasto"
+      },
+      "items": [
+        {
+          "food": "yogurt-greco-0",
+          "qty": 500,
+          "unit": "g"
+        },
+        {
+          "food": "farina-00",
+          "qty": 420,
+          "unit": "g"
+        },
+        {
+          "food": "sale",
+          "qty": 1,
+          "unit": "cucchiaino"
+        },
+        {
+          "food": "aglio-polvere",
+          "qty": 1,
+          "unit": "cucchiaino"
+        },
+        {
+          "food": "origano",
+          "qty": 1.5,
+          "unit": "cucchiaino",
+          "label": {
+            "it": "mix di erbe italiane (o origano)"
+          }
+        }
+      ]
+    },
+    {
+      "section": {
+        "it": "Per il ripieno"
+      },
+      "items": [
+        {
+          "food": "passata-pomodoro",
+          "qty": 65,
+          "unit": "g",
+          "label": {
+            "it": "salsa per pizza o passata di pomodoro"
+          }
+        },
+        {
+          "food": "prosciutto-cotto",
+          "qty": 40,
+          "unit": "g",
+          "label": {
+            "it": "prosciutto cotto a dadini o a listarelle"
+          }
+        },
+        {
+          "food": "mozzarella-proteica",
+          "qty": 40,
+          "unit": "g",
+          "label": {
+            "it": "formaggio light grattugiato (o mozzarella light)"
+          }
+        }
+      ]
+    },
+    {
+      "section": {
+        "it": "Per la superficie"
+      },
+      "items": [
+        {
+          "food": "uova",
+          "qty": 2,
+          "unit": "pz",
+          "label": {
+            "it": "uova sbattute"
+          },
+          "note": {
+            "it": "oppure olio spray da cucina"
+          }
+        },
+        {
+          "food": "origano",
+          "unit": "qb"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": {
+        "it": "L'impasto"
+      },
+      "text": {
+        "it": "Mescola {{farina-00}} con {{sale}}, {{aglio-polvere}} e le erbe italiane, poi unisci {{yogurt-greco-0}} gradualmente, lavorando con una forchetta finché non si raccoglie. Impasta sulla spianatoia infarinata fino a un panetto morbido e liscio, che non si attacca alle mani."
+      }
+    },
+    {
+      "title": {
+        "it": "Stendere"
+      },
+      "text": {
+        "it": "Dividi l'impasto in 7 parti uguali (circa 130 g l'una) e stendi ogni parte in un disco di 18-20 cm. Accendi il forno a 200 °C."
+      }
+    },
+    {
+      "title": {
+        "it": "Farcire"
+      },
+      "text": {
+        "it": "Su metà di ogni disco distribuisci circa 9 g di {{passata-pomodoro}}, 6 g di {{prosciutto-cotto}} e 6 g di {{mozzarella-proteica}}. **Lascia un piccolo bordo libero** e non esagerare col ripieno: troppo pieno e il calzone si spacca in cottura."
+      }
+    },
+    {
+      "title": {
+        "it": "Chiudere"
+      },
+      "text": {
+        "it": "Ripiega a mezzaluna e **premi bene il bordo** per sigillarlo, poi rifinisci con i rebbi di una forchetta. Spennella la superficie con {{uova}} sbattute (o spruzza un velo di olio) e spolvera con {{origano#2}}."
+      }
+    },
+    {
+      "title": {
+        "it": "Cuocere"
+      },
+      "text": {
+        "it": "Disponili su una teglia con carta forno e cuoci a 200 °C per 20-25 minuti, finché sono dorati e ben gonfi."
+      },
+      "timer": 1320
+    }
+  ],
+  "notes": [
+    {
+      "title": {
+        "it": "Se l'impasto è troppo appiccicoso"
+      },
+      "text": {
+        "it": "Gli yogurt greci hanno umidità diverse. Parti dalla farina e unisci lo yogurt poco alla volta: se serve, aggiungi un po' di farina finché l'impasto è morbido e facile da lavorare."
+      }
+    },
+    {
+      "title": {
+        "it": "Conservazione"
+      },
+      "text": {
+        "it": "In un contenitore ermetico in frigo fino a 4 giorni, oppure in freezer fino a 3 mesi."
+      }
+    },
+    {
+      "title": {
+        "it": "Riscaldare dal frigo"
+      },
+      "text": {
+        "it": "Friggitrice ad aria: 180 °C per 4-6 minuti. Forno: 180 °C per 10-12 minuti."
+      }
+    },
+    {
+      "title": {
+        "it": "Riscaldare dal freezer"
+      },
+      "text": {
+        "it": "Friggitrice ad aria: 170 °C per 10-14 minuti. Forno: 180 °C per 20-25 minuti."
+      }
+    },
+    {
+      "title": {
+        "it": "Uova"
+      },
+      "text": {
+        "it": "Per spennellare ne usi solo una parte: le macro le contano tutte, quindi nella realtà sono leggermente più basse. Con l'olio spray invece delle uova scendono ancora un po'."
+      }
+    }
+  ]
+}

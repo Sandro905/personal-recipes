@@ -1,10 +1,10 @@
 // GENERATO da scripts/build-sw.mjs — non modificarlo a mano.
 // Sorgente: scripts/sw-runtime.js · rigenera con `npm run build`.
 
-const VERSION = 'd92d3b8e3c';
+const VERSION = '286ad3133c';
 const CODICE = 'dfa0223768';
 
-// Guscio: HTML, stile, codice, font, icone e dati. ~609 KB,
+// Guscio: HTML, stile, codice, font, icone e dati. ~616 KB,
 // salvato tutto insieme all'installazione. Se manca un pezzo l'installazione
 // fallisce e resta attiva la versione precedente: mai una copia a metà.
 const SHELL = [
@@ -34,6 +34,7 @@ const SHELL = [
   './data/recipes/alette-pollo-forno-patate.json',
   './data/recipes/bistecca-patate-forno.json',
   './data/recipes/calzoni-prosciutto-mozzarella.json',
+  './data/recipes/calzoni-proteici-yogurt-cotto.json',
   './data/recipes/carbonara-semplificata.json',
   './data/recipes/cosce-pollo-croccanti-friggitrice.json',
   './data/recipes/crocchette-patate-friggitrice.json',
@@ -82,6 +83,7 @@ const MEDIA = {
   './assets/img/recipes/alette-pollo-forno-patate.jpg': '586e1eb542785521',
   './assets/img/recipes/bistecca-patate-forno.jpg': 'd9df1a2850754899',
   './assets/img/recipes/calzoni-prosciutto-mozzarella.jpg': '6d5468ecb817275a',
+  './assets/img/recipes/calzoni-proteici-yogurt-cotto.jpg': '639495e5ad92adc3',
   './assets/img/recipes/carbonara-semplificata.jpg': 'e94ffc84c285d9a4',
   './assets/img/recipes/cosce-pollo-croccanti-friggitrice.jpg': 'b7f121df82e665cf',
   './assets/img/recipes/crocchette-patate-friggitrice.jpg': '9ad36059452dbf2a',
