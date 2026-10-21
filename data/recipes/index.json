@@ -1,6 +1,49 @@
 {
-  "count": 42,
+  "count": 43,
   "recipes": [
+    {
+      "slug": "calzoni-proteici-yogurt-cotto",
+      "added": "2026-10-21",
+      "title": {
+        "it": "Calzoni proteici allo yogurt greco con prosciutto cotto"
+      },
+      "summary": {
+        "it": "Impasto di farina e yogurt greco 0% profumato ad aglio e erbe italiane, senza lievito e senza attesa, richiuso su salsa di pomodoro fatta in casa, prosciutto cotto e formaggio light. Sette calzoni, in forno o in friggitrice ad aria, da fare in anticipo e riscaldare per tutta la settimana."
+      },
+      "image": "assets/img/recipes/calzoni-proteici-yogurt-cotto.jpg",
+      "imageFocus": "center 50%",
+      "tags": [
+        "salato",
+        "forno",
+        "friggitrice-ad-aria",
+        "carne",
+        "proteico",
+        "meal-prep",
+        "congelabile",
+        "finger-food",
+        "cena"
+      ],
+      "method": "forno",
+      "difficulty": "facile",
+      "cost": "economico",
+      "time": {
+        "prep": 35,
+        "cook": 25
+      },
+      "yield": {
+        "count": 7,
+        "label": {
+          "it": "calzoni",
+          "en": "calzones"
+        }
+      },
+      "kcalPerServing": 302,
+      "coverage": 0.86,
+      "search": {
+        "it": "Calzoni proteici allo yogurt greco con prosciutto cotto · Impasto di farina e yogurt greco 0% profumato ad aglio e erbe italiane, senza lievito e senza attesa, richiuso su salsa di pomodoro fatta in casa, prosciutto cotto e formaggio light. Sette calzoni, in forno o in friggitrice ad aria, da fare in anticipo e riscaldare per tutta la settimana. · yogurt greco 0% · farina 00 · sale fino · aglio in polvere · mix di erbe italiane (o origano) origano · pomodori pelati · sale fino · origano · aglio in polvere · prosciutto cotto a dadini o a listarelle (10 g a calzone) prosciutto cotto · olive snocciolate (1 a calzone) olive nere · formaggio light grattugiato (o mozzarella light) mozzarella proteica · olio d'oliva in spray olio extravergine d'oliva · origano · L'impasto · La salsa · Stendere · Farcire · Chiudere · Cuocere",
+        "en": "Calzoni proteici allo yogurt greco con prosciutto cotto · Impasto di farina e yogurt greco 0% profumato ad aglio e erbe italiane, senza lievito e senza attesa, richiuso su salsa di pomodoro fatta in casa, prosciutto cotto e formaggio light. Sette calzoni, in forno o in friggitrice ad aria, da fare in anticipo e riscaldare per tutta la settimana. · fat-free Greek yoghurt · type-00 wheat flour · fine salt · garlic powder · mix di erbe italiane (o origano) oregano · peeled tomatoes · fine salt · oregano · garlic powder · prosciutto cotto a dadini o a listarelle (10 g a calzone) cooked ham · olive snocciolate (1 a calzone) black olives · formaggio light grattugiato (o mozzarella light) high-protein mozzarella · olio d'oliva in spray extra virgin olive oil · oregano · L'impasto · La salsa · Stendere · Farcire · Chiudere · Cuocere"
+      }
+    },
     {
       "slug": "pasta-cotto-funghi",
       "added": "2026-10-10",

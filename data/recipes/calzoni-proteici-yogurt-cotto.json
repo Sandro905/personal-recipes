@@ -1,0 +1,242 @@
+{
+  "slug": "calzoni-proteici-yogurt-cotto",
+  "added": "2026-10-21",
+  "title": {
+    "it": "Calzoni proteici allo yogurt greco con prosciutto cotto"
+  },
+  "image": "assets/img/recipes/calzoni-proteici-yogurt-cotto.jpg",
+  "imageFocus": "center 50%",
+  "summary": {
+    "it": "Impasto di farina e yogurt greco 0% profumato ad aglio e erbe italiane, senza lievito e senza attesa, richiuso su salsa di pomodoro fatta in casa, prosciutto cotto e formaggio light. Sette calzoni, in forno o in friggitrice ad aria, da fare in anticipo e riscaldare per tutta la settimana."
+  },
+  "yield": {
+    "count": 7,
+    "label": {
+      "it": "calzoni",
+      "en": "calzones"
+    }
+  },
+  "time": {
+    "prep": 35,
+    "cook": 25
+  },
+  "difficulty": "facile",
+  "cost": "economico",
+  "method": "forno",
+  "tags": [
+    "salato",
+    "forno",
+    "friggitrice-ad-aria",
+    "carne",
+    "proteico",
+    "meal-prep",
+    "congelabile",
+    "finger-food",
+    "cena"
+  ],
+  "source": {
+    "name": "YouTube Shorts",
+    "url": "https://www.youtube.com/shorts/JwJZXiFs-vY"
+  },
+  "ingredients": [
+    {
+      "section": {
+        "it": "Per l'impasto"
+      },
+      "items": [
+        {
+          "food": "yogurt-greco-0",
+          "qty": 500,
+          "unit": "g"
+        },
+        {
+          "food": "farina-00",
+          "qty": 420,
+          "unit": "g"
+        },
+        {
+          "food": "sale",
+          "qty": 1,
+          "unit": "cucchiaino"
+        },
+        {
+          "food": "aglio-polvere",
+          "qty": 1,
+          "unit": "cucchiaino"
+        },
+        {
+          "food": "origano",
+          "qty": 1.5,
+          "unit": "cucchiaino",
+          "label": {
+            "it": "mix di erbe italiane (o origano)"
+          }
+        }
+      ]
+    },
+    {
+      "section": {
+        "it": "Per la salsa"
+      },
+      "items": [
+        {
+          "food": "pomodori-pelati",
+          "qty": 120,
+          "unit": "g"
+        },
+        {
+          "food": "sale",
+          "unit": "qb"
+        },
+        {
+          "food": "origano",
+          "qty": 1,
+          "unit": "cucchiaino"
+        },
+        {
+          "food": "aglio-polvere",
+          "qty": 0.5,
+          "unit": "cucchiaino"
+        }
+      ]
+    },
+    {
+      "section": {
+        "it": "Per il ripieno"
+      },
+      "items": [
+        {
+          "food": "prosciutto-cotto",
+          "qty": 70,
+          "unit": "g",
+          "label": {
+            "it": "prosciutto cotto a dadini o a listarelle (10 g a calzone)"
+          }
+        },
+        {
+          "food": "olive-nere",
+          "qty": 28,
+          "unit": "g",
+          "label": {
+            "it": "olive snocciolate (1 a calzone)"
+          },
+          "note": {
+            "it": "circa 4 g l'una"
+          }
+        },
+        {
+          "food": "mozzarella-proteica",
+          "qty": 40,
+          "unit": "g",
+          "label": {
+            "it": "formaggio light grattugiato (o mozzarella light)"
+          }
+        }
+      ]
+    },
+    {
+      "section": {
+        "it": "Per la superficie"
+      },
+      "items": [
+        {
+          "food": "olio-oliva-evo",
+          "qty": 5,
+          "unit": "g",
+          "label": {
+            "it": "olio d'oliva in spray"
+          }
+        },
+        {
+          "food": "origano",
+          "unit": "qb"
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": {
+        "it": "L'impasto"
+      },
+      "text": {
+        "it": "Mescola {{farina-00}} con {{sale}}, {{aglio-polvere}} e le erbe italiane, poi unisci {{yogurt-greco-0}} gradualmente, lavorando con una forchetta finché non si raccoglie. Impasta sulla spianatoia infarinata fino a un panetto morbido e liscio, che non si attacca alle mani."
+      }
+    },
+    {
+      "title": {
+        "it": "La salsa"
+      },
+      "text": {
+        "it": "Schiaccia {{pomodori-pelati}} con una forchetta, poi condisci con {{sale#2}}, {{origano#2}} e {{aglio-polvere#2}}. Non serve cuocerla: cuoce dentro al calzone. Tienine da parte un po' per spennellare."
+      }
+    },
+    {
+      "title": {
+        "it": "Stendere"
+      },
+      "text": {
+        "it": "Dividi l'impasto in 7 parti uguali (circa 130 g l'una) e stendi ogni parte in un disco di 18-20 cm. Accendi il forno o la friggitrice a 180 °C."
+      }
+    },
+    {
+      "title": {
+        "it": "Farcire"
+      },
+      "text": {
+        "it": "Su metà di ogni disco distribuisci circa 9 g di salsa, 10 g di {{prosciutto-cotto}}, 6 g di {{mozzarella-proteica}} e un'oliva snocciolata (tagliala a metà se è grossa). **Lascia un piccolo bordo libero** e non esagerare col ripieno: troppo pieno e il calzone si spacca in cottura."
+      }
+    },
+    {
+      "title": {
+        "it": "Chiudere"
+      },
+      "text": {
+        "it": "Ripiega a mezzaluna e **premi bene il bordo** per sigillarlo, poi rifinisci con i rebbi di una forchetta. Spruzza un velo di {{olio-oliva-evo}}, spennella con un po' di salsa e spolvera con {{origano#3}}."
+      }
+    },
+    {
+      "title": {
+        "it": "Cuocere"
+      },
+      "text": {
+        "it": "**Forno:** 180 °C per 20-25 minuti su una teglia con carta forno. **Friggitrice ad aria:** 180 °C per 15-20 minuti, due o tre per volta perché non si tocchino. Sono pronti quando sono dorati e ben gonfi."
+      },
+      "timer": 1320
+    }
+  ],
+  "notes": [
+    {
+      "title": {
+        "it": "Se l'impasto è troppo appiccicoso"
+      },
+      "text": {
+        "it": "Gli yogurt greci hanno umidità diverse. Parti dalla farina e unisci lo yogurt poco alla volta: se serve, aggiungi un po' di farina finché l'impasto è morbido e facile da lavorare."
+      }
+    },
+    {
+      "title": {
+        "it": "Conservazione"
+      },
+      "text": {
+        "it": "In un contenitore ermetico in frigo fino a 4 giorni, oppure in freezer fino a 3 mesi."
+      }
+    },
+    {
+      "title": {
+        "it": "Riscaldare dal frigo"
+      },
+      "text": {
+        "it": "Friggitrice ad aria: 180 °C per 4-6 minuti. Forno: 180 °C per 10-12 minuti."
+      }
+    },
+    {
+      "title": {
+        "it": "Riscaldare dal freezer"
+      },
+      "text": {
+        "it": "Friggitrice ad aria: 170 °C per 10-14 minuti. Forno: 180 °C per 20-25 minuti."
+      }
+    }
+  ]
+}
