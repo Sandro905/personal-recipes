@@ -1,0 +1,241 @@
+{
+  "slug": "tortilla-cheeseburger-bacon",
+  "added": "2026-11-05",
+  "title": {
+    "it": "Tortilla cheeseburger con bacon croccante"
+  },
+  "summary": {
+    "it": "Tortilla farcite con macinato magro in salsa burger allo yogurt greco, formaggio proteico e bacon croccante, richiuse e sigillate in padella. Sei pezzi da preparare in anticipo."
+  },
+  "yield": {
+    "count": 6,
+    "label": {
+      "it": "tortilla",
+      "en": "tortillas"
+    }
+  },
+  "time": {
+    "prep": 25,
+    "cook": 25
+  },
+  "difficulty": "facile",
+  "cost": "economico",
+  "method": "padella",
+  "tags": [
+    "salato",
+    "padella",
+    "friggitrice-ad-aria",
+    "carne",
+    "manzo",
+    "proteico",
+    "meal-prep",
+    "finger-food",
+    "cena"
+  ],
+  "source": {
+    "name": "YouTube Shorts",
+    "url": "https://youtube.com/shorts/XxDQgtw4gD0"
+  },
+  "ingredients": [
+    {
+      "section": {
+        "it": "Per la base"
+      },
+      "items": [
+        {
+          "food": "tortilla",
+          "qty": 6,
+          "unit": "pz",
+          "label": {
+            "it": "tortilla"
+          },
+          "note": {
+            "it": "circa 50 g l'una"
+          }
+        },
+        {
+          "food": "formaggio-proteico-light",
+          "qty": 90,
+          "unit": "g"
+        },
+        {
+          "food": "bacon",
+          "qty": 3,
+          "unit": "pz",
+          "label": {
+            "it": "fette di bacon"
+          }
+        }
+      ]
+    },
+    {
+      "section": {
+        "it": "Per la salsa"
+      },
+      "items": [
+        {
+          "food": "cetriolini",
+          "qty": 2,
+          "unit": "pz"
+        },
+        {
+          "food": "maionese-light",
+          "qty": 50,
+          "unit": "g"
+        },
+        {
+          "food": "yogurt-greco-0",
+          "qty": 110,
+          "unit": "g",
+          "label": {
+            "it": "yogurt greco"
+          }
+        },
+        {
+          "food": "sale",
+          "qty": 1,
+          "unit": "g"
+        },
+        {
+          "food": "paprika-dolce",
+          "unit": "qb"
+        },
+        {
+          "food": "aglio-polvere",
+          "unit": "qb"
+        },
+        {
+          "food": "estratto-carne",
+          "qty": 1,
+          "unit": "cucchiaino",
+          "label": {
+            "it": "estratto di carne o dado"
+          }
+        },
+        {
+          "food": "ketchup-zero",
+          "qty": 25,
+          "unit": "g"
+        },
+        {
+          "food": "senape",
+          "qty": 20,
+          "unit": "g"
+        }
+      ]
+    },
+    {
+      "section": {
+        "it": "Per la carne"
+      },
+      "items": [
+        {
+          "food": "macinato-manzo-magro",
+          "qty": 400,
+          "unit": "g",
+          "label": {
+            "it": "macinato magrissimo"
+          }
+        },
+        {
+          "food": "cipolla",
+          "qty": 1,
+          "unit": "pz",
+          "label": {
+            "it": "cipolla bianca"
+          }
+        },
+        {
+          "food": "sale",
+          "qty": 1,
+          "unit": "g"
+        },
+        {
+          "food": "pepe-nero",
+          "unit": "qb"
+        },
+        {
+          "food": "concentrato-pomodoro",
+          "qty": 25,
+          "unit": "g"
+        },
+        {
+          "food": "olio-evo-spray",
+          "unit": "qb",
+          "label": {
+            "it": "olio EVO 100% spray per cotture light"
+          }
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": {
+        "it": "Il ripieno di carne"
+      },
+      "text": {
+        "it": "Fai ammorbidire {{cipolla}} tagliata a cubetti con un goccio d'acqua. Quando è morbida tosta {{concentrato-pomodoro}}, poi aggiungi {{macinato-manzo-magro}} con {{sale#2}} e {{pepe-nero}} e cuocila **a fiamma alta**."
+      }
+    },
+    {
+      "title": {
+        "it": "La salsa"
+      },
+      "text": {
+        "it": "Taglia {{cetriolini}} a pezzetti e mescola in una ciotola con {{maionese-light}}, {{yogurt-greco-0}}, {{sale}}, {{paprika-dolce}}, {{aglio-polvere}}, {{estratto-carne}}, {{ketchup-zero}} e {{senape}}."
+      }
+    },
+    {
+      "title": {
+        "it": "Unire"
+      },
+      "text": {
+        "it": "**A fiamma spenta** versa la salsa sulla carne e mescola bene."
+      }
+    },
+    {
+      "title": {
+        "it": "Il bacon"
+      },
+      "text": {
+        "it": "Cuoci {{bacon}} in friggitrice ad aria a 200 °C per circa 6 minuti, finché è croccante, poi tagliuzzalo fine."
+      },
+      "timer": 360
+    },
+    {
+      "title": {
+        "it": "Farcire"
+      },
+      "text": {
+        "it": "Scalda le {{tortilla}} 15 secondi nel microonde: si piegano senza rompersi. Al centro di ognuna metti il ripieno, {{formaggio-proteico-light}} e il bacon, poi chiudi."
+      }
+    },
+    {
+      "title": {
+        "it": "Sigillare"
+      },
+      "text": {
+        "it": "Passa ogni tortilla chiusa in una padella a fiamma alta, spruzzata con {{olio-evo-spray}}, per un minuto per lato: si sigilla e si dora."
+      }
+    }
+  ],
+  "notes": [
+    {
+      "title": {
+        "it": "Il pasto"
+      },
+      "text": {
+        "it": "Le macro qui sopra sono per **1 tortilla** su 6: con il selettore delle porzioni vedi le quantità per l'intera teglia."
+      }
+    },
+    {
+      "title": {
+        "it": "Olio spray"
+      },
+      "text": {
+        "it": "Basta una spruzzata in padella: serve a dorare, non a friggere."
+      }
+    }
+  ]
+}

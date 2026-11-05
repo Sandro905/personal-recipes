@@ -2500,6 +2500,172 @@
         "db": "manual",
         "note": "stima media dei prodotti ad alto contenuto proteico (mozzarella light proteica): controlla l'etichetta della tua"
       }
+    },
+    "formaggio-proteico-light": {
+      "name": {
+        "it": "formaggio proteico light grattugiato",
+        "en": "grated high-protein light cheese"
+      },
+      "category": "latticini",
+      "per100g": {
+        "kcal": 250,
+        "protein": 35,
+        "carbs": 1,
+        "fat": 12,
+        "fiber": 0,
+        "sugars": 0.5,
+        "salt": 2.5
+      },
+      "source": {
+        "db": "manual",
+        "note": "stima media di prodotti in commercio: controlla l'etichetta della tua"
+      }
+    },
+    "bacon": {
+      "name": {
+        "it": "bacon affettato",
+        "en": "sliced bacon"
+      },
+      "category": "salumi",
+      "per100g": {
+        "kcal": 350,
+        "protein": 18,
+        "carbs": 0.5,
+        "fat": 31,
+        "fiber": 0,
+        "sugars": 0.3,
+        "salt": 3
+      },
+      "pieceWeight": 12,
+      "source": {
+        "db": "manual",
+        "note": "stima media di prodotti in commercio: controlla l'etichetta della tua"
+      }
+    },
+    "cetriolini": {
+      "name": {
+        "it": "cetriolini sott'aceto",
+        "en": "pickled gherkins"
+      },
+      "category": "verdure",
+      "per100g": {
+        "kcal": 16,
+        "protein": 0.5,
+        "carbs": 3,
+        "fat": 0.2,
+        "fiber": 1,
+        "sugars": 2,
+        "salt": 1.5
+      },
+      "pieceWeight": 10,
+      "source": {
+        "db": "manual",
+        "note": "stima media di prodotti in commercio: controlla l'etichetta della tua"
+      }
+    },
+    "maionese-light": {
+      "name": {
+        "it": "maionese light",
+        "en": "light mayonnaise"
+      },
+      "category": "condimenti",
+      "per100g": {
+        "kcal": 260,
+        "protein": 0.8,
+        "carbs": 7,
+        "fat": 26,
+        "fiber": 0,
+        "sugars": 2,
+        "salt": 1.5
+      },
+      "source": {
+        "db": "manual",
+        "note": "stima media di prodotti in commercio: controlla l'etichetta della tua"
+      }
+    },
+    "ketchup-zero": {
+      "name": {
+        "it": "ketchup zero zuccheri",
+        "en": "zero-sugar ketchup"
+      },
+      "category": "condimenti",
+      "per100g": {
+        "kcal": 25,
+        "protein": 0.5,
+        "carbs": 5,
+        "fat": 0.1,
+        "fiber": 0.5,
+        "sugars": 1,
+        "salt": 2.2
+      },
+      "density": 1.1,
+      "source": {
+        "db": "manual",
+        "note": "stima media di prodotti in commercio: controlla l'etichetta della tua"
+      }
+    },
+    "senape": {
+      "name": {
+        "it": "senape",
+        "en": "mustard"
+      },
+      "category": "condimenti",
+      "per100g": {
+        "kcal": 70,
+        "protein": 4,
+        "carbs": 5,
+        "fat": 4,
+        "fiber": 3,
+        "sugars": 2,
+        "salt": 5
+      },
+      "density": 1.05,
+      "source": {
+        "db": "manual",
+        "note": "stima media di prodotti in commercio: controlla l'etichetta della tua"
+      }
+    },
+    "estratto-carne": {
+      "name": {
+        "it": "estratto di carne (o dado)",
+        "en": "meat extract (or stock cube)"
+      },
+      "category": "condimenti",
+      "per100g": {
+        "kcal": 200,
+        "protein": 12,
+        "carbs": 20,
+        "fat": 8,
+        "fiber": 0,
+        "sugars": 3,
+        "salt": 40
+      },
+      "density": 1.1,
+      "source": {
+        "db": "manual",
+        "note": "stima media di prodotti in commercio: controlla l'etichetta della tua"
+      }
+    },
+    "olio-evo-spray": {
+      "name": {
+        "it": "olio extravergine d'oliva spray",
+        "en": "extra virgin olive oil spray"
+      },
+      "category": "grassi",
+      "per100g": {
+        "kcal": 899,
+        "protein": 0,
+        "carbs": 0,
+        "fat": 99.9,
+        "fiber": 0,
+        "sugars": 0,
+        "salt": 0
+      },
+      "density": 0.91,
+      "source": {
+        "db": "manual",
+        "note": "olio EVO 100% in bomboletta: 1 g circa a spruzzata lunga"
+      }
     }
   }
 }
