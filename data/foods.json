@@ -643,18 +643,18 @@
       },
       "category": "cereali",
       "per100g": {
-        "kcal": 307,
-        "protein": 7.2,
-        "carbs": 48.3,
-        "fat": 8.8,
+        "kcal": 303,
+        "protein": 7.1,
+        "carbs": 54,
+        "fat": 5.9,
         "fiber": 2.5,
-        "sugars": 2,
-        "salt": 1.1
+        "sugars": 1.6,
+        "salt": 1.6
       },
       "pieceWeight": 60,
       "source": {
-        "db": "piano",
-        "note": "ricavato da 1 tortilla da 60 g = 184 kcal"
+        "db": "manual",
+        "note": "etichetta delle tortillas Luna (Eurospin), valori per 100 g"
       }
     },
     "aceto-balsamico": {
