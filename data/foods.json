@@ -1602,18 +1602,18 @@
       },
       "category": "latticini",
       "per100g": {
-        "kcal": 200,
-        "protein": 20,
-        "carbs": 6,
-        "fat": 11,
+        "kcal": 181,
+        "protein": 17,
+        "carbs": 8,
+        "fat": 9,
         "fiber": 0,
-        "sugars": 6,
-        "salt": 2.5
+        "sugars": 8,
+        "salt": 2.9
       },
-      "pieceWeight": 20,
+      "pieceWeight": 25,
       "source": {
         "db": "manual",
-        "note": "valore medio da tabelle di composizione"
+        "note": "etichetta delle sottilette light Eurospin, valori per 100 g; fetta da 25 g (confezione da 200 g)"
       }
     },
     "yogurt-greco": {
