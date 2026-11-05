@@ -5,7 +5,7 @@
     "it": "Tortilla cheeseburger con bacon croccante"
   },
   "summary": {
-    "it": "Tortilla farcite con macinato magro in salsa burger allo yogurt greco, formaggio proteico e bacon croccante, richiuse e sigillate in padella. Sei pezzi da preparare in anticipo."
+    "it": "Tortilla farcite con macinato magro in salsa burger allo yogurt greco, sottilette light e bacon croccante, richiuse e sigillate in padella. Sei pezzi da preparare in anticipo."
   },
   "yield": {
     "count": 6,
@@ -54,9 +54,15 @@
           }
         },
         {
-          "food": "formaggio-proteico-light",
-          "qty": 90,
-          "unit": "g"
+          "food": "sottilette-light",
+          "qty": 6,
+          "unit": "pz",
+          "label": {
+            "it": "sottilette light Kraft (Eurospin)"
+          },
+          "note": {
+            "it": "1 per tortilla"
+          }
         },
         {
           "food": "bacon",
@@ -208,7 +214,7 @@
         "it": "Farcire"
       },
       "text": {
-        "it": "Scalda le {{tortilla}} 15 secondi nel microonde: si piegano senza rompersi. Al centro di ognuna metti il ripieno, {{formaggio-proteico-light}} e il bacon, poi chiudi."
+        "it": "Scalda le {{tortilla}} 15 secondi nel microonde: si piegano senza rompersi. Al centro di ognuna metti il ripieno, una sottiletta light e il bacon, poi chiudi."
       }
     },
     {

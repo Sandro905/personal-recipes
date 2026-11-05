@@ -2501,26 +2501,6 @@
         "note": "stima media dei prodotti ad alto contenuto proteico (mozzarella light proteica): controlla l'etichetta della tua"
       }
     },
-    "formaggio-proteico-light": {
-      "name": {
-        "it": "formaggio proteico light grattugiato",
-        "en": "grated high-protein light cheese"
-      },
-      "category": "latticini",
-      "per100g": {
-        "kcal": 250,
-        "protein": 35,
-        "carbs": 1,
-        "fat": 12,
-        "fiber": 0,
-        "sugars": 0.5,
-        "salt": 2.5
-      },
-      "source": {
-        "db": "manual",
-        "note": "stima media di prodotti in commercio: controlla l'etichetta della tua"
-      }
-    },
     "bacon": {
       "name": {
         "it": "bacon affettato",
