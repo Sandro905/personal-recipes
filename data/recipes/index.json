@@ -1,6 +1,45 @@
 {
-  "count": 44,
+  "count": 45,
   "recipes": [
+    {
+      "slug": "lingue-di-pizza",
+      "added": "2026-11-09",
+      "title": {
+        "it": "Lingue di pizza"
+      },
+      "summary": {
+        "it": "Lingue sottili e croccanti ai bordi, con tanta salsa di pomodoro e rosmarino: un impasto di sole tre cose, pronto in fretta, che si congela e si farcisce ogni volta come capita."
+      },
+      "image": "assets/img/recipes/lingue-di-pizza.jpg",
+      "imageFocus": "center 50%",
+      "tags": [
+        "salato",
+        "forno",
+        "congelabile",
+        "finger-food"
+      ],
+      "method": "forno",
+      "difficulty": "molto-facile",
+      "cost": "molto-economico",
+      "time": {
+        "prep": 15,
+        "rest": 20,
+        "cook": 20
+      },
+      "yield": {
+        "count": 8,
+        "label": {
+          "it": "lingue",
+          "en": "flatbreads"
+        }
+      },
+      "kcalPerServing": 196,
+      "coverage": 0.75,
+      "search": {
+        "it": "Lingue di pizza · Lingue sottili e croccanti ai bordi, con tanta salsa di pomodoro e rosmarino: un impasto di sole tre cose, pronto in fretta, che si congela e si farcisce ogni volta come capita. · farina 0 · acqua · sale fino sale fino · salsa di pomodoro, prima della cottura passata di pomodoro · salsa di pomodoro, a metà cottura passata di pomodoro · rosmarino secco rosmarino · olio extravergine d'oliva, per la teglia e un giro su ogni lingua olio extravergine d'oliva · farina di mais fioretto o semola di grano duro, per stendere semola rimacinata di grano duro · L'impasto · Riposo · Palline · Stendere · Primo passaggio in forno · Seconda cottura",
+        "en": "Lingue di pizza · Lingue sottili e croccanti ai bordi, con tanta salsa di pomodoro e rosmarino: un impasto di sole tre cose, pronto in fretta, che si congela e si farcisce ogni volta come capita. · type-0 wheat flour · water · sale fino fine salt · salsa di pomodoro, prima della cottura tomato passata · salsa di pomodoro, a metà cottura tomato passata · rosmarino secco rosemary · olio extravergine d'oliva, per la teglia e un giro su ogni lingua extra virgin olive oil · farina di mais fioretto o semola di grano duro, per stendere fine durum semolina · L'impasto · Riposo · Palline · Stendere · Primo passaggio in forno · Seconda cottura"
+      }
+    },
     {
       "slug": "tortilla-cheeseburger-bacon",
       "added": "2026-11-05",

@@ -1,0 +1,130 @@
+{
+  "slug": "lingue-di-pizza",
+  "added": "2026-11-09",
+  "title": {
+    "it": "Lingue di pizza"
+  },
+  "summary": {
+    "it": "Lingue sottili e croccanti ai bordi, con tanta salsa di pomodoro e rosmarino: un impasto di sole tre cose, pronto in fretta, che si congela e si farcisce ogni volta come capita."
+  },
+  "image": "assets/img/recipes/lingue-di-pizza.jpg",
+  "imageFocus": "center 50%",
+  "yield": { "count": 8, "label": { "it": "lingue", "en": "flatbreads" } },
+  "time": { "prep": 15, "rest": 20, "cook": 20 },
+  "difficulty": "molto-facile",
+  "cost": "molto-economico",
+  "method": "forno",
+  "tags": ["salato", "forno", "congelabile", "finger-food"],
+  "source": {
+    "name": "Video (YouTube)",
+    "url": "https://youtube.com/shorts/D4-D4ResDII"
+  },
+  "ingredients": [
+    {
+      "section": { "it": "Per l'impasto" },
+      "items": [
+        { "food": "farina-0", "qty": 300, "unit": "g" },
+        { "food": "acqua", "qty": 190, "unit": "g" },
+        { "food": "sale", "qty": 8, "unit": "g", "label": { "it": "sale fino" } }
+      ]
+    },
+    {
+      "section": { "it": "Per condire" },
+      "items": [
+        {
+          "food": "passata-pomodoro",
+          "qty": 240,
+          "unit": "g",
+          "label": { "it": "salsa di pomodoro, prima della cottura" },
+          "note": { "it": "circa 2 cucchiai per lingua" }
+        },
+        {
+          "food": "passata-pomodoro",
+          "qty": 360,
+          "unit": "g",
+          "label": { "it": "salsa di pomodoro, a metà cottura" }
+        },
+        { "food": "rosmarino", "unit": "qb", "label": { "it": "rosmarino secco" } },
+        {
+          "food": "olio-oliva-evo",
+          "qty": 40,
+          "unit": "g",
+          "label": { "it": "olio extravergine d'oliva, per la teglia e un giro su ogni lingua" }
+        },
+        {
+          "food": "semola-rimacinata",
+          "unit": "qb",
+          "label": { "it": "farina di mais fioretto o semola di grano duro, per stendere" }
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": { "it": "L'impasto" },
+      "text": {
+        "it": "Mescola {{farina-0}}, {{acqua}} e {{sale}} e impasta brevemente, giusto il tempo di eliminare tutti i grumi."
+      }
+    },
+    {
+      "title": { "it": "Riposo" },
+      "text": {
+        "it": "Lascia riposare per **10 minuti**, poi impasta ancora per qualche istante, fino a ottenere un panetto elastico e omogeneo."
+      },
+      "timer": 600
+    },
+    {
+      "title": { "it": "Palline" },
+      "text": {
+        "it": "Dividi l'impasto in 8 palline da circa 60 g ciascuna e lasciale riposare per altri **10 minuti**."
+      },
+      "timer": 600
+    },
+    {
+      "title": { "it": "Stendere" },
+      "text": {
+        "it": "Stendi ogni pallina fino a ottenere una lingua sottile lunga circa 24 cm, aiutandoti con un po' di farina di mais fioretto oppure di semola di grano duro."
+      }
+    },
+    {
+      "title": { "it": "Primo passaggio in forno" },
+      "text": {
+        "it": "Disponi le lingue in una teglia ben unta con {{olio-oliva-evo}} e distribuisci su ciascuna circa due cucchiai di salsa ({{passata-pomodoro}} in tutto). Completa con un giro d'olio e cuoci a **250 °C** per **10 minuti**, nella parte bassa del forno."
+      },
+      "timer": 600
+    },
+    {
+      "title": { "it": "Seconda cottura" },
+      "text": {
+        "it": "Aggiungi altra salsa ({{passata-pomodoro#2}}), spolvera con {{rosmarino}} essiccato e rimetti in forno, questa volta a mezza altezza, per altri **10 minuti**."
+      },
+      "timer": 600
+    }
+  ],
+  "notes": [
+    {
+      "title": { "it": "Più proteine con il cotto" },
+      "text": {
+        "it": "Appena sfornate, adagia su ogni lingua una o due fette di **prosciutto cotto** (circa 40 g): aggiungono 7-8 g di proteine e 85 kcal a testa, e si scaldano appena col calore della lingua. Per averlo più caldo, mettilo negli ultimi 2 minuti di forno. Stanno bene anche bresaola o petto di tacchino, per meno grassi."
+      }
+    },
+    {
+      "title": { "it": "Farcirle come vuoi" },
+      "text": {
+        "it": "La base è neutra, quindi regge qualsiasi condimento: mozzarella negli ultimi minuti, cotto e funghi, tonno e cipolla, o semplicemente un filo d'olio crudo."
+      }
+    },
+    {
+      "title": { "it": "Stenderle sottili" },
+      "text": {
+        "it": "Più sono sottili, più diventano croccanti ai bordi. Non preoccuparti se i contorni scuriscono un po' in forno: è proprio quello il bello."
+      }
+    },
+    {
+      "title": { "it": "Congelare e scongelare" },
+      "text": {
+        "it": "Una volta cotte e raffreddate, si congelano una per una. Per mangiarle, lasciale scongelare a temperatura ambiente e scaldale qualche minuto in forno o in friggitrice ad aria: tornano croccanti."
+      }
+    }
+  ]
+}
