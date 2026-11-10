@@ -1,6 +1,48 @@
 {
-  "count": 43,
+  "count": 44,
   "recipes": [
+    {
+      "slug": "udon-saltati-manzo",
+      "added": "2026-11-10",
+      "title": {
+        "it": "Udon saltati con manzo"
+      },
+      "summary": {
+        "it": "Manzo magro a fettine marinato nella soia, saltato a fiamma alta con cipolla, funghi, pak choi e cipollotti, poi unito agli udon con una salsa di soia, teriyaki e mirin che li lascia lucidi. Una padella sola, pronta in meno di mezz'ora più la marinatura."
+      },
+      "image": "assets/img/recipes/udon-saltati-manzo.jpg",
+      "imageFocus": null,
+      "tags": [
+        "salato",
+        "primi",
+        "manzo",
+        "carne",
+        "pranzo",
+        "cena",
+        "proteico"
+      ],
+      "method": "padella",
+      "difficulty": "facile",
+      "cost": "medio",
+      "time": {
+        "prep": 15,
+        "rest": 30,
+        "cook": 20
+      },
+      "yield": {
+        "count": 4,
+        "label": {
+          "it": "porzioni",
+          "en": "servings"
+        }
+      },
+      "kcalPerServing": 401,
+      "coverage": 0.78,
+      "search": {
+        "it": "Udon saltati con manzo · Manzo magro a fettine marinato nella soia, saltato a fiamma alta con cipolla, funghi, pak choi e cipollotti, poi unito agli udon con una salsa di soia, teriyaki e mirin che li lascia lucidi. Una padella sola, pronta in meno di mezz'ora più la marinatura. · manzo magro fesa di manzo · salsa di soia a basso contenuto di sale salsa di soia a basso contenuto di sale · dolcificante stevia ed eritritolo · pepe nero macinato · zenzero in polvere · salsa di soia a basso contenuto di sale salsa di soia a basso contenuto di sale · salsa teriyaki zero calorie · mirin · pepe nero macinato · udon già pronti udon precotti · cipolla grande cipolla · aglio, schiacciato aglio · zenzero in polvere · funghi champignon · qualche foglia di pak choi pak choi · cipollotti verdi cipollotto · olio extravergine d'oliva (un filo) olio extravergine d'oliva · acqua (un filo) acqua · Marinare il manzo · Preparare la salsa · Preparare gli udon · Rosolare il manzo · Ammorbidire la cipolla · Aglio e zenzero · Le verdure · Saltare tutto insieme",
+        "en": "Udon saltati con manzo · Manzo magro a fettine marinato nella soia, saltato a fiamma alta con cipolla, funghi, pak choi e cipollotti, poi unito agli udon con una salsa di soia, teriyaki e mirin che li lascia lucidi. Una padella sola, pronta in meno di mezz'ora più la marinatura. · manzo magro beef topside · salsa di soia a basso contenuto di sale low-sodium soy sauce · stevia and erythritol sweetener · ground black pepper · ground ginger · salsa di soia a basso contenuto di sale low-sodium soy sauce · zero-calorie teriyaki sauce · mirin · ground black pepper · udon già pronti pre-cooked udon noodles · cipolla grande onion · aglio, schiacciato garlic · ground ginger · button mushrooms · qualche foglia di pak choi pak choi · cipollotti verdi spring onion · olio extravergine d'oliva (un filo) extra virgin olive oil · acqua (un filo) water · Marinare il manzo · Preparare la salsa · Preparare gli udon · Rosolare il manzo · Ammorbidire la cipolla · Aglio e zenzero · Le verdure · Saltare tutto insieme"
+      }
+    },
     {
       "slug": "tortilla-cheeseburger-bacon",
       "added": "2026-11-05",

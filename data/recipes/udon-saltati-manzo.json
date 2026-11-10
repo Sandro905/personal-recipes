@@ -1,0 +1,275 @@
+{
+  "slug": "udon-saltati-manzo",
+  "added": "2026-11-10",
+  "title": {
+    "it": "Udon saltati con manzo"
+  },
+  "summary": {
+    "it": "Manzo magro a fettine marinato nella soia, saltato a fiamma alta con cipolla, funghi, pak choi e cipollotti, poi unito agli udon con una salsa di soia, teriyaki e mirin che li lascia lucidi. Una padella sola, pronta in meno di mezz'ora più la marinatura."
+  },
+  "image": "assets/img/recipes/udon-saltati-manzo.jpg",
+  "yield": {
+    "count": 4,
+    "label": {
+      "it": "porzioni",
+      "en": "servings"
+    }
+  },
+  "time": {
+    "prep": 15,
+    "rest": 30,
+    "cook": 20
+  },
+  "difficulty": "facile",
+  "cost": "medio",
+  "method": "padella",
+  "tags": [
+    "salato",
+    "primi",
+    "manzo",
+    "carne",
+    "pranzo",
+    "cena",
+    "proteico"
+  ],
+  "source": {
+    "name": "YouTube Shorts",
+    "url": "https://youtube.com/shorts/Dh8e42sxA1M"
+  },
+  "ingredients": [
+    {
+      "section": {
+        "it": "Per la marinatura"
+      },
+      "items": [
+        {
+          "food": "fesa-manzo",
+          "qty": 400,
+          "unit": "g",
+          "label": {
+            "it": "manzo magro"
+          }
+        },
+        {
+          "food": "salsa-soia-poco-sale",
+          "qty": 40,
+          "unit": "ml",
+          "label": {
+            "it": "salsa di soia a basso contenuto di sale"
+          }
+        },
+        {
+          "food": "dolcificante-stevia-eritritolo",
+          "qty": 5,
+          "unit": "g"
+        },
+        {
+          "food": "pepe-nero",
+          "unit": "qb"
+        },
+        {
+          "food": "zenzero-polvere",
+          "unit": "qb"
+        }
+      ]
+    },
+    {
+      "section": {
+        "it": "Per la salsa"
+      },
+      "items": [
+        {
+          "food": "salsa-soia-poco-sale",
+          "qty": 60,
+          "unit": "ml",
+          "label": {
+            "it": "salsa di soia a basso contenuto di sale"
+          }
+        },
+        {
+          "food": "salsa-teriyaki-zero",
+          "qty": 60,
+          "unit": "ml"
+        },
+        {
+          "food": "mirin",
+          "qty": 20,
+          "unit": "ml"
+        },
+        {
+          "food": "pepe-nero",
+          "unit": "qb"
+        }
+      ]
+    },
+    {
+      "section": {
+        "it": "Udon e verdure"
+      },
+      "items": [
+        {
+          "food": "udon-precotti",
+          "qty": 600,
+          "unit": "g",
+          "label": {
+            "it": "udon già pronti"
+          }
+        },
+        {
+          "food": "cipolla",
+          "qty": 1,
+          "unit": "pz",
+          "label": {
+            "it": "cipolla grande"
+          }
+        },
+        {
+          "food": "aglio",
+          "qty": 1,
+          "unit": "spicchio",
+          "label": {
+            "it": "aglio, schiacciato"
+          }
+        },
+        {
+          "food": "zenzero-polvere",
+          "qty": 1,
+          "unit": "cucchiaino"
+        },
+        {
+          "food": "funghi-champignon",
+          "qty": 100,
+          "unit": "g"
+        },
+        {
+          "food": "pak-choi",
+          "qty": 50,
+          "unit": "g",
+          "label": {
+            "it": "qualche foglia di pak choi"
+          }
+        },
+        {
+          "food": "cipollotto",
+          "qty": 3,
+          "unit": "pz",
+          "label": {
+            "it": "cipollotti verdi"
+          }
+        },
+        {
+          "food": "olio-oliva-evo",
+          "qty": 10,
+          "unit": "g",
+          "label": {
+            "it": "olio extravergine d'oliva (un filo)"
+          }
+        },
+        {
+          "food": "acqua",
+          "unit": "qb",
+          "label": {
+            "it": "acqua (un filo)"
+          }
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": {
+        "it": "Marinare il manzo"
+      },
+      "text": {
+        "it": "Taglia {{fesa-manzo}} a fettine sottili e uniscile a {{salsa-soia-poco-sale}}, {{dolcificante-stevia-eritritolo}}, pepe nero e zenzero in polvere. Mescola e lascia marinare circa 30 minuti."
+      },
+      "timer": 1800
+    },
+    {
+      "title": {
+        "it": "Preparare la salsa"
+      },
+      "text": {
+        "it": "Nel frattempo mescola in una ciotolina {{salsa-soia-poco-sale#2}}, {{salsa-teriyaki-zero}}, {{mirin}} e una macinata di pepe nero."
+      }
+    },
+    {
+      "title": {
+        "it": "Preparare gli udon"
+      },
+      "text": {
+        "it": "Prepara {{udon-precotti}} seguendo le indicazioni della confezione: se sono già precotti, separali e ammorbidiscili."
+      }
+    },
+    {
+      "title": {
+        "it": "Rosolare il manzo"
+      },
+      "text": {
+        "it": "Scalda una padella larga o un wok con {{olio-oliva-evo}} e rosola il manzo a fiamma alta. Mettilo da parte."
+      },
+      "timer": 180
+    },
+    {
+      "title": {
+        "it": "Ammorbidire la cipolla"
+      },
+      "text": {
+        "it": "Nella stessa padella unisci {{cipolla}}, tagliata a fette, con un filo d'acqua e lasciala ammorbidire."
+      },
+      "timer": 180
+    },
+    {
+      "title": {
+        "it": "Aglio e zenzero"
+      },
+      "text": {
+        "it": "Aggiungi {{aglio}} e {{zenzero-polvere#2}} e salta qualche minuto."
+      },
+      "timer": 180
+    },
+    {
+      "title": {
+        "it": "Le verdure"
+      },
+      "text": {
+        "it": "Unisci {{funghi-champignon}}, {{pak-choi}} e {{cipollotto}} e cuoci finché le verdure risultano tenere."
+      }
+    },
+    {
+      "title": {
+        "it": "Saltare tutto insieme"
+      },
+      "text": {
+        "it": "Rimetti il manzo in padella, aggiungi gli udon e versa tutta la salsa. Salta a fiamma alta per 2-3 minuti mescolando bene, fino a ottenere udon completamente ricoperti da una salsa lucida e saporita."
+      },
+      "timer": 150
+    }
+  ],
+  "notes": [
+    {
+      "title": {
+        "it": "Tagliare il manzo"
+      },
+      "text": {
+        "it": "Il taglio sottile è la parte che conta: se la carne è difficile da affettare, tienila 20 minuti in freezer prima. Taglia sempre contro le fibre, così resta tenera anche a fiamma alta."
+      }
+    },
+    {
+      "title": {
+        "it": "La padella"
+      },
+      "text": {
+        "it": "Con 400 g di manzo conviene rosolare a due volte: la carne ammassata rilascia liquido e bolle invece di rosolare. La padella deve essere ben calda prima di metterla."
+      }
+    },
+    {
+      "title": {
+        "it": "Conservazione"
+      },
+      "text": {
+        "it": "Si conserva 2 giorni in frigo in un contenitore chiuso. Per scaldarlo, salta gli udon in padella con un cucchiaio d'acqua: nel microonde tendono a stringersi."
+      }
+    }
+  ]
+}
