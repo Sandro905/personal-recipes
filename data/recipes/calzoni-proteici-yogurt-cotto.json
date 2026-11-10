@@ -115,13 +115,13 @@
         },
         {
           "food": "olive-nere",
-          "qty": 24,
+          "qty": 30,
           "unit": "g",
           "label": {
             "it": "olive snocciolate (1 a calzone)"
           },
           "note": {
-            "it": "circa 4 g l'una"
+            "it": "circa 5 g l'una"
           }
         },
         {
