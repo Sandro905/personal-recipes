@@ -1,7 +1,7 @@
 // GENERATO da scripts/build-sw.mjs — non modificarlo a mano.
 // Sorgente: scripts/sw-runtime.js · rigenera con `npm run build`.
 
-const VERSION = '85213dc511';
+const VERSION = '6dc7c61c76';
 const CODICE = 'dfa0223768';
 
 // Guscio: HTML, stile, codice, font, icone e dati. ~621 KB,
@@ -77,7 +77,7 @@ const SHELL = [
   './data/recipes/wrap-pollo-speziato.json'
 ];
 
-// Foto: ~8.4 MB. Stanno in una cache a parte che sopravvive
+// Foto: ~8.6 MB. Stanno in una cache a parte che sopravvive
 // agli aggiornamenti; l'impronta dice quali sono davvero cambiate.
 const MEDIA = {
   './assets/img/recipes/alette-pollo-forno-patate.jpg': '586e1eb542785521',
@@ -132,6 +132,7 @@ const MEDIA = {
   './assets/img/recipes/salmone-forno-patate-peperoni.jpg': 'ea7443abf28a1fc1',
   './assets/img/recipes/spezzatino-manzo-patate.jpg': '15b61173413eb5f4',
   './assets/img/recipes/spezzatino-pollo-riso.jpg': 'b3df629f5a6573ff',
+  './assets/img/recipes/tortilla-cheeseburger-bacon.jpg': '1acfecc8237f7740',
   './assets/img/recipes/tortilla-frittata-cotto.jpg': 'c0556ca85b23ed2a',
   './assets/img/recipes/wrap-pollo-speziato.jpg': 'b4bf7f68ccb39ae4'
 };

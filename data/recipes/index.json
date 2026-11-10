@@ -10,8 +10,8 @@
       "summary": {
         "it": "Tortilla farcite con macinato magro in salsa burger allo yogurt greco, sottilette light e bacon croccante, richiuse e sigillate in padella. Sei pezzi da preparare in anticipo."
       },
-      "image": null,
-      "imageFocus": null,
+      "image": "assets/img/recipes/tortilla-cheeseburger-bacon.jpg",
+      "imageFocus": "center 55%",
       "tags": [
         "salato",
         "padella",
