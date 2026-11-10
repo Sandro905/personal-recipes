@@ -33,6 +33,10 @@
     "cena",
     "proteico"
   ],
+  "source": {
+    "name": "YouTube Shorts",
+    "url": "https://youtube.com/shorts/3hD36vDPqVI"
+  },
   "ingredients": [
     {
       "section": null,

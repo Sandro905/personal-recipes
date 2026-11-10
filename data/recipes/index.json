@@ -1,5 +1,5 @@
 {
-  "count": 44,
+  "count": 43,
   "recipes": [
     {
       "slug": "tortilla-cheeseburger-bacon",
@@ -781,48 +781,6 @@
       "search": {
         "it": "Tortilla saldata alla frittata, con cotto e insalata · La tortilla si appoggia sulle uova ancora crude in superficie e ci si incolla: viene un unico foglio, frittata da una parte e tortilla croccante dall'altra, chiuso a portafoglio su sottiletta, cotto e insalata. · uova · albumi albume d'uovo · grana padano (un pizzico) grana padano grattugiato · prezzemolo · sale fino · pepe nero macinato · olio extravergine d'oliva (una spruzzata) olio extravergine d'oliva · tortilla di frumento · sottilette light · prosciutto cotto a fette prosciutto cotto · insalata · Sbattere · In padella, fuoco basso · Incollare la tortilla · Finire le uova · Girare · Farcire e chiudere",
         "en": "Tortilla saldata alla frittata, con cotto e insalata · La tortilla si appoggia sulle uova ancora crude in superficie e ci si incolla: viene un unico foglio, frittata da una parte e tortilla croccante dall'altra, chiuso a portafoglio su sottiletta, cotto e insalata. · eggs · albumi egg white · grana padano (un pizzico) grated Grana Padano · parsley · fine salt · ground black pepper · olio extravergine d'oliva (una spruzzata) extra virgin olive oil · wheat tortilla · light cheese slices · prosciutto cotto a fette cooked ham · salad leaves · Sbattere · In padella, fuoco basso · Incollare la tortilla · Finire le uova · Girare · Farcire e chiudere"
-      }
-    },
-    {
-      "slug": "calzoni-prosciutto-mozzarella",
-      "added": "2026-08-10",
-      "title": {
-        "it": "Calzoni al prosciutto cotto con impasto allo yogurt greco"
-      },
-      "summary": {
-        "it": "Impasto di farina e yogurt greco, senza lievito e senza attesa, richiuso su passata, sottiletta e prosciutto cotto. Sei calzoni in friggitrice ad aria, buoni anche freddi il giorno dopo."
-      },
-      "image": "assets/img/recipes/calzoni-prosciutto-mozzarella.jpg",
-      "imageFocus": "center 45%",
-      "tags": [
-        "salato",
-        "friggitrice-ad-aria",
-        "carne",
-        "proteico",
-        "meal-prep",
-        "finger-food",
-        "cena"
-      ],
-      "method": "friggitrice-ad-aria",
-      "difficulty": "facile",
-      "cost": "economico",
-      "time": {
-        "prep": 25,
-        "rest": 10,
-        "cook": 14
-      },
-      "yield": {
-        "count": 6,
-        "label": {
-          "it": "calzoni",
-          "en": "calzones"
-        }
-      },
-      "kcalPerServing": 401,
-      "coverage": 0.78,
-      "search": {
-        "it": "Calzoni al prosciutto cotto con impasto allo yogurt greco · Impasto di farina e yogurt greco, senza lievito e senza attesa, richiuso su passata, sottiletta e prosciutto cotto. Sei calzoni in friggitrice ad aria, buoni anche freddi il giorno dopo. · farina 00 · yogurt greco 0% · sale fino · passata di pomodoro (20 g a calzone) passata di pomodoro · sottilette light (1 a calzone) sottilette light · prosciutto cotto a fette (30 g a calzone) prosciutto cotto · origano · olio extravergine d'oliva · prezzemolo · L'impasto · Riposo · Condire la passata · Stendere · Farcire · Chiudere · In friggitrice ad aria",
-        "en": "Calzoni al prosciutto cotto con impasto allo yogurt greco · Impasto di farina e yogurt greco, senza lievito e senza attesa, richiuso su passata, sottiletta e prosciutto cotto. Sei calzoni in friggitrice ad aria, buoni anche freddi il giorno dopo. · type-00 wheat flour · fat-free Greek yoghurt · fine salt · passata di pomodoro (20 g a calzone) tomato passata · sottilette light (1 a calzone) light cheese slices · prosciutto cotto a fette (30 g a calzone) cooked ham · oregano · extra virgin olive oil · parsley · L'impasto · Riposo · Condire la passata · Stendere · Farcire · Chiudere · In friggitrice ad aria"
       }
     },
     {
