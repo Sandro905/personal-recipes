@@ -1,7 +1,7 @@
 // GENERATO da scripts/build-sw.mjs — non modificarlo a mano.
 // Sorgente: scripts/sw-runtime.js · rigenera con `npm run build`.
 
-const VERSION = '290e6ab515';
+const VERSION = 'e339452960';
 const CODICE = 'dfa0223768';
 
 // Guscio: HTML, stile, codice, font, icone e dati. ~640 KB,
@@ -79,7 +79,7 @@ const SHELL = [
   './data/recipes/wrap-pollo-speziato.json'
 ];
 
-// Foto: ~8.7 MB. Stanno in una cache a parte che sopravvive
+// Foto: ~9 MB. Stanno in una cache a parte che sopravvive
 // agli aggiornamenti; l'impronta dice quali sono davvero cambiate.
 const MEDIA = {
   './assets/img/recipes/alette-pollo-forno-patate.jpg': '586e1eb542785521',
@@ -103,6 +103,7 @@ const MEDIA = {
   './assets/img/recipes/merluzzo-forno-patate.jpg': 'd7171a2f95c50ca9',
   './assets/img/recipes/mousse-proteica-cioccolato.jpg': '5bea0a180d48d562',
   './assets/img/recipes/pancakes-patate-formaggio.jpg': 'eb02ec20da47adc8',
+  './assets/img/recipes/panuozzi.jpg': '199274b2d4e93fff',
   './assets/img/recipes/pasta-cotto-funghi.jpg': '52cddfb2531d711d',
   './assets/img/recipes/pasta-pesce-spada-pomodorini.jpg': '7340d54a855a3b83',
   './assets/img/recipes/pasta-ragu-pollo.jpg': 'ffe84e11e4f1c49c',

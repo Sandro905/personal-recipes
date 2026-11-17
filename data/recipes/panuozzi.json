@@ -7,6 +7,8 @@
   "summary": {
     "it": "Panini di pasta di pizza lievitata sei ore a temperatura ambiente, cotti su pietra refrattaria, poi farciti e rimessi un minuto in forno."
   },
+  "image": "assets/img/recipes/panuozzi.jpg",
+  "imageFocus": "center 58%",
   "yield": { "count": 4, "label": { "it": "panuozzi da 220 g", "en": "panuozzi" } },
   "time": { "prep": 30, "rest": 360, "cook": 8 },
   "difficulty": "media",

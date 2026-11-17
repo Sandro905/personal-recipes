@@ -10,8 +10,8 @@
       "summary": {
         "it": "Panini di pasta di pizza lievitata sei ore a temperatura ambiente, cotti su pietra refrattaria, poi farciti e rimessi un minuto in forno."
       },
-      "image": null,
-      "imageFocus": null,
+      "image": "assets/img/recipes/panuozzi.jpg",
+      "imageFocus": "center 58%",
       "tags": [
         "salato",
         "lievitati",
