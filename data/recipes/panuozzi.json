@@ -27,13 +27,15 @@
         { "food": "acqua", "qty": 340, "unit": "g" },
         { "food": "sale", "qty": 12, "unit": "g" },
         { "food": "olio-oliva-evo", "qty": 8, "unit": "g" },
-        { "food": "lievito-birra-fresco", "qty": 2, "unit": "g", "note": { "it": "oppure 0,6 g di lievito secco" } }
+        { "food": "lievito-birra-fresco", "qty": 2, "unit": "g", "note": { "it": "oppure 0,6 g di lievito secco" } },
+        { "food": "olio-oliva-evo", "qty": 5, "unit": "g", "label": { "it": "olio per ungere la ciotola" } },
+        { "food": "farina-0", "qty": 20, "unit": "g", "label": { "it": "farina per il banco e per stendere" } }
       ]
     },
     {
       "section": { "it": "Per finire" },
       "items": [
-        { "food": "olio-oliva-evo", "qty": 1, "unit": "qb", "label": { "it": "olio evo per spennellare" } }
+        { "food": "olio-oliva-evo", "qty": 8, "unit": "g", "label": { "it": "olio evo per spennellare" } }
       ]
     }
   ],
@@ -41,7 +43,7 @@
     {
       "title": { "it": "Fare la pastella" },
       "text": {
-        "it": "Sciogli {{lievito-birra-fresco}} nell'{{acqua}}, poi aggiungi {{farina-0}} poco alla volta fino a ottenere una pastella. Tieni da parte un po' di farina per l'impasto sul banco."
+        "it": "Sciogli {{lievito-birra-fresco}} nell'{{acqua}}, poi aggiungi {{farina-0}} poco alla volta fino a ottenere una pastella. Tieni da parte un po' di farina per il banco."
       }
     },
     {
@@ -53,13 +55,13 @@
     {
       "title": { "it": "Impastare" },
       "text": {
-        "it": "Trasferisci sul banco con la farina rimasta e impasta fino ad assimilare tutto, ottenendo un impasto omogeneo."
+        "it": "Trasferisci sul banco infarinato con la farina rimasta (in tutto circa {{farina-0#2}} tra banco e stesura) e impasta fino ad assimilare tutto, ottenendo un impasto omogeneo."
       }
     },
     {
       "title": { "it": "Prima lievitazione in massa" },
       "text": {
-        "it": "Copri e lascia lievitare l'impasto tutto insieme, nel forno spento con la luce accesa."
+        "it": "Metti l'impasto in una ciotola unta con {{olio-oliva-evo#2}}, copri e lascia lievitare tutto insieme nel forno spento con la luce accesa."
       },
       "timer": 14400
     },
@@ -93,7 +95,7 @@
     {
       "title": { "it": "Farcire e finire" },
       "text": {
-        "it": "Sforna, apri il panuozzo e aggiungi il ripieno. Spennella la superficie con un goccio di {{olio-oliva-evo#2}} e rimetti in forno per un minuto."
+        "it": "Sforna, apri il panuozzo e aggiungi il ripieno. Spennella la superficie con un goccio di {{olio-oliva-evo#3}} e rimetti in forno per un minuto."
       },
       "timer": 60
     }
