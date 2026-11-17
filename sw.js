@@ -1,10 +1,10 @@
 // GENERATO da scripts/build-sw.mjs — non modificarlo a mano.
 // Sorgente: scripts/sw-runtime.js · rigenera con `npm run build`.
 
-const VERSION = 'b4a477de89';
+const VERSION = '290e6ab515';
 const CODICE = 'dfa0223768';
 
-// Guscio: HTML, stile, codice, font, icone e dati. ~634 KB,
+// Guscio: HTML, stile, codice, font, icone e dati. ~640 KB,
 // salvato tutto insieme all'installazione. Se manca un pezzo l'installazione
 // fallisce e resta attiva la versione precedente: mai una copia a metà.
 const SHELL = [
@@ -51,6 +51,7 @@ const SHELL = [
   './data/recipes/merluzzo-forno-patate.json',
   './data/recipes/mousse-proteica-cioccolato.json',
   './data/recipes/pancakes-patate-formaggio.json',
+  './data/recipes/panuozzi.json',
   './data/recipes/pasta-cotto-funghi.json',
   './data/recipes/pasta-pesce-spada-pomodorini.json',
   './data/recipes/pasta-ragu-pollo.json',

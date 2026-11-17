@@ -1,0 +1,113 @@
+{
+  "slug": "panuozzi",
+  "added": "2026-11-17",
+  "title": {
+    "it": "Panuozzi"
+  },
+  "summary": {
+    "it": "Panini di pasta di pizza lievitata sei ore a temperatura ambiente, cotti su pietra refrattaria, poi farciti e rimessi un minuto in forno."
+  },
+  "yield": { "count": 4, "label": { "it": "panuozzi da 220 g", "en": "panuozzi" } },
+  "time": { "prep": 30, "rest": 360, "cook": 8 },
+  "difficulty": "media",
+  "cost": "molto-economico",
+  "method": "forno",
+  "tags": ["salato", "lievitati", "forno", "pranzo", "cena"],
+  "source": {
+    "name": "Video su YouTube",
+    "url": "https://www.youtube.com/watch?v=jYpHdZ0Iswc"
+  },
+  "ingredients": [
+    {
+      "section": { "it": "Per l'impasto" },
+      "items": [
+        { "food": "farina-0", "qty": 520, "unit": "g", "note": { "it": "forza W220/240" } },
+        { "food": "acqua", "qty": 340, "unit": "g" },
+        { "food": "sale", "qty": 12, "unit": "g" },
+        { "food": "olio-oliva-evo", "qty": 8, "unit": "g" },
+        { "food": "lievito-birra-fresco", "qty": 2, "unit": "g", "note": { "it": "oppure 0,6 g di lievito secco" } }
+      ]
+    },
+    {
+      "section": { "it": "Per finire" },
+      "items": [
+        { "food": "olio-oliva-evo", "qty": 1, "unit": "qb", "label": { "it": "olio evo per spennellare" } }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": { "it": "Fare la pastella" },
+      "text": {
+        "it": "Sciogli {{lievito-birra-fresco}} nell'{{acqua}}, poi aggiungi {{farina-0}} poco alla volta fino a ottenere una pastella. Tieni da parte un po' di farina per l'impasto sul banco."
+      }
+    },
+    {
+      "title": { "it": "Aggiungere sale e olio" },
+      "text": {
+        "it": "Unisci {{sale}} e fallo sciogliere, poi aggiungi {{olio-oliva-evo}} e mescola. Continua a incorporare la farina."
+      }
+    },
+    {
+      "title": { "it": "Impastare" },
+      "text": {
+        "it": "Trasferisci sul banco con la farina rimasta e impasta fino ad assimilare tutto, ottenendo un impasto omogeneo."
+      }
+    },
+    {
+      "title": { "it": "Prima lievitazione in massa" },
+      "text": {
+        "it": "Copri e lascia lievitare l'impasto tutto insieme, nel forno spento con la luce accesa."
+      },
+      "timer": 14400
+    },
+    {
+      "title": { "it": "Staglio" },
+      "text": {
+        "it": "Dividi l'impasto e forma 4 panetti da circa 220 g ciascuno."
+      }
+    },
+    {
+      "title": { "it": "Seconda lievitazione" },
+      "text": {
+        "it": "Lascia lievitare i panetti, sempre nel forno spento con la luce accesa."
+      },
+      "timer": 7200
+    },
+    {
+      "title": { "it": "Preriscaldare il forno" },
+      "text": {
+        "it": "Mentre i panetti finiscono di lievitare, 40 minuti prima di infornare porta il forno ventilato alla massima potenza con la pietra refrattaria al centro. Poco prima di infornare passa alla modalità ventilato con solo grill."
+      },
+      "timer": 2400
+    },
+    {
+      "title": { "it": "Stendere e cuocere" },
+      "text": {
+        "it": "Stendi un panetto e infornalo sulla pietra per circa 5–7 minuti."
+      },
+      "timer": 360
+    },
+    {
+      "title": { "it": "Farcire e finire" },
+      "text": {
+        "it": "Sforna, apri il panuozzo e aggiungi il ripieno. Spennella la superficie con un goccio di {{olio-oliva-evo#2}} e rimetti in forno per un minuto."
+      },
+      "timer": 60
+    }
+  ],
+  "notes": [
+    {
+      "title": { "it": "Lievitazione" },
+      "text": { "it": "In tutto **6 ore** a temperatura ambiente (circa 21 °C): 4 ore in massa e 2 ore sui panetti. Il forno spento con la luce accesa tiene una temperatura stabile." }
+    },
+    {
+      "title": { "it": "La farina" },
+      "text": { "it": "Una farina con forza W220/240 regge bene la lunga lievitazione a temperatura ambiente." }
+    },
+    {
+      "title": { "it": "Il ripieno" },
+      "text": { "it": "A piacere: salumi, mozzarella, verdure, salsicce e friarielli. Il passaggio finale di un minuto in forno serve a farlo scaldare e a sciogliere i formaggi." }
+    }
+  ]
+}
