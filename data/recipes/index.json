@@ -1,6 +1,46 @@
 {
-  "count": 44,
+  "count": 45,
   "recipes": [
+    {
+      "slug": "panuozzi",
+      "added": "2026-11-17",
+      "title": {
+        "it": "Panuozzi"
+      },
+      "summary": {
+        "it": "Panini di pasta di pizza lievitata sei ore a temperatura ambiente, cotti su pietra refrattaria, poi farciti e rimessi un minuto in forno."
+      },
+      "image": "assets/img/recipes/panuozzi.jpg",
+      "imageFocus": "center 58%",
+      "tags": [
+        "salato",
+        "lievitati",
+        "forno",
+        "pranzo",
+        "cena"
+      ],
+      "method": "forno",
+      "difficulty": "media",
+      "cost": "molto-economico",
+      "time": {
+        "prep": 30,
+        "rest": 360,
+        "cook": 8
+      },
+      "yield": {
+        "count": 4,
+        "label": {
+          "it": "panuozzi da 220 g",
+          "en": "panuozzi"
+        }
+      },
+      "kcalPerServing": 461,
+      "coverage": 0.83,
+      "search": {
+        "it": "Panuozzi · Panini di pasta di pizza lievitata sei ore a temperatura ambiente, cotti su pietra refrattaria, poi farciti e rimessi un minuto in forno. · farina 0 · acqua · sale fino · olio extravergine d'oliva · lievito di birra fresco · olio evo per spennellare olio extravergine d'oliva · Fare la pastella · Aggiungere sale e olio · Impastare · Prima lievitazione in massa · Staglio · Seconda lievitazione · Preriscaldare il forno · Stendere e cuocere · Farcire e finire",
+        "en": "Panuozzi · Panini di pasta di pizza lievitata sei ore a temperatura ambiente, cotti su pietra refrattaria, poi farciti e rimessi un minuto in forno. · type-0 wheat flour · water · fine salt · extra virgin olive oil · fresh yeast · olio evo per spennellare extra virgin olive oil · Fare la pastella · Aggiungere sale e olio · Impastare · Prima lievitazione in massa · Staglio · Seconda lievitazione · Preriscaldare il forno · Stendere e cuocere · Farcire e finire"
+      }
+    },
     {
       "slug": "udon-saltati-manzo",
       "added": "2026-11-10",
