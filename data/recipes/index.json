@@ -1,6 +1,43 @@
 {
-  "count": 45,
+  "count": 46,
   "recipes": [
+    {
+      "slug": "tiramisu-light",
+      "added": "2026-11-19",
+      "title": {
+        "it": "Tiramisù light"
+      },
+      "summary": {
+        "it": "Crema di skyr e proteine al posto del mascarpone, savoiardi bagnati nel caffè e cacao in cima. Si fa in dieci minuti, poi ci pensa il frigo."
+      },
+      "image": "assets/img/recipes/tiramisu-light.jpg",
+      "imageFocus": null,
+      "tags": [
+        "dolce",
+        "senza-forno",
+        "proteico"
+      ],
+      "method": "senza-cottura",
+      "difficulty": "molto-facile",
+      "cost": "economico",
+      "time": {
+        "prep": 15,
+        "rest": 480
+      },
+      "yield": {
+        "count": 4,
+        "label": {
+          "it": "porzioni",
+          "en": "servings"
+        }
+      },
+      "kcalPerServing": 209,
+      "coverage": 0.86,
+      "search": {
+        "it": "Tiramisù light · Crema di skyr e proteine al posto del mascarpone, savoiardi bagnati nel caffè e cacao in cima. Si fa in dieci minuti, poi ci pensa il frigo. · caffè lungo (2 tazzine) caffè · skyr o yogurt greco magro skyr · formaggio spalmabile light formaggio spalmabile light · whey alla vaniglia proteine whey in polvere · dolcificante o estratto di vaniglia dolcificante stevia ed eritritolo · savoiardi, senza copertura di zucchero savoiardi · cacao amaro in polvere cacao amaro in polvere · Il caffè · La crema · Il primo strato · Il secondo strato · Frigo",
+        "en": "Tiramisù light · Crema di skyr e proteine al posto del mascarpone, savoiardi bagnati nel caffè e cacao in cima. Si fa in dieci minuti, poi ci pensa il frigo. · caffè lungo (2 tazzine) coffee · skyr o yogurt greco magro skyr · formaggio spalmabile light light cream cheese · whey alla vaniglia whey protein powder · dolcificante o estratto di vaniglia stevia and erythritol sweetener · savoiardi, senza copertura di zucchero ladyfingers · cacao amaro in polvere unsweetened cocoa powder · Il caffè · La crema · Il primo strato · Il secondo strato · Frigo"
+      }
+    },
     {
       "slug": "panuozzi",
       "added": "2026-11-17",

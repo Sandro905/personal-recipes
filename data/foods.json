@@ -2812,6 +2812,68 @@
         "db": "manual",
         "note": "valore medio da tabelle di composizione"
       }
+    },
+    "caffe": {
+      "name": {
+        "it": "caffè",
+        "en": "coffee"
+      },
+      "category": "bevande",
+      "per100g": {
+        "kcal": 2,
+        "protein": 0.1,
+        "carbs": 0.3,
+        "fat": 0,
+        "fiber": 0,
+        "sugars": 0,
+        "salt": 0
+      },
+      "density": 1,
+      "source": {
+        "db": "manual",
+        "note": "caffè lungo senza zucchero, valore medio da tabelle di composizione"
+      }
+    },
+    "skyr": {
+      "name": {
+        "it": "skyr",
+        "en": "skyr"
+      },
+      "category": "latticini",
+      "per100g": {
+        "kcal": 63,
+        "protein": 11,
+        "carbs": 4,
+        "fat": 0.2,
+        "fiber": 0,
+        "sugars": 4,
+        "salt": 0.1
+      },
+      "source": {
+        "db": "manual",
+        "note": "skyr bianco naturale, valore medio da etichette"
+      }
+    },
+    "savoiardi": {
+      "name": {
+        "it": "savoiardi",
+        "en": "ladyfingers"
+      },
+      "category": "dolci",
+      "per100g": {
+        "kcal": 380,
+        "protein": 8.5,
+        "carbs": 78,
+        "fat": 3.5,
+        "fiber": 1.5,
+        "sugars": 47,
+        "salt": 0.2
+      },
+      "pieceWeight": 10,
+      "source": {
+        "db": "manual",
+        "note": "valore medio da etichette; un savoiardo pesa circa 10 g"
+      }
     }
   }
 }
