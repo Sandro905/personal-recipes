@@ -1,0 +1,181 @@
+{
+  "slug": "tiramisu-light",
+  "added": "2026-11-19",
+  "title": {
+    "it": "Tiramisù light"
+  },
+  "image": "assets/img/recipes/tiramisu-light.jpg",
+  "summary": {
+    "it": "Crema di skyr e proteine al posto del mascarpone, savoiardi bagnati nel caffè e cacao in cima. Si fa in dieci minuti, poi ci pensa il frigo."
+  },
+  "yield": {
+    "count": 4,
+    "label": {
+      "it": "porzioni",
+      "en": "servings"
+    }
+  },
+  "time": {
+    "prep": 15,
+    "rest": 480
+  },
+  "difficulty": "molto-facile",
+  "cost": "economico",
+  "method": "senza-cottura",
+  "tags": [
+    "dolce",
+    "senza-forno",
+    "proteico"
+  ],
+  "source": {
+    "name": "Video (YouTube)",
+    "url": "https://youtube.com/shorts/Y8VgN27kxaM"
+  },
+  "ingredients": [
+    {
+      "section": {
+        "it": "Bagna"
+      },
+      "items": [
+        {
+          "food": "caffe",
+          "qty": 60,
+          "unit": "ml",
+          "label": {
+            "it": "caffè lungo (2 tazzine)"
+          }
+        }
+      ]
+    },
+    {
+      "section": {
+        "it": "Crema"
+      },
+      "items": [
+        {
+          "food": "skyr",
+          "qty": 300,
+          "unit": "g",
+          "label": {
+            "it": "skyr o yogurt greco magro"
+          }
+        },
+        {
+          "food": "philadelphia-light",
+          "qty": 20,
+          "unit": "g",
+          "label": {
+            "it": "formaggio spalmabile light"
+          }
+        },
+        {
+          "food": "whey",
+          "qty": 40,
+          "unit": "g",
+          "label": {
+            "it": "whey alla vaniglia"
+          }
+        },
+        {
+          "food": "dolcificante-stevia-eritritolo",
+          "unit": "qb",
+          "label": {
+            "it": "dolcificante o estratto di vaniglia"
+          }
+        }
+      ]
+    },
+    {
+      "section": {
+        "it": "Per comporre"
+      },
+      "items": [
+        {
+          "food": "savoiardi",
+          "qty": 12,
+          "unit": "pz",
+          "label": {
+            "it": "savoiardi, senza copertura di zucchero"
+          }
+        },
+        {
+          "food": "cacao-amaro",
+          "qty": 3,
+          "unit": "g",
+          "label": {
+            "it": "cacao amaro in polvere"
+          }
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": {
+        "it": "Il caffè"
+      },
+      "text": {
+        "it": "Prepara {{caffe}} e lascialo raffreddare del tutto: se è caldo i savoiardi si sfaldano e la crema si scioglie."
+      }
+    },
+    {
+      "title": {
+        "it": "La crema"
+      },
+      "text": {
+        "it": "In una ciotola mescola {{skyr}}, {{philadelphia-light}}, {{whey}} e il dolcificante finché è liscia e senza grumi di polvere."
+      }
+    },
+    {
+      "title": {
+        "it": "Il primo strato"
+      },
+      "text": {
+        "it": "Intingi i {{savoiardi}} nel caffè per **1-2 secondi** ciascuno e disponi metà in un contenitore. Coprili con metà della crema e livellala."
+      }
+    },
+    {
+      "title": {
+        "it": "Il secondo strato"
+      },
+      "text": {
+        "it": "Ripeti con i savoiardi rimasti e la crema rimasta. Setaccia sopra il {{cacao-amaro}}."
+      }
+    },
+    {
+      "title": {
+        "it": "Frigo"
+      },
+      "text": {
+        "it": "Copri e lascia in frigo **tutta la notte**: i savoiardi assorbono l'umidità della crema e il dolce prende la consistenza giusta."
+      },
+      "timer": 28800
+    }
+  ],
+  "notes": [
+    {
+      "title": {
+        "it": "Intingere poco"
+      },
+      "text": {
+        "it": "Un secondo o due bastano: in frigo i savoiardi continuano a bagnarsi dalla crema. Se li lasci a mollo diventano una poltiglia."
+      }
+    },
+    {
+      "title": {
+        "it": "Il dolcificante"
+      },
+      "text": {
+        "it": "Assaggia la crema prima di assemblare e regola: dipende da quanto è dolce la whey. Una goccia di estratto di vaniglia al posto del dolcificante funziona se la polvere è già abbastanza dolce."
+      }
+    },
+    {
+      "title": {
+        "it": "Quanto dura"
+      },
+      "text": {
+        "it": "Tre giorni in frigo coperto. Il cacao va messo il giorno stesso se vuoi che resti asciutto."
+      }
+    }
+  ]
+}
