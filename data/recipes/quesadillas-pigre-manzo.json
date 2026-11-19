@@ -1,0 +1,232 @@
+{
+  "slug": "quesadillas-pigre-manzo",
+  "added": "2026-11-19",
+  "title": {
+    "it": "Quesadillas per pigri al macinato di manzo"
+  },
+  "summary": {
+    "it": "Macinato magro in salsa BBQ con cipolla e formaggio fuso, chiuso in sei triangoli di wrap e gratinato in teglia con altro formaggio. Niente padella per ogni pezzo: si fa tutto in forno."
+  },
+  "image": "assets/img/recipes/quesadillas-pigre-manzo.jpg",
+  "imageFocus": "center 50%",
+  "yield": {
+    "count": 6,
+    "label": {
+      "it": "triangoli",
+      "en": "triangles"
+    }
+  },
+  "time": {
+    "prep": 15,
+    "cook": 27
+  },
+  "difficulty": "facile",
+  "cost": "economico",
+  "method": "forno",
+  "tags": [
+    "salato",
+    "forno",
+    "manzo",
+    "carne",
+    "pranzo",
+    "cena",
+    "proteico",
+    "meal-prep",
+    "finger-food"
+  ],
+  "source": {
+    "name": "Alan Valca, video su YouTube",
+    "url": "https://youtube.com/shorts/EwezSbaTEiA"
+  },
+  "ingredients": [
+    {
+      "section": {
+        "it": "Per il ripieno"
+      },
+      "items": [
+        {
+          "food": "cipolla",
+          "qty": 1,
+          "unit": "pz",
+          "label": {
+            "it": "cipolla bianca"
+          }
+        },
+        {
+          "food": "macinato-manzo-magro",
+          "qty": 300,
+          "unit": "g",
+          "label": {
+            "it": "macinato di manzo magro (5% di grassi)"
+          }
+        },
+        {
+          "food": "concentrato-pomodoro",
+          "qty": 25,
+          "unit": "g"
+        },
+        {
+          "food": "salsa-bbq-zero",
+          "qty": 40,
+          "unit": "ml",
+          "label": {
+            "it": "salsa BBQ zero kcal"
+          }
+        },
+        {
+          "food": "sale",
+          "qty": 1,
+          "unit": "g"
+        },
+        {
+          "food": "paprika-dolce",
+          "unit": "qb",
+          "label": {
+            "it": "paprika"
+          }
+        },
+        {
+          "food": "aglio-polvere",
+          "unit": "qb"
+        },
+        {
+          "food": "pepe-nero",
+          "unit": "qb"
+        },
+        {
+          "food": "peperoncino",
+          "unit": "qb"
+        },
+        {
+          "food": "sottilette-light",
+          "qty": 100,
+          "unit": "g",
+          "label": {
+            "it": "sottilette light (o mozzarella light)"
+          },
+          "note": {
+            "it": "4 fette da 25 g"
+          }
+        }
+      ]
+    },
+    {
+      "section": {
+        "it": "Per la base"
+      },
+      "items": [
+        {
+          "food": "tortilla",
+          "qty": 3,
+          "unit": "pz",
+          "label": {
+            "it": "wrap (60 g l'una)"
+          }
+        },
+        {
+          "food": "sottilette-light",
+          "qty": 50,
+          "unit": "g",
+          "label": {
+            "it": "sottilette light (o mozzarella light)"
+          },
+          "note": {
+            "it": "2 fette da 25 g"
+          }
+        },
+        {
+          "food": "olio-oliva-evo",
+          "qty": 3,
+          "unit": "g",
+          "label": {
+            "it": "olio extravergine d'oliva (circa 3 ml)"
+          }
+        },
+        {
+          "food": "prezzemolo",
+          "unit": "qb",
+          "label": {
+            "it": "prezzemolo fresco"
+          }
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": {
+        "it": "Cipolla e spezie"
+      },
+      "text": {
+        "it": "In una padella con un filo d'olio e un goccio d'acqua, fai ammorbidire {{cipolla}} tagliata fine a fuoco medio. Aggiungi {{concentrato-pomodoro}}, {{paprika-dolce}}, {{aglio-polvere}}, {{pepe-nero}} e {{peperoncino}}, mescola e lascia tostare qualche istante: così le spezie sprigionano tutto l'aroma."
+      }
+    },
+    {
+      "title": {
+        "it": "Il macinato"
+      },
+      "text": {
+        "it": "Aggiungi {{macinato-manzo-magro}} e cuocilo a fiamma viva, sgranandolo con la spatola e facendolo rosolare in modo uniforme. Unisci {{sale}} e {{salsa-bbq-zero}}, abbassa un po' la fiamma e continua finché il ripieno è ben cotto e asciutto, ma ancora succoso."
+      }
+    },
+    {
+      "title": {
+        "it": "Il formaggio nel ripieno"
+      },
+      "text": {
+        "it": "Spegni il fuoco, aggiungi {{sottilette-light}} e mescola finché si scioglie del tutto."
+      }
+    },
+    {
+      "title": {
+        "it": "Farcire i triangoli"
+      },
+      "text": {
+        "it": "Taglia a metà ogni {{tortilla}}. Se sono rigide, passale velocemente in una ciotola d'acqua per ammorbidirle. Distribuisci il ripieno al centro di ogni metà e ripiega i lati fino a formare un triangolo."
+      }
+    },
+    {
+      "title": {
+        "it": "In teglia"
+      },
+      "text": {
+        "it": "Disponi i 6 triangoli in una teglia rotonda foderata di carta forno, abbastanza larga da contenerli tutti. Copri con {{sottilette-light#2}} e aggiungi un filo di {{olio-oliva-evo}}."
+      }
+    },
+    {
+      "title": {
+        "it": "Cuocere"
+      },
+      "text": {
+        "it": "Forno ventilato a 200 °C per circa 12 minuti, finché la superficie è dorata e leggermente croccante. Completa con {{prezzemolo}} tritato."
+      },
+      "timer": 720
+    }
+  ],
+  "notes": [
+    {
+      "title": {
+        "it": "Il ripieno asciutto"
+      },
+      "text": {
+        "it": "Cuoci il macinato finché non si vede più liquido sul fondo della padella: un ripieno troppo umido ammorbidisce il wrap e i triangoli si aprono."
+      }
+    },
+    {
+      "title": {
+        "it": "Il formaggio"
+      },
+      "text": {
+        "it": "Va bene qualunque formaggio light che fonda: sottilette, mozzarella light o un formaggio proteico. Le macro cambiano di poco."
+      }
+    },
+    {
+      "title": {
+        "it": "Meal prep"
+      },
+      "text": {
+        "it": "Si conservano in frigo 2-3 giorni. Per riscaldarle usa forno o friggitrice ad aria, così il wrap torna croccante."
+      }
+    }
+  ]
+}

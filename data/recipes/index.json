@@ -1,6 +1,49 @@
 {
-  "count": 46,
+  "count": 47,
   "recipes": [
+    {
+      "slug": "quesadillas-pigre-manzo",
+      "added": "2026-11-19",
+      "title": {
+        "it": "Quesadillas per pigri al macinato di manzo"
+      },
+      "summary": {
+        "it": "Macinato magro in salsa BBQ con cipolla e formaggio fuso, chiuso in sei triangoli di wrap e gratinato in teglia con altro formaggio. Niente padella per ogni pezzo: si fa tutto in forno."
+      },
+      "image": "assets/img/recipes/quesadillas-pigre-manzo.jpg",
+      "imageFocus": "center 50%",
+      "tags": [
+        "salato",
+        "forno",
+        "manzo",
+        "carne",
+        "pranzo",
+        "cena",
+        "proteico",
+        "meal-prep",
+        "finger-food"
+      ],
+      "method": "forno",
+      "difficulty": "facile",
+      "cost": "economico",
+      "time": {
+        "prep": 15,
+        "cook": 27
+      },
+      "yield": {
+        "count": 6,
+        "label": {
+          "it": "triangoli",
+          "en": "triangles"
+        }
+      },
+      "kcalPerServing": 214,
+      "coverage": 0.64,
+      "search": {
+        "it": "Quesadillas per pigri al macinato di manzo · Macinato magro in salsa BBQ con cipolla e formaggio fuso, chiuso in sei triangoli di wrap e gratinato in teglia con altro formaggio. Niente padella per ogni pezzo: si fa tutto in forno. · cipolla bianca cipolla · macinato di manzo magro (5% di grassi) macinato di manzo magro · concentrato di pomodoro · salsa BBQ zero kcal salsa BBQ zero · sale fino · paprika paprika dolce · aglio in polvere · pepe nero macinato · peperoncino · sottilette light (o mozzarella light) sottilette light · wrap (60 g l'una) tortilla di frumento · sottilette light (o mozzarella light) sottilette light · olio extravergine d'oliva (circa 3 ml) olio extravergine d'oliva · prezzemolo fresco prezzemolo · Cipolla e spezie · Il macinato · Il formaggio nel ripieno · Farcire i triangoli · In teglia · Cuocere",
+        "en": "Quesadillas per pigri al macinato di manzo · Macinato magro in salsa BBQ con cipolla e formaggio fuso, chiuso in sei triangoli di wrap e gratinato in teglia con altro formaggio. Niente padella per ogni pezzo: si fa tutto in forno. · cipolla bianca onion · macinato di manzo magro (5% di grassi) lean ground beef · tomato purée · salsa BBQ zero kcal zero-calorie BBQ sauce · fine salt · paprika sweet paprika · garlic powder · ground black pepper · chilli · sottilette light (o mozzarella light) light cheese slices · wrap (60 g l'una) wheat tortilla · sottilette light (o mozzarella light) light cheese slices · olio extravergine d'oliva (circa 3 ml) extra virgin olive oil · prezzemolo fresco parsley · Cipolla e spezie · Il macinato · Il formaggio nel ripieno · Farcire i triangoli · In teglia · Cuocere"
+      }
+    },
     {
       "slug": "tiramisu-light",
       "added": "2026-11-19",
