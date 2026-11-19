@@ -1,7 +1,7 @@
 // GENERATO da scripts/build-sw.mjs — non modificarlo a mano.
 // Sorgente: scripts/sw-runtime.js · rigenera con `npm run build`.
 
-const VERSION = '2a54a0fbf5';
+const VERSION = '8798d5fa20';
 const CODICE = 'dfa0223768';
 
 // Guscio: HTML, stile, codice, font, icone e dati. ~656 KB,
@@ -81,7 +81,7 @@ const SHELL = [
   './data/recipes/wrap-pollo-speziato.json'
 ];
 
-// Foto: ~9.5 MB. Stanno in una cache a parte che sopravvive
+// Foto: ~10.3 MB. Stanno in una cache a parte che sopravvive
 // agli aggiornamenti; l'impronta dice quali sono davvero cambiate.
 const MEDIA = {
   './assets/img/recipes/alette-pollo-forno-patate.jpg': '586e1eb542785521',
@@ -128,7 +128,7 @@ const MEDIA = {
   './assets/img/recipes/polpette-tonno-patate-friggitrice-passaggi-2.jpg': 'e913469a1887eda1',
   './assets/img/recipes/polpette-tonno-patate-friggitrice-passaggi-3.jpg': '1aeada42cf3dda73',
   './assets/img/recipes/polpette-tonno-patate-friggitrice.jpg': '0a64bba7e95b4681',
-  './assets/img/recipes/quesadillas-pigre-manzo.jpg': '0073e00bd4ff31bc',
+  './assets/img/recipes/quesadillas-pigre-manzo.jpg': '885446affead134d',
   './assets/img/recipes/quesadillas-pizza-pollo-cotto.jpg': 'e48c4650e35d7b4c',
   './assets/img/recipes/riso-macinato-spinaci-una-pentola.jpg': '529851095618e779',
   './assets/img/recipes/risotto-gamberetti-limone.jpg': '66e5951b40300680',
