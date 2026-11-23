@@ -1,10 +1,10 @@
 // GENERATO da scripts/build-sw.mjs — non modificarlo a mano.
 // Sorgente: scripts/sw-runtime.js · rigenera con `npm run build`.
 
-const VERSION = '8798d5fa20';
+const VERSION = 'f94b62e069';
 const CODICE = 'dfa0223768';
 
-// Guscio: HTML, stile, codice, font, icone e dati. ~656 KB,
+// Guscio: HTML, stile, codice, font, icone e dati. ~663 KB,
 // salvato tutto insieme all'installazione. Se manca un pezzo l'installazione
 // fallisce e resta attiva la versione precedente: mai una copia a metà.
 const SHELL = [
@@ -32,6 +32,7 @@ const SHELL = [
   './data/i18n/en.json',
   './data/i18n/it.json',
   './data/recipes/alette-pollo-forno-patate.json',
+  './data/recipes/bastoncini-patate-friggitrice.json',
   './data/recipes/bistecca-patate-forno.json',
   './data/recipes/calzoni-proteici-yogurt-cotto.json',
   './data/recipes/carbonara-semplificata.json',
@@ -81,10 +82,11 @@ const SHELL = [
   './data/recipes/wrap-pollo-speziato.json'
 ];
 
-// Foto: ~10.3 MB. Stanno in una cache a parte che sopravvive
+// Foto: ~10.5 MB. Stanno in una cache a parte che sopravvive
 // agli aggiornamenti; l'impronta dice quali sono davvero cambiate.
 const MEDIA = {
   './assets/img/recipes/alette-pollo-forno-patate.jpg': '586e1eb542785521',
+  './assets/img/recipes/bastoncini-patate-friggitrice.jpg': '27b8cc3c0ba6ed0f',
   './assets/img/recipes/bistecca-patate-forno.jpg': 'd9df1a2850754899',
   './assets/img/recipes/calzoni-proteici-yogurt-cotto.jpg': '7c583683b5384370',
   './assets/img/recipes/carbonara-semplificata.jpg': 'e94ffc84c285d9a4',

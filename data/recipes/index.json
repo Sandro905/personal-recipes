@@ -1,6 +1,47 @@
 {
-  "count": 47,
+  "count": 48,
   "recipes": [
+    {
+      "slug": "bastoncini-patate-friggitrice",
+      "added": "2026-11-23",
+      "title": {
+        "it": "Bastoncini di patate croccanti in friggitrice ad aria"
+      },
+      "summary": {
+        "it": "Purè di patate speziato e rassodato in freezer, tagliato a bastoncini e impanato due volte: fuori super croccanti, dentro morbidi, senza un filo d'olio."
+      },
+      "image": "assets/img/recipes/bastoncini-patate-friggitrice.jpg",
+      "imageFocus": null,
+      "tags": [
+        "salato",
+        "friggitrice-ad-aria",
+        "antipasti",
+        "contorni",
+        "finger-food",
+        "congelabile"
+      ],
+      "method": "friggitrice-ad-aria",
+      "difficulty": "molto-facile",
+      "cost": "molto-economico",
+      "time": {
+        "prep": 30,
+        "rest": 120,
+        "cook": 15
+      },
+      "yield": {
+        "count": 8,
+        "label": {
+          "it": "porzioni",
+          "en": "servings"
+        }
+      },
+      "kcalPerServing": 216,
+      "coverage": 1,
+      "search": {
+        "it": "Bastoncini di patate croccanti in friggitrice ad aria · Purè di patate speziato e rassodato in freezer, tagliato a bastoncini e impanato due volte: fuori super croccanti, dentro morbidi, senza un filo d'olio. · patate · amido di mais · parmigiano grattugiato grana padano grattugiato · sale fino · paprika paprika dolce · pepe nero macinato · aglio in polvere · cipolla in polvere · farina 00 · acqua · pangrattato o cornflakes sbriciolati pangrattato · Lessare le patate · Preparare l'impasto · Rassodare in freezer · Tagliare a bastoncini · Impanare · Cuocere",
+        "en": "Bastoncini di patate croccanti in friggitrice ad aria · Purè di patate speziato e rassodato in freezer, tagliato a bastoncini e impanato due volte: fuori super croccanti, dentro morbidi, senza un filo d'olio. · potatoes · cornstarch · parmigiano grattugiato grated Grana Padano · fine salt · paprika sweet paprika · ground black pepper · garlic powder · onion powder · type-00 wheat flour · water · pangrattato o cornflakes sbriciolati breadcrumbs · Lessare le patate · Preparare l'impasto · Rassodare in freezer · Tagliare a bastoncini · Impanare · Cuocere"
+      }
+    },
     {
       "slug": "quesadillas-pigre-manzo",
       "added": "2026-11-19",
