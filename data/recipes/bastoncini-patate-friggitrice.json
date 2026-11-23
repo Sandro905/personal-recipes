@@ -8,7 +8,7 @@
     "it": "Purè di patate speziato e rassodato in freezer, tagliato a bastoncini e impanato due volte: fuori super croccanti, dentro morbidi, senza un filo d'olio."
   },
   "image": "assets/img/recipes/bastoncini-patate-friggitrice.jpg",
-  "yield": { "count": 4, "label": { "it": "porzioni", "en": "servings" } },
+  "yield": { "count": 8, "label": { "it": "porzioni", "en": "servings" } },
   "time": { "prep": 30, "rest": 120, "cook": 15 },
   "difficulty": "molto-facile",
   "cost": "molto-economico",
