@@ -1,0 +1,91 @@
+{
+  "slug": "bastoncini-patate-friggitrice",
+  "added": "2026-11-23",
+  "title": {
+    "it": "Bastoncini di patate croccanti in friggitrice ad aria"
+  },
+  "summary": {
+    "it": "Purè di patate speziato e rassodato in freezer, tagliato a bastoncini e impanato due volte: fuori super croccanti, dentro morbidi, senza un filo d'olio."
+  },
+  "image": "assets/img/recipes/bastoncini-patate-friggitrice.jpg",
+  "yield": { "count": 4, "label": { "it": "porzioni", "en": "servings" } },
+  "time": { "prep": 30, "rest": 120, "cook": 15 },
+  "difficulty": "molto-facile",
+  "cost": "molto-economico",
+  "method": "friggitrice-ad-aria",
+  "tags": ["salato", "friggitrice-ad-aria", "antipasti", "contorni", "finger-food", "congelabile"],
+  "source": {
+    "name": "Video (YouTube)",
+    "url": "https://youtube.com/shorts/xOf6nHL1uqI"
+  },
+  "ingredients": [
+    {
+      "section": { "it": "Per l'impasto" },
+      "items": [
+        { "food": "patate", "qty": 800, "unit": "g", "note": { "it": "peso a patate bollite" } },
+        { "food": "amido-mais", "qty": 50, "unit": "g" },
+        { "food": "grana-padano", "qty": 50, "unit": "g", "label": { "it": "parmigiano grattugiato" } },
+        { "food": "sale", "qty": 4, "unit": "g" },
+        { "food": "paprika-dolce", "qty": 4, "unit": "g", "label": { "it": "paprika" } },
+        { "food": "pepe-nero", "qty": 2, "unit": "g" },
+        { "food": "aglio-polvere", "qty": 2, "unit": "g" },
+        { "food": "cipolla-polvere", "qty": 2, "unit": "g" }
+      ]
+    },
+    {
+      "section": { "it": "Per la panatura" },
+      "items": [
+        { "food": "farina-00", "qty": 100, "unit": "g" },
+        { "food": "acqua", "qty": 100, "unit": "g", "note": { "it": "circa: quanto basta per una pastella fluida" } },
+        { "food": "pangrattato", "qty": 100, "unit": "g", "label": { "it": "pangrattato o cornflakes sbriciolati" } }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": { "it": "Lessare le patate" },
+      "text": { "it": "Metti a bollire {{patate}} con la buccia per 15–20 minuti, finché sono morbide. Lasciale raffreddare e sbucciale." },
+      "timer": 1200
+    },
+    {
+      "title": { "it": "Preparare l'impasto" },
+      "text": { "it": "Schiaccia le patate e unisci {{amido-mais}}, {{grana-padano}}, {{sale}}, {{paprika-dolce}}, {{pepe-nero}}, {{aglio-polvere}} e {{cipolla-polvere}}. Mescola fino a ottenere un composto liscio e compatto." }
+    },
+    {
+      "title": { "it": "Rassodare in freezer" },
+      "text": { "it": "Metti il composto in un sacchetto gelo e stendilo con il mattarello a circa 1 cm di spessore. Lascialo in freezer per 2 ore: deve rassodare bene, altrimenti i bastoncini si sformano." },
+      "timer": 7200
+    },
+    {
+      "title": { "it": "Tagliare a bastoncini" },
+      "text": { "it": "Apri il sacchetto con le forbici e taglia la lastra a bastoncini." }
+    },
+    {
+      "title": { "it": "Impanare" },
+      "text": { "it": "Sbatti {{farina-00}} con {{acqua}} fino a ottenere una pastella fluida e senza grumi. Passa ogni bastoncino nella pastella e poi in {{pangrattato}}. Per una panatura ancora più croccante ripeti pastella e pangrattato una seconda volta." }
+    },
+    {
+      "title": { "it": "Cuocere" },
+      "text": { "it": "Disponi i bastoncini nel cestello senza sovrapporli e cuoci alla temperatura massima della friggitrice ad aria per 10–15 minuti, girandoli a metà, finché sono dorati e super croccanti." },
+      "timer": 900
+    }
+  ],
+  "notes": [
+    {
+      "title": { "it": "Cornflakes o pangrattato" },
+      "text": { "it": "Con i **cornflakes** sbriciolati grossolanamente la crosta viene più irregolare e scrocchiarella; con il pangrattato più fine e uniforme. Si possono anche mescolare metà e metà." }
+    },
+    {
+      "title": { "it": "Da congelare" },
+      "text": { "it": "Una volta impanati si possono congelare **da crudi**, ben distanziati su un vassoio e poi in un sacchetto. Si cuociono direttamente da surgelati, aggiungendo qualche minuto." }
+    },
+    {
+      "title": { "it": "Per servire" },
+      "text": { "it": "Ottimi con un filo di ketchup, maionese light o una salsa allo yogurt." }
+    },
+    {
+      "title": { "it": "Tempi di cottura" },
+      "text": { "it": "Variano in base al modello di friggitrice e allo spessore dei bastoncini: controlla verso la fine, si scuriscono in fretta." }
+    }
+  ]
+}
