@@ -1,6 +1,44 @@
 {
-  "count": 48,
+  "count": 49,
   "recipes": [
+    {
+      "slug": "stick-fillo-cioccolato",
+      "added": "2026-11-27",
+      "title": {
+        "it": "Stick di pasta fillo e cioccolato"
+      },
+      "summary": {
+        "it": "Rettangoli di pasta fillo a righe di cioccolato fondente, arrotolati e passati in forno: croccanti, leggerissimi e pronti con due ingredienti. Circa 40 kcal a stick."
+      },
+      "image": "assets/img/recipes/stick-fillo-cioccolato.jpg",
+      "imageFocus": null,
+      "tags": [
+        "dolce",
+        "forno",
+        "veloce",
+        "finger-food"
+      ],
+      "method": "forno",
+      "difficulty": "molto-facile",
+      "cost": "economico",
+      "time": {
+        "prep": 15,
+        "cook": 10
+      },
+      "yield": {
+        "count": 12,
+        "label": {
+          "it": "stick",
+          "en": "sticks"
+        }
+      },
+      "kcalPerServing": 41,
+      "coverage": 1,
+      "search": {
+        "it": "Stick di pasta fillo e cioccolato · Rettangoli di pasta fillo a righe di cioccolato fondente, arrotolati e passati in forno: croccanti, leggerissimi e pronti con due ingredienti. Circa 40 kcal a stick. · cioccolato fondente 81% cioccolato fondente 81% · fogli di pasta fillo pasta fillo · Tagliare la pasta fillo · Sciogliere il cioccolato · Disporre il cioccolato · Arrotolare · Cuocere",
+        "en": "Stick di pasta fillo e cioccolato · Rettangoli di pasta fillo a righe di cioccolato fondente, arrotolati e passati in forno: croccanti, leggerissimi e pronti con due ingredienti. Circa 40 kcal a stick. · cioccolato fondente 81% 81% dark chocolate · fogli di pasta fillo phyllo dough · Tagliare la pasta fillo · Sciogliere il cioccolato · Disporre il cioccolato · Arrotolare · Cuocere"
+      }
+    },
     {
       "slug": "bastoncini-patate-friggitrice",
       "added": "2026-11-23",

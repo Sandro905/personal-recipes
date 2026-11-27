@@ -1,0 +1,127 @@
+{
+  "slug": "stick-fillo-cioccolato",
+  "added": "2026-11-27",
+  "title": {
+    "it": "Stick di pasta fillo e cioccolato"
+  },
+  "image": "assets/img/recipes/stick-fillo-cioccolato.jpg",
+  "summary": {
+    "it": "Rettangoli di pasta fillo a righe di cioccolato fondente, arrotolati e passati in forno: croccanti, leggerissimi e pronti con due ingredienti. Circa 40 kcal a stick."
+  },
+  "yield": {
+    "count": 12,
+    "label": {
+      "it": "stick",
+      "en": "sticks"
+    }
+  },
+  "time": {
+    "prep": 15,
+    "cook": 10
+  },
+  "difficulty": "molto-facile",
+  "cost": "economico",
+  "method": "forno",
+  "tags": [
+    "dolce",
+    "forno",
+    "veloce",
+    "finger-food"
+  ],
+  "source": {
+    "name": "@elfin.kitchen (YouTube)",
+    "url": "https://youtube.com/shorts/xmqkhnFNl4Y"
+  },
+  "ingredients": [
+    {
+      "section": null,
+      "items": [
+        {
+          "food": "cioccolato-fondente-81",
+          "qty": 50,
+          "unit": "g",
+          "label": {
+            "it": "cioccolato fondente 81%"
+          }
+        },
+        {
+          "food": "pasta-fillo",
+          "qty": 3,
+          "unit": "foglio",
+          "label": {
+            "it": "fogli di pasta fillo"
+          }
+        }
+      ]
+    }
+  ],
+  "steps": [
+    {
+      "title": {
+        "it": "Tagliare la pasta fillo"
+      },
+      "text": {
+        "it": "Accendi il forno a 170 °C. Prendi **un foglio alla volta** di {{pasta-fillo}} e dividilo in 4 rettangoli uguali: otterrai 12 rettangoli in tutto. Tieni gli altri fogli coperti, perché si seccano in pochi istanti."
+      }
+    },
+    {
+      "title": {
+        "it": "Sciogliere il cioccolato"
+      },
+      "text": {
+        "it": "Spezzetta il {{cioccolato-fondente-81}} e scioglilo a bagnomaria, mescolando finché è liscio."
+      }
+    },
+    {
+      "title": {
+        "it": "Disporre il cioccolato"
+      },
+      "text": {
+        "it": "Stendi il cioccolato sui rettangoli a **strisce oblique e distanziate**, con un cucchiaino o un pennellino, lasciando qualche spazio di pasta scoperta: da arrotolati daranno l'effetto a righe."
+      }
+    },
+    {
+      "title": {
+        "it": "Arrotolare"
+      },
+      "text": {
+        "it": "Arrotola ogni rettangolo su sé stesso, stretto, partendo da un lato corto, e appoggia gli stick su una teglia con carta forno, con la chiusura sotto."
+      }
+    },
+    {
+      "title": {
+        "it": "Cuocere"
+      },
+      "text": {
+        "it": "Inforna a 170 °C per circa 10 minuti, finché la pasta è dorata e croccante. Lasciali raffreddare sulla teglia: il cioccolato si rassoda e gli stick diventano friabili."
+      },
+      "timer": 600
+    }
+  ],
+  "notes": [
+    {
+      "title": {
+        "it": "Un foglio alla volta"
+      },
+      "text": {
+        "it": "La pasta fillo si secca e si spezza appena resta all'aria. Taglia e riempi un foglio per volta, e tieni il resto nella confezione o sotto un canovaccio."
+      }
+    },
+    {
+      "title": {
+        "it": "Come mangiarli"
+      },
+      "text": {
+        "it": "Da soli sono leggeri e non impegnano la digestione. Per uno spuntino più bilanciato abbinali a una fonte proteica magra: **4 stick con 150 g di yogurt greco** fanno circa 154 kcal, con 12,8 g di proteine, 11 g di carboidrati e 4,5 g di grassi."
+      }
+    },
+    {
+      "title": {
+        "it": "Conservazione"
+      },
+      "text": {
+        "it": "In un contenitore ermetico restano croccanti un paio di giorni. Il cioccolato, se fa caldo, tende ad ammorbidirsi: tienili al fresco."
+      }
+    }
+  ]
+}

@@ -1,10 +1,10 @@
 // GENERATO da scripts/build-sw.mjs — non modificarlo a mano.
 // Sorgente: scripts/sw-runtime.js · rigenera con `npm run build`.
 
-const VERSION = 'f94b62e069';
+const VERSION = '83ea468285';
 const CODICE = 'dfa0223768';
 
-// Guscio: HTML, stile, codice, font, icone e dati. ~663 KB,
+// Guscio: HTML, stile, codice, font, icone e dati. ~670 KB,
 // salvato tutto insieme all'installazione. Se manca un pezzo l'installazione
 // fallisce e resta attiva la versione precedente: mai una copia a metà.
 const SHELL = [
@@ -75,6 +75,7 @@ const SHELL = [
   './data/recipes/salmone-forno-patate-peperoni.json',
   './data/recipes/spezzatino-manzo-patate.json',
   './data/recipes/spezzatino-pollo-riso.json',
+  './data/recipes/stick-fillo-cioccolato.json',
   './data/recipes/tiramisu-light.json',
   './data/recipes/tortilla-cheeseburger-bacon.json',
   './data/recipes/tortilla-frittata-cotto.json',
@@ -140,6 +141,7 @@ const MEDIA = {
   './assets/img/recipes/salmone-forno-patate-peperoni.jpg': 'ea7443abf28a1fc1',
   './assets/img/recipes/spezzatino-manzo-patate.jpg': '15b61173413eb5f4',
   './assets/img/recipes/spezzatino-pollo-riso.jpg': 'b3df629f5a6573ff',
+  './assets/img/recipes/stick-fillo-cioccolato.jpg': '9c13182f38ccb04f',
   './assets/img/recipes/tiramisu-light.jpg': 'd78b63e503a92d36',
   './assets/img/recipes/tortilla-cheeseburger-bacon.jpg': '1acfecc8237f7740',
   './assets/img/recipes/tortilla-frittata-cotto.jpg': 'c0556ca85b23ed2a',

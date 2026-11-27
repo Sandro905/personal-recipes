@@ -2895,6 +2895,49 @@
         "db": "manual",
         "note": "valore medio da etichette; un savoiardo pesa circa 10 g"
       }
+    },
+    "pasta-fillo": {
+      "name": {
+        "it": "pasta fillo",
+        "en": "phyllo dough"
+      },
+      "category": "cereali",
+      "per100g": {
+        "kcal": 297,
+        "protein": 8.5,
+        "carbs": 57,
+        "fat": 2.5,
+        "fiber": 2.5,
+        "sugars": 2,
+        "salt": 0.9
+      },
+      "units": {
+        "foglio": 22
+      },
+      "source": {
+        "db": "manual",
+        "note": "valore medio da tabelle di composizione; foglio da ~22 g, ricavato dalle kcal indicate nella ricetta (12 stick ≈ 480 kcal)"
+      }
+    },
+    "cioccolato-fondente-81": {
+      "name": {
+        "it": "cioccolato fondente 81%",
+        "en": "81% dark chocolate"
+      },
+      "category": "dolci",
+      "per100g": {
+        "kcal": 585,
+        "protein": 9,
+        "carbs": 23,
+        "fat": 46,
+        "fiber": 12,
+        "sugars": 17,
+        "salt": 0.02
+      },
+      "source": {
+        "db": "manual",
+        "note": "valore medio per cioccolato fondente 80-85%; controlla l'etichetta della tavoletta che usi"
+      }
     }
   }
 }
